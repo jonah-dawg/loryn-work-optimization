@@ -4,17 +4,18 @@
 
 | Artifact | Authority | Current status | Update trigger |
 |---|---|---|---|
-| `../deliverables/window-sales-operations-master-plan.md` | Authoritative product and delivery plan | Version 1.39; current | Material scope, architecture, roadmap, risk, governance, process, or decision change |
+| `../deliverables/window-sales-operations-master-plan.md` | Authoritative product and delivery plan | Version 1.48; current | Material scope, architecture, roadmap, risk, governance, process, or decision change |
 | `../deliverables/window-sales-operations-master-plan.docx` | Non-authoritative editable distribution copy | Version 1.4; stale by design until final release or explicit sharing milestone | Regenerate and visually verify only for a release or requested sharing copy |
 | `GUIDED_WORKFLOW.md` | Authoritative session and checkpoint procedure | Current | Workflow-control rule changes |
-| `CURRENT_STATE.md` | Authoritative restart point | Phase 0 complete at CP-004; Phase 1 work-unit authorization pending | Every sign-off, session stop, blocker, or active-work-unit change |
-| `SESSION_LOG.md` | Append-only execution history | S-039 records CP-004 sign-off and the Phase 1 authorization boundary | Every sign-off or session close |
+| `CURRENT_STATE.md` | Authoritative restart point | P1-W01 contract approved; account-creation authorization pending | Every sign-off, session stop, blocker, or active-work-unit change |
+| `SESSION_LOG.md` | Append-only execution history | S-048 records whole-contract approval; CP-004 remains the last checkpoint | Every sign-off or session close |
 | `ARTIFACT_REGISTER.md` | Artifact authority and synchronization inventory | Current | Artifact added, renamed, superseded, or found stale |
 | `COLLABORATOR_PACKET.md` | Operational shared-Project onboarding and input-capture aid | Current; unapproved input remains subject to repository reconciliation | Shared-project procedure, active intake queue, or handoff format changes |
 | `../deliverables/P0-W01-current-workflow-and-permission-boundary.md` | Signed P0-W01 workflow and permission boundary | Approved at CP-001 | Supersede only through a later signed checkpoint |
 | `../deliverables/P0-CR01-independent-leads-and-prospecting-scope.md` | Signed scope-change record | Approved at CP-002 | Supersede only through a later signed checkpoint |
 | `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimum-fields.md` | Signed P0-W02 lifecycle, rules, fields, and validation | Approved at CP-003 | Supersede only through a later signed checkpoint |
 | `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md` | Signed P0-W03 platform-evaluation method | Approved at CP-004 | Supersede only through a later signed checkpoint |
+| `../deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md` | Active P1-W01 work-unit contract and execution record | Approved for execution; account actions separately gated | Every accepted P1-W01 decision and checkpoint |
 | `REPOSITORY_BACKUP.md` | Repository location, synchronization boundary, and recovery instructions | Current | Repository, branch, tracked scope, or working-copy policy changes |
 
 ## Planned artifacts not yet created

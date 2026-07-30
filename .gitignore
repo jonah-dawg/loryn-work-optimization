@@ -21,3 +21,6 @@ secrets/
 exports/
 production-data/
 customer-data/
+
+# Raw platform-trial evidence; commit only reviewed sanitized copies elsewhere
+.trial-evidence/

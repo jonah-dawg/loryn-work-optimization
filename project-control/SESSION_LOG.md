@@ -1580,3 +1580,354 @@ Present the CP-004 checkpoint packet and request explicit sign-off on the comple
 ### Saved ending point
 
 Phase 0 is complete at CP-004. Define and review the first Phase 1 work-unit contract before creating any CRM trial account or beginning platform testing.
+
+## Session S-040 - P1-W01 account ownership rule approved
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W01 - Zoho synthetic prototype and evaluator screening
+
+**Checkpoint:** P1-W01 contract pending
+
+**Sign-off status:** Account ownership rule explicitly approved; work-unit contract remains unapproved
+
+**Approval evidence:** The user answered “yes” to the proposed account ownership and administration rule.
+
+### Accepted decision
+
+- **Accepted (D-075):** Loryn will own the Zoho account and remain its primary administrator.
+- The technical partner will be invited as secondary administrator for approved setup, troubleshooting, recovery support, and ad hoc administration.
+- Account recovery information remains under Loryn's control.
+- Passwords, recovery codes, MFA secrets, and other credentials are prohibited from Codex and repository artifacts.
+
+### Approval boundary
+
+- This approval covers ownership and administration only.
+- The P1-W01 contract, account creation, configuration, testing, external connections, real-data use, customer communications, purchases, scoring, and selection remain unapproved.
+- CP-004 remains the last signed-off checkpoint.
+
+### Files changed
+
+- `deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Define and approve the P1-W01 prototype configuration scope without creating an account.
+
+## Session S-041 - P1-W01 prototype configuration scope approved
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W01 - Zoho synthetic prototype and evaluator screening
+
+**Checkpoint:** P1-W01 contract pending
+
+**Sign-off status:** Minimum configuration scope explicitly approved; work-unit contract remains unapproved
+
+**Approval evidence:** The user answered “yes” to the proposed prototype configuration scope.
+
+### Accepted decision
+
+- **Accepted (D-076):** Attempt only the standard customer/prospect/job/task records, CP-003 minimum fields, approved stages and source rules, manual next actions, five practical views, eight synthetic fixtures, and manual communications needed for the CP-004 evaluation.
+- Exclude real data, external connections, automatic messages, custom code, purchases, paid upgrades, detailed quote attachments, HubSpot configuration, and final platform scoring.
+- Record a Zoho Free limitation instead of expanding scope or purchasing an upgrade.
+
+### Approval boundary
+
+- This approval covers the P1-W01 configuration scope only.
+- The complete contract, account creation, configuration execution, testing, integrations, real data, customer communications, purchases, scoring, and selection remain unapproved.
+- CP-004 remains the last signed-off checkpoint.
+
+### Files changed
+
+- `deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Define and approve the eight-fixture entry and reset procedure without creating an account.
+
+## Session S-042 - P1-W01 fixture entry and reset approved
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W01 - Zoho synthetic prototype and evaluator screening
+
+**Checkpoint:** P1-W01 contract pending
+
+**Sign-off status:** Synthetic fixture procedure explicitly approved; work-unit contract remains unapproved
+
+**Approval evidence:** The user answered “yes” to the proposed fixture-entry and reset procedure.
+
+### Accepted decision
+
+- **Accepted (D-077):** Maintain one repository fixture sheet, preload seven existing-record fixtures, and keep `SYN-PROSPECT-A` absent until TS-01 creates it.
+- Reset relative T0 dates, stages, tasks, and the intentional missing-next-action state before each candidate run.
+- The evaluator completes all entry and reset work outside Loryn's session.
+- Remove only the test-created prospect and duplicate attempt and restore changed synthetic fixtures; do not bulk-delete unrelated records.
+
+### Approval boundary
+
+- This approval covers fixture entry and reset only.
+- The complete contract, account creation, configuration execution, testing, integrations, real data, customer communications, purchases, scoring, and selection remain unapproved.
+- CP-004 remains the last signed-off checkpoint.
+
+### Files changed
+
+- `deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Define and approve the evaluator screening sequence and early-stop rule without creating an account.
+
+## Session S-043 - P1-W01 evaluator sequence and stopping rule approved
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W01 - Zoho synthetic prototype and evaluator screening
+
+**Checkpoint:** P1-W01 contract pending
+
+**Sign-off status:** Evaluator sequence and early-stop rule explicitly approved; work-unit contract remains unapproved
+
+**Approval evidence:** The user answered “yes” to the proposed evaluator sequence and early-stop rule.
+
+### Accepted decision
+
+- **Accepted (D-078):** Screen Zoho through official evidence, configuration viability, synthetic scenarios, evaluator mobile timing, and a result summary.
+- Stop after a confirmed mandatory failure with no acceptable production tier or in-scope configuration path.
+- Require exact feature and cost evidence before marking a paid-tier possibility `Conditional Pass`; do not purchase or activate it.
+- Keep missing evidence `Unverified` and exclude Loryn from P1-W01 testing.
+
+### Approval boundary
+
+- This approval covers evaluator sequencing and stopping only.
+- The complete contract, account creation, configuration execution, testing, integrations, real data, customer communications, purchases, scoring, and selection remain unapproved.
+- CP-004 remains the last signed-off checkpoint.
+
+### Files changed
+
+- `deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Define and approve the evidence and screenshot storage boundary without creating an account.
+
+## Session S-044 - P1-W01 evidence storage boundary approved
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W01 - Zoho synthetic prototype and evaluator screening
+
+**Checkpoint:** P1-W01 contract pending
+
+**Sign-off status:** Evidence and screenshot storage boundary explicitly approved; work-unit contract remains unapproved
+
+**Approval evidence:** The user answered “yes” to the proposed evidence and screenshot-storage boundary.
+
+### Accepted decision
+
+- **Accepted (D-079):** Keep raw trial screenshots in ignored local `.trial-evidence/` and commit only reviewed sanitized evidence under `evidence/P1-W01/zoho/`.
+- Exclude credentials, MFA/recovery material, cookies, tokens, account identifiers, billing details, personal notifications, browser context, and unrelated private information.
+- Permit committed evidence to show only approved synthetic fixtures and use candidate plus gate, criterion, or scenario IDs in filenames.
+- Run privacy and secret scans before every commit and do not externally upload or share P1-W01 trial evidence.
+
+### Approval boundary
+
+- This approval covers evidence storage and sanitization only.
+- The complete contract, account creation, configuration execution, testing, integrations, real data, customer communications, purchases, scoring, and selection remain unapproved.
+- CP-004 remains the last signed-off checkpoint.
+
+### Files changed
+
+- `.gitignore`
+- `deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Define and approve free-tier versus paid-tier handling without creating an account or purchasing anything.
+
+## Session S-045 - P1-W01 free-tier and paid-tier rule approved
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W01 - Zoho synthetic prototype and evaluator screening
+
+**Checkpoint:** P1-W01 contract pending
+
+**Sign-off status:** Free-tier and paid-tier handling explicitly approved; work-unit contract remains unapproved
+
+**Approval evidence:** The user answered “yes” to the proposed free-tier versus paid-tier rule.
+
+### Accepted decision
+
+- **Accepted (D-080):** Evaluate Zoho Free without billing information, paid trials, upgrades, activation, or purchase.
+- Do not count a temporary promotional-trial feature as a Free capability.
+- Assign `Conditional Pass` for a paid-tier possibility only with exact official evidence for the tier, feature, current cost, user limit, and relevant restriction.
+- Keep Free and paid evidence separate and limit P1-W01 to documenting upgrade options rather than recommending or authorizing a purchase.
+
+### Approval boundary
+
+- This approval covers tier handling only.
+- The complete contract, account creation, configuration execution, testing, integrations, real data, customer communications, purchases, scoring, and selection remain unapproved.
+- CP-004 remains the last signed-off checkpoint.
+
+### Files changed
+
+- `deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Define and approve the trial-account creation procedure and exact authorization boundary without creating an account.
+
+## Session S-046 - P1-W01 account procedure and action gates approved
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W01 - Zoho synthetic prototype and evaluator screening
+
+**Checkpoint:** P1-W01 contract pending
+
+**Sign-off status:** Trial-account procedure and two action gates explicitly approved; work-unit contract remains unapproved
+
+**Approval evidence:** The user answered “yes” to the proposed account-creation and authorization procedure.
+
+### Accepted decision
+
+- **Accepted (D-081):** After contract approval, require the exact instruction `Authorize Loryn to create the Zoho Free trial account` before account creation.
+- Loryn creates the account herself using private credentials, recovery, and MFA, with the neutral label `Synthetic Window Workflow Trial`, the normal U.S. region when offered, no employer or customer information, no billing, and no paid trial or upgrade.
+- Invite and verify the technical partner as secondary administrator, then stop.
+- Require the separate exact instruction `Begin P1-W01 synthetic configuration` before configuring fields, entering fixtures, creating views, or running tests.
+
+### Approval boundary
+
+- This approval covers the procedure and authorization wording only; neither action is currently authorized.
+- The complete contract, account creation, configuration execution, testing, integrations, real data, customer communications, purchases, scoring, and selection remain unapproved.
+- CP-004 remains the last signed-off checkpoint.
+
+### Files changed
+
+- `deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Define and approve the P1-W01 acceptance checks and CP-005 effect without creating an account.
+
+## Session S-047 - P1-W01 acceptance checks and CP-005 effect approved
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W01 - Zoho synthetic prototype and evaluator screening
+
+**Checkpoint:** P1-W01 contract pending
+
+**Sign-off status:** Acceptance checks and limited CP-005 effect explicitly approved; whole work-unit contract remains unapproved
+
+**Approval evidence:** The user answered “yes” to the proposed acceptance checks and CP-005 effect.
+
+### Accepted decision
+
+- **Accepted (D-082):** Require official tier, administrator, MFA, export, limit, and cost evidence; verified administrator roles; the minimum configuration or documented limitations; resettable synthetic fixtures; evaluator screening; evidence-backed results; privacy review; and a clear viability outcome before P1-W01 can complete.
+- Keep totals incomplete while required evidence is `Unverified`, and assign no P1-W01 testing, setup, reset, evidence capture, or homework to Loryn.
+- Limit CP-005 to approval of the completed Zoho evaluator result and configuration inventory.
+
+### Approval boundary
+
+- This approval completes the contract design but does not approve the complete work-unit contract.
+- CP-005 will not select a platform or authorize HubSpot setup, Loryn finalist testing, production use, real data, integrations, purchases, customer communications, or automation.
+- Account creation and synthetic configuration remain separately gated and unapproved.
+- CP-004 remains the last signed-off checkpoint.
+
+### Files changed
+
+- `deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Present the complete P1-W01 execution contract for explicit whole-contract approval without creating an account.
+
+## Session S-048 - P1-W01 execution contract approved
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W01 - Zoho synthetic prototype and evaluator screening
+
+**Checkpoint:** P1-W01 approved for execution; CP-005 remains pending
+
+**Sign-off status:** Complete execution contract explicitly approved; both account action gates remain closed
+
+**Approval evidence:** The user stated, “Approve the P1-W01 execution contract.”
+
+### Accepted decision
+
+- **Accepted (D-083):** Approve the complete P1-W01 execution contract recorded in `../deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`.
+- Preserve the separate exact account-creation and configuration authorization gates.
+
+### Approval boundary
+
+- Contract approval does not authorize account creation, synthetic configuration, or platform testing.
+- Account creation requires the exact instruction `Authorize Loryn to create the Zoho Free trial account`.
+- Configuration and testing require the later exact instruction `Begin P1-W01 synthetic configuration`.
+- Real data, external connections, purchases, customer communications, production use, platform scoring, and platform selection remain unapproved.
+- CP-004 remains the last signed-off checkpoint; CP-005 occurs only after the approved P1-W01 acceptance checks pass.
+
+### Files changed
+
+- `deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Wait for the exact account-creation authorization. Do not create an account or begin synthetic configuration from contract approval alone.
