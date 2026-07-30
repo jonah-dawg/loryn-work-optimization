@@ -166,10 +166,14 @@ CP-002 is complete. P0-W02 is ready to define the connected prospecting and acti
 
 ## Session S-004 - P0-W02 lifecycle design started
 
-**Date:** July 29, 2026  
-**Phase:** Phase 0  
-**Work unit:** P0-W02 - Target lifecycle, next-action rules, and minimum CRM fields  
-**Checkpoint:** CP-003 pending  
+**Date:** July 29, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W02 - Target lifecycle, next-action rules, and minimum CRM fields
+
+**Checkpoint:** CP-003 pending
+
 **Sign-off status:** Paused without sign-off
 
 ### Work in progress
@@ -225,3 +229,41 @@ Resume by asking the user to accept or revise Decision 1. Do not advance to the 
 ### Saved ending point
 
 Repository backup is established without changing the P0-W02 product decision state. Resume P0-W02 at the unapproved prospect-conversion proposal.
+
+## Session S-006 - P0-W02 Decision 1 approved
+
+**Date:** July 29, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W02 - Target lifecycle, next-action rules, and minimum CRM fields
+
+**Checkpoint:** CP-003 pending
+
+**Sign-off status:** Work unit in progress; Decision 1 explicitly approved
+
+**Approval evidence:** After reviewing the prospect-to-opportunity conversion rule in plain language, the user said, “approved.”
+
+### Accepted decision
+
+- **Accepted (D-033):** A prospect converts when a real project is confirmed and the initial consultation is scheduled.
+- Close the prospecting sequence as `Converted`, preserve the reusable customer record and prospecting history, and create one opportunity for that project at `Consultation Scheduled`.
+- Set the morning-of appointment confirmation as the opportunity's first required next action.
+- Allow a direct inquiry about an immediate project to enter at `Consultation Scheduled` without first passing through prospecting.
+
+### Approval boundary
+
+- This approval covers only P0-W02 Decision 1.
+- The complete active-opportunity stage sequence, stage-specific next-action rules, and minimum CRM field set remain unapproved.
+- CP-003 remains pending.
+
+### Files changed
+
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Decision 1 is complete. Present Decision 2 in plain language: approve or revise the proposed active-opportunity stage sequence before defining the required next action for each stage.

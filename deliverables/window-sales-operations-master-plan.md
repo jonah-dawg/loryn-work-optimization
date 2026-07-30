@@ -2,7 +2,7 @@
 
 ## Master Project Plan
 
-**Version:** 1.7  
+**Version:** 1.8
 **Status:** Working source of truth  
 **Updated:** July 29, 2026  
 **Primary team:** Window-covering sales consultant and technical partner
@@ -90,6 +90,8 @@ The target design uses two connected lifecycles so future prospects do not disto
 3. Converted when a real project is confirmed and the initial meeting is scheduled.
 4. Archived as no response, not interested, invalid information, or duplicate.
 5. Do not contact when the person explicitly opts out.
+
+**Accepted prospect-to-opportunity conversion rule:** A prospect becomes an active opportunity only when a real window-covering project is confirmed and the initial consultation is scheduled. At conversion, close the prospecting sequence as `Converted`, retain the reusable customer record and all prospecting history, and create one opportunity for that specific project at `Consultation Scheduled`. The first required next action is the morning-of appointment confirmation. A direct inquiry about an immediate project may enter the active-opportunity lifecycle at `Consultation Scheduled` without first passing through prospecting.
 
 **Active-opportunity lifecycle candidate for P0-W02:**
 
@@ -584,6 +586,7 @@ Update this table whenever a decision changes. Supersede rather than delete prio
 | D-030 | Accepted | Use a hybrid ChatGPT Project strategy: one pinned guided chat for the active checkpoint and separate chats for materially distinct outcomes | Preserves short-term conversational continuity without mixing research, configuration, implementation, and review into one unbounded transcript | Handoffs become unreliable or chat overhead exceeds value |
 | D-031 | Accepted | Treat Markdown as the live source of truth and generate the Word distribution copy only at a final release or explicit sharing milestone | Keeps every checkpoint fast and visible while retaining a polished sharing artifact when it is actually needed | A stakeholder requires synchronized Word copies during execution |
 | D-032 | Accepted | Back up the authoritative Markdown and project-control files to `jonah-dawg/loryn-work-optimization` on GitHub | Provides version history and recovery outside the app-managed ChatGPT Project directory | Repository ownership, visibility, or working-location strategy changes |
+| D-033 | Accepted | Convert a prospect into one project-specific opportunity when a real project is confirmed and the initial consultation is scheduled | Preserves the customer and prospecting history, starts the opportunity at `Consultation Scheduled`, and makes the morning-of confirmation its first required next action; immediate-project inquiries may enter there directly | The observed sales process needs an earlier or later qualification point |
 
 ## 14. Immediate next actions
 

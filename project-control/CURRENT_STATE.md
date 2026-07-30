@@ -4,7 +4,7 @@
 **Overall status:** Active - guided execution underway  
 **Current phase:** Phase 0 - Authority, workflow, and evaluation design  
 **Active work unit:** P0-W02 - Target lifecycle, next-action rules, and minimum CRM fields  
-**Work-unit status:** Paused during interactive design; Decision 1 remains unapproved  
+**Work-unit status:** In progress; Decision 1 approved, Decision 2 next
 **Last signed-off checkpoint:** CP-002 - Independent leads and prospecting scope (July 29, 2026)
 
 ## Confirmed baseline
@@ -27,7 +27,7 @@
 - A prospect may begin with a person name, business name, or social identity plus at least one reachable channel or location; source, next action, and follow-up date are always required.
 - Approved prospecting activities are calls, texts, emails, social messages, in-person/networking conversations, mailed material, referral requests or introductions, research/preparation, and notes.
 - Default reminder intervals are 2 days for engaged prospects, 7 days for warm prospects/referrals, 30 days for cold outreach or purchased-list prospects, 90 days for long-term prospects, and 6 months for past customers with possible future work; all are manually overridable and do not send automatically.
-- A prospect converts when a real project is confirmed and the initial meeting is scheduled; from that point it follows the same workflow as a Centah lead while preserving its original source and history.
+- A prospect converts when a real project is confirmed and the initial meeting is scheduled. The prospecting sequence closes as `Converted`, the customer and activity history remain intact, and one opportunity for that project begins at `Consultation Scheduled` with the morning-of confirmation as its next action. A direct inquiry about an immediate project may enter at this stage without first using prospecting.
 - After acceptance, Centah/Costco opportunities require DocuSign and an emailed quote to the internal order coordinator in parallel. Opportunities outside Centah/Costco skip DocuSign and require only the emailed quote to the internal order coordinator.
 - The six-week installation-check timer starts on the DocuSign-sent date for Centah/Costco sales and on the internal-order-email date for sales outside Centah/Costco.
 - Installation should never take more than three months from the date the sold quote is emailed to the internal order coordinator; an unconfirmed installation at that boundary must become a visible exception rather than receiving indefinite routine deferrals.
@@ -92,14 +92,14 @@ CP-002 approved `../deliverables/P0-CR01-independent-leads-and-prospecting-scope
 - **Excluded from routine checkpoints:** the stale Word distribution copy, rendering/QA intermediates, ChatGPT-synced source mirrors, credentials, real customer data, and local temporary files.
 - Until the repository folder is attached or opened as the primary Codex project, the app-managed project folder remains the interactive working copy and the repository is refreshed from it at saved checkpoints.
 
-## Unapproved work in progress
+## Approved progress within current work unit
 
-P0-W02 Decision 1 proposes that a prospect converts only after a real project is confirmed and the initial meeting is scheduled. The proposal would close the prospecting sequence as `Converted`, preserve the reusable customer record and activity history, create one opportunity for the project at `Consultation Scheduled`, and set the morning-of confirmation as its next action. Direct inquiries with an immediate project could enter the active opportunity lifecycle without first using prospecting. This proposal has not been accepted and must be reviewed before it becomes authoritative.
+P0-W02 Decision 1 was explicitly approved by the user on July 29, 2026 and is recorded as D-033. No other P0-W02 stages, stage-specific next-action rules, or minimum fields are approved yet.
 
 ## Exact next action
 
-Review P0-W02 Decision 1 with the user: accept or revise the proposed prospect-to-opportunity conversion behavior. After that decision, continue through each active stage, next-action rule, and minimum field.
+Review P0-W02 Decision 2 with the user in plain language: accept or revise the proposed active-opportunity stage sequence before assigning the required next action to each stage.
 
 ## Resume instruction
 
-Read this file, Session S-004 in `SESSION_LOG.md`, `../deliverables/P0-W01-current-workflow-and-permission-boundary.md`, `../deliverables/P0-CR01-independent-leads-and-prospecting-scope.md`, and the lifecycle sections of `../deliverables/window-sales-operations-master-plan.md`. Resume at the unapproved Decision 1 proposal without opening a CRM account, using real customer data, or treating any proposed stage/field design as approved before CP-003.
+Read this file, Sessions S-004 and S-006 in `SESSION_LOG.md`, `../deliverables/P0-W01-current-workflow-and-permission-boundary.md`, `../deliverables/P0-CR01-independent-leads-and-prospecting-scope.md`, and the lifecycle sections of `../deliverables/window-sales-operations-master-plan.md`. Decision 1 is approved as D-033. Resume at Decision 2, the proposed active-opportunity stage sequence, without opening a CRM account, using real customer data, or treating later stage/field proposals as approved before CP-003.
