@@ -621,3 +621,42 @@ Decisions 1 through 9 are complete. Present Decision 10 in plain language: decid
 ### Saved ending point
 
 Decisions 1 through 10 are complete. Present Decision 11 in plain language: decide how long weekly quote follow-ups continue and what closes an unresponsive quote.
+
+## Session S-016 - P0-W02 Decision 11 approved
+
+**Date:** July 29, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W02 - Target lifecycle, next-action rules, and minimum CRM fields
+
+**Checkpoint:** CP-003 pending
+
+**Sign-off status:** Work unit in progress; Decision 11 explicitly approved
+
+**Approval evidence:** The user answered “si” to the proposed three-week quote-follow-up limit and `No Decision` outcome.
+
+### Accepted decision
+
+- **Accepted (D-043):** After the three-working-day decision follow-up receives no response, follow up manually once a week for up to three weeks.
+- If the customer still does not respond after the third weekly follow-up, close the opportunity as `Lost / Canceled - No Decision`.
+- Retain the quote and communication history and stop active reminders.
+- If the customer asks for more time, use the date they request instead of continuing the weekly schedule.
+- Do not send any follow-up automatically.
+
+### Approval boundary
+
+- This approval completes the normal unanswered-quote follow-up sequence and stopping rule.
+- Accepted-sale handoff timing, later post-sale rules, and the minimum CRM field set remain unapproved.
+- CP-003 remains pending.
+
+### Files changed
+
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Decisions 1 through 11 are complete. Present Decision 12 in plain language: decide the deadline for the source-specific paperwork and internal handoff after the customer accepts.
