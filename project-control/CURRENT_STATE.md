@@ -4,7 +4,7 @@
 **Overall status:** Active - guided execution underway  
 **Current phase:** Phase 0 - Authority, workflow, and evaluation design  
 **Active work unit:** P0-W02 - Target lifecycle, next-action rules, and minimum CRM fields  
-**Work-unit status:** In progress; Decisions 1 through 12 approved, Decision 13 next
+**Work-unit status:** In progress; Decisions 1 through 13 approved, Decision 14 next
 **Last signed-off checkpoint:** CP-002 - Independent leads and prospecting scope (July 29, 2026)
 
 ## Confirmed baseline
@@ -38,6 +38,7 @@
 - If the three-working-day post-quote follow-up receives no response, create another manual follow-up for one week later during normal calling hours and keep the opportunity at `Quote Sent - Awaiting Decision`.
 - Continue unanswered quote follow-ups once a week for no more than three weeks. After the third weekly nonresponse, close the opportunity as `Lost / Canceled - No Decision`, retain the quote and communication history, and stop reminders. If the customer requests more time, use their requested date instead of the weekly schedule.
 - When the customer accepts, complete the source-specific handoff by the end of that working day or by 9:00 a.m. on the next working day after an outside-hours acceptance. Costco/Centah requires both DocuSign and the quote emailed to the internal order coordinator; independent work skips DocuSign and requires only the coordinator email. Do not mark the handoff complete until all required items have actually been sent.
+- After handoff, check installation at six weeks using the DocuSign-sent date for Costco/Centah work or the coordinator-email date for independent work. If installation is unconfirmed, add a note and check again in two to three weeks. At three months after the sold quote was emailed to the coordinator, stop normal deferral, show an urgent exception, contact the coordinator that day, and contact the customer if necessary. Never mark installation complete without human confirmation.
 - After acceptance, Centah/Costco opportunities require DocuSign and an emailed quote to the internal order coordinator in parallel. Opportunities outside Centah/Costco skip DocuSign and require only the emailed quote to the internal order coordinator.
 - The six-week installation-check timer starts on the DocuSign-sent date for Centah/Costco sales and on the internal-order-email date for sales outside Centah/Costco.
 - Installation should never take more than three months from the date the sold quote is emailed to the internal order coordinator; an unconfirmed installation at that boundary must become a visible exception rather than receiving indefinite routine deferrals.
@@ -104,12 +105,12 @@ CP-002 approved `../deliverables/P0-CR01-independent-leads-and-prospecting-scope
 
 ## Approved progress within current work unit
 
-P0-W02 Decisions 1 through 12 were explicitly approved by the user on July 29, 2026. D-033, D-034, D-036 through D-039, and D-041 through D-044 remain active. D-035 was superseded by D-037, and D-040 was superseded by D-041. These decisions cover prospect conversion, active-job stages, contact timing, quote deadlines and follow-up, and the accepted-sale handoff. Later post-sale next-action rules and minimum fields are not approved yet.
+P0-W02 Decisions 1 through 13 were explicitly approved by the user on July 29, 2026. D-033, D-034, D-036 through D-039, and D-041 through D-045 remain active. D-035 was superseded by D-037, and D-040 was superseded by D-041. These decisions cover prospect conversion, active-job stages, contact timing, quote deadlines and follow-up, the accepted-sale handoff, and installation tracking through the three-month exception. Post-install closure and minimum fields are not approved yet.
 
 ## Exact next action
 
-Review P0-W02 Decision 13 with the user in plain language: confirm the installation-check tasks, deferral, three-month exception, and move into post-install follow-up after handoff.
+Review P0-W02 Decision 14 with the user in plain language: decide when the post-install customer follow-up is due, what result is recorded, and when the opportunity may move to `Finished`.
 
 ## Resume instruction
 
-Read this file, Sessions S-004 and S-006 through S-017 in `SESSION_LOG.md`, `../deliverables/P0-W01-current-workflow-and-permission-boundary.md`, `../deliverables/P0-CR01-independent-leads-and-prospecting-scope.md`, and the lifecycle sections of `../deliverables/window-sales-operations-master-plan.md`. Decisions 1 through 12 are approved, with D-035 superseded by D-037 and D-040 superseded by D-041. Resume at Decision 13, the installation-check and post-install transition rules, without opening a CRM account, using real customer data, or treating later next-action/field proposals as approved before CP-003.
+Read this file, Sessions S-004 and S-006 through S-018 in `SESSION_LOG.md`, `../deliverables/P0-W01-current-workflow-and-permission-boundary.md`, `../deliverables/P0-CR01-independent-leads-and-prospecting-scope.md`, and the lifecycle sections of `../deliverables/window-sales-operations-master-plan.md`. Decisions 1 through 13 are approved, with D-035 superseded by D-037 and D-040 superseded by D-041. Resume at Decision 14, the post-install customer follow-up and `Finished` transition, without opening a CRM account, using real customer data, or treating later field proposals as approved before CP-003.

@@ -699,3 +699,43 @@ Decisions 1 through 11 are complete. Present Decision 12 in plain language: deci
 ### Saved ending point
 
 Decisions 1 through 12 are complete. Present Decision 13 in plain language: confirm the installation-check tasks, deferral, three-month exception, and transition into post-install follow-up.
+
+## Session S-018 - P0-W02 Decision 13 approved
+
+**Date:** July 29, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W02 - Target lifecycle, next-action rules, and minimum CRM fields
+
+**Checkpoint:** CP-003 pending
+
+**Sign-off status:** Work unit in progress; Decision 13 explicitly approved
+
+**Approval evidence:** The user answered “fuck ya bruh” to the proposed installation-check, deferral, exception, and human-verification rules.
+
+### Accepted decision
+
+- **Accepted (D-045):** After handoff, create the first installation check for six weeks after DocuSign was sent on Costco/Centah work or six weeks after the coordinator email on independent work.
+- If installation is not confirmed, add a note and schedule another check in two to three weeks.
+- At three months after the sold quote was emailed to the internal order coordinator, stop routine deferral and show an urgent overdue-installation exception.
+- Create a same-day task to contact the coordinator, record the result, and contact the customer if the coordinator cannot confirm installation.
+- Never mark installation complete without human confirmation.
+- After confirmation, move to `Installed - Customer Follow-Up Due`.
+
+### Approval boundary
+
+- This approval covers installation tracking through the three-month exception and the transition after confirmed installation.
+- The post-install customer follow-up timing, final closure rule, and minimum CRM field set remain unapproved.
+- CP-003 remains pending.
+
+### Files changed
+
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Decisions 1 through 13 are complete. Present Decision 14 in plain language: decide the post-install customer follow-up timing, recorded result, and transition to `Finished`.

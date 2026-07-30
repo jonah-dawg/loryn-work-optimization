@@ -2,7 +2,7 @@
 
 ## Master Project Plan
 
-**Version:** 1.19
+**Version:** 1.20
 **Status:** Working source of truth  
 **Updated:** July 29, 2026  
 **Primary team:** Window-covering sales consultant and technical partner
@@ -123,6 +123,8 @@ An opportunity may exit as `Lost / Canceled` from any applicable stage. An insta
 **Approved next-action rule for `Quote Sent - Awaiting Decision`:** Immediately after emailing the quote, send a manual message through the customer's preferred and permitted channel telling them the quote was sent and asking them to check their email. Then create the next manual decision-follow-up task for three working days later. If that follow-up does not produce a response, follow up manually once a week for three weeks during normal calling hours. If the customer still does not respond after the third weekly follow-up, close the opportunity as `Lost / Canceled - No Decision`, retain the quote and communication history, and stop active reminders. If the customer asks for more time, replace the weekly reminder with the specific date they request. If the customer responds before a task is due, cancel that reminder and record the response and resulting next action or outcome. No message is sent automatically.
 
 **Approved next-action rule for `Customer Accepted - Handoff Due`:** When the customer accepts, complete the required post-acceptance handoff by the end of that working day. If acceptance occurs outside calling hours, the handoff is due at 9:00 a.m. on the next working day. For Costco/Centah work, send the DocuSign and email the quote to the internal order coordinator; both are required. For independent work, skip DocuSign and email the quote to the internal order coordinator. Move to `Handoff Complete - Installation Pending` only after every source-required item has actually been sent.
+
+**Approved next-action rule for `Handoff Complete - Installation Pending`:** Create the first installation-check task for six weeks after the DocuSign-sent date on Costco/Centah work or six weeks after the coordinator-email date on independent work. At the check, move to `Installed - Customer Follow-Up Due` only after a person confirms installation. If installation is not confirmed, record a note and schedule another check in two to three weeks. At three months after the sold quote was emailed to the internal order coordinator, stop routine deferral, show an urgent overdue-installation exception, and create a same-day task to contact the coordinator. Record the result, contact the customer if the coordinator cannot confirm installation, and never mark installation complete automatically.
 
 ### O2. Communication policy
 
@@ -609,6 +611,7 @@ Update this table whenever a decision changes. Supersede rather than delete prio
 | D-042 | Accepted | If the three-working-day post-quote follow-up receives no response, create another manual follow-up for one week later during normal calling hours | Keeps the active quote visible without contacting the customer too frequently | Customer response patterns or a later stopping rule justify a different interval |
 | D-043 | Accepted | After the three-working-day check, follow up weekly for up to three weeks; after a third weekly nonresponse, close as `Lost / Canceled - No Decision`, unless the customer requested a specific later date | Prevents indefinite reminders while preserving customer-directed timing, the quote, and communication history | Sales-cycle evidence shows the sequence is too short or long |
 | D-044 | Accepted | Complete the source-specific accepted-sale handoff by the end of the same working day, or by 9:00 a.m. the next working day after an outside-hours acceptance; mark handoff complete only after all required items are sent | Ensures Costco/Centah receives DocuSign plus the coordinator email while independent work receives only the coordinator email, with no false completion | Internal handoff requirements or operating hours change |
+| D-045 | Accepted | After handoff, check installation at six weeks using the approved source-specific anchor, defer by two to three weeks when unconfirmed, and escalate visibly at three months with human verification | Turns the approved post-sale timing into dated tasks and prevents false installation completion or endless routine deferral | Installation timing, coordinator visibility, or escalation responsibility changes |
 
 ## 14. Immediate next actions
 
