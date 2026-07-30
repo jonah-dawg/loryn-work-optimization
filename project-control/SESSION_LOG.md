@@ -977,3 +977,606 @@ The GitHub repository is ready to serve as the handoff packet for a new collabor
 ### Saved ending point
 
 Create and share the cloud ChatGPT Project using `COLLABORATOR_PACKET.md`, then begin the collaborator's mobile intake at LQ-001. Reconcile the resulting handoff before drafting or approving the P0-W03 mandatory platform requirements.
+
+## Session S-025 - P0-W03 collaborator input reconciled and mandatory gates approved
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W03 - CRM platform scorecard and synthetic mobile test scenarios
+
+**Checkpoint:** P0-W03 checkpoint pending
+
+**Sign-off status:** Mandatory gates M-01 through M-13 explicitly approved; work unit remains unapproved
+
+**Approval evidence:** The user approved each proposed mandatory gate individually in the guided sequence.
+
+### Reconciled operational input
+
+- Preserved the collaborator's simplified mobile answers by subject rather than forcing the post-LQ-003 answers into mismatched repository question IDs.
+- Confirmed the daily mobile priorities, one-minute friction threshold, combined morning action view, phone-number and last-name search, name-and-phone quick prospect capture, office-based meeting administration, common missed-work risks, and profitability as the desired later business outcome.
+- Confirmed Loryn as primary administrator and daily user, with one secondary administrator providing occasional setup, troubleshooting, recovery, and other ad hoc administration.
+- Found no conflict with CP-003 or the signed source-specific, next-action, communication, privacy, or CRM-first boundaries.
+
+### Accepted decisions
+
+- **Accepted (D-049 / M-01):** Require one reliable daily action center covering today's appointments, contacts due, overdue work, jobs waiting on others, and active records missing a next action or due date.
+- **Accepted (D-050 / M-02):** Require correct Costco/Centah versus independent identification, fields, handoff actions, and installation anchors.
+- **Accepted (D-051 / M-03):** Require each essential parked mobile task to be completable in about one minute or less while already signed in.
+- **Accepted (D-052 / M-04):** Require reliable reminders for uncontacted clients, quotes, quote follow-up, incomplete handoffs, installation work, and missing next actions while keeping customer communications manual.
+- **Accepted (D-053 / M-05):** Require an acceptable production tier with two administrators, multifactor authentication, prompt access removal, permissions, and preserved important activity history.
+- **Accepted (D-054 / M-06):** Require usable relationship-preserving exports and documented retention, deletion, and subscription-exit controls; exact retention periods remain open under D-013.
+- **Accepted (D-055 / M-07):** Require the approved CP-003 record and lifecycle model through CRM configuration without custom application development merely to pass.
+- **Accepted (D-056 / M-08):** Require human-controlled communications, permission and opt-out records, and separation of internal reminders from automatic sends.
+- **Accepted (D-057 / M-09):** Require a safe manual Centah bridge while API, webhook, and automated synchronization details remain unverified under D-012.
+- **Accepted (D-058 / M-10):** Reject silent loss or duplication and require visible save, failure, retry, and cross-device behavior; full offline support remains weighted.
+- **Accepted (D-059 / M-11):** Require documented production cost, tier dependencies, limits, upgrade triggers, and material uncertainties before a candidate may pass.
+- **Accepted (D-060 / M-12):** Require learnable daily tasks and sustainable administration using the approved guided-session and fifteen-minute weekly thresholds.
+- **Accepted (D-061 / M-13):** Require the same synthetic scenarios and recorded evidence standard for Zoho, HubSpot, and the Centah-only baseline.
+
+### Approval boundary
+
+- This approval covers the P0-W03 mandatory gates only.
+- Weighted categories, weights, scoring definitions, synthetic scenarios, evidence records, platform scores, account creation, external connections, and platform selection remain unapproved.
+- CP-003 remains the last signed-off checkpoint.
+
+### Files changed
+
+- `deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Mandatory gates M-01 through M-13 are approved for the P0-W03 draft. Next define and approve weighted preference categories and weights totaling 100 before defining scores or synthetic scenarios.
+
+## Session S-026 - P0-W03 weighted categories approved
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W03 - CRM platform scorecard and synthetic mobile test scenarios
+
+**Checkpoint:** P0-W03 checkpoint pending
+
+**Sign-off status:** Weighted categories and weights explicitly approved; work unit remains unapproved
+
+**Approval evidence:** The user answered “approve” to the recommended category weights.
+
+### Accepted decision
+
+- **Accepted (D-062):** Use category weights totaling 100: mobile daily-work usability 35, workflow visibility and configuration 20, governance/security/administration 15, data portability and reliability 10, cost and maintenance burden 10, and Centah/integration fit 10.
+- Mandatory gates remain separate and override the weighted total; a platform with an applicable `Fail` or `Unverified` gate cannot be preferred from its score.
+
+### Approval boundary
+
+- This approval covers the six category weights only.
+- The scoring scale, criterion-level allocation, synthetic scenarios, evidence records, platform scores, trial accounts, external connections, and platform selection remain unapproved.
+- CP-003 remains the last signed-off checkpoint.
+
+### Files changed
+
+- `deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Define and approve the common scoring scale and weighted-score calculation rule before allocating category weights across specific scored criteria.
+
+## Session S-027 - P0-W03 scoring scale and calculation approved
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W03 - CRM platform scorecard and synthetic mobile test scenarios
+
+**Checkpoint:** P0-W03 checkpoint pending
+
+**Sign-off status:** Scoring scale and calculation explicitly approved; work unit remains unapproved
+
+**Approval evidence:** The user answered “yes” to the proposed scoring scale and calculation rule.
+
+### Accepted decision
+
+- **Accepted (D-063):** Score each weighted criterion from 0 to 5, where 0 means the criterion cannot be performed, 3 meets normal operational needs, and 5 provides a clear practical advantage.
+- Calculate each contribution as `criterion weight × score ÷ 5` and sum the contributions for a maximum of 100.
+- Evaluate mandatory gates separately before interpreting points.
+- Require evidence and a confidence label for every score; leave a candidate's total incomplete and do not normalize it when evidence is missing.
+- Apply the same scale and weights to Zoho, HubSpot, and the Centah-only baseline.
+
+### Approval boundary
+
+- This approval covers the scoring scale and calculation only.
+- Criterion-level allocation, synthetic scenarios, evidence records, platform scores, trial accounts, external connections, and platform selection remain unapproved.
+- CP-003 remains the last signed-off checkpoint.
+
+### Files changed
+
+- `deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Allocate the approved category weights across specific scored criteria, beginning with the 35-point mobile daily-work usability category.
+
+## Session S-028 - P0-W03 mobile criterion allocation approved
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W03 - CRM platform scorecard and synthetic mobile test scenarios
+
+**Checkpoint:** P0-W03 checkpoint pending
+
+**Sign-off status:** Mobile category criteria and weights explicitly approved; work unit remains unapproved
+
+**Approval evidence:** The user answered “approved” to the recommended 35-point mobile allocation.
+
+### Accepted decision
+
+- **Accepted (D-064):** Allocate mobile daily-work usability as daily action-center clarity and usefulness 10, essential mobile-task efficiency 10, customer and job search quality 5, appointment confirmation and directions workflow 5, and mobile note capture and weak-signal behavior 5.
+- Related mandatory gates remain prerequisites; these points compare performance beyond the minimum pass threshold.
+
+### Approval boundary
+
+- This approval covers the 35-point mobile criterion allocation only.
+- The other five category allocations, synthetic scenarios, evidence records, platform scores, trial accounts, external connections, and platform selection remain unapproved.
+- CP-003 remains the last signed-off checkpoint.
+
+### Files changed
+
+- `deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Allocate the 20 workflow visibility and configuration points across specific scored criteria.
+
+## Session S-029 - P0-W03 workflow criterion allocation approved
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W03 - CRM platform scorecard and synthetic mobile test scenarios
+
+**Checkpoint:** P0-W03 checkpoint pending
+
+**Sign-off status:** Workflow category criteria and weights explicitly approved; work unit remains unapproved
+
+**Approval evidence:** The user answered “yes” to the recommended 20-point workflow allocation.
+
+### Accepted decision
+
+- **Accepted (D-065):** Allocate five points each to lifecycle/record configuration, next-action/reminder/overdue visibility, source-specific handoff/installation-exception clarity, and office workflow/activity history/practical reporting.
+- Related mandatory gates remain prerequisites; these points compare performance beyond the minimum pass threshold.
+
+### Approval boundary
+
+- This approval covers the 20-point workflow criterion allocation only.
+- The other four category allocations, synthetic scenarios, evidence records, platform scores, trial accounts, external connections, and platform selection remain unapproved.
+- CP-003 remains the last signed-off checkpoint.
+
+### Files changed
+
+- `deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Allocate the 15 governance, security, and administration points across specific scored criteria.
+
+## Session S-030 - P0-W03 right-sized governance allocation approved
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W03 - CRM platform scorecard and synthetic mobile test scenarios
+
+**Checkpoint:** P0-W03 checkpoint pending
+
+**Sign-off status:** Governance category criteria, weights, and proportionality rule explicitly approved; work unit remains unapproved
+
+**Approval evidence:** The user approved the recommended 15-point allocation while noting that some controls felt too detailed for a one-person operation.
+
+### Accepted decision
+
+- **Accepted (D-066):** Allocate governance, security, and administration as secure sign-in/MFA/recovery 4, administrator usability/permissions/access removal 4, activity history/auditability/accountability 4, and retention/deletion/governance documentation 3.
+- Apply a proportionality rule: evaluate practical controls for Loryn's one-person operation with occasional secondary-admin help, and do not award extra points for unused enterprise complexity.
+
+### Approval boundary
+
+- This approval covers the 15-point governance allocation and its proportionality rule only.
+- The other three category allocations, synthetic scenarios, evidence records, platform scores, trial accounts, external connections, and platform selection remain unapproved.
+- CP-003 remains the last signed-off checkpoint.
+
+### Files changed
+
+- `deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Allocate the 10 data portability and reliability points across specific scored criteria.
+
+## Session S-031 - P0-W03 portability and reliability allocation approved
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W03 - CRM platform scorecard and synthetic mobile test scenarios
+
+**Checkpoint:** P0-W03 checkpoint pending
+
+**Sign-off status:** Data portability and reliability criteria and weights explicitly approved; work unit remains unapproved
+
+**Approval evidence:** The user answered “yes” to the recommended 10-point portability and reliability allocation.
+
+### Accepted decision
+
+- **Accepted (D-067):** Allocate data portability and reliability as usable export of important data 4, understandable customer-to-job relationships after export 3, and reliable saving/synchronization/retry/recovery 3.
+- Related mandatory gates remain prerequisites; these points compare performance beyond the minimum pass threshold.
+
+### Approval boundary
+
+- This approval covers the 10-point portability and reliability allocation only.
+- The cost and integration allocations, synthetic scenarios, evidence records, platform scores, trial accounts, external connections, and platform selection remain unapproved.
+- CP-003 remains the last signed-off checkpoint.
+
+### Files changed
+
+- `deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Allocate the 10 cost and maintenance burden points across specific scored criteria.
+
+## Session S-032 - P0-W03 cost and maintenance allocation approved
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W03 - CRM platform scorecard and synthetic mobile test scenarios
+
+**Checkpoint:** P0-W03 checkpoint pending
+
+**Sign-off status:** Cost and maintenance criteria and weights explicitly approved; work unit remains unapproved
+
+**Approval evidence:** The user answered “yes” to the recommended 10-point cost and maintenance allocation.
+
+### Accepted decision
+
+- **Accepted (D-068):** Allocate cost and maintenance burden as actual recurring cost for two administrators and required features 5, ongoing training/cleanup/support effort 3, and pricing clarity/forced-upgrade risk 2.
+- Compare the required production operating cost rather than relying on a free prototype label.
+
+### Approval boundary
+
+- This approval covers the 10-point cost and maintenance allocation only.
+- The Centah/integration allocation, synthetic scenarios, evidence records, platform scores, trial accounts, external connections, and platform selection remain unapproved.
+- CP-003 remains the last signed-off checkpoint.
+
+### Files changed
+
+- `deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Allocate the 10 Centah and integration-fit points across specific scored criteria.
+
+## Session S-033 - P0-W03 Centah allocation and complete criterion set approved
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W03 - CRM platform scorecard and synthetic mobile test scenarios
+
+**Checkpoint:** P0-W03 checkpoint pending
+
+**Sign-off status:** Centah/integration criteria and all criterion-level weights explicitly approved; work unit remains unapproved
+
+**Approval evidence:** The user answered “approved” to the recommended final 10-point category allocation.
+
+### Accepted decision
+
+- **Accepted (D-069):** Allocate Centah and integration fit as practical Costco/Centah job and lead-number handling 4, duplicate checking and reconciliation 3, and evidence-backed future import/export/API options 3.
+- Keep unknown Centah capabilities unverified instead of awarding assumed points.
+- All six categories are now allocated across specific criteria totaling 100.
+
+### Approval boundary
+
+- This approval completes the criterion-level 100-point scorecard allocation.
+- Synthetic scenarios, evidence records, platform scores, trial accounts, external connections, and platform selection remain unapproved.
+- CP-003 remains the last signed-off checkpoint.
+
+### Files changed
+
+- `deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Define and approve the common synthetic fixture set and mobile scenario scripts.
+
+## Session S-034 - P0-W03 synthetic scenario areas approved
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W03 - CRM platform scorecard and synthetic mobile test scenarios
+
+**Checkpoint:** P0-W03 checkpoint pending
+
+**Sign-off status:** Seven common synthetic scenario areas explicitly approved; work unit remains unapproved
+
+**Approval evidence:** The user answered “yes” to the recommended seven scenario areas.
+
+### Accepted decision
+
+- **Accepted (D-070):** Use TS-01 quick prospect capture, TS-02 morning action center, TS-03 Costco/Centah lead handling, TS-04 appointment workflow, TS-05 visit and quote follow-up, TS-06 both accepted-sale handoff branches, and TS-07 the three-month installation exception.
+- Use the same fictional records, starting conditions, and task sequence for Zoho, HubSpot, and the Centah-only baseline.
+
+### Approval boundary
+
+- This approval covers the seven scenario areas only.
+- Exact fixtures, starting states, step-by-step scripts, timing rules, expected results, evidence records, platform scores, trial accounts, external connections, and platform selection remain unapproved.
+- CP-003 remains the last signed-off checkpoint.
+
+### Files changed
+
+- `deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Define and approve the exact synthetic fixture set, starting states, scenario steps, timing rules, and expected results for TS-01 through TS-07.
+
+## Session S-035 - P0-W03 synthetic fixture set approved
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W03 - CRM platform scorecard and synthetic mobile test scenarios
+
+**Checkpoint:** P0-W03 checkpoint pending
+
+**Sign-off status:** Eight-fixture synthetic dataset explicitly approved; work unit remains unapproved
+
+**Approval evidence:** The user answered “yes” to the recommended fixture set.
+
+### Accepted decision
+
+- **Accepted (D-071):** Use eight fixed synthetic fixtures covering new prospect capture, today's appointment, Costco/Centah identification and duplicate review, quote follow-up, both accepted-sale handoff branches, the three-month installation exception, and an intentional missing-next-action negative test.
+- Use relative T0 dates, clearly fictional names and identifiers, reserved 555 phone numbers, `.invalid` email addresses, and a plainly synthetic address.
+- Reset fixtures to the approved starting state before each candidate test.
+
+### Approval boundary
+
+- This approval covers the synthetic fixture set and starting states only.
+- Exact script steps, timing rules, expected results, evidence records, platform scores, trial accounts, external connections, and platform selection remain unapproved.
+- CP-003 remains the last signed-off checkpoint.
+
+### Files changed
+
+- `deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Define and approve the exact steps, timing rules, and expected results for TS-01 through TS-07 using the approved fixtures.
+
+## Session S-036 - P0-W03 exact scenario scripts approved
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W03 - CRM platform scorecard and synthetic mobile test scenarios
+
+**Checkpoint:** P0-W03 checkpoint pending
+
+**Sign-off status:** Common execution rules and exact TS-01 through TS-07 scripts explicitly approved; work unit remains unapproved
+
+**Approval evidence:** The user answered “yes” to the proposed common rules, steps, timing boundaries, and expected results.
+
+### Accepted decision
+
+- **Accepted (D-072):** Reset the same fixtures, use the same phone and order, time actions while already signed in, record friction and uncertainty, and enforce no-send, no-travel, and no-external-connection controls.
+- Run the exact approved steps and expected-results checks for quick capture, daily queue, Costco handling, appointment work, quote follow-up, both handoff branches, and the installation exception.
+- Leave missing or incomparable evidence `Unverified`; do not invent or normalize a result.
+
+### Approval boundary
+
+- This approval covers the exact scenario scripts and common execution rules only.
+- The evidence-record format, completed acceptance review, platform scores, trial accounts, external connections, and platform selection remain unapproved.
+- CP-003 remains the last signed-off checkpoint.
+
+### Files changed
+
+- `deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Define and approve the evidence-record format used for every mandatory gate, scored criterion, and scenario result.
+
+## Session S-037 - P0-W03 participant testing burden limited
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W03 - CRM platform scorecard and synthetic mobile test scenarios
+
+**Checkpoint:** P0-W03 checkpoint pending
+
+**Sign-off status:** Staged testing and Loryn's participant-burden cap explicitly approved; work unit remains unapproved
+
+**Approval evidence:** The user approved the recommendation after asking not to inundate Loryn with tests or follow-up tasks.
+
+### Accepted decision
+
+- **Accepted (D-073):** The evaluator screens all three candidates first and stops nonviable candidates after a confirmed mandatory failure unless a short check is needed to document the result.
+- Loryn tests no more than two viable finalists in one guided session of about 20 minutes per finalist.
+- Her guided session combines the morning action center, customer search, appointment confirmation, directions, note capture, and quote-follow-up experience.
+- The evaluator prepares fixtures, guides the session, records evidence, and completes all technical and administrative checks. Loryn receives no homework or follow-up test tasks.
+
+### Approval boundary
+
+- This approval changes test staging and participant burden, not the seven required areas of evaluation coverage.
+- The evidence-record format, completed acceptance review, platform scores, trial accounts, external connections, and platform selection remain unapproved.
+- CP-003 remains the last signed-off checkpoint.
+
+### Files changed
+
+- `deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Define and approve the evidence-record format used by the evaluator for every mandatory gate, scored criterion, and scenario result while preserving Loryn's approved burden cap.
+
+## Session S-038 - P0-W03 evidence format approved and CP-004 prepared
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W03 - CRM platform scorecard and synthetic mobile test scenarios
+
+**Checkpoint:** CP-004 awaiting sign-off
+
+**Sign-off status:** Evidence format approved and checkpoint packet prepared; CP-004 remains unsigned
+
+**Approval evidence:** The user answered “yes” to the evaluator-only compact evidence format.
+
+### Accepted decision
+
+- **Accepted (D-074):** Record candidate/tier/device details once per run and use one compact evaluator-completed row per gate or criterion containing result or score, time or friction, evidence reference, limitation or uncertainty, and confidence.
+- Loryn performs no evidence-recording work.
+- Low-confidence totals remain provisional, and `Unverified` results receive no score.
+
+### Validation
+
+- Mandatory gates remain separate from weighted preferences.
+- Six categories and twenty-two criteria total 100.
+- All three candidates use the same gates, scale, fixtures, scripts, and evidence standard.
+- TS-01 through TS-07 cover every required P0-W03 scenario area.
+- Evidence records require observed results, confidence, uncertainty, and tier or tenant limitations.
+- Synthetic-only, no-send, no-travel, no-external-connection, and participant-burden boundaries are explicit.
+- Loryn is limited to no more than two guided finalist sessions of about 20 minutes each and receives no homework.
+
+### Approval boundary
+
+- The P0-W03 artifact is complete but remains unapproved until explicit CP-004 sign-off.
+- CP-004 would approve the evaluation method only; it would not approve platform scores, account creation, external connections, real data, customer communication, or final platform selection.
+- CP-003 remains the last signed-off checkpoint.
+
+### Files changed
+
+- `deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Present the CP-004 checkpoint packet and request explicit sign-off on the complete P0-W03 evaluation method.
+
+## Session S-039 - P0-W03 signed off at CP-004
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W03 - CRM platform scorecard and synthetic mobile test scenarios
+
+**Checkpoint:** CP-004
+
+**Sign-off status:** Signed off July 30, 2026
+
+**Approval evidence:** The user explicitly said, “sign off cp-004”.
+
+### Approved result
+
+- Approved `deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md` as the common CRM platform-evaluation method.
+- Approved mandatory gates M-01 through M-13, the twenty-two weighted criteria totaling 100, and the common 0-5 scoring calculation.
+- Approved TS-01 through TS-07, the eight synthetic fixtures, exact execution steps, timing boundaries, expected results, and no-send/no-travel/no-external-connection controls.
+- Approved the compact evaluator-only evidence format and the rule that missing evidence remains `Unverified` and is never normalized away.
+- Approved evaluator screening before Loryn tests no more than two viable finalists in one guided session of about 20 minutes per finalist, with no homework.
+
+### Validation
+
+- All P0-W03 acceptance checks passed.
+- Thirteen mandatory gates, six categories, twenty-two criteria totaling 100, seven scenario scripts, and eight fixtures passed structural and arithmetic checks.
+- Decision IDs D-001 through D-074 and session IDs S-001 through S-039 are sequential and unique.
+- Markdown tables and Git diff checks passed.
+- Privacy checks found only clearly synthetic identities, reserved 555 phone numbers, `.invalid` email addresses, and no credentials or private payloads.
+
+### Approval boundary
+
+- CP-004 approves the evaluation method only.
+- It does not authorize a CRM account, external connection, real-data use, customer communication, platform score, purchase, production tenant, or final platform selection.
+- Phase 1 requires a separate work-unit contract and explicit authorization before any account action.
+
+### Files changed
+
+- `deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Phase 0 is complete at CP-004. Define and review the first Phase 1 work-unit contract before creating any CRM trial account or beginning platform testing.

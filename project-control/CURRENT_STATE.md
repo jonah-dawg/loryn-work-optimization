@@ -2,13 +2,13 @@
 
 **Updated:** July 30, 2026
 
-**Overall status:** Active - guided execution underway  
-**Current phase:** Phase 0 - Authority, workflow, and evaluation design  
-**Active work unit:** P0-W03 - CRM platform scorecard and synthetic mobile test scenarios
+**Overall status:** Active - Phase 0 complete; Phase 1 work-unit authorization pending
+**Current phase:** Phase 0 - complete at CP-004
+**Active work unit:** None - next Phase 1 work unit has not been authorized
 
-**Work-unit status:** Ready to begin
+**Work-unit status:** P0-W03 complete
 
-**Last signed-off checkpoint:** CP-003 - Target lifecycle, next-action rules, and minimum CRM fields (July 29, 2026)
+**Last signed-off checkpoint:** CP-004 - CRM platform evaluation method (July 30, 2026)
 
 ## Confirmed baseline
 
@@ -54,6 +54,27 @@
 - Eligible past customers enter prospecting six months after post-install follow-up for possible additional work and referrals, using a permitted letter, email, text, or call; opted-out customers and unresolved problems are excluded.
 - Past-customer reminders may repeat at 6, 12, 18, and 24 months after post-install follow-up, then stop. An explicit rejection or opt-out ends the sequence immediately.
 - Only Costco-originated opportunities use Centah. Independently sourced prospects and opportunities remain only in the selected CRM, are not entered into Centah, and do not require a Centah lead number.
+- P0-W03 mandatory gates M-01 through M-13 are approved for the draft evaluation and recorded in `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`.
+- The gates cover the daily action center, source-specific workflow, essential mobile speed, reminders, administration, portability, the approved record model, human-controlled communications, the Centah bridge, save reliability, cost evidence, sustainable administration, and a common synthetic evidence standard.
+- Full offline capability remains a weighted preference; silent data loss or duplication is a mandatory failure.
+- Loryn is the primary administrator and daily user. One secondary administrator provides occasional setup, troubleshooting, recovery, and other ad hoc administration.
+- P0-W03 category weights total 100: mobile daily-work usability 35, workflow visibility and configuration 20, governance/security/administration 15, data portability and reliability 10, cost and maintenance burden 10, and Centah/integration fit 10.
+- Mandatory gates override the weighted total; an applicable `Fail` or `Unverified` gate prevents a platform from being preferred.
+- Weighted criteria use a common integer scale from 0 to 5 and contribute `criterion weight × score ÷ 5` to the 100-point total.
+- Every score requires evidence and confidence. Missing evidence leaves the total incomplete and is never normalized away.
+- The 35 mobile points are allocated as daily action center 10, essential task efficiency 10, customer/job search 5, appointment confirmation and directions 5, and mobile note capture and weak-signal behavior 5.
+- The 20 workflow points are allocated equally across lifecycle/record configuration, next-action/overdue visibility, source-specific handoff/installation exceptions, and office workflow/activity/reporting.
+- The 15 governance points are allocated 4/4/4/3 across secure account access, simple administration/access management, useful activity history, and retention/deletion guidance. Score only right-sized needs for a one-person operation; unused enterprise complexity earns no extra credit.
+- The 10 portability/reliability points are allocated as usable data exports 4, understandable customer-to-job relationships after export 3, and saving/synchronization/recovery quality 3.
+- The 10 cost/maintenance points are allocated as actual recurring cost for two administrators and required features 5, ongoing training/cleanup/support effort 3, and pricing clarity/forced-upgrade risk 2.
+- The 10 Centah/integration points are allocated as practical Costco/Centah job and identifier handling 4, duplicate checking/reconciliation 3, and evidence-backed future import/export/API options 3. Unknown Centah capabilities remain unverified.
+- All criterion-level weights now total 100.
+- Seven common scenario areas are approved: quick prospect capture, morning action center, Costco/Centah lead handling, appointment workflow, visit/quote follow-up, both accepted-sale handoff branches, and the three-month installation exception.
+- Eight fixed synthetic fixtures use clearly fictional identities and relative T0 dates to give all three candidates identical starting conditions, including an intentional missing-next-action negative test.
+- TS-01 through TS-07 now have approved common execution rules, exact steps, timing boundaries, no-send/no-travel controls, and expected results.
+- Evaluator screening covers all candidates first. Loryn tests no more than two viable finalists in one guided session of about 20 minutes each and receives no homework or follow-up test tasks.
+- The evaluator uses one test-run header and one compact result row per gate or criterion; Loryn does no evidence-recording work.
+- CP-004 approved the complete P0-W03 platform-evaluation method; no platform has been scored or selected.
 
 ## Active work-unit contract
 
@@ -94,7 +115,9 @@ CP-001 approved `../deliverables/P0-W01-current-workflow-and-permission-boundary
 
 CP-002 approved `../deliverables/P0-CR01-independent-leads-and-prospecting-scope.md`. Decisions D-024 through D-029 record the separate prospecting lifecycle, Costco-only Centah boundary, prospect cadence and outcomes, source-specific post-sale handoff, installation exception, past-customer outreach, and communication controls. Word is intentionally deferred and marked stale until a release or sharing milestone.
 
-CP-003 approved `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimum-fields.md`. Decisions D-033 through D-048 record prospect conversion, the active-job stages, contact and quote timing, follow-up limits, source-specific handoff, installation and post-install rules, and the minimum customer/job/task fields. D-035 and D-040 were superseded during the signed design sequence. The authoritative Markdown master is Version 1.24; Word remains intentionally stale until a release or sharing milestone.
+CP-003 approved `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimum-fields.md`. Decisions D-033 through D-048 record prospect conversion, the active-job stages, contact and quote timing, follow-up limits, source-specific handoff, installation and post-install rules, and the minimum customer/job/task fields. D-035 and D-040 were superseded during the signed design sequence. At CP-003, the authoritative Markdown master was Version 1.24; Word remains intentionally stale until a release or sharing milestone.
+
+CP-004 approved `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`. Decisions D-049 through D-061 record the mandatory gates, D-062 through D-069 record the complete 100-point scorecard and scoring rule, D-070 through D-072 record the scenarios, fixtures, and scripts, D-073 records the staged test-burden rule, and D-074 records the evaluator-only evidence format. The authoritative Markdown master is Version 1.39; Word remains intentionally stale.
 
 ## Chat and artifact protocol
 
@@ -115,12 +138,12 @@ CP-003 approved `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimu
 
 ## Next work-unit starting point
 
-P0-W02 is complete at CP-003. P0-W03 has not started. Its first design step is to separate mandatory platform gates from weighted preferences before assigning any scores or creating trial accounts.
+Phase 0 is complete at CP-004. Phase 1 has not started. Its first work unit should define the synthetic Zoho-first prototype and HubSpot/Centah comparison execution boundary, account ownership and sign-in approach, evaluator responsibilities, evidence storage, stopping rules, and explicit authorization required before any trial account is created.
 
 ## Exact next action
 
-Review the P0-W03 work-unit contract with the user, then define the mandatory pass/fail platform requirements before choosing scorecard weights.
+Define and review the first Phase 1 work-unit contract. Do not create a CRM account or begin platform testing until that work unit and the specific account action are explicitly authorized.
 
 ## Resume instruction
 
-Read this file, Sessions S-022 and S-023 in `SESSION_LOG.md`, `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimum-fields.md`, and the platform-evaluation sections of `../deliverables/window-sales-operations-master-plan.md`. Begin P0-W03 with mandatory pass/fail requirements and do not create CRM accounts, use real customer data, connect external systems, or treat any scorecard proposal as approved before its checkpoint.
+Read this file, Sessions S-038 and S-039 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, and the Phase 1 and platform-trial sections of `../deliverables/window-sales-operations-master-plan.md`. Define the first Phase 1 work-unit contract before any trial account action. Do not create CRM accounts, use real customer data, connect external systems, score or select a platform, or infer authorization from CP-004.
