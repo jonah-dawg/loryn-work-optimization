@@ -1970,3 +1970,40 @@ Wait for the exact account-creation authorization. Do not create an account or b
 ### Saved ending point
 
 Await Loryn's non-sensitive report that the neutral-label Free account, MFA, and both administrator roles are ready. Do not begin configuration or testing.
+
+## Session S-050 - Paused for Loryn account-setup handoff
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W01 - Zoho synthetic prototype and evaluator screening
+
+**Checkpoint:** P1-W01 execution paused; CP-005 remains pending
+
+**Sign-off status:** Session closed at the approved account-creation handoff; no new product decision or checkpoint approval
+
+**Closure evidence:** The user asked to end the session and stated that Loryn will complete the process interactively with Codex.
+
+### Handoff state
+
+- The P1-W01 execution contract remains approved.
+- D-084 authorizes Loryn to complete only the neutral-label Free account, private MFA/recovery, and two-administrator setup.
+- Guide Loryn interactively without requesting or recording credentials, codes, recovery information, private email addresses, or account identifiers.
+- Stop after Loryn reports only that the Free account, MFA, and both administrator roles are ready.
+
+### Approval boundary
+
+- Synthetic configuration and testing remain unapproved and require the later exact instruction `Begin P1-W01 synthetic configuration` from the user.
+- Fields, fixtures, views, imports, integrations, real data, billing, paid trials, purchases, customer communications, scoring, and platform selection remain unapproved.
+- CP-004 remains the last signed-off checkpoint.
+
+### Files changed
+
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Resume with Loryn's interactive account setup under D-084. Do not begin synthetic configuration or testing.

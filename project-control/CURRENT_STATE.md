@@ -2,11 +2,11 @@
 
 **Updated:** July 30, 2026
 
-**Overall status:** Active - Phase 1 account creation authorized; awaiting Loryn setup
+**Overall status:** Paused - Phase 1 account creation authorized; awaiting Loryn's interactive setup
 **Current phase:** Phase 1 - Zoho prototype and HubSpot comparison
 **Active work unit:** P1-W01 - Zoho synthetic prototype and evaluator screening
 
-**Work-unit status:** Approved for execution - account creation authorized; configuration gate closed
+**Work-unit status:** Paused at handoff - Loryn may complete account setup; configuration gate closed
 
 **Last signed-off checkpoint:** CP-004 - CRM platform evaluation method (July 30, 2026)
 
@@ -173,8 +173,8 @@ Phase 0 is complete at CP-004. Phase 1 has started with an approved P1-W01 execu
 
 ## Exact next action
 
-Loryn completes only the approved account and administrator setup, then reports non-sensitive readiness. Do not begin configuration or testing. After account readiness is verified, configuration still requires the exact instruction `Begin P1-W01 synthetic configuration`.
+Loryn resumes interactively and completes only the approved account and administrator setup, then reports non-sensitive readiness. Do not begin configuration or testing. After account readiness is verified, configuration still requires the exact instruction `Begin P1-W01 synthetic configuration`.
 
 ## Resume instruction
 
-Read this file, Sessions S-039 through S-049 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, `../deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`, and the Phase 1 and platform-trial sections of `../deliverables/window-sales-operations-master-plan.md`. The P1-W01 contract and Loryn's bounded account-creation action are approved. Await Loryn's non-sensitive readiness report; do not configure or test the account unless the user later gives the separate exact configuration authorization. Continue to prohibit real data, external connections, purchases, customer communications, and platform selection.
+Read this file, Sessions S-039 through S-050 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, `../deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`, and the Phase 1 and platform-trial sections of `../deliverables/window-sales-operations-master-plan.md`. The P1-W01 contract and Loryn's bounded account-creation action are approved. Guide Loryn through only the approved account procedure and never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Stop after her non-sensitive readiness report; do not configure or test the account unless the user later gives the separate exact configuration authorization. Continue to prohibit real data, external connections, purchases, customer communications, and platform selection.
