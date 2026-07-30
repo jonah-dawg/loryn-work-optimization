@@ -463,3 +463,42 @@ Decisions 1 through 5 are complete. Present Decision 6 in plain language: decide
 ### Saved ending point
 
 Decisions 1 through 6 are complete. Present Decision 7 in plain language: decide the fallback deadline when a quote cannot be sent by the same-day target.
+
+## Session S-012 - P0-W02 Decision 7 approved
+
+**Date:** July 29, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W02 - Target lifecycle, next-action rules, and minimum CRM fields
+
+**Checkpoint:** CP-003 pending
+
+**Sign-off status:** Work unit in progress; Decision 7 explicitly approved
+
+**Approval evidence:** The user answered “yes” to the proposed next-working-day fallback and delay-reason requirement.
+
+### Accepted decision
+
+- **Accepted (D-039):** If the primary same-day quote target is missed, require a short reason for the delay.
+- Set the fallback quote deadline to the end of the next working day.
+- Keep the quote visibly overdue until the fallback date is entered.
+- If the fallback is also missed, keep the task overdue and require another deliberate due date and reason rather than silently rescheduling it.
+
+### Approval boundary
+
+- This approval covers recovery from a missed same-day quote target.
+- Follow-up timing after a quote is sent remains unapproved.
+- Later stage-specific next-action rules and the minimum CRM field set remain unapproved.
+- CP-003 remains pending.
+
+### Files changed
+
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Decisions 1 through 7 are complete. Present Decision 8 in plain language: decide when the first customer follow-up is due after a quote is sent.
