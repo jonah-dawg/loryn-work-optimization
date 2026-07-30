@@ -425,3 +425,41 @@ Decisions 1 through 4 are complete. Present Decision 5 in plain language: confir
 ### Saved ending point
 
 Decisions 1 through 5 are complete. Present Decision 6 in plain language: decide the quote-preparation deadline after an appointment is completed.
+
+## Session S-011 - P0-W02 Decision 6 approved
+
+**Date:** July 29, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W02 - Target lifecycle, next-action rules, and minimum CRM fields
+
+**Checkpoint:** CP-003 pending
+
+**Sign-off status:** Work unit in progress; Decision 6 explicitly approved
+
+**Approval evidence:** The user specified, “first goal to send quote is by end of working day as appt, same day.”
+
+### Accepted decision
+
+- **Accepted (D-038):** After an appointment is completed and a quote is needed, the primary goal is to finish and manually send the quote by the end of that same working day.
+- Move the opportunity to `Preparing Quote` with the same-day closing time as its due time.
+- If the quote is not sent by closing time, keep the task visibly overdue until the consultant records a new due date or sends the quote; do not silently clear or reschedule it.
+
+### Approval boundary
+
+- This approval establishes the primary quote target only.
+- The default fallback deadline after missing the same-day target remains unapproved.
+- Later stage-specific next-action rules and the minimum CRM field set remain unapproved.
+- CP-003 remains pending.
+
+### Files changed
+
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Decisions 1 through 6 are complete. Present Decision 7 in plain language: decide the fallback deadline when a quote cannot be sent by the same-day target.

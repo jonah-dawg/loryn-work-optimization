@@ -2,7 +2,7 @@
 
 ## Master Project Plan
 
-**Version:** 1.12
+**Version:** 1.13
 **Status:** Working source of truth  
 **Updated:** July 29, 2026  
 **Primary team:** Window-covering sales consultant and technical partner
@@ -117,6 +117,8 @@ An opportunity may exit as `Lost / Canceled` from any applicable stage. An insta
 **Approved next-action rule for `Trying to Contact`:** If the first contact attempt receives no answer, the second attempt is due on the next working day. If the second attempt receives no answer, the third and final attempt is due two working days later. If the third attempt also receives no answer, close the opportunity as `Lost / Canceled - No Response`, retain the record and attempt notes, and stop creating active-job reminders. This rule applies to active customer requests, not the separately approved long-term prospecting lifecycle. For a Costco/Centah lead, the related Centah record also follows the approved current process of being canceled and retained as inactive.
 
 **Approved next-action rule for `Appointment Scheduled`:** Create a morning-of reminder to send the customer a manual confirmation text at approximately 7:45 a.m. This is a limited exception to calling hours and does not permit an automated message. Use another requested channel when needed, but do not place a confirmation phone call before the 9:00 a.m. calling-hours start.
+
+**Approved next-action rule for `Appointment Completed` and `Preparing Quote`:** After an appointment is completed and a quote is needed, the primary goal is to finish and manually send the quote by the end of that same working day. The opportunity moves to `Preparing Quote` with that deadline. If the quote is not sent by closing time, the task becomes visibly overdue and remains open until the consultant records a new due date or sends the quote; it is not silently cleared or rescheduled.
 
 ### O2. Communication policy
 
@@ -596,6 +598,7 @@ Update this table whenever a decision changes. Supersede rather than delete prio
 | D-035 | Superseded | Require the first manual contact attempt by closing time when a new request arrives during working hours, or at 10:00 a.m. on the next working day when it arrives outside working hours | The original 10:00 a.m. start was replaced by the 9:00 a.m. calling-hours rule in D-037 | Retained for decision history |
 | D-036 | Accepted | After an unanswered first attempt, retry on the next working day and once more two working days later; after a third nonresponse, close the active request as `Lost / Canceled - No Response` | Creates a bounded three-attempt sequence, preserves the activity record, and stops active-job reminders without changing the separate prospect-nurture rules | Response results show the cadence is too fast or slow, or source policy requires different treatment |
 | D-037 | Accepted | Use calling hours of 9:00 a.m.-6:00 p.m. Monday-Friday and 9:00 a.m.-2:00 p.m. Saturday, while keeping approximately 7:45 a.m. for manual same-day appointment-confirmation texts only | Prevents early lead and follow-up calls while preserving the established confirmation routine; outside-hours new requests are due at 9:00 a.m. on the next working day | Availability, customer feedback, or observed response patterns justify different hours |
+| D-038 | Accepted | Set the primary quote deadline to the end of the same working day as the completed appointment | Reflects the desired fast customer response and creates a visible overdue task when the quote is not sent that day | Actual quote complexity or workload shows that a different default is needed |
 
 ## 14. Immediate next actions
 
