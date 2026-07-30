@@ -1,0 +1,23 @@
+# Local and editor files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+~$*
+
+# Generated document QA and temporary rendering
+.docx-qa/
+rendered/
+*.pdf
+
+# Secrets and local configuration
+.env
+.env.*
+*.local
+secrets/
+
+# Production or personal data exports
+exports/
+production-data/
+customer-data/
