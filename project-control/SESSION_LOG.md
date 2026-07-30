@@ -306,3 +306,43 @@ Decision 1 is complete. Present Decision 2 in plain language: approve or revise 
 ### Saved ending point
 
 Decisions 1 and 2 are complete. Present Decision 3 in plain language, beginning with how quickly a `New Customer Request` must receive its first contact attempt.
+
+## Session S-008 - P0-W02 Decision 3 approved
+
+**Date:** July 29, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W02 - Target lifecycle, next-action rules, and minimum CRM fields
+
+**Checkpoint:** CP-003 pending
+
+**Sign-off status:** Work unit in progress; Decision 3 explicitly approved
+
+**Approval evidence:** The user approved the proposed first-contact timing and specified, “m-f 10am-6pm Saturday 10am-2pm.”
+
+### Accepted decision
+
+- **Accepted (D-035):** Working hours are Monday through Friday, 10:00 a.m. to 6:00 p.m., and Saturday, 10:00 a.m. to 2:00 p.m.
+- A `New Customer Request` received during working hours requires a manual first-contact attempt by closing time that day.
+- A request received outside working hours requires the first contact attempt at 10:00 a.m. on the next working day; a Sunday request is due Monday at 10:00 a.m.
+- The CRM creates a reminder for the consultant and does not contact the customer automatically.
+
+### Approval boundary
+
+- This approval covers the first-contact deadline and standard working hours.
+- Holiday, vacation, and other unavailable-day handling may be configured later if the chosen CRM supports a practical business-calendar rule.
+- Retry timing after an unanswered attempt remains unapproved.
+- Later stage-specific next-action rules and the minimum CRM field set remain unapproved.
+- CP-003 remains pending.
+
+### Files changed
+
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Decisions 1 through 3 are complete. Present Decision 4 in plain language: decide the timing for the second and third contact attempts and the outcome after a third unsuccessful attempt.
