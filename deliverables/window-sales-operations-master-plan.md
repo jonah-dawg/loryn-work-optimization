@@ -2,7 +2,7 @@
 
 ## Master Project Plan
 
-**Version:** 1.15
+**Version:** 1.16
 **Status:** Working source of truth  
 **Updated:** July 29, 2026  
 **Primary team:** Window-covering sales consultant and technical partner
@@ -120,7 +120,7 @@ An opportunity may exit as `Lost / Canceled` from any applicable stage. An insta
 
 **Approved next-action rule for `Appointment Completed` and `Preparing Quote`:** After an appointment is completed and a quote is needed, the primary goal is to finish and manually send the quote by the end of that same working day. The opportunity moves to `Preparing Quote` with that deadline. If the quote is not sent by closing time, it remains visibly overdue until the consultant records a short delay reason and sets the fallback deadline to the end of the next working day. If that fallback is also missed, the task remains overdue and requires another deliberate date and reason; it is never silently cleared or rescheduled.
 
-**Approved next-action rule for `Quote Sent - Awaiting Decision`:** When the quote is sent, create the first manual customer follow-up task for two working days later using the customer's preferred and permitted channel. If the customer responds before the task is due, cancel the reminder and record the response and resulting next action or outcome. No message is sent automatically.
+**Approved next-action rule for `Quote Sent - Awaiting Decision`:** Immediately after emailing the quote, send a manual message through the customer's preferred and permitted channel telling them the quote was sent and asking them to check their email. Then create the next manual decision-follow-up task for three working days later. If the customer responds before that task is due, cancel the reminder and record the response and resulting next action or outcome. The opportunity remains `Quote Sent - Awaiting Decision` until a decision or another explicit outcome is recorded. No message is sent automatically.
 
 ### O2. Communication policy
 
@@ -602,7 +602,8 @@ Update this table whenever a decision changes. Supersede rather than delete prio
 | D-037 | Accepted | Use calling hours of 9:00 a.m.-6:00 p.m. Monday-Friday and 9:00 a.m.-2:00 p.m. Saturday, while keeping approximately 7:45 a.m. for manual same-day appointment-confirmation texts only | Prevents early lead and follow-up calls while preserving the established confirmation routine; outside-hours new requests are due at 9:00 a.m. on the next working day | Availability, customer feedback, or observed response patterns justify different hours |
 | D-038 | Accepted | Set the primary quote deadline to the end of the same working day as the completed appointment | Reflects the desired fast customer response and creates a visible overdue task when the quote is not sent that day | Actual quote complexity or workload shows that a different default is needed |
 | D-039 | Accepted | If the same-day quote target is missed, require a short delay reason and set the fallback deadline to the end of the next working day | Prevents a missed quote from disappearing and gives the consultant one clear recovery deadline | Actual quote workload shows that a different fallback is more realistic |
-| D-040 | Accepted | Create the first manual customer follow-up two working days after a quote is sent, canceling the reminder if the customer responds earlier | Replaces memory-driven quote follow-up with a clear task while respecting the customer's preferred and permitted channel | Response data shows a different first-follow-up interval performs better |
+| D-040 | Superseded | Create the first manual customer follow-up two working days after a quote is sent, canceling the reminder if the customer responds earlier | Replaced by D-041, which adds an immediate quote-sent notice and moves the next decision follow-up to three working days later | Retained for decision history |
+| D-041 | Accepted | Immediately notify the customer manually after emailing the quote, then create the next decision-follow-up task for three working days later | Confirms that the customer should check their email and replaces memory-driven follow-up with a dated task without automatic sending | Customer response patterns justify a different interval or channel |
 
 ## 14. Immediate next actions
 

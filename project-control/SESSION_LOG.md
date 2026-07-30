@@ -541,3 +541,44 @@ Decisions 1 through 7 are complete. Present Decision 8 in plain language: decide
 ### Saved ending point
 
 Decisions 1 through 8 are complete. Present Decision 9 in plain language: decide when the next follow-up is due after an unanswered first post-quote follow-up.
+
+## Session S-014 - P0-W02 Decision 9 approved and quote follow-up revised
+
+**Date:** July 29, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W02 - Target lifecycle, next-action rules, and minimum CRM fields
+
+**Checkpoint:** CP-003 pending
+
+**Sign-off status:** Work unit in progress; Decision 9 explicitly approved
+
+**Approval evidence:** The user approved the three-working-day follow-up and clarified, “after i send quote i should send follow up immediatgely so they can check their emails and then check back up 3 days later.”
+
+### Accepted decision
+
+- **Accepted (D-041):** Immediately after emailing a quote, send a manual message through the customer's preferred and permitted channel telling them the quote was sent and asking them to check their email.
+- Create the next manual decision-follow-up task for three working days later.
+- Keep the opportunity at `Quote Sent - Awaiting Decision` until the customer decides or another explicit outcome is recorded.
+- If the customer responds before the task is due, cancel the reminder and record the response and resulting next action.
+- Do not send either message automatically.
+- **Superseded (D-040):** Replace the earlier two-working-day first-follow-up rule with D-041.
+
+### Approval boundary
+
+- This approval covers the immediate quote-sent notice and the next follow-up three working days later.
+- The later reminder sequence and stopping rule after no customer decision remain unapproved.
+- Later stage-specific next-action rules and the minimum CRM field set remain unapproved.
+- CP-003 remains pending.
+
+### Files changed
+
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Decisions 1 through 9 are complete. Present Decision 10 in plain language: decide what reminder follows if the three-working-day post-quote follow-up does not produce a customer decision.
