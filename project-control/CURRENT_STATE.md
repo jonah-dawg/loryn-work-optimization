@@ -4,7 +4,7 @@
 **Overall status:** Active - guided execution underway  
 **Current phase:** Phase 0 - Authority, workflow, and evaluation design  
 **Active work unit:** P0-W02 - Target lifecycle, next-action rules, and minimum CRM fields  
-**Work-unit status:** In progress; Decisions 1 through 15 approved, Decision 16 next
+**Work-unit status:** Awaiting CP-003 sign-off; Decisions 1 through 16 approved and validation passed
 **Last signed-off checkpoint:** CP-002 - Independent leads and prospecting scope (July 29, 2026)
 
 ## Confirmed baseline
@@ -41,6 +41,7 @@
 - After handoff, check installation at six weeks using the DocuSign-sent date for Costco/Centah work or the coordinator-email date for independent work. If installation is unconfirmed, add a note and check again in two to three weeks. At three months after the sold quote was emailed to the coordinator, stop normal deferral, show an urgent exception, contact the coordinator that day, and contact the customer if necessary. Never mark installation complete without human confirmation.
 - After installation is confirmed, complete one manual customer follow-up by the end of the next working day. If the customer confirms everything is satisfactory, mark the job `Finished` and schedule the six-month past-customer reminder. If the customer reports a problem, keep it visibly unresolved with a next action and do not mark it finished; detailed repair-case management remains outside the initial CRM scope.
 - If the customer does not answer the one post-install follow-up on a confirmed-installed job, record `Post-Install Follow-Up Attempted - No Response`, mark the job `Finished`, and stop post-install reminders. Schedule the six-month past-customer reminder only if the customer has not opted out and there is no known unresolved problem.
+- The approved minimum CRM fields are assigned to customer/contact, opportunity/job, and task/activity records in `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimum-fields.md`. Centah lead number is required and unique only for Costco/Centah jobs and prohibited for independent jobs.
 - After acceptance, Centah/Costco opportunities require DocuSign and an emailed quote to the internal order coordinator in parallel. Opportunities outside Centah/Costco skip DocuSign and require only the emailed quote to the internal order coordinator.
 - The six-week installation-check timer starts on the DocuSign-sent date for Centah/Costco sales and on the internal-order-email date for sales outside Centah/Costco.
 - Installation should never take more than three months from the date the sold quote is emailed to the internal order coordinator; an unconfirmed installation at that boundary must become a visible exception rather than receiving indefinite routine deferrals.
@@ -107,12 +108,12 @@ CP-002 approved `../deliverables/P0-CR01-independent-leads-and-prospecting-scope
 
 ## Approved progress within current work unit
 
-P0-W02 Decisions 1 through 15 were explicitly approved by the user on July 29, 2026. D-033, D-034, D-036 through D-039, and D-041 through D-047 remain active. D-035 was superseded by D-037, and D-040 was superseded by D-041. These decisions cover the connected active-job lifecycle from conversion through all normal post-install closure outcomes. Minimum fields are not approved yet.
+P0-W02 Decisions 1 through 16 were explicitly approved by the user on July 29, 2026. D-033, D-034, D-036 through D-039, and D-041 through D-048 remain active. D-035 was superseded by D-037, and D-040 was superseded by D-041. The connected lifecycle, stage-specific next actions, closure outcomes, and minimum field set are consolidated in `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimum-fields.md`. Both sanitized walkthroughs and every work-unit acceptance check passed. CP-003 has not yet been signed off.
 
 ## Exact next action
 
-Review P0-W02 Decision 16 with the user in plain language: approve or revise the minimum information stored on the customer, opportunity, and task/activity records.
+Present the CP-003 checkpoint packet and ask the user to sign off CP-003 or request a revision.
 
 ## Resume instruction
 
-Read this file, Sessions S-004 and S-006 through S-020 in `SESSION_LOG.md`, `../deliverables/P0-W01-current-workflow-and-permission-boundary.md`, `../deliverables/P0-CR01-independent-leads-and-prospecting-scope.md`, and the lifecycle sections of `../deliverables/window-sales-operations-master-plan.md`. Decisions 1 through 15 are approved, with D-035 superseded by D-037 and D-040 superseded by D-041. Resume at Decision 16, the minimum CRM field set, without opening a CRM account, using real customer data, or treating the field proposal as approved before the user accepts it.
+Read this file, Session S-021 in `SESSION_LOG.md`, `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimum-fields.md`, and the linked signed CP-001 and CP-002 artifacts. Present the CP-003 checkpoint packet and request explicit sign-off without opening a CRM account, using real customer data, or treating CP-003 as complete before the user signs off.

@@ -2,7 +2,7 @@
 
 ## Master Project Plan
 
-**Version:** 1.22
+**Version:** 1.23
 **Status:** Working source of truth  
 **Updated:** July 29, 2026  
 **Primary team:** Window-covering sales consultant and technical partner
@@ -127,6 +127,8 @@ An opportunity may exit as `Lost / Canceled` from any applicable stage. An insta
 **Approved next-action rule for `Handoff Complete - Installation Pending`:** Create the first installation-check task for six weeks after the DocuSign-sent date on Costco/Centah work or six weeks after the coordinator-email date on independent work. At the check, move to `Installed - Customer Follow-Up Due` only after a person confirms installation. If installation is not confirmed, record a note and schedule another check in two to three weeks. At three months after the sold quote was emailed to the internal order coordinator, stop routine deferral, show an urgent overdue-installation exception, and create a same-day task to contact the coordinator. Record the result, contact the customer if the coordinator cannot confirm installation, and never mark installation complete automatically.
 
 **Approved next-action rule for `Installed - Customer Follow-Up Due`:** After installation is confirmed, create one manual customer follow-up due by the end of the next working day and record the result. If the customer confirms everything is satisfactory, move the opportunity to `Finished` and schedule the approved six-month past-customer reminder. If the customer reports a problem, do not mark the opportunity finished; keep it at `Installed - Customer Follow-Up Due`, flag the unresolved problem, and require a next action. If the customer does not answer the one follow-up attempt, record `Post-Install Follow-Up Attempted - No Response`, move the confirmed-installed opportunity to `Finished`, and stop post-install reminders. Schedule the six-month past-customer reminder only when the customer has not opted out and there is no known unresolved problem. Detailed repair-case management remains outside the initial CRM scope.
+
+**Approved minimum CRM information:** The customer/contact record stores the display name, at least one reachable channel or location, prospect state when applicable, preferred contact method, acquisition source/date, permission status, overall do-not-contact details, channel-specific opt-outs, and any unresolved-problem indicator. The opportunity/job stores the linked customer, service address, source/detail, conditional Centah lead number, stage, last contact, next action/due date, appointment, quote amount/date, acceptance and source-specific handoff dates, installation status/date, post-install result, closure outcome, and any exception reason. Tasks and activities store their linked customer/job, type, due and completion times, status, and result/note. The complete requirement table is in `P0-W02-target-lifecycle-next-actions-and-minimum-fields.md`.
 
 ### O2. Communication policy
 
@@ -490,7 +492,7 @@ ChatGPT should distinguish confirmed facts, assumptions, decisions, and open que
 **Technical/configuration:** create the weighted platform scorecard, synthetic fixtures, scripted mobile scenarios, field inventory, Centah discovery checklist, and vendor/security questions.  
 **Gate:** the two-person team agrees on the synthetic-only trial boundary, mandatory requirements, and scoring method. CP-001 confirmed permission to transfer approved real fields, but real imports and external integrations remain blocked until production access, security, retention, and connection controls are defined.
 
-**Progress:** P0-W01 was signed off at CP-001. CP-002 then approved the independent-lead and prospecting scope, including prospect capture, conversion, reminders, communication preferences, source-specific post-sale rules, installation exceptions, and past-customer outreach. Within P0-W02, D-033 approved the prospect-to-opportunity conversion rule and D-034 approved the active-opportunity stage sequence. Stage-specific next-action rules and minimum CRM fields remain to be approved before CP-003.
+**Progress:** P0-W01 was signed off at CP-001. CP-002 then approved the independent-lead and prospecting scope. Within P0-W02, Decisions D-033 through D-048 now define the conversion rule, active-job stages, stage-specific next actions, communication timing, quote and handoff rules, installation/post-install outcomes, and minimum CRM fields. The consolidated P0-W02 artifact passed its sanitized walkthrough and acceptance review and is awaiting CP-003 sign-off.
 
 ### Phase 1 - Zoho prototype and HubSpot comparison (weeks 2-3)
 
@@ -616,6 +618,7 @@ Update this table whenever a decision changes. Supersede rather than delete prio
 | D-045 | Accepted | After handoff, check installation at six weeks using the approved source-specific anchor, defer by two to three weeks when unconfirmed, and escalate visibly at three months with human verification | Turns the approved post-sale timing into dated tasks and prevents false installation completion or endless routine deferral | Installation timing, coordinator visibility, or escalation responsibility changes |
 | D-046 | Accepted | Complete one manual post-install customer follow-up by the end of the next working day; finish satisfactory jobs and keep reported problems visibly unresolved with a next action | Closes completed work promptly, starts the approved past-customer cycle, and prevents a problem from being hidden by a finished status | Customer-service responsibility or the initial support boundary changes |
 | D-047 | Accepted | After one unanswered post-install follow-up on a confirmed-installed job, record `Post-Install Follow-Up Attempted - No Response`, mark the job `Finished`, and schedule past-customer outreach only when eligible | Honors the one-follow-up scope, avoids reminder clutter, and preserves opt-out and unresolved-problem exclusions | Customer-service policy requires additional attempts or a different closure outcome |
+| D-048 | Accepted | Use the minimum customer, job, and task/activity field set in the P0-W02 artifact, with the Centah lead number required and unique only for Costco/Centah jobs | Stores only information the approved workflow uses while preserving next actions, source boundaries, permissions, and traceability | Prototype limitations or observed workflow needs require a field change |
 
 ## 14. Immediate next actions
 

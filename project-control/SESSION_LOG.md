@@ -817,3 +817,46 @@ Decisions 1 through 14 are complete. Present Decision 15 in plain language: deci
 ### Saved ending point
 
 Decisions 1 through 15 are complete. Present Decision 16 in plain language: approve or revise the minimum information stored on customer, opportunity, and task/activity records.
+
+## Session S-021 - P0-W02 Decision 16 approved and CP-003 prepared
+
+**Date:** July 29, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W02 - Target lifecycle, next-action rules, and minimum CRM fields
+
+**Checkpoint:** CP-003 awaiting sign-off
+
+**Sign-off status:** Decision 16 approved; checkpoint packet prepared but not signed off
+
+**Approval evidence:** The user answered “clock it biotch” to the proposed minimum customer, job, and task/activity field set.
+
+### Accepted decision
+
+- **Accepted (D-048):** Use the minimum field set consolidated in `deliverables/P0-W02-target-lifecycle-next-actions-and-minimum-fields.md`.
+- Store the Centah lead number only on Costco/Centah jobs, where it is required and unique; prohibit it on independent jobs.
+- Keep detailed quote-file storage deferred while requiring the quoted amount and quote-sent date.
+- Require next action and due date on every active prospect and job unless an approved exception is recorded.
+
+### Validation
+
+- Consolidated the sixteen approved P0-W02 decisions into one checkpoint artifact.
+- Walked a sanitized independent prospect from capture through conversion, handoff, installation, closure, and eligible past-customer reminder.
+- Walked a sanitized Costco/Centah job through its required identifier, DocuSign-plus-email handoff, source-specific installation anchor, three-month exception, and post-install outcome.
+- Confirmed that every active stage has a dated next action or an explicit exception.
+- Confirmed that the Centah lead number is required and unique only for Costco/Centah jobs.
+- Confirmed that all examples use synthetic identifiers, `.invalid` email addresses, and no real customer data.
+- Confirmed that no CRM account, external integration, automated communication, or production-data action occurred.
+
+### Files changed
+
+- `deliverables/P0-W02-target-lifecycle-next-actions-and-minimum-fields.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Present the CP-003 checkpoint packet. CP-003 remains unsigned until the user explicitly signs it off.
