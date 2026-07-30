@@ -779,3 +779,41 @@ Decisions 1 through 13 are complete. Present Decision 14 in plain language: deci
 ### Saved ending point
 
 Decisions 1 through 14 are complete. Present Decision 15 in plain language: decide how to close a confirmed-installed job when the customer does not answer the one post-install follow-up attempt.
+
+## Session S-020 - P0-W02 Decision 15 approved
+
+**Date:** July 29, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W02 - Target lifecycle, next-action rules, and minimum CRM fields
+
+**Checkpoint:** CP-003 pending
+
+**Sign-off status:** Work unit in progress; Decision 15 explicitly approved
+
+**Approval evidence:** The user answered “yasss i love itttt” to the proposed post-install no-response closure rule.
+
+### Accepted decision
+
+- **Accepted (D-047):** If the customer does not answer the one post-install follow-up on a confirmed-installed job, record `Post-Install Follow-Up Attempted - No Response`.
+- Mark the opportunity `Finished` and stop post-install reminders.
+- Schedule the six-month past-customer reminder only if the customer has not opted out and there is no known unresolved problem.
+- Preserve the follow-up result and job history.
+
+### Approval boundary
+
+- This approval completes the normal post-install closure outcomes.
+- The minimum CRM field set remains unapproved.
+- The sanitized end-to-end validation and CP-003 sign-off remain pending.
+
+### Files changed
+
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Decisions 1 through 15 are complete. Present Decision 16 in plain language: approve or revise the minimum information stored on customer, opportunity, and task/activity records.
