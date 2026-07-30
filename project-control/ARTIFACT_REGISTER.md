@@ -8,7 +8,7 @@
 | `../deliverables/window-sales-operations-master-plan.docx` | Non-authoritative editable distribution copy | Version 1.4; stale by design until final release or explicit sharing milestone | Regenerate and visually verify only for a release or requested sharing copy |
 | `GUIDED_WORKFLOW.md` | Authoritative session and checkpoint procedure | Current | Workflow-control rule changes |
 | `CURRENT_STATE.md` | Authoritative restart point | P0-W03 ready to begin after CP-003 | Every sign-off, session stop, blocker, or active-work-unit change |
-| `SESSION_LOG.md` | Append-only execution history | S-022 records CP-003 sign-off and the P0-W03 handoff | Every sign-off or session close |
+| `SESSION_LOG.md` | Append-only execution history | S-023 records the GitHub collaborator handoff clarification; CP-003 remains the last product checkpoint | Every sign-off or session close |
 | `ARTIFACT_REGISTER.md` | Artifact authority and synchronization inventory | Current | Artifact added, renamed, superseded, or found stale |
 | `../deliverables/P0-W01-current-workflow-and-permission-boundary.md` | Signed P0-W01 workflow and permission boundary | Approved at CP-001 | Supersede only through a later signed checkpoint |
 | `../deliverables/P0-CR01-independent-leads-and-prospecting-scope.md` | Signed scope-change record | Approved at CP-002 | Supersede only through a later signed checkpoint |

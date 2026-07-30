@@ -121,4 +121,4 @@ Review the P0-W03 work-unit contract with the user, then define the mandatory pa
 
 ## Resume instruction
 
-Read this file, Session S-022 in `SESSION_LOG.md`, `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimum-fields.md`, and the platform-evaluation sections of `../deliverables/window-sales-operations-master-plan.md`. Begin P0-W03 with mandatory pass/fail requirements and do not create CRM accounts, use real customer data, connect external systems, or treat any scorecard proposal as approved before its checkpoint.
+Read this file, Sessions S-022 and S-023 in `SESSION_LOG.md`, `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimum-fields.md`, and the platform-evaluation sections of `../deliverables/window-sales-operations-master-plan.md`. Begin P0-W03 with mandatory pass/fail requirements and do not create CRM accounts, use real customer data, connect external systems, or treat any scorecard proposal as approved before its checkpoint.

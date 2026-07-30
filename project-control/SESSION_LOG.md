@@ -908,3 +908,34 @@ Present the CP-003 checkpoint packet. CP-003 remains unsigned until the user exp
 ### Saved ending point
 
 CP-003 is complete. P0-W03 is ready to define mandatory platform gates, weighted scorecard criteria, evidence rules, and common synthetic mobile test scenarios before any CRM account is created.
+
+## Session S-023 - GitHub collaborator handoff clarified
+
+**Date:** July 29, 2026
+
+**Phase:** Project infrastructure
+
+**Work unit:** Collaborator onboarding and durable handoff
+
+**Checkpoint:** No new product checkpoint
+
+**Sign-off status:** Operational save requested by the user; CP-003 remains the last product approval
+
+### Completed
+
+- Confirmed that CP-003 was already signed, committed, and pushed before this operational clarification.
+- Corrected the stale current-position summary in `README.md` from CP-002/P0-W02 to CP-003/P0-W03.
+- Added explicit instructions for another GitHub collaborator to clone or open the repository, start a new Codex task, read `AGENTS.md`, and resume from `CURRENT_STATE.md`.
+- Clarified that the repository transfers durable project context, not the original Codex or ChatGPT transcript, personal memories, credentials, connected apps, or uncommitted changes.
+- Recommended separate branches or worktrees for concurrent collaboration.
+
+### Files changed
+
+- `README.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+The GitHub repository is ready to serve as the handoff packet for a new collaborator. P0-W03 remains ready to begin with mandatory platform pass/fail requirements.
