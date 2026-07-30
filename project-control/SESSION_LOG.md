@@ -267,3 +267,42 @@ Repository backup is established without changing the P0-W02 product decision st
 ### Saved ending point
 
 Decision 1 is complete. Present Decision 2 in plain language: approve or revise the proposed active-opportunity stage sequence before defining the required next action for each stage.
+
+## Session S-007 - P0-W02 Decision 2 approved
+
+**Date:** July 29, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W02 - Target lifecycle, next-action rules, and minimum CRM fields
+
+**Checkpoint:** CP-003 pending
+
+**Sign-off status:** Work unit in progress; Decision 2 explicitly approved
+
+**Approval evidence:** After reviewing the recommended job-status list in plain language, the user said, “approved.”
+
+### Accepted decision
+
+- **Accepted (D-034):** Use ten plain-language active-opportunity stages: `New Customer Request`, `Trying to Contact`, `Appointment Scheduled`, `Appointment Completed`, `Preparing Quote`, `Quote Sent - Awaiting Decision`, `Customer Accepted - Handoff Due`, `Handoff Complete - Installation Pending`, `Installed - Customer Follow-Up Due`, and `Finished`.
+- Allow `Lost / Canceled` as an exit from any applicable stage.
+- Show an installation that remains unconfirmed at three months as a visible overdue-installation exception.
+- Do not use normal stages that claim an order was placed or installation was scheduled unless the consultant receives reliable confirmation.
+
+### Approval boundary
+
+- This approval covers the active-opportunity stage sequence only.
+- Stage-specific next-action rules and due timing remain unapproved.
+- The minimum CRM field set remains unapproved.
+- CP-003 remains pending.
+
+### Files changed
+
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Decisions 1 and 2 are complete. Present Decision 3 in plain language, beginning with how quickly a `New Customer Request` must receive its first contact attempt.

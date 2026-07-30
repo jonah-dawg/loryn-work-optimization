@@ -2,7 +2,7 @@
 
 ## Master Project Plan
 
-**Version:** 1.8
+**Version:** 1.9
 **Status:** Working source of truth  
 **Updated:** July 29, 2026  
 **Primary team:** Window-covering sales consultant and technical partner
@@ -93,21 +93,20 @@ The target design uses two connected lifecycles so future prospects do not disto
 
 **Accepted prospect-to-opportunity conversion rule:** A prospect becomes an active opportunity only when a real window-covering project is confirmed and the initial consultation is scheduled. At conversion, close the prospecting sequence as `Converted`, retain the reusable customer record and all prospecting history, and create one opportunity for that specific project at `Consultation Scheduled`. The first required next action is the morning-of appointment confirmation. A direct inquiry about an immediate project may enter the active-opportunity lifecycle at `Consultation Scheduled` without first passing through prospecting.
 
-**Active-opportunity lifecycle candidate for P0-W02:**
+**Approved active-opportunity lifecycle:**
 
-1. New.
-2. Contact attempted.
-3. Consultation scheduled.
-4. Consultation completed.
-5. Quote in progress.
-6. Quote sent.
-7. Follow-up.
-8. Accepted.
-9. Ordered.
-10. Installation scheduled.
-11. Installed.
-12. Closed.
-13. Lost or canceled.
+1. `New Customer Request`.
+2. `Trying to Contact`.
+3. `Appointment Scheduled`.
+4. `Appointment Completed`.
+5. `Preparing Quote`.
+6. `Quote Sent - Awaiting Decision`.
+7. `Customer Accepted - Handoff Due`.
+8. `Handoff Complete - Installation Pending`.
+9. `Installed - Customer Follow-Up Due`.
+10. `Finished`.
+
+An opportunity may exit as `Lost / Canceled` from any applicable stage. An installation that remains unconfirmed at the approved three-month boundary receives a visible overdue-installation exception instead of advancing automatically or remaining in routine deferral indefinitely. The sequence deliberately avoids asserting that an order was placed or an installation was scheduled when the consultant has not received confirmation of those events.
 
 **Invariant:** Every active opportunity has a current stage, last-contact timestamp, next action, and next-action date. Exceptions require a recorded reason.
 
@@ -475,7 +474,7 @@ ChatGPT should distinguish confirmed facts, assumptions, decisions, and open que
 **Technical/configuration:** create the weighted platform scorecard, synthetic fixtures, scripted mobile scenarios, field inventory, Centah discovery checklist, and vendor/security questions.  
 **Gate:** the two-person team agrees on the synthetic-only trial boundary, mandatory requirements, and scoring method. CP-001 confirmed permission to transfer approved real fields, but real imports and external integrations remain blocked until production access, security, retention, and connection controls are defined.
 
-**Progress:** P0-W01 was signed off at CP-001. CP-002 then approved the independent-lead and prospecting scope, including prospect capture, conversion, reminders, communication preferences, source-specific post-sale rules, installation exceptions, and past-customer outreach. P0-W02 will now define connected prospecting and active-opportunity lifecycles, their next-action rules, and minimum CRM fields.
+**Progress:** P0-W01 was signed off at CP-001. CP-002 then approved the independent-lead and prospecting scope, including prospect capture, conversion, reminders, communication preferences, source-specific post-sale rules, installation exceptions, and past-customer outreach. Within P0-W02, D-033 approved the prospect-to-opportunity conversion rule and D-034 approved the active-opportunity stage sequence. Stage-specific next-action rules and minimum CRM fields remain to be approved before CP-003.
 
 ### Phase 1 - Zoho prototype and HubSpot comparison (weeks 2-3)
 
@@ -587,6 +586,7 @@ Update this table whenever a decision changes. Supersede rather than delete prio
 | D-031 | Accepted | Treat Markdown as the live source of truth and generate the Word distribution copy only at a final release or explicit sharing milestone | Keeps every checkpoint fast and visible while retaining a polished sharing artifact when it is actually needed | A stakeholder requires synchronized Word copies during execution |
 | D-032 | Accepted | Back up the authoritative Markdown and project-control files to `jonah-dawg/loryn-work-optimization` on GitHub | Provides version history and recovery outside the app-managed ChatGPT Project directory | Repository ownership, visibility, or working-location strategy changes |
 | D-033 | Accepted | Convert a prospect into one project-specific opportunity when a real project is confirmed and the initial consultation is scheduled | Preserves the customer and prospecting history, starts the opportunity at `Consultation Scheduled`, and makes the morning-of confirmation its first required next action; immediate-project inquiries may enter there directly | The observed sales process needs an earlier or later qualification point |
+| D-034 | Accepted | Use ten plain-language active-opportunity stages from `New Customer Request` through `Finished`, with `Lost / Canceled` as an exit and overdue installation as a visible exception | Gives the consultant understandable job statuses while avoiding unverified claims that an order was placed or installation was scheduled | Daily use shows a missing state, ambiguous wording, or a state the consultant cannot reliably verify |
 
 ## 14. Immediate next actions
 

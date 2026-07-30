@@ -4,7 +4,7 @@
 **Overall status:** Active - guided execution underway  
 **Current phase:** Phase 0 - Authority, workflow, and evaluation design  
 **Active work unit:** P0-W02 - Target lifecycle, next-action rules, and minimum CRM fields  
-**Work-unit status:** In progress; Decision 1 approved, Decision 2 next
+**Work-unit status:** In progress; Decisions 1 and 2 approved, Decision 3 next
 **Last signed-off checkpoint:** CP-002 - Independent leads and prospecting scope (July 29, 2026)
 
 ## Confirmed baseline
@@ -28,6 +28,7 @@
 - Approved prospecting activities are calls, texts, emails, social messages, in-person/networking conversations, mailed material, referral requests or introductions, research/preparation, and notes.
 - Default reminder intervals are 2 days for engaged prospects, 7 days for warm prospects/referrals, 30 days for cold outreach or purchased-list prospects, 90 days for long-term prospects, and 6 months for past customers with possible future work; all are manually overridable and do not send automatically.
 - A prospect converts when a real project is confirmed and the initial meeting is scheduled. The prospecting sequence closes as `Converted`, the customer and activity history remain intact, and one opportunity for that project begins at `Consultation Scheduled` with the morning-of confirmation as its next action. A direct inquiry about an immediate project may enter at this stage without first using prospecting.
+- The approved active-job statuses are `New Customer Request`, `Trying to Contact`, `Appointment Scheduled`, `Appointment Completed`, `Preparing Quote`, `Quote Sent - Awaiting Decision`, `Customer Accepted - Handoff Due`, `Handoff Complete - Installation Pending`, `Installed - Customer Follow-Up Due`, and `Finished`. `Lost / Canceled` is an exit available where applicable, and an installation unconfirmed at three months becomes a visible exception.
 - After acceptance, Centah/Costco opportunities require DocuSign and an emailed quote to the internal order coordinator in parallel. Opportunities outside Centah/Costco skip DocuSign and require only the emailed quote to the internal order coordinator.
 - The six-week installation-check timer starts on the DocuSign-sent date for Centah/Costco sales and on the internal-order-email date for sales outside Centah/Costco.
 - Installation should never take more than three months from the date the sold quote is emailed to the internal order coordinator; an unconfirmed installation at that boundary must become a visible exception rather than receiving indefinite routine deferrals.
@@ -94,12 +95,12 @@ CP-002 approved `../deliverables/P0-CR01-independent-leads-and-prospecting-scope
 
 ## Approved progress within current work unit
 
-P0-W02 Decision 1 was explicitly approved by the user on July 29, 2026 and is recorded as D-033. No other P0-W02 stages, stage-specific next-action rules, or minimum fields are approved yet.
+P0-W02 Decision 1 was explicitly approved by the user on July 29, 2026 and is recorded as D-033. Decision 2, the plain-language active-opportunity stage sequence, was explicitly approved the same day and is recorded as D-034. Stage-specific next-action rules and minimum fields are not approved yet.
 
 ## Exact next action
 
-Review P0-W02 Decision 2 with the user in plain language: accept or revise the proposed active-opportunity stage sequence before assigning the required next action to each stage.
+Review P0-W02 Decision 3 with the user in plain language: decide how quickly a new customer request must receive its first contact attempt. Then continue one stage at a time through the required next action and due timing.
 
 ## Resume instruction
 
-Read this file, Sessions S-004 and S-006 in `SESSION_LOG.md`, `../deliverables/P0-W01-current-workflow-and-permission-boundary.md`, `../deliverables/P0-CR01-independent-leads-and-prospecting-scope.md`, and the lifecycle sections of `../deliverables/window-sales-operations-master-plan.md`. Decision 1 is approved as D-033. Resume at Decision 2, the proposed active-opportunity stage sequence, without opening a CRM account, using real customer data, or treating later stage/field proposals as approved before CP-003.
+Read this file, Sessions S-004, S-006, and S-007 in `SESSION_LOG.md`, `../deliverables/P0-W01-current-workflow-and-permission-boundary.md`, `../deliverables/P0-CR01-independent-leads-and-prospecting-scope.md`, and the lifecycle sections of `../deliverables/window-sales-operations-master-plan.md`. Decisions 1 and 2 are approved as D-033 and D-034. Resume at Decision 3, the first-contact timing for `New Customer Request`, without opening a CRM account, using real customer data, or treating later next-action/field proposals as approved before CP-003.
