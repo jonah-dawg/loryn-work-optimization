@@ -939,3 +939,41 @@ CP-003 is complete. P0-W03 is ready to define mandatory platform gates, weighted
 ### Saved ending point
 
 The GitHub repository is ready to serve as the handoff packet for a new collaborator. P0-W03 remains ready to begin with mandatory platform pass/fail requirements.
+
+## Session S-024 - Shared Project mobile collaboration packet added
+
+**Date:** July 30, 2026
+
+**Phase:** Project infrastructure
+
+**Work unit:** Collaborator onboarding and asynchronous guided input
+
+**Checkpoint:** No new product checkpoint
+
+**Sign-off status:** Operational setup requested by the user; CP-003 remains the last product approval
+
+### Completed
+
+- Added `COLLABORATOR_PACKET.md` as the mobile-ready setup and handoff guide for a shared ChatGPT Project.
+- Added copy-ready Project instructions and a launch prompt that enforce one-question-at-a-time intake, `unknown` as a valid answer, explicit approval boundaries, and synthetic-only content.
+- Added twelve P0-W03 operational questions covering essential phone actions, unacceptable friction, daily queues, prospect capture, reminders, Costco/Centah clarity, appointment and quote context, installation exceptions, weak connectivity, maintenance burden, access, and final must-have requirements.
+- Added a structured collaborator handoff format and repository reconciliation checklist.
+- Linked the packet from `README.md` and registered it in the project-control files.
+
+### Approval boundary
+
+- The packet changes the collaboration process only; it does not approve any P0-W03 platform requirement, score, weight, account, integration, or vendor selection.
+- Answers collected through the shared Project remain unapproved input until reconciled through the guided workflow and explicitly signed off.
+- CP-003 remains the last signed-off checkpoint, and P0-W03 remains ready to begin with mandatory pass/fail requirements.
+
+### Files changed
+
+- `README.md`
+- `project-control/COLLABORATOR_PACKET.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Create and share the cloud ChatGPT Project using `COLLABORATOR_PACKET.md`, then begin the collaborator's mobile intake at LQ-001. Reconcile the resulting handoff before drafting or approving the P0-W03 mandatory platform requirements.

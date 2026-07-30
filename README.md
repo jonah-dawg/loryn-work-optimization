@@ -22,6 +22,8 @@ The project evaluates and configures an existing low-cost CRM before considering
 
 The repository preserves the durable project state, decisions, rules, and exact restart point. It does not transfer a Codex or ChatGPT chat transcript to another person.
 
+For asynchronous guided questions in the ChatGPT mobile app, use [`project-control/COLLABORATOR_PACKET.md`](project-control/COLLABORATOR_PACKET.md). It contains the shared Project instructions, source list, launch prompt, P0-W03 question queue, privacy boundary, and repository reconciliation checklist.
+
 To continue the project in a new Codex task:
 
 1. Obtain access to this GitHub repository and clone or open it as the Codex project folder.

@@ -1,6 +1,7 @@
 # Current Project State
 
-**Updated:** July 29, 2026  
+**Updated:** July 30, 2026
+
 **Overall status:** Active - guided execution underway  
 **Current phase:** Phase 0 - Authority, workflow, and evaluation design  
 **Active work unit:** P0-W03 - CRM platform scorecard and synthetic mobile test scenarios
@@ -101,6 +102,7 @@ CP-003 approved `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimu
 - Use separate project chats for materially different outcomes and reconcile their results into the guided checkpoint before sign-off.
 - Treat Markdown and project-control files as authoritative; chat transcripts and Word copies are not restart sources.
 - Generate and fully verify Word only at a final release or explicit sharing milestone.
+- Use `COLLABORATOR_PACKET.md` to collect asynchronous mobile input in a shared ChatGPT Project. Its handoffs remain unapproved until reconciled and explicitly signed off through this repository workflow.
 
 ## Repository backup
 
