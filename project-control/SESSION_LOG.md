@@ -502,3 +502,42 @@ Decisions 1 through 6 are complete. Present Decision 7 in plain language: decide
 ### Saved ending point
 
 Decisions 1 through 7 are complete. Present Decision 8 in plain language: decide when the first customer follow-up is due after a quote is sent.
+
+## Session S-013 - P0-W02 Decision 8 approved
+
+**Date:** July 29, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W02 - Target lifecycle, next-action rules, and minimum CRM fields
+
+**Checkpoint:** CP-003 pending
+
+**Sign-off status:** Work unit in progress; Decision 8 explicitly approved
+
+**Approval evidence:** The user answered “yes” to the proposed first post-quote follow-up timing and handling.
+
+### Accepted decision
+
+- **Accepted (D-040):** When a quote is sent, create the first manual customer follow-up task for two working days later.
+- Use the customer's preferred and permitted channel.
+- If the customer responds before the reminder is due, cancel the reminder and record the answer and resulting next action or outcome.
+- Do not send the follow-up automatically.
+
+### Approval boundary
+
+- This approval covers only the first follow-up after a quote is sent.
+- Timing and limits for later unanswered quote follow-ups remain unapproved.
+- Later stage-specific next-action rules and the minimum CRM field set remain unapproved.
+- CP-003 remains pending.
+
+### Files changed
+
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Decisions 1 through 8 are complete. Present Decision 9 in plain language: decide when the next follow-up is due after an unanswered first post-quote follow-up.
