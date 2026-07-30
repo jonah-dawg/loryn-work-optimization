@@ -582,3 +582,42 @@ Decisions 1 through 8 are complete. Present Decision 9 in plain language: decide
 ### Saved ending point
 
 Decisions 1 through 9 are complete. Present Decision 10 in plain language: decide what reminder follows if the three-working-day post-quote follow-up does not produce a customer decision.
+
+## Session S-015 - P0-W02 Decision 10 approved
+
+**Date:** July 29, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W02 - Target lifecycle, next-action rules, and minimum CRM fields
+
+**Checkpoint:** CP-003 pending
+
+**Sign-off status:** Work unit in progress; Decision 10 explicitly approved
+
+**Approval evidence:** The user answered “yes” to the proposed one-week follow-up after an unanswered three-working-day quote follow-up.
+
+### Accepted decision
+
+- **Accepted (D-042):** If the three-working-day post-quote follow-up receives no response, create another manual follow-up for one week later.
+- Schedule the contact during normal calling hours.
+- Keep the opportunity at `Quote Sent - Awaiting Decision` until the customer decides or another explicit outcome is recorded.
+- Do not send the follow-up automatically.
+
+### Approval boundary
+
+- This approval covers the next follow-up interval only.
+- The number of later weekly follow-ups and the closure rule for an unresponsive quote remain unapproved.
+- Later stage-specific next-action rules and the minimum CRM field set remain unapproved.
+- CP-003 remains pending.
+
+### Files changed
+
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Decisions 1 through 10 are complete. Present Decision 11 in plain language: decide how long weekly quote follow-ups continue and what closes an unresponsive quote.

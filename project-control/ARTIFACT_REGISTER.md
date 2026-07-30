@@ -4,11 +4,11 @@
 
 | Artifact | Authority | Current status | Update trigger |
 |---|---|---|---|
-| `../deliverables/window-sales-operations-master-plan.md` | Authoritative product and delivery plan | Version 1.16; current | Material scope, architecture, roadmap, risk, governance, process, or decision change |
+| `../deliverables/window-sales-operations-master-plan.md` | Authoritative product and delivery plan | Version 1.17; current | Material scope, architecture, roadmap, risk, governance, process, or decision change |
 | `../deliverables/window-sales-operations-master-plan.docx` | Non-authoritative editable distribution copy | Version 1.4; stale by design until final release or explicit sharing milestone | Regenerate and visually verify only for a release or requested sharing copy |
 | `GUIDED_WORKFLOW.md` | Authoritative session and checkpoint procedure | Current | Workflow-control rule changes |
-| `CURRENT_STATE.md` | Authoritative restart point | P0-W02 in progress; Decisions 1 through 9 approved and Decision 10 next after CP-002 | Every sign-off, session stop, blocker, or active-work-unit change |
-| `SESSION_LOG.md` | Append-only execution history | S-014 records Decision 9 and the revised quote follow-up rule; CP-002 remains the last completed work-unit checkpoint | Every sign-off or session close |
+| `CURRENT_STATE.md` | Authoritative restart point | P0-W02 in progress; Decisions 1 through 10 approved and Decision 11 next after CP-002 | Every sign-off, session stop, blocker, or active-work-unit change |
+| `SESSION_LOG.md` | Append-only execution history | S-015 records Decision 10 and the one-week quote follow-up; CP-002 remains the last completed work-unit checkpoint | Every sign-off or session close |
 | `ARTIFACT_REGISTER.md` | Artifact authority and synchronization inventory | Current | Artifact added, renamed, superseded, or found stale |
 | `../deliverables/P0-W01-current-workflow-and-permission-boundary.md` | Signed P0-W01 workflow and permission boundary | Approved at CP-001 | Supersede only through a later signed checkpoint |
 | `../deliverables/P0-CR01-independent-leads-and-prospecting-scope.md` | Signed scope-change record | Approved at CP-002 | Supersede only through a later signed checkpoint |

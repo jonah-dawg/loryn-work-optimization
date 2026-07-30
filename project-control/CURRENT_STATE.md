@@ -4,7 +4,7 @@
 **Overall status:** Active - guided execution underway  
 **Current phase:** Phase 0 - Authority, workflow, and evaluation design  
 **Active work unit:** P0-W02 - Target lifecycle, next-action rules, and minimum CRM fields  
-**Work-unit status:** In progress; Decisions 1 through 9 approved, Decision 10 next
+**Work-unit status:** In progress; Decisions 1 through 10 approved, Decision 11 next
 **Last signed-off checkpoint:** CP-002 - Independent leads and prospecting scope (July 29, 2026)
 
 ## Confirmed baseline
@@ -35,6 +35,7 @@
 - After a completed appointment that requires a quote, the primary goal is to finish and manually send the quote by the end of that same working day. If it is not sent by closing time, the quote task becomes visibly overdue and remains open until a new due date is recorded or the quote is sent.
 - When the same-day quote target is missed, require a short delay reason and set the fallback deadline to the end of the next working day. A missed fallback stays overdue and requires another deliberate date and reason rather than being silently rescheduled.
 - Immediately after emailing a quote, send a manual message through the customer's preferred and permitted channel telling them the quote was sent and asking them to check their email. Create the next manual decision-follow-up task for three working days later. If the customer responds first, cancel the reminder and record the response and resulting next action. No message is sent automatically.
+- If the three-working-day post-quote follow-up receives no response, create another manual follow-up for one week later during normal calling hours and keep the opportunity at `Quote Sent - Awaiting Decision`.
 - After acceptance, Centah/Costco opportunities require DocuSign and an emailed quote to the internal order coordinator in parallel. Opportunities outside Centah/Costco skip DocuSign and require only the emailed quote to the internal order coordinator.
 - The six-week installation-check timer starts on the DocuSign-sent date for Centah/Costco sales and on the internal-order-email date for sales outside Centah/Costco.
 - Installation should never take more than three months from the date the sold quote is emailed to the internal order coordinator; an unconfirmed installation at that boundary must become a visible exception rather than receiving indefinite routine deferrals.
@@ -101,12 +102,12 @@ CP-002 approved `../deliverables/P0-CR01-independent-leads-and-prospecting-scope
 
 ## Approved progress within current work unit
 
-P0-W02 Decisions 1 through 9 were explicitly approved by the user on July 29, 2026. D-033, D-034, D-036 through D-039, and D-041 remain active. D-035 was superseded by D-037, and D-040 was superseded by D-041. These decisions cover prospect conversion, active-job stages, contact timing, the three-attempt no-response rule, calling hours, the confirmation-text exception, quote deadlines, the immediate quote-sent notice, and the three-working-day decision follow-up. Later stage-specific next-action rules and minimum fields are not approved yet.
+P0-W02 Decisions 1 through 10 were explicitly approved by the user on July 29, 2026. D-033, D-034, D-036 through D-039, and D-041 through D-042 remain active. D-035 was superseded by D-037, and D-040 was superseded by D-041. These decisions cover prospect conversion, active-job stages, contact timing, the three-attempt no-response rule, calling hours, the confirmation-text exception, quote deadlines, the immediate quote-sent notice, and the first two dated decision follow-ups. Later stage-specific next-action rules and minimum fields are not approved yet.
 
 ## Exact next action
 
-Review P0-W02 Decision 10 with the user in plain language: decide what reminder should follow if the three-working-day post-quote follow-up does not produce a customer decision.
+Review P0-W02 Decision 11 with the user in plain language: decide how long weekly quote follow-ups continue and what explicit outcome closes an unresponsive quote.
 
 ## Resume instruction
 
-Read this file, Sessions S-004 and S-006 through S-014 in `SESSION_LOG.md`, `../deliverables/P0-W01-current-workflow-and-permission-boundary.md`, `../deliverables/P0-CR01-independent-leads-and-prospecting-scope.md`, and the lifecycle sections of `../deliverables/window-sales-operations-master-plan.md`. Decisions 1 through 9 are approved, with D-035 superseded by D-037 and D-040 superseded by D-041. Resume at Decision 10, the next reminder after an unanswered three-working-day post-quote follow-up, without opening a CRM account, using real customer data, or treating later next-action/field proposals as approved before CP-003.
+Read this file, Sessions S-004 and S-006 through S-015 in `SESSION_LOG.md`, `../deliverables/P0-W01-current-workflow-and-permission-boundary.md`, `../deliverables/P0-CR01-independent-leads-and-prospecting-scope.md`, and the lifecycle sections of `../deliverables/window-sales-operations-master-plan.md`. Decisions 1 through 10 are approved, with D-035 superseded by D-037 and D-040 superseded by D-041. Resume at Decision 11, the weekly quote-follow-up limit and closure outcome, without opening a CRM account, using real customer data, or treating later next-action/field proposals as approved before CP-003.
