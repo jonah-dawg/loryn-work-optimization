@@ -2,7 +2,7 @@
 
 ## Master Project Plan
 
-**Version:** 1.48
+**Version:** 1.49
 **Status:** Working source of truth  
 **Updated:** July 30, 2026
 **Primary team:** Window-covering sales consultant and technical partner
@@ -492,7 +492,7 @@ ChatGPT should distinguish confirmed facts, assumptions, decisions, and open que
 **Technical/configuration:** create the weighted platform scorecard, synthetic fixtures, scripted mobile scenarios, field inventory, Centah discovery checklist, and vendor/security questions.  
 **Gate:** the two-person team agrees on the synthetic-only trial boundary, mandatory requirements, and scoring method. CP-001 confirmed permission to transfer approved real fields, but real imports and external integrations remain blocked until production access, security, retention, and connection controls are defined.
 
-**Progress:** P0-W01 was signed off at CP-001. CP-002 approved the independent-lead and prospecting scope. CP-003 approved the connected prospecting and active-job lifecycles, stage-specific next actions, communication timing, quote and handoff rules, installation/post-install outcomes, minimum CRM fields, and sanitized validation. CP-004 approved the P0-W03 platform-evaluation method. Phase 1 has started with an approved P1-W01 execution contract for a synthetic Zoho prototype and evaluator screening. Account creation and synthetic configuration remain separately gated and unapproved.
+**Progress:** P0-W01 was signed off at CP-001. CP-002 approved the independent-lead and prospecting scope. CP-003 approved the connected prospecting and active-job lifecycles, stage-specific next actions, communication timing, quote and handoff rules, installation/post-install outcomes, minimum CRM fields, and sanitized validation. CP-004 approved the P0-W03 platform-evaluation method. Phase 1 has started with an approved P1-W01 execution contract for a synthetic Zoho prototype and evaluator screening. Loryn is authorized to create the neutral-label Zoho Free account under the approved procedure; synthetic configuration and testing remain separately gated and unapproved.
 
 ### Phase 1 - Zoho prototype and HubSpot comparison (weeks 2-3)
 
@@ -654,6 +654,7 @@ Update this table whenever a decision changes. Supersede rather than delete prio
 | D-081 | Accepted | After contract approval, require exact authorization before Loryn creates a neutral-label Zoho Free account, and require a second exact authorization before synthetic configuration or testing begins | Keeps credentials under Loryn's control and separates account creation from configuration execution without billing, employer data, or implied authority | The account onboarding flow or approved execution model changes |
 | D-082 | Accepted | Complete P1-W01 only after official evidence, verified administrator roles, the minimum configuration or documented limitations, resettable synthetic fixtures, evaluator screening, evidence-backed gate and criterion results, privacy review, and a clear viability outcome; limit CP-005 to the Zoho result and configuration inventory | Makes completion evidence-based while keeping Loryn out of evaluator work and preventing a Zoho checkpoint from implying platform selection or broader implementation authority | Trial execution reveals a missing decision-critical acceptance check or the Phase 1 checkpoint structure changes |
 | D-083 | Accepted | Approve the complete P1-W01 execution contract while keeping account creation and synthetic configuration behind their separate exact authorization phrases | Establishes an executable, bounded work unit without treating contract approval as permission for an external account or platform action | The approved work-unit scope or action-gate model changes before execution |
+| D-084 | Accepted | Authorize Loryn to create the neutral-label Zoho Free account, enable private MFA and recovery, invite the technical partner as secondary administrator, verify the roles, and then stop without configuration or testing | Opens only the approved account-setup gate while preserving credential privacy, no-billing rules, and the separate configuration gate | Account setup cannot follow the approved procedure or the user revokes the authorization before completion |
 
 ## 14. Immediate next actions
 

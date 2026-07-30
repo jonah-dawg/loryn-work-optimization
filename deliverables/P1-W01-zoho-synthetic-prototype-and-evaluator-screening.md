@@ -1,6 +1,6 @@
 # P1-W01 - Zoho Synthetic Prototype and Evaluator Screening
 
-**Status:** Approved for execution - account actions remain separately gated
+**Status:** Approved for execution - account creation authorized; configuration gate closed
 **Phase:** Phase 1 - Zoho prototype and HubSpot comparison
 **Updated:** July 30, 2026
 **Last signed-off checkpoint:** CP-004
@@ -128,8 +128,16 @@ CP-005 will approve only the completed Zoho evaluator result and configuration i
 
 ## Contract status
 
-The complete P1-W01 execution contract is approved. This approval does not authorize either account action gate.
+The complete P1-W01 execution contract is approved. Account creation is authorized for Loryn under the approved procedure. Synthetic configuration and testing remain unapproved.
+
+## Account-creation authorization status
+
+- The user gave the exact account-creation authorization on July 30, 2026.
+- Loryn may complete steps 3 through 9 of the approved trial-account procedure.
+- After setup, report only whether the neutral-label Free account, MFA, and both administrator roles are ready; do not report credentials, codes, recovery information, private email addresses, or account identifiers.
+- Stop after account and administrator setup.
+- Do not create fields, enter fixtures, configure views, connect services, or run tests until the separate configuration gate opens.
 
 ## Approval boundary
 
-The complete work-unit contract is approved. Account creation, actual Zoho configuration, platform testing, external connections, real-data use, customer communications, purchases, platform scoring, and platform selection remain unapproved. Account creation requires the exact instruction `Authorize Loryn to create the Zoho Free trial account`; configuration and testing require the later exact instruction `Begin P1-W01 synthetic configuration`.
+The complete work-unit contract and Loryn's bounded account-creation action are approved. Actual Zoho configuration, platform testing, external connections, real-data use, customer communications, purchases, platform scoring, and platform selection remain unapproved. Configuration and testing require the later exact instruction `Begin P1-W01 synthetic configuration`.

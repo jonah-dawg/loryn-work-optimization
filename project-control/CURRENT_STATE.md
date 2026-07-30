@@ -2,11 +2,11 @@
 
 **Updated:** July 30, 2026
 
-**Overall status:** Active - Phase 1 execution contract approved; account action pending
+**Overall status:** Active - Phase 1 account creation authorized; awaiting Loryn setup
 **Current phase:** Phase 1 - Zoho prototype and HubSpot comparison
 **Active work unit:** P1-W01 - Zoho synthetic prototype and evaluator screening
 
-**Work-unit status:** Approved for execution - account creation authorization pending
+**Work-unit status:** Approved for execution - account creation authorized; configuration gate closed
 
 **Last signed-off checkpoint:** CP-004 - CRM platform evaluation method (July 30, 2026)
 
@@ -77,7 +77,7 @@
 - CP-004 approved the complete P0-W03 platform-evaluation method; no platform has been scored or selected.
 - P1-W01 account ownership is approved: Loryn is the account owner and primary administrator, and the technical partner is the secondary administrator for approved ad hoc support.
 - Account recovery remains under Loryn's control. Credentials, recovery codes, and MFA secrets are prohibited from Codex and project artifacts.
-- The P1-W01 execution contract is approved; account creation and synthetic configuration remain separately unapproved, and no Zoho account action has been authorized.
+- The P1-W01 execution contract is approved, and Loryn is authorized to perform the bounded account-creation procedure. Synthetic configuration remains separately unapproved.
 - The minimum Zoho scope is approved for contract design: standard customer/prospect/job/task records, CP-003 minimum fields, approved stages and source rules, manual next actions, five practical views, eight synthetic fixtures, and manual communications.
 - Real data, external connections, automatic messages, custom code, purchases, paid upgrades, detailed quote attachments, HubSpot configuration, and final scoring remain outside P1-W01.
 - A Zoho Free limitation must be recorded rather than bypassed through unapproved scope expansion or purchase.
@@ -97,10 +97,12 @@
 - Any score remains incomplete while required evidence is `Unverified`, and Loryn performs no P1-W01 testing, setup, reset, evidence capture, or homework.
 - CP-005 will approve only the Zoho evaluator result and configuration inventory. It will not select a platform or authorize HubSpot setup, Loryn finalist testing, production use, real data, integrations, purchases, communications, or automation.
 - The complete P1-W01 execution contract is approved. Contract approval does not authorize account creation or synthetic configuration.
+- The user subsequently gave the exact account-creation authorization. Loryn may create the neutral-label Zoho Free account, enable private MFA and recovery, invite and verify the technical partner as secondary administrator, and then stop.
+- Account-setup reporting must exclude credentials, MFA or recovery details, private email addresses, and account identifiers.
 
 ## Active work-unit contract
 
-**Status:** Approved for execution; both account action gates remain closed.
+**Status:** Approved for execution; account creation gate open for Loryn, configuration gate closed.
 
 **Outcome:** Create and evaluate the smallest useful synthetic Zoho CRM Free prototype against the CP-004 mandatory gates and scenarios, then determine whether Zoho remains viable for the candidate pool.
 
@@ -108,7 +110,7 @@
 
 - The signed CP-003 lifecycle, next-action, and minimum-field specification.
 - The signed CP-004 scorecard, mandatory gates, fixtures, scenarios, burden limit, and evidence format.
-- Approved P1-W01 decisions D-075 through D-083.
+- Approved P1-W01 decisions D-075 through D-084.
 
 **Acceptance checks:**
 
@@ -146,7 +148,7 @@ CP-003 approved `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimu
 
 CP-004 approved `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`. Decisions D-049 through D-061 record the mandatory gates, D-062 through D-069 record the complete 100-point scorecard and scoring rule, D-070 through D-072 record the scenarios, fixtures, and scripts, D-073 records the staged test-burden rule, and D-074 records the evaluator-only evidence format. At CP-004, the authoritative Markdown master was Version 1.39; Word remains intentionally stale.
 
-P1-W01 is in progress. D-075 through D-083 record the approved execution contract in `../deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`, including the limited CP-005 effect and separate account action gates. Both account actions remain unapproved. The authoritative Markdown master is Version 1.48; Word remains intentionally stale.
+P1-W01 is in progress. D-075 through D-084 record the approved execution contract and account-creation authorization in `../deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`. Loryn may perform the bounded account setup; synthetic configuration and testing remain unapproved. The authoritative Markdown master is Version 1.49; Word remains intentionally stale.
 
 ## Chat and artifact protocol
 
@@ -167,12 +169,12 @@ P1-W01 is in progress. D-075 through D-083 record the approved execution contrac
 
 ## Next work-unit starting point
 
-Phase 0 is complete at CP-004. Phase 1 has started with an approved P1-W01 execution contract. Both account action gates remain closed.
+Phase 0 is complete at CP-004. Phase 1 has started with an approved P1-W01 execution contract. The account-creation gate is open for Loryn; the configuration gate remains closed.
 
 ## Exact next action
 
-If account creation should proceed, obtain the exact instruction `Authorize Loryn to create the Zoho Free trial account`. Do not treat contract approval as account authorization, and do not begin configuration or testing after account setup.
+Loryn completes only the approved account and administrator setup, then reports non-sensitive readiness. Do not begin configuration or testing. After account readiness is verified, configuration still requires the exact instruction `Begin P1-W01 synthetic configuration`.
 
 ## Resume instruction
 
-Read this file, Sessions S-039 through S-048 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, `../deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`, and the Phase 1 and platform-trial sections of `../deliverables/window-sales-operations-master-plan.md`. The P1-W01 contract is approved. Do not create a CRM account unless the user gives the exact account-creation authorization, and do not configure or test it unless the user later gives the separate exact configuration authorization. Continue to prohibit real data, external connections, purchases, customer communications, and platform selection.
+Read this file, Sessions S-039 through S-049 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, `../deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`, and the Phase 1 and platform-trial sections of `../deliverables/window-sales-operations-master-plan.md`. The P1-W01 contract and Loryn's bounded account-creation action are approved. Await Loryn's non-sensitive readiness report; do not configure or test the account unless the user later gives the separate exact configuration authorization. Continue to prohibit real data, external connections, purchases, customer communications, and platform selection.

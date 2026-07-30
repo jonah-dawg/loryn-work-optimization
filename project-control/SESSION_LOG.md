@@ -1931,3 +1931,42 @@ Present the complete P1-W01 execution contract for explicit whole-contract appro
 ### Saved ending point
 
 Wait for the exact account-creation authorization. Do not create an account or begin synthetic configuration from contract approval alone.
+
+## Session S-049 - P1-W01 account creation authorized
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W01 - Zoho synthetic prototype and evaluator screening
+
+**Checkpoint:** P1-W01 execution in progress; CP-005 remains pending
+
+**Sign-off status:** Account-creation gate explicitly opened for Loryn; configuration gate remains closed
+
+**Approval evidence:** The user stated the required exact instruction, “Authorize Loryn to create the Zoho Free trial account.”
+
+### Accepted decision
+
+- **Accepted (D-084):** Authorize Loryn to create the neutral-label Zoho Free account under the approved trial-account procedure.
+- Loryn may use private credentials and recovery, enable MFA, invite and verify the technical partner as secondary administrator, and then stop.
+- Report only non-sensitive readiness; never provide credentials, codes, recovery information, private email addresses, or account identifiers to Codex or the repository.
+
+### Approval boundary
+
+- This authorization covers account and administrator setup only.
+- It does not authorize fields, fixtures, views, imports, tests, integrations, real data, billing, paid trials, purchases, customer communications, scoring, or platform selection.
+- Synthetic configuration and testing still require the exact instruction `Begin P1-W01 synthetic configuration` after account readiness is verified.
+- CP-004 remains the last signed-off checkpoint.
+
+### Files changed
+
+- `deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Await Loryn's non-sensitive report that the neutral-label Free account, MFA, and both administrator roles are ready. Do not begin configuration or testing.
