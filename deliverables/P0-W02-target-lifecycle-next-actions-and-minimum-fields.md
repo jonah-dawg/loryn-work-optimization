@@ -1,6 +1,6 @@
 # P0-W02 - Target Lifecycle, Next Actions, and Minimum CRM Fields
 
-**Status:** Awaiting CP-003 sign-off
+**Status:** Approved - CP-003 signed off July 29, 2026
 
 **Phase:** Phase 0 - Authority, workflow, and evaluation design
 

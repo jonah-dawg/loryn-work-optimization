@@ -860,3 +860,51 @@ Decisions 1 through 15 are complete. Present Decision 16 in plain language: appr
 ### Saved ending point
 
 Present the CP-003 checkpoint packet. CP-003 remains unsigned until the user explicitly signs it off.
+
+## Session S-022 - P0-W02 signed off at CP-003
+
+**Date:** July 29, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W02 - Target lifecycle, next-action rules, and minimum CRM fields
+
+**Checkpoint:** CP-003
+
+**Sign-off status:** Signed off July 29, 2026
+
+**Approval evidence:** The user explicitly said, “Sign off CP-003.”
+
+### Approved result
+
+- Approved `deliverables/P0-W02-target-lifecycle-next-actions-and-minimum-fields.md` as the connected prospecting and active-job lifecycle specification.
+- Approved the stage-specific next-action rules, calling and communication timing, quote sequence, source-specific handoff, installation exception, post-install outcomes, and minimum CRM field set.
+- Approved the sanitized independent and Costco/Centah validation walkthroughs.
+- Confirmed that every active prospect and job requires a dated next action or an approved exception.
+- Confirmed that the Centah lead number is required and unique only for Costco/Centah jobs and prohibited for independent jobs.
+
+### Validation
+
+- All seven P0-W02 acceptance checks passed.
+- Markdown table structure, required-stage coverage, synthetic path coverage, and checkpoint-status consistency passed.
+- Privacy scans found no real customer records, personal contact patterns, credentials, or private integration payloads.
+- No CRM account was created, no integration was connected, no communication was sent, and no production data was used.
+
+### Deferred or unresolved
+
+- Production CRM tenant administration, security, retention, and export controls.
+- Centah API/export/sandbox details and Costco program restrictions.
+- Final platform selection and whether a Centah adapter is justified.
+- Detailed quote-file storage, personal Google connection, and communications-compliance review.
+
+### Files changed
+
+- `deliverables/P0-W02-target-lifecycle-next-actions-and-minimum-fields.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+CP-003 is complete. P0-W03 is ready to define mandatory platform gates, weighted scorecard criteria, evidence rules, and common synthetic mobile test scenarios before any CRM account is created.

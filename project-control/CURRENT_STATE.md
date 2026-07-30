@@ -3,9 +3,11 @@
 **Updated:** July 29, 2026  
 **Overall status:** Active - guided execution underway  
 **Current phase:** Phase 0 - Authority, workflow, and evaluation design  
-**Active work unit:** P0-W02 - Target lifecycle, next-action rules, and minimum CRM fields  
-**Work-unit status:** Awaiting CP-003 sign-off; Decisions 1 through 16 approved and validation passed
-**Last signed-off checkpoint:** CP-002 - Independent leads and prospecting scope (July 29, 2026)
+**Active work unit:** P0-W03 - CRM platform scorecard and synthetic mobile test scenarios
+
+**Work-unit status:** Ready to begin
+
+**Last signed-off checkpoint:** CP-003 - Target lifecycle, next-action rules, and minimum CRM fields (July 29, 2026)
 
 ## Confirmed baseline
 
@@ -54,24 +56,25 @@
 
 ## Active work-unit contract
 
-**Outcome:** Approve the connected prospecting and active-opportunity lifecycles, stage-specific next-action rules, and minimum CRM field set.
+**Outcome:** Approve a weighted CRM platform scorecard and a common set of synthetic mobile test scenarios for comparing Zoho CRM Free, HubSpot Free, and the current Centah-only baseline.
 
 **Inputs:**
 
 - The signed P0-W01 Centah/Costco workflow and permission boundary.
 - The signed P0-CR01 independent-lead and prospecting scope.
-- Decisions D-024 through D-029 governing lifecycle separation, source branching, reminders, installation exceptions, and communication controls.
+- The signed P0-W02 lifecycle, next-action, and minimum-field specification.
+- The master-plan platform evaluation gate and mandatory governance boundaries.
 
 **Acceptance checks:**
 
-- Every meaningful prospect and opportunity state has one defined stage or explicit substate.
-- Every active prospect and opportunity has a next action and due date, or a documented closed/exception state.
-- Contact attempts, consultation, quote, accepted/sold, canceled/inactive, installation-check, three-month exception, post-install follow-up, and past-customer re-entry are represented.
-- Required fields are assigned to the correct record type and limited to what the workflow uses.
-- Centah lead number is required and unique only for transferred Costco/Centah opportunities, never for independent prospects or opportunities.
-- A sanitized example can traverse prospect-to-opportunity conversion and the Costco/Centah lead path without relying on text history or memory.
+- Mandatory pass/fail requirements are separated from weighted preferences.
+- Scorecard weights total 100 and reflect mobile daily-work value, governance, portability, cost, and integration fit.
+- Zoho, HubSpot, and the Centah-only baseline use the same scoring definitions and evidence standard.
+- Synthetic mobile scenarios cover prospect capture, Costco lead handling, appointment confirmation, quote follow-up, accepted-sale handoff, installation exception, and daily queue use.
+- Each score requires recorded evidence, uncertainty, and any free-tier or tenant limitation.
+- The scorecard and scripts contain no real customer data, credentials, private payloads, or unapproved external connections.
 
-**Out of scope:** Creating CRM accounts, configuring Zoho or HubSpot, importing real records, connecting Centah/Google/calendar/email, selecting the final platform, purchasing prospect lists, sending customer communications, or implementing automation.
+**Out of scope:** Creating CRM accounts, configuring Zoho or HubSpot, importing real records, connecting Centah/Google/calendar/email, selecting the final platform, purchasing services or prospect lists, sending customer communications, or implementing automation.
 
 ## Open items
 
@@ -88,7 +91,9 @@
 
 CP-001 approved `../deliverables/P0-W01-current-workflow-and-permission-boundary.md`. Decisions D-020 through D-023 record the approved production boundary, transfer filter and Centah identifier model, post-install reminder rule, and initial support scope.
 
-CP-002 approved `../deliverables/P0-CR01-independent-leads-and-prospecting-scope.md`. Decisions D-024 through D-029 record the separate prospecting lifecycle, Costco-only Centah boundary, prospect cadence and outcomes, source-specific post-sale handoff, installation exception, past-customer outreach, and communication controls. The authoritative Markdown master is Version 1.7. Word is intentionally deferred and marked stale until a release or sharing milestone.
+CP-002 approved `../deliverables/P0-CR01-independent-leads-and-prospecting-scope.md`. Decisions D-024 through D-029 record the separate prospecting lifecycle, Costco-only Centah boundary, prospect cadence and outcomes, source-specific post-sale handoff, installation exception, past-customer outreach, and communication controls. Word is intentionally deferred and marked stale until a release or sharing milestone.
+
+CP-003 approved `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimum-fields.md`. Decisions D-033 through D-048 record prospect conversion, the active-job stages, contact and quote timing, follow-up limits, source-specific handoff, installation and post-install rules, and the minimum customer/job/task fields. D-035 and D-040 were superseded during the signed design sequence. The authoritative Markdown master is Version 1.24; Word remains intentionally stale until a release or sharing milestone.
 
 ## Chat and artifact protocol
 
@@ -106,14 +111,14 @@ CP-002 approved `../deliverables/P0-CR01-independent-leads-and-prospecting-scope
 - **Excluded from routine checkpoints:** the stale Word distribution copy, rendering/QA intermediates, ChatGPT-synced source mirrors, credentials, real customer data, and local temporary files.
 - Until the repository folder is attached or opened as the primary Codex project, the app-managed project folder remains the interactive working copy and the repository is refreshed from it at saved checkpoints.
 
-## Approved progress within current work unit
+## Next work-unit starting point
 
-P0-W02 Decisions 1 through 16 were explicitly approved by the user on July 29, 2026. D-033, D-034, D-036 through D-039, and D-041 through D-048 remain active. D-035 was superseded by D-037, and D-040 was superseded by D-041. The connected lifecycle, stage-specific next actions, closure outcomes, and minimum field set are consolidated in `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimum-fields.md`. Both sanitized walkthroughs and every work-unit acceptance check passed. CP-003 has not yet been signed off.
+P0-W02 is complete at CP-003. P0-W03 has not started. Its first design step is to separate mandatory platform gates from weighted preferences before assigning any scores or creating trial accounts.
 
 ## Exact next action
 
-Present the CP-003 checkpoint packet and ask the user to sign off CP-003 or request a revision.
+Review the P0-W03 work-unit contract with the user, then define the mandatory pass/fail platform requirements before choosing scorecard weights.
 
 ## Resume instruction
 
-Read this file, Session S-021 in `SESSION_LOG.md`, `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimum-fields.md`, and the linked signed CP-001 and CP-002 artifacts. Present the CP-003 checkpoint packet and request explicit sign-off without opening a CRM account, using real customer data, or treating CP-003 as complete before the user signs off.
+Read this file, Session S-022 in `SESSION_LOG.md`, `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimum-fields.md`, and the platform-evaluation sections of `../deliverables/window-sales-operations-master-plan.md`. Begin P0-W03 with mandatory pass/fail requirements and do not create CRM accounts, use real customer data, connect external systems, or treat any scorecard proposal as approved before its checkpoint.

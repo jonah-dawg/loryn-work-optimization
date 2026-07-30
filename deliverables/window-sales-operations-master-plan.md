@@ -2,7 +2,7 @@
 
 ## Master Project Plan
 
-**Version:** 1.23
+**Version:** 1.24
 **Status:** Working source of truth  
 **Updated:** July 29, 2026  
 **Primary team:** Window-covering sales consultant and technical partner
@@ -492,7 +492,7 @@ ChatGPT should distinguish confirmed facts, assumptions, decisions, and open que
 **Technical/configuration:** create the weighted platform scorecard, synthetic fixtures, scripted mobile scenarios, field inventory, Centah discovery checklist, and vendor/security questions.  
 **Gate:** the two-person team agrees on the synthetic-only trial boundary, mandatory requirements, and scoring method. CP-001 confirmed permission to transfer approved real fields, but real imports and external integrations remain blocked until production access, security, retention, and connection controls are defined.
 
-**Progress:** P0-W01 was signed off at CP-001. CP-002 then approved the independent-lead and prospecting scope. Within P0-W02, Decisions D-033 through D-048 now define the conversion rule, active-job stages, stage-specific next actions, communication timing, quote and handoff rules, installation/post-install outcomes, and minimum CRM fields. The consolidated P0-W02 artifact passed its sanitized walkthrough and acceptance review and is awaiting CP-003 sign-off.
+**Progress:** P0-W01 was signed off at CP-001. CP-002 then approved the independent-lead and prospecting scope. CP-003 approved the connected prospecting and active-job lifecycles, stage-specific next actions, communication timing, quote and handoff rules, installation/post-install outcomes, minimum CRM fields, and sanitized validation in `P0-W02-target-lifecycle-next-actions-and-minimum-fields.md`. The next work unit will create the weighted CRM platform scorecard and scripted synthetic mobile scenarios.
 
 ### Phase 1 - Zoho prototype and HubSpot comparison (weeks 2-3)
 
@@ -626,7 +626,7 @@ Update this table whenever a decision changes. Supersede rather than delete prio
 - [ ] Obtain Centah integration documentation, sandbox access, sanitized sample payloads, status dictionary, and support process.
 - [x] Conduct a workflow interview and map one Costco/Centah lead from receipt through post-install follow-up.
 - [x] Define independent-lead and prospecting sources, minimum capture, cadence, conversion, exit, source branching, and past-customer outreach.
-- [ ] Approve the canonical pipeline, next-action invariant, minimum fields, and mandatory platform requirements.
+- [x] Approve the canonical pipeline, next-action invariant, and minimum fields. Mandatory platform-evaluation requirements continue in the next work unit.
 - [ ] Create the weighted platform scorecard and scripted mobile test scenarios.
 - [ ] Configure the synthetic core workflow in Zoho CRM Free.
 - [ ] Reproduce the same scenarios in HubSpot Free and document the Centah-only baseline.
