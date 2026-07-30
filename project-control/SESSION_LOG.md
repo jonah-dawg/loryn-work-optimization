@@ -385,3 +385,43 @@ Decisions 1 through 3 are complete. Present Decision 4 in plain language: decide
 ### Saved ending point
 
 Decisions 1 through 4 are complete. Present Decision 5 in plain language: confirm whether the approximately 7:45 a.m. morning-of appointment confirmation remains an intentional exception to the 10:00 a.m. working-hours start.
+
+## Session S-010 - P0-W02 Decision 5 approved and calling hours revised
+
+**Date:** July 29, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W02 - Target lifecycle, next-action rules, and minimum CRM fields
+
+**Checkpoint:** CP-003 pending
+
+**Sign-off status:** Work unit in progress; Decision 5 explicitly approved
+
+**Approval evidence:** The user clarified that confirmation texts remain at 7:45 a.m. and then directed, “lets do call hours 9am.”
+
+### Accepted decision
+
+- **Accepted (D-037):** Calling hours are Monday through Friday, 9:00 a.m. to 6:00 p.m., and Saturday, 9:00 a.m. to 2:00 p.m.
+- New-lead and lead-follow-up calls must not be scheduled before 9:00 a.m.
+- A request received outside calling hours is due for its first manual contact attempt at 9:00 a.m. on the next working day.
+- Keep approximately 7:45 a.m. as a limited exception for a manual confirmation text for appointments happening that day.
+- A confirmation phone call must wait until calling hours begin at 9:00 a.m.
+- **Superseded (D-035):** Replace the previously approved 10:00 a.m. start with D-037's 9:00 a.m. calling-hours start.
+
+### Approval boundary
+
+- This approval covers calling hours and the existing morning-of appointment-confirmation rule.
+- Later stage-specific next-action rules and the minimum CRM field set remain unapproved.
+- CP-003 remains pending.
+
+### Files changed
+
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Decisions 1 through 5 are complete. Present Decision 6 in plain language: decide the quote-preparation deadline after an appointment is completed.

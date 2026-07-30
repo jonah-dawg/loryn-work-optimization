@@ -2,7 +2,7 @@
 
 ## Master Project Plan
 
-**Version:** 1.11
+**Version:** 1.12
 **Status:** Working source of truth  
 **Updated:** July 29, 2026  
 **Primary team:** Window-covering sales consultant and technical partner
@@ -112,9 +112,11 @@ An opportunity may exit as `Lost / Canceled` from any applicable stage. An insta
 
 **Prospecting invariant:** Every active prospect has a source, at least one reachable channel or location, a next action, and a follow-up date. Conversion preserves the source and activity history.
 
-**Approved next-action rule for `New Customer Request`:** The CRM creates a reminder for a human to make the first contact attempt; it does not contact the customer automatically. Working hours are Monday through Friday, 10:00 a.m. to 6:00 p.m., and Saturday, 10:00 a.m. to 2:00 p.m. A request received during working hours is due for contact by that day's closing time. A request received outside working hours is due at 10:00 a.m. on the next working day. Sunday requests are therefore due Monday at 10:00 a.m. unless that day is later configured as unavailable.
+**Approved next-action rule for `New Customer Request`:** The CRM creates a reminder for a human to make the first contact attempt; it does not contact the customer automatically. Calling hours are Monday through Friday, 9:00 a.m. to 6:00 p.m., and Saturday, 9:00 a.m. to 2:00 p.m. A request received during calling hours is due for contact by that day's closing time. A request received outside calling hours is due at 9:00 a.m. on the next working day. Sunday requests are therefore due Monday at 9:00 a.m. unless that day is later configured as unavailable.
 
 **Approved next-action rule for `Trying to Contact`:** If the first contact attempt receives no answer, the second attempt is due on the next working day. If the second attempt receives no answer, the third and final attempt is due two working days later. If the third attempt also receives no answer, close the opportunity as `Lost / Canceled - No Response`, retain the record and attempt notes, and stop creating active-job reminders. This rule applies to active customer requests, not the separately approved long-term prospecting lifecycle. For a Costco/Centah lead, the related Centah record also follows the approved current process of being canceled and retained as inactive.
+
+**Approved next-action rule for `Appointment Scheduled`:** Create a morning-of reminder to send the customer a manual confirmation text at approximately 7:45 a.m. This is a limited exception to calling hours and does not permit an automated message. Use another requested channel when needed, but do not place a confirmation phone call before the 9:00 a.m. calling-hours start.
 
 ### O2. Communication policy
 
@@ -591,8 +593,9 @@ Update this table whenever a decision changes. Supersede rather than delete prio
 | D-032 | Accepted | Back up the authoritative Markdown and project-control files to `jonah-dawg/loryn-work-optimization` on GitHub | Provides version history and recovery outside the app-managed ChatGPT Project directory | Repository ownership, visibility, or working-location strategy changes |
 | D-033 | Accepted | Convert a prospect into one project-specific opportunity when a real project is confirmed and the initial consultation is scheduled | Preserves the customer and prospecting history, starts the opportunity at `Consultation Scheduled`, and makes the morning-of confirmation its first required next action; immediate-project inquiries may enter there directly | The observed sales process needs an earlier or later qualification point |
 | D-034 | Accepted | Use ten plain-language active-opportunity stages from `New Customer Request` through `Finished`, with `Lost / Canceled` as an exit and overdue installation as a visible exception | Gives the consultant understandable job statuses while avoiding unverified claims that an order was placed or installation was scheduled | Daily use shows a missing state, ambiguous wording, or a state the consultant cannot reliably verify |
-| D-035 | Accepted | Require the first manual contact attempt by closing time when a new request arrives during working hours, or at 10:00 a.m. on the next working day when it arrives outside working hours | Defines a clear response deadline using Monday-Friday 10:00 a.m.-6:00 p.m. and Saturday 10:00 a.m.-2:00 p.m.; the CRM reminds but does not contact the customer automatically | Working hours, availability, or observed response expectations change |
+| D-035 | Superseded | Require the first manual contact attempt by closing time when a new request arrives during working hours, or at 10:00 a.m. on the next working day when it arrives outside working hours | The original 10:00 a.m. start was replaced by the 9:00 a.m. calling-hours rule in D-037 | Retained for decision history |
 | D-036 | Accepted | After an unanswered first attempt, retry on the next working day and once more two working days later; after a third nonresponse, close the active request as `Lost / Canceled - No Response` | Creates a bounded three-attempt sequence, preserves the activity record, and stops active-job reminders without changing the separate prospect-nurture rules | Response results show the cadence is too fast or slow, or source policy requires different treatment |
+| D-037 | Accepted | Use calling hours of 9:00 a.m.-6:00 p.m. Monday-Friday and 9:00 a.m.-2:00 p.m. Saturday, while keeping approximately 7:45 a.m. for manual same-day appointment-confirmation texts only | Prevents early lead and follow-up calls while preserving the established confirmation routine; outside-hours new requests are due at 9:00 a.m. on the next working day | Availability, customer feedback, or observed response patterns justify different hours |
 
 ## 14. Immediate next actions
 
