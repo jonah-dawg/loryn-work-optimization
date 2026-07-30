@@ -739,3 +739,43 @@ Decisions 1 through 12 are complete. Present Decision 13 in plain language: conf
 ### Saved ending point
 
 Decisions 1 through 13 are complete. Present Decision 14 in plain language: decide the post-install customer follow-up timing, recorded result, and transition to `Finished`.
+
+## Session S-019 - P0-W02 Decision 14 approved
+
+**Date:** July 29, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W02 - Target lifecycle, next-action rules, and minimum CRM fields
+
+**Checkpoint:** CP-003 pending
+
+**Sign-off status:** Work unit in progress; Decision 14 explicitly approved
+
+**Approval evidence:** The user answered “yesss sis” to the proposed post-install customer follow-up and closure rule.
+
+### Accepted decision
+
+- **Accepted (D-046):** After installation is confirmed, create one manual customer follow-up due by the end of the next working day.
+- Record the customer's result.
+- If everything is satisfactory, move the opportunity to `Finished` and schedule the approved six-month past-customer reminder.
+- If the customer reports a problem, do not mark the opportunity finished; flag the unresolved problem and require a next action.
+- Keep detailed repair-case management outside the initial CRM scope.
+
+### Approval boundary
+
+- This approval covers satisfactory and problem-reported outcomes from the post-install follow-up.
+- The outcome when the customer does not answer the one follow-up attempt remains unapproved.
+- The minimum CRM field set remains unapproved.
+- CP-003 remains pending.
+
+### Files changed
+
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Decisions 1 through 14 are complete. Present Decision 15 in plain language: decide how to close a confirmed-installed job when the customer does not answer the one post-install follow-up attempt.

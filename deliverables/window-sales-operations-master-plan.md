@@ -2,7 +2,7 @@
 
 ## Master Project Plan
 
-**Version:** 1.20
+**Version:** 1.21
 **Status:** Working source of truth  
 **Updated:** July 29, 2026  
 **Primary team:** Window-covering sales consultant and technical partner
@@ -125,6 +125,8 @@ An opportunity may exit as `Lost / Canceled` from any applicable stage. An insta
 **Approved next-action rule for `Customer Accepted - Handoff Due`:** When the customer accepts, complete the required post-acceptance handoff by the end of that working day. If acceptance occurs outside calling hours, the handoff is due at 9:00 a.m. on the next working day. For Costco/Centah work, send the DocuSign and email the quote to the internal order coordinator; both are required. For independent work, skip DocuSign and email the quote to the internal order coordinator. Move to `Handoff Complete - Installation Pending` only after every source-required item has actually been sent.
 
 **Approved next-action rule for `Handoff Complete - Installation Pending`:** Create the first installation-check task for six weeks after the DocuSign-sent date on Costco/Centah work or six weeks after the coordinator-email date on independent work. At the check, move to `Installed - Customer Follow-Up Due` only after a person confirms installation. If installation is not confirmed, record a note and schedule another check in two to three weeks. At three months after the sold quote was emailed to the internal order coordinator, stop routine deferral, show an urgent overdue-installation exception, and create a same-day task to contact the coordinator. Record the result, contact the customer if the coordinator cannot confirm installation, and never mark installation complete automatically.
+
+**Approved next-action rule for `Installed - Customer Follow-Up Due`:** After installation is confirmed, create one manual customer follow-up due by the end of the next working day and record the result. If the customer confirms everything is satisfactory, move the opportunity to `Finished` and schedule the approved six-month past-customer reminder. If the customer reports a problem, do not mark the opportunity finished; keep it at `Installed - Customer Follow-Up Due`, flag the unresolved problem, and require a next action. Detailed repair-case management remains outside the initial CRM scope.
 
 ### O2. Communication policy
 
@@ -612,6 +614,7 @@ Update this table whenever a decision changes. Supersede rather than delete prio
 | D-043 | Accepted | After the three-working-day check, follow up weekly for up to three weeks; after a third weekly nonresponse, close as `Lost / Canceled - No Decision`, unless the customer requested a specific later date | Prevents indefinite reminders while preserving customer-directed timing, the quote, and communication history | Sales-cycle evidence shows the sequence is too short or long |
 | D-044 | Accepted | Complete the source-specific accepted-sale handoff by the end of the same working day, or by 9:00 a.m. the next working day after an outside-hours acceptance; mark handoff complete only after all required items are sent | Ensures Costco/Centah receives DocuSign plus the coordinator email while independent work receives only the coordinator email, with no false completion | Internal handoff requirements or operating hours change |
 | D-045 | Accepted | After handoff, check installation at six weeks using the approved source-specific anchor, defer by two to three weeks when unconfirmed, and escalate visibly at three months with human verification | Turns the approved post-sale timing into dated tasks and prevents false installation completion or endless routine deferral | Installation timing, coordinator visibility, or escalation responsibility changes |
+| D-046 | Accepted | Complete one manual post-install customer follow-up by the end of the next working day; finish satisfactory jobs and keep reported problems visibly unresolved with a next action | Closes completed work promptly, starts the approved past-customer cycle, and prevents a problem from being hidden by a finished status | Customer-service responsibility or the initial support boundary changes |
 
 ## 14. Immediate next actions
 
