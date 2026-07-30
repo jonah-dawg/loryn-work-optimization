@@ -346,3 +346,42 @@ Decisions 1 and 2 are complete. Present Decision 3 in plain language, beginning 
 ### Saved ending point
 
 Decisions 1 through 3 are complete. Present Decision 4 in plain language: decide the timing for the second and third contact attempts and the outcome after a third unsuccessful attempt.
+
+## Session S-009 - P0-W02 Decision 4 approved
+
+**Date:** July 29, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W02 - Target lifecycle, next-action rules, and minimum CRM fields
+
+**Checkpoint:** CP-003 pending
+
+**Sign-off status:** Work unit in progress; Decision 4 explicitly approved
+
+**Approval evidence:** The user answered “yes” to the proposed retry timing and no-response outcome.
+
+### Accepted decision
+
+- **Accepted (D-036):** After the first unanswered attempt on an active customer request, make the second attempt on the next working day.
+- If the second attempt receives no answer, make the third and final attempt two working days later.
+- After a third nonresponse, close the opportunity as `Lost / Canceled - No Response`, retain the record and attempt notes, and stop creating active-job reminders.
+- For Costco/Centah leads, also follow the already approved current process of canceling the related Centah lead so it remains retained there as inactive.
+- Keep this active-request rule separate from the approved long-term prospecting nurture sequence.
+
+### Approval boundary
+
+- This approval covers retry timing and the outcome after three unanswered attempts on an active request.
+- Later stage-specific next-action rules and the minimum CRM field set remain unapproved.
+- CP-003 remains pending.
+
+### Files changed
+
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Decisions 1 through 4 are complete. Present Decision 5 in plain language: confirm whether the approximately 7:45 a.m. morning-of appointment confirmation remains an intentional exception to the 10:00 a.m. working-hours start.
