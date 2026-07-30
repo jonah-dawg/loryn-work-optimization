@@ -660,3 +660,42 @@ Decisions 1 through 10 are complete. Present Decision 11 in plain language: deci
 ### Saved ending point
 
 Decisions 1 through 11 are complete. Present Decision 12 in plain language: decide the deadline for the source-specific paperwork and internal handoff after the customer accepts.
+
+## Session S-017 - P0-W02 Decision 12 approved
+
+**Date:** July 29, 2026
+
+**Phase:** Phase 0
+
+**Work unit:** P0-W02 - Target lifecycle, next-action rules, and minimum CRM fields
+
+**Checkpoint:** CP-003 pending
+
+**Sign-off status:** Work unit in progress; Decision 12 explicitly approved
+
+**Approval evidence:** The user answered “yasss queen” to the proposed accepted-sale handoff deadline and source-specific checklist.
+
+### Accepted decision
+
+- **Accepted (D-044):** Complete the required accepted-sale handoff by the end of the same working day.
+- If the customer accepts outside calling hours, complete the handoff by 9:00 a.m. on the next working day.
+- For Costco/Centah work, send DocuSign and email the quote to the internal order coordinator; both are required.
+- For independent work, skip DocuSign and email the quote to the internal order coordinator.
+- Move to `Handoff Complete - Installation Pending` only after all source-required items have actually been sent.
+
+### Approval boundary
+
+- This approval covers the accepted-sale handoff deadline and completion rule.
+- Installation tracking, post-install closure, and the minimum CRM field set remain unapproved within P0-W02.
+- CP-003 remains pending.
+
+### Files changed
+
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Decisions 1 through 12 are complete. Present Decision 13 in plain language: confirm the installation-check tasks, deferral, three-month exception, and transition into post-install follow-up.

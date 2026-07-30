@@ -2,7 +2,7 @@
 
 ## Master Project Plan
 
-**Version:** 1.18
+**Version:** 1.19
 **Status:** Working source of truth  
 **Updated:** July 29, 2026  
 **Primary team:** Window-covering sales consultant and technical partner
@@ -121,6 +121,8 @@ An opportunity may exit as `Lost / Canceled` from any applicable stage. An insta
 **Approved next-action rule for `Appointment Completed` and `Preparing Quote`:** After an appointment is completed and a quote is needed, the primary goal is to finish and manually send the quote by the end of that same working day. The opportunity moves to `Preparing Quote` with that deadline. If the quote is not sent by closing time, it remains visibly overdue until the consultant records a short delay reason and sets the fallback deadline to the end of the next working day. If that fallback is also missed, the task remains overdue and requires another deliberate date and reason; it is never silently cleared or rescheduled.
 
 **Approved next-action rule for `Quote Sent - Awaiting Decision`:** Immediately after emailing the quote, send a manual message through the customer's preferred and permitted channel telling them the quote was sent and asking them to check their email. Then create the next manual decision-follow-up task for three working days later. If that follow-up does not produce a response, follow up manually once a week for three weeks during normal calling hours. If the customer still does not respond after the third weekly follow-up, close the opportunity as `Lost / Canceled - No Decision`, retain the quote and communication history, and stop active reminders. If the customer asks for more time, replace the weekly reminder with the specific date they request. If the customer responds before a task is due, cancel that reminder and record the response and resulting next action or outcome. No message is sent automatically.
+
+**Approved next-action rule for `Customer Accepted - Handoff Due`:** When the customer accepts, complete the required post-acceptance handoff by the end of that working day. If acceptance occurs outside calling hours, the handoff is due at 9:00 a.m. on the next working day. For Costco/Centah work, send the DocuSign and email the quote to the internal order coordinator; both are required. For independent work, skip DocuSign and email the quote to the internal order coordinator. Move to `Handoff Complete - Installation Pending` only after every source-required item has actually been sent.
 
 ### O2. Communication policy
 
@@ -606,6 +608,7 @@ Update this table whenever a decision changes. Supersede rather than delete prio
 | D-041 | Accepted | Immediately notify the customer manually after emailing the quote, then create the next decision-follow-up task for three working days later | Confirms that the customer should check their email and replaces memory-driven follow-up with a dated task without automatic sending | Customer response patterns justify a different interval or channel |
 | D-042 | Accepted | If the three-working-day post-quote follow-up receives no response, create another manual follow-up for one week later during normal calling hours | Keeps the active quote visible without contacting the customer too frequently | Customer response patterns or a later stopping rule justify a different interval |
 | D-043 | Accepted | After the three-working-day check, follow up weekly for up to three weeks; after a third weekly nonresponse, close as `Lost / Canceled - No Decision`, unless the customer requested a specific later date | Prevents indefinite reminders while preserving customer-directed timing, the quote, and communication history | Sales-cycle evidence shows the sequence is too short or long |
+| D-044 | Accepted | Complete the source-specific accepted-sale handoff by the end of the same working day, or by 9:00 a.m. the next working day after an outside-hours acceptance; mark handoff complete only after all required items are sent | Ensures Costco/Centah receives DocuSign plus the coordinator email while independent work receives only the coordinator email, with no false completion | Internal handoff requirements or operating hours change |
 
 ## 14. Immediate next actions
 
