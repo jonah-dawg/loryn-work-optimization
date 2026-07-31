@@ -2,11 +2,11 @@
 
 **Updated:** July 30, 2026
 
-**Overall status:** Paused - Phase 1 account creation authorized; awaiting Loryn's interactive setup
+**Overall status:** Active - Phase 1 account setup in progress; secondary administrator pending
 **Current phase:** Phase 1 - Zoho prototype and HubSpot comparison
 **Active work unit:** P1-W01 - Zoho synthetic prototype and evaluator screening
 
-**Work-unit status:** Paused at handoff - Loryn may complete account setup; configuration gate closed
+**Work-unit status:** Account on Free with MFA and organization set; secondary administrator pending; configuration gate closed
 
 **Last signed-off checkpoint:** CP-004 - CRM platform evaluation method (July 30, 2026)
 
@@ -98,8 +98,13 @@
 - Any score remains incomplete while required evidence is `Unverified`, and Loryn performs no P1-W01 testing, setup, reset, evidence capture, or homework.
 - CP-005 will approve only the Zoho evaluator result and configuration inventory. It will not select a platform or authorize HubSpot setup, Loryn finalist testing, production use, real data, integrations, purchases, communications, or automation.
 - The complete P1-W01 execution contract is approved. Contract approval does not authorize account creation or synthetic configuration.
-- The user subsequently gave the exact account-creation authorization. Loryn may create the neutral-label Zoho Free account, enable private MFA and recovery, invite and verify the technical partner as secondary administrator, and then stop.
+- The user subsequently gave the exact account-creation authorization. Loryn may create the Zoho Free account, enable private MFA and recovery, invite and verify the technical partner as secondary administrator, and then stop.
 - Account-setup reporting must exclude credentials, MFA or recovery details, private email addresses, and account identifiers.
+- Zoho initially placed the new account in a 15-day Enterprise promotional trial; it was moved to Free Edition before CRM configuration or test-data entry.
+- Loryn-controlled MFA is enabled.
+- The approved trial organization name is `Hazel Kaine`, superseding only the earlier planned neutral label. No additional employer, Costco, Centah, or customer information is authorized.
+- Zoho vendor sample data was loaded during account creation. It is synthetic but is not part of the approved CP-004 fixtures; leave it untouched until configuration is authorized, then remove it through a verified method or isolate it before evaluator testing.
+- Secondary-administrator invitation and verification remain pending.
 
 ## Active work-unit contract
 
@@ -111,7 +116,7 @@
 
 - The signed CP-003 lifecycle, next-action, and minimum-field specification.
 - The signed CP-004 scorecard, mandatory gates, fixtures, scenarios, burden limit, and evidence format.
-- Approved P1-W01 decisions D-075 through D-085.
+- Approved P1-W01 decisions D-075 through D-086.
 
 **Acceptance checks:**
 
@@ -119,6 +124,7 @@
 - Account ownership and administrator roles are verified after separately authorized account creation.
 - The approved minimum configuration is completed or unsupported items are documented with evidence.
 - All eight synthetic fixtures can be restored to their approved T0-relative baseline without real data.
+- Vendor sample records are removed through a verified method or isolated so they cannot affect searches, views, duplicate handling, timing, or results.
 - TS-01 through TS-07 receive evaluator screening unless an approved early-stop condition applies.
 - Every applicable gate and criterion records its result or score, evidence, confidence, and uncertainty; totals remain incomplete when required evidence is `Unverified`.
 - Privacy and secret review passes, and the result identifies Zoho as viable, eliminated, or incomplete with named blockers.
@@ -149,7 +155,7 @@ CP-003 approved `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimu
 
 CP-004 approved `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`. Decisions D-049 through D-061 record the mandatory gates, D-062 through D-069 record the complete 100-point scorecard and scoring rule, D-070 through D-072 record the scenarios, fixtures, and scripts, D-073 records the staged test-burden rule, and D-074 records the evaluator-only evidence format. At CP-004, the authoritative Markdown master was Version 1.39; Word remains intentionally stale.
 
-P1-W01 is in progress. D-075 through D-085 record the approved execution contract, account-creation authorization, and platform-selection boundary in `../deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`. Loryn may perform the bounded account setup; synthetic configuration and testing remain unapproved. The authoritative Markdown master is Version 1.50; Word remains intentionally stale.
+P1-W01 is in progress. D-075 through D-086 record the approved execution contract, account-creation authorization, platform-selection boundary, and approved organization name in `../deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`. The account is on Free Edition with MFA and `Hazel Kaine` set; secondary-administrator verification remains pending. Synthetic configuration and testing remain unapproved. The authoritative Markdown master is Version 1.51; Word remains intentionally stale.
 
 ## Chat and artifact protocol
 
@@ -170,12 +176,12 @@ P1-W01 is in progress. D-075 through D-085 record the approved execution contrac
 
 ## Next work-unit starting point
 
-Phase 0 is complete at CP-004. Phase 1 has started with an approved P1-W01 execution contract. The account-creation gate is open for Loryn; the configuration gate remains closed.
+Phase 0 is complete at CP-004. Phase 1 has started with an approved P1-W01 execution contract. Free Edition, MFA, and the approved organization name are confirmed; secondary-administrator verification remains. The configuration gate remains closed.
 
 ## Exact next action
 
-Loryn resumes interactively and completes only the approved account and administrator setup, then reports non-sensitive readiness. Do not begin configuration or testing. After account readiness is verified, configuration still requires the exact instruction `Begin P1-W01 synthetic configuration`.
+Loryn invites the technical partner as the second Free Edition user and verifies that the invitation is accepted and the user appears as an administrator. Then stop and report only non-sensitive readiness. Do not begin configuration or testing. After account readiness is verified, configuration still requires the exact instruction `Begin P1-W01 synthetic configuration`.
 
 ## Resume instruction
 
-Read this file, Sessions S-039 through S-050 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, `../deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`, and the Phase 1 and platform-trial sections of `../deliverables/window-sales-operations-master-plan.md`. The P1-W01 contract and Loryn's bounded account-creation action are approved. Guide Loryn through only the approved account procedure and never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Stop after her non-sensitive readiness report; do not configure or test the account unless the user later gives the separate exact configuration authorization. Continue to prohibit real data, external connections, purchases, customer communications, and platform selection.
+Read this file, Sessions S-039 through S-052 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, `../deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`, and the Phase 1 and platform-trial sections of `../deliverables/window-sales-operations-master-plan.md`. The P1-W01 contract and bounded account setup are approved. Free Edition, MFA, and the `Hazel Kaine` organization name are confirmed. Guide Loryn through only the remaining secondary-administrator invitation and verification; never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Stop after her non-sensitive readiness report; do not configure or test the account unless the user later gives the separate exact configuration authorization. Continue to prohibit real data, external connections, purchases, customer communications, and platform selection.

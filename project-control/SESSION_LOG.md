@@ -2047,3 +2047,46 @@ Resume with Loryn's interactive account setup under D-084. Do not begin syntheti
 ### Saved ending point
 
 Resume with Loryn's authorized account setup. Evaluate Centah only as a nonselectable baseline and integration constraint.
+
+## Session S-052 - Zoho Free, MFA, and organization name confirmed
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W01 - Zoho synthetic prototype and evaluator screening
+
+**Checkpoint:** P1-W01 account setup in progress; CP-005 remains pending
+
+**Sign-off status:** Free Edition, MFA, and approved organization name confirmed; secondary-administrator verification remains pending
+
+**Approval evidence:** The user confirmed Free Edition and MFA, then instructed the plan to use the organization name `Hazel Kaine`.
+
+### Accepted decision and operational facts
+
+- **Accepted (D-086):** Use `Hazel Kaine` as the approved trial organization name, replacing only the earlier planned neutral label.
+- Confirmed operational fact: Zoho initially placed the account in a 15-day Enterprise promotional trial even though no paid trial was intentionally selected.
+- Confirmed operational fact: the account was moved to Free Edition before CRM configuration or test-data entry.
+- Confirmed operational fact: Loryn-controlled MFA is enabled.
+- Confirmed operational fact: Zoho vendor sample data was loaded during account creation.
+- Treat vendor sample records as non-approved synthetic data: do not edit or use them before configuration authorization, and remove them through a verified method or isolate them before evaluator testing.
+- Secondary-administrator invitation and verification remain pending.
+
+### Approval boundary
+
+- The organization-name change does not authorize additional employer, Costco, Centah, customer, or production information.
+- It does not authorize fields, fixtures, views, imports, integrations, real data, billing, paid trials, purchases, customer communications, scoring, or platform selection.
+- Synthetic configuration and testing still require the exact instruction `Begin P1-W01 synthetic configuration` after account readiness is verified.
+- CP-004 remains the last signed-off checkpoint.
+
+### Files changed
+
+- `deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Invite and verify the technical partner as the secondary administrator, then stop before CRM configuration or testing.

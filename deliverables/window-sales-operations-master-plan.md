@@ -2,7 +2,7 @@
 
 ## Master Project Plan
 
-**Version:** 1.50
+**Version:** 1.51
 **Status:** Working source of truth  
 **Updated:** July 30, 2026
 **Primary team:** Window-covering sales consultant and technical partner
@@ -494,7 +494,7 @@ ChatGPT should distinguish confirmed facts, assumptions, decisions, and open que
 **Technical/configuration:** create the weighted platform scorecard, synthetic fixtures, scripted mobile scenarios, field inventory, Centah discovery checklist, and vendor/security questions.  
 **Gate:** the two-person team agrees on the synthetic-only trial boundary, mandatory requirements, and scoring method. CP-001 confirmed permission to transfer approved real fields, but real imports and external integrations remain blocked until production access, security, retention, and connection controls are defined.
 
-**Progress:** P0-W01 was signed off at CP-001. CP-002 approved the independent-lead and prospecting scope. CP-003 approved the connected prospecting and active-job lifecycles, stage-specific next actions, communication timing, quote and handoff rules, installation/post-install outcomes, minimum CRM fields, and sanitized validation. CP-004 approved the P0-W03 platform-evaluation method. Phase 1 has started with an approved P1-W01 execution contract for a synthetic Zoho prototype and evaluator screening. Loryn is authorized to create the neutral-label Zoho Free account under the approved procedure; synthetic configuration and testing remain separately gated and unapproved.
+**Progress:** P0-W01 was signed off at CP-001. CP-002 approved the independent-lead and prospecting scope. CP-003 approved the connected prospecting and active-job lifecycles, stage-specific next actions, communication timing, quote and handoff rules, installation/post-install outcomes, minimum CRM fields, and sanitized validation. CP-004 approved the P0-W03 platform-evaluation method. Phase 1 has started with an approved P1-W01 execution contract for a synthetic Zoho prototype and evaluator screening. The account is now on Free Edition with Loryn-controlled MFA and the approved organization name `Hazel Kaine`; secondary-administrator verification remains pending. Synthetic configuration and testing remain separately gated and unapproved.
 
 ### Phase 1 - Zoho prototype and HubSpot comparison (weeks 2-3)
 
@@ -658,6 +658,7 @@ Update this table whenever a decision changes. Supersede rather than delete prio
 | D-083 | Accepted | Approve the complete P1-W01 execution contract while keeping account creation and synthetic configuration behind their separate exact authorization phrases | Establishes an executable, bounded work unit without treating contract approval as permission for an external account or platform action | The approved work-unit scope or action-gate model changes before execution |
 | D-084 | Accepted | Authorize Loryn to create the neutral-label Zoho Free account, enable private MFA and recovery, invite the technical partner as secondary administrator, verify the roles, and then stop without configuration or testing | Opens only the approved account-setup gate while preserving credential privacy, no-billing rules, and the separate configuration gate | Account setup cannot follow the approved procedure or the user revokes the authorization before completion |
 | D-085 | Accepted | Exclude Centah as the final standalone system and select only among CRMs that can run independent business outside Costco/Centah while supporting an evidence-backed manual bridge or integration path for Costco/Centah work | The business needs one CRM for independently sourced work; Centah remains a governed Costco-side system and current-state baseline rather than the desired destination | Independent-work scope is removed or Centah becomes a confirmed full CRM with an approved operating model for all sources |
+| D-086 | Accepted | Use `Hazel Kaine` as the approved Zoho trial organization name, replacing only the earlier planned neutral label while continuing to prohibit additional employer, Costco, Centah, or customer information | Reflects the organization name actually chosen by the account owner without broadening the synthetic trial or data-entry boundary | The account owner changes the approved organization name or the trial is replaced |
 
 ## 14. Immediate next actions
 

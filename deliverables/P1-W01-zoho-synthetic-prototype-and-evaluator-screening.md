@@ -105,7 +105,7 @@ Apply these stopping rules:
 1. Complete and explicitly approve the full P1-W01 contract.
 2. Require the user to say `Authorize Loryn to create the Zoho Free trial account` before account creation.
 3. Loryn creates the account herself using an email and recovery method she controls.
-4. Use the neutral organization label `Synthetic Window Workflow Trial`; do not enter employer, Costco, Centah, or customer information.
+4. Use the approved organization name `Hazel Kaine`; do not enter any additional employer, Costco, Centah, or customer information.
 5. Select the normal U.S. region if Zoho asks for a data region.
 6. Loryn enables MFA and stores recovery information privately.
 7. Enter no billing details and decline paid trials or upgrades.
@@ -141,9 +141,19 @@ The complete P1-W01 execution contract is approved. Account creation is authoriz
 
 - The user gave the exact account-creation authorization on July 30, 2026.
 - Loryn may complete steps 3 through 9 of the approved trial-account procedure.
-- After setup, report only whether the neutral-label Free account, MFA, and both administrator roles are ready; do not report credentials, codes, recovery information, private email addresses, or account identifiers.
+- After setup, report only whether the `Hazel Kaine` Free account, MFA, and both administrator roles are ready; do not report credentials, codes, recovery information, private email addresses, or account identifiers.
 - Stop after account and administrator setup.
 - Do not create fields, enter fixtures, configure views, connect services, or run tests until the separate configuration gate opens.
+
+Current non-sensitive setup status:
+
+- Zoho initially placed the new account in a 15-day Enterprise promotional trial even though no paid trial was intentionally selected.
+- The account was moved to Free Edition before any CRM configuration or test data was created.
+- MFA is enabled and privately controlled by Loryn.
+- The approved organization name is `Hazel Kaine`, replacing the previously planned neutral label.
+- Zoho vendor sample data was loaded during account creation. It is not part of the approved fixture set and must remain unused until authorized configuration begins.
+- Before evaluator scenarios, remove the vendor sample records through a verified Zoho-supported method or isolate them so that only the eight approved fixtures can affect views, searches, duplicate handling, timing, and results. Do not delete anything until the configuration gate opens.
+- The secondary-administrator invitation and role verification remain pending.
 
 ## Approval boundary
 
