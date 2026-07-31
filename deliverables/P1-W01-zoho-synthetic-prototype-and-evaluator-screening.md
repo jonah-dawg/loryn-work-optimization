@@ -1,8 +1,8 @@
 # P1-W01 - Zoho Synthetic Prototype and Evaluator Screening
 
-**Status:** Execution incomplete - Zoho Free configuration blocker documented; CP-005 pending
+**Status:** Closed incomplete by D-088 option 1 - documentation-only paid-tier possibility; CP-005 not reached
 **Phase:** Phase 1 - Zoho prototype and HubSpot comparison
-**Updated:** July 30, 2026
+**Updated:** July 31, 2026
 **Last signed-off checkpoint:** CP-004
 
 ## Proposed work-unit outcome
@@ -133,9 +133,11 @@ P1-W01 is complete only when:
 
 CP-005 will approve only the completed Zoho evaluator result and configuration inventory. It will not select a platform or authorize HubSpot account setup, Loryn finalist testing, production use, real data, external integrations, purchases, customer communications, or automation.
 
+This checkpoint effect was not reached because D-088 option 1 closed P1-W01 incomplete.
+
 ## Contract status
 
-The complete P1-W01 execution contract is approved. Account creation is authorized for Loryn under the approved procedure. Synthetic configuration and testing remain unapproved.
+The complete P1-W01 execution contract was approved. Account creation and synthetic configuration were separately authorized and executed only through the documented Free-tier blocker. D-088 option 1 now closes the work unit incomplete.
 
 ## Account-creation authorization status
 
@@ -168,8 +170,10 @@ Current non-sensitive setup status:
 - No partial lifecycle or fixture set was saved. Entering incomplete records would omit approved fields or hide them in notes and invalidate the common scenarios.
 - The evidence-backed Free result includes mandatory failures; the Professional possibility remains conditional and untested. The weighted total is incomplete.
 - Evidence is stored in `../evidence/P1-W01/zoho/official-evidence-preflight.md`, `configuration-inventory.md`, `synthetic-fixtures.csv`, and `evaluator-result.md`.
-- P1-W01 remains incomplete pending an explicit decision to keep Zoho as documentation-only, authorize a separate Professional evaluation, or eliminate Zoho and continue the comparison. CP-005 remains pending.
+- **Accepted (D-088 option 1):** Keep Zoho as a documentation-only Professional-tier possibility and continue to the next CRM comparison work-unit definition without upgrading Zoho.
+- P1-W01 is closed incomplete. CP-005 was not reached because the approved fixtures and scenarios could not be run faithfully on Free.
+- No Zoho paid trial, upgrade, purchase, fixture entry, or further configuration is authorized by this disposition.
 
 ## Approval boundary
 
-The complete work-unit contract, bounded account setup, synthetic configuration, vendor-sample cleanup, fixture handling, evaluator testing, and Zoho result preparation are approved. External connections, real-data use, customer communications, billing, paid trials, purchases, production use, CP-005 sign-off, and platform selection remain unapproved.
+The complete work-unit contract, bounded account setup, synthetic configuration, vendor-sample cleanup, fixture handling, evaluator testing, and Zoho result preparation were approved. D-088 option 1 closes execution at the documented Free-tier blocker and retains only a paid-tier comparison possibility. External connections, real-data use, customer communications, billing, paid trials, purchases, production use, CP-005 sign-off, next-candidate account setup, and platform selection remain unapproved.

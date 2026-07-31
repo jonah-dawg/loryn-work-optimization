@@ -1,6 +1,6 @@
 # P1-W01 Zoho Configuration Inventory
 
-**Status:** In progress
+**Status:** Closed at the Free field-capacity blocker; retained as documentation-only evidence
 
 **Authorized tier:** Zoho CRM Free only
 

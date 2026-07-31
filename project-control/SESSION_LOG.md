@@ -2223,3 +2223,50 @@ Run the current official-evidence preflight and verify the vendor-sample cleanup
 ### Saved ending point
 
 Stop at D-088 and request explicit direction. Do not open a paid trial, upgrade, purchase, or start another candidate configuration from the Free blocker alone.
+
+## Session S-056 - D-088 option 1 approved
+
+**Date:** July 31, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W01 closure and P1-W02 outcome definition
+
+**Checkpoint:** P1-W01 closed incomplete; CP-005 not reached; P1-W02 unapproved
+
+**Sign-off status:** D-088 option 1 explicitly approved; no external account or candidate execution authorized
+
+**Approval evidence:** The user stated, “Approve D-088 option 1.”
+
+### Accepted decision
+
+- **Accepted (D-088 option 1):** Keep Zoho as a documentation-only Professional-tier possibility, do not upgrade or purchase it, close P1-W01 incomplete without CP-005, and proceed only to definition of the next CRM comparison work unit.
+
+### Effect
+
+- Zoho Free remains a confirmed mandatory-field failure; the untested Professional path remains conditional evidence only.
+- The `Hazel Kaine` Free tenant remains clean of vendor sample data and intentionally contains no partial fixture set.
+- P1-W01 will receive no further fixture entry, scenario testing, mobile timing, or weighted score under the current authority.
+- P1-W02 is opened only as an unapproved work-unit outcome and boundary draft in `../deliverables/P1-W02-next-crm-comparison-contract.md`.
+
+### Approval boundary
+
+- CP-004 remains the last signed-off checkpoint. CP-005 was not reached and is not approved.
+- This decision does not authorize a HubSpot or other candidate account, account creation, configuration, fixture entry, testing, integration, real data, customer communication, billing, paid trial, purchase, production use, Loryn finalist session, or platform selection.
+- The proposed P1-W02 outcome requires a separate explicit approval before detailed contract drafting begins.
+
+### Files changed
+
+- `deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`
+- `deliverables/P1-W02-next-crm-comparison-contract.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W01/zoho/configuration-inventory.md`
+- `evidence/P1-W01/zoho/evaluator-result.md`
+- `evidence/P1-W01/zoho/official-evidence-preflight.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Present the proposed P1-W02 outcome for explicit approval or revision. Do not create or configure another external account from D-088 option 1 alone.

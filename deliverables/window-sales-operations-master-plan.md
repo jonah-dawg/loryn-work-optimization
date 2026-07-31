@@ -2,9 +2,9 @@
 
 ## Master Project Plan
 
-**Version:** 1.54
+**Version:** 1.55
 **Status:** Working source of truth  
-**Updated:** July 30, 2026
+**Updated:** July 31, 2026
 **Primary team:** Window-covering sales consultant and technical partner
 
 > **Product outcome:** Configure a company-approved, mobile-capable CRM to manage Costco/Centah opportunities, independently sourced leads, and future-client prospecting while telling the consultant whom to contact, where to go, what is missing, and what must happen next. Build only the Centah integration and workflow extensions that prove necessary - without replacing approved company systems or creating an uncontrolled customer database.
@@ -494,7 +494,7 @@ ChatGPT should distinguish confirmed facts, assumptions, decisions, and open que
 **Technical/configuration:** create the weighted platform scorecard, synthetic fixtures, scripted mobile scenarios, field inventory, Centah discovery checklist, and vendor/security questions.  
 **Gate:** the two-person team agrees on the synthetic-only trial boundary, mandatory requirements, and scoring method. CP-001 confirmed permission to transfer approved real fields, but real imports and external integrations remain blocked until production access, security, retention, and connection controls are defined.
 
-**Progress:** P0-W01 was signed off at CP-001. CP-002 approved the independent-lead and prospecting scope. CP-003 approved the connected prospecting and active-job lifecycles, stage-specific next actions, communication timing, quote and handoff rules, installation/post-install outcomes, minimum CRM fields, and sanitized validation. CP-004 approved the P0-W03 platform-evaluation method. Phase 1 has started with an approved P1-W01 execution contract for a synthetic Zoho prototype and evaluator screening. The `Hazel Kaine` account is on Free Edition with Loryn-controlled MFA and two confirmed administrators. Vendor sample data has been removed. Official and direct tenant evidence confirms that Free has no custom fields and cannot represent the CP-003 baseline; Standard's 10 custom fields per module is also insufficient, while Professional is the lowest documented capacity path. No partial fixtures or lifecycle were saved, the result remains incomplete, D-088 is open, and CP-005 remains pending. External connections, real data, billing, customer communications, production use, and platform selection remain unapproved.
+**Progress:** P0-W01 was signed off at CP-001. CP-002 approved the independent-lead and prospecting scope. CP-003 approved the connected prospecting and active-job lifecycles, stage-specific next actions, communication timing, quote and handoff rules, installation/post-install outcomes, minimum CRM fields, and sanitized validation. CP-004 approved the P0-W03 platform-evaluation method. P1-W01 screened the `Hazel Kaine` Zoho Free tenant, removed vendor sample data, and confirmed that Free cannot represent the CP-003 baseline. D-088 option 1 is accepted: Zoho Professional remains a documentation-only paid-tier possibility, no upgrade or purchase is authorized, P1-W01 is closed incomplete, and CP-005 was not reached. P1-W02 is now at unapproved work-unit outcome definition for the next CRM comparison. External accounts, connections, real data, billing, customer communications, production use, and platform selection remain unapproved.
 
 ### Phase 1 - Zoho prototype and HubSpot comparison (weeks 2-3)
 
@@ -660,7 +660,7 @@ Update this table whenever a decision changes. Supersede rather than delete prio
 | D-085 | Accepted | Exclude Centah as the final standalone system and select only among CRMs that can run independent business outside Costco/Centah while supporting an evidence-backed manual bridge or integration path for Costco/Centah work | The business needs one CRM for independently sourced work; Centah remains a governed Costco-side system and current-state baseline rather than the desired destination | Independent-work scope is removed or Centah becomes a confirmed full CRM with an approved operating model for all sources |
 | D-086 | Accepted | Use `Hazel Kaine` as the approved Zoho trial organization name, replacing only the earlier planned neutral label while continuing to prohibit additional employer, Costco, Centah, or customer information | Reflects the organization name actually chosen by the account owner without broadening the synthetic trial or data-entry boundary | The account owner changes the approved organization name or the trial is replaced |
 | D-087 | Accepted | Open the P1-W01 synthetic-configuration gate, authorizing verified vendor-sample cleanup, approved minimum configuration, fixture handling, evaluator testing, and Zoho result preparation within the signed contract | Moves the ready Free account into bounded evaluation without authorizing integrations, real data, billing, communications, production use, checkpoint sign-off, or platform selection | The user revokes execution authority or a safety, privacy, tier, or account-state blocker requires a new contract decision |
-| D-088 | Open | Decide whether to keep Zoho as a documentation-only paid-tier possibility, authorize a separately scoped Professional evaluation, or eliminate Zoho and continue the comparison | Free cannot represent the approved baseline, and direct testing on the lowest documented capacity tier would require new paid-tier authority | Close only through explicit user approval after reviewing the P1-W01 evidence and cost boundary |
+| D-088 | Accepted | Keep Zoho as a documentation-only Professional-tier possibility, do not upgrade or purchase it, close P1-W01 incomplete without CP-005, and proceed only to definition of the next CRM comparison work unit | Preserves Zoho's evidence-backed paid possibility without spending money or fabricating a Free result, while continuing the approved comparison sequence | A later explicitly approved work unit authorizes paid Zoho evaluation or the platform shortlist changes |
 
 ## 14. Immediate next actions
 
@@ -670,7 +670,7 @@ Update this table whenever a decision changes. Supersede rather than delete prio
 - [x] Define independent-lead and prospecting sources, minimum capture, cadence, conversion, exit, source branching, and past-customer outreach.
 - [x] Approve the canonical pipeline, next-action invariant, and minimum fields. Mandatory platform-evaluation requirements continue in the next work unit.
 - [x] Create the weighted platform scorecard and scripted mobile test scenarios.
-- [ ] Configure the synthetic core workflow in Zoho CRM Free.
+- [x] Complete Zoho Free configuration-viability screening; retain Professional as documentation-only after the Free field-capacity blocker.
 - [ ] Reproduce the same scenarios in HubSpot Free and any other approved CRM candidate; document Centah-only as a nonselectable current-state baseline.
 - [ ] Review likely paid-tier costs, data portability, retention, permissions, API limits, and support before selecting the pilot platform.
 - [ ] Initialize the lightweight repository structure and baseline `AGENTS.md` for plans, configuration records, decisions, and any later connector code.

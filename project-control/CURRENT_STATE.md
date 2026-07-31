@@ -1,14 +1,16 @@
 # Current Project State
 
-**Updated:** July 30, 2026
+**Updated:** July 31, 2026
 
-**Overall status:** Active - Phase 1 Zoho Free blocker documented; path decision required
+**Overall status:** Active - Phase 1 next CRM comparison outcome proposed
 **Current phase:** Phase 1 - Zoho prototype and HubSpot comparison
-**Active work unit:** P1-W01 - Zoho synthetic prototype and evaluator screening
+**Active work unit:** P1-W02 - Next CRM comparison contract
 
-**Work-unit status:** Incomplete - Free cannot represent CP-003; D-088 path decision required
+**Work-unit status:** Unapproved - proposed outcome and boundaries only
 
 **Last signed-off checkpoint:** CP-004 - CRM platform evaluation method (July 30, 2026)
+
+**Last approval:** D-088 option 1 - retain Zoho as documentation-only and define the next comparison work unit (July 31, 2026)
 
 ## Confirmed baseline
 
@@ -96,7 +98,7 @@
 - Loryn creates the account herself with private credentials, MFA, and recovery, a neutral synthetic organization label, no employer/Costco/Centah/customer information, and no billing or paid upgrade.
 - P1-W01 acceptance requires current official tier, administrator, MFA, export, limit, and cost evidence; verified administrator roles after separate account authorization; the approved minimum configuration or documented limitations; resettable synthetic fixtures; evaluator screening; evidence-backed results; a privacy and secret review; and a clear viable, eliminated, or incomplete outcome.
 - Any score remains incomplete while required evidence is `Unverified`, and Loryn performs no P1-W01 testing, setup, reset, evidence capture, or homework.
-- CP-005 will approve only the Zoho evaluator result and configuration inventory. It will not select a platform or authorize HubSpot setup, Loryn finalist testing, production use, real data, integrations, purchases, communications, or automation.
+- CP-005 was defined to approve only a completed Zoho evaluator result and configuration inventory, but P1-W01 did not reach it.
 - The complete P1-W01 execution contract is approved. Contract approval does not authorize account creation or synthetic configuration.
 - The user subsequently gave the exact account-creation authorization. Loryn may create the Zoho Free account, enable private MFA and recovery, invite and verify the technical partner as secondary administrator, and then stop.
 - Account-setup reporting must exclude credentials, MFA or recovery details, private email addresses, and account identifiers.
@@ -110,35 +112,33 @@
 - Zoho's vendor sample data was removed through the dedicated sample-removal control and no `(Sample)` records remain in the checked CRM modules.
 - Direct tenant evidence confirms that Free disables custom modules and all new Deal field types. Free cannot represent the approved CP-003 fixture baseline.
 - Standard's 10 custom fields per module is also below the approved Deal/job requirement. Professional's 155 fields per module is the lowest documented capacity path, at a current official two-admin cost of $46/month annually billed or $70 month-to-month before tax.
-- No partial lifecycle or incomplete fixtures were saved. P1-W01 evidence is under `../evidence/P1-W01/zoho/`, the weighted total remains incomplete, and CP-005 remains pending.
+- No partial lifecycle or incomplete fixtures were saved. P1-W01 evidence is under `../evidence/P1-W01/zoho/`, the weighted total remains incomplete, and CP-005 was not reached.
+- **Accepted (D-088 option 1):** Keep Zoho as a documentation-only Professional-tier possibility, do not upgrade or purchase it, close P1-W01 incomplete without CP-005, and proceed only to definition of the next CRM comparison work unit.
+- P1-W02 is proposed in `../deliverables/P1-W02-next-crm-comparison-contract.md`. It does not authorize a HubSpot or other account, external configuration, fixture entry, or testing.
 
 ## Active work-unit contract
 
-**Status:** Incomplete; Free configuration-viability blocker documented and D-088 requires explicit direction.
+**Status:** Unapproved; proposed outcome and boundaries only.
 
-**Outcome:** Create and evaluate the smallest useful synthetic Zoho CRM Free prototype against the CP-004 mandatory gates and scenarios, then determine whether Zoho remains viable for the candidate pool.
+**Proposed outcome:** Define and approve the evidence-first screening contract for the next CRM candidate, beginning with the planned HubSpot comparison, so production-tier feasibility is checked before another account is created or Loryn is involved.
 
 **Inputs:**
 
 - The signed CP-003 lifecycle, next-action, and minimum-field specification.
 - The signed CP-004 scorecard, mandatory gates, fixtures, scenarios, burden limit, and evidence format.
-- Approved P1-W01 decisions D-075 through D-087.
+- The closed incomplete P1-W01 Zoho result and accepted D-088 option 1.
 
 **Acceptance checks:**
 
-- Current official evidence records tier, two-administrator support, MFA, exports, limits, and expected production cost.
-- Account ownership and administrator roles are verified after separately authorized account creation.
-- The approved minimum configuration is completed or unsupported items are documented with evidence.
-- All eight synthetic fixtures can be restored to their approved T0-relative baseline without real data.
-- Vendor sample records are removed through a verified method or isolated so they cannot affect searches, views, duplicate handling, timing, or results.
-- TS-01 through TS-07 receive evaluator screening unless an approved early-stop condition applies.
-- Every applicable gate and criterion records its result or score, evidence, confidence, and uncertainty; totals remain incomplete when required evidence is `Unverified`.
-- Privacy and secret review passes, and the result identifies Zoho as viable, eliminated, or incomplete with named blockers.
-- Loryn performs no P1-W01 testing, evidence capture, fixture setup, reset, or homework.
+- Approve or revise the P1-W02 work-unit outcome before drafting the detailed contract.
+- Define an official-evidence preflight that checks the lowest plausible production tier before account creation.
+- Preserve the CP-004 common gates, fixtures, scenarios, evidence format, and Loryn burden limit.
+- Keep account creation, configuration, fixture entry, and testing behind separate explicit action gates.
+- Continue to prohibit real data, external connections, communications, billing, purchases, production use, and platform selection.
 
-**CP-005 effect:** Approve only the completed Zoho evaluator result and configuration inventory.
+**Checkpoint effect:** Not yet proposed. CP-005 was not reached in P1-W01.
 
-**Out of scope:** Platform selection, HubSpot setup, Loryn finalist testing, production use, real records, external integrations, purchases, customer communications, or automation.
+**Out of scope:** HubSpot or other account setup, candidate configuration, fixture entry, testing, platform selection, Loryn finalist testing, production use, real records, external integrations, purchases, customer communications, or automation.
 
 ## Open items
 
@@ -148,7 +148,6 @@
 - D-014: exact Costco program fields and restrictions.
 - D-016: final platform trial result.
 - D-017: whether a Centah adapter is justified after the manual bridge.
-- D-088: whether to keep Zoho as a documentation-only paid-tier possibility, authorize a separately scoped Professional evaluation, or eliminate Zoho and continue the comparison.
 - Complete the current communications-compliance review before purchasing/importing prospect lists or enabling automated outreach.
 - Deferred: whether detailed quote files enter the CRM and whether the personal Google account may connect directly.
 
@@ -162,7 +161,7 @@ CP-003 approved `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimu
 
 CP-004 approved `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`. Decisions D-049 through D-061 record the mandatory gates, D-062 through D-069 record the complete 100-point scorecard and scoring rule, D-070 through D-072 record the scenarios, fixtures, and scripts, D-073 records the staged test-burden rule, and D-074 records the evaluator-only evidence format. At CP-004, the authoritative Markdown master was Version 1.39; Word remains intentionally stale.
 
-P1-W01 is incomplete. D-075 through D-087 record the approved execution contract, account setup, platform-selection boundary, approved organization name, and synthetic-configuration authorization in `../deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`. The `Hazel Kaine` Free account has MFA and two confirmed administrators, and vendor sample data has been removed. Free cannot implement the CP-003 baseline; Professional is the lowest documented capacity path but remains unapproved. D-088 is open, the result and score remain incomplete, and CP-005 is pending. The authoritative Markdown master is Version 1.54; Word remains intentionally stale.
+P1-W01 is closed incomplete by accepted D-088 option 1. D-075 through D-087 record the approved execution contract and bounded Zoho actions; D-088 retains Professional as documentation-only and prohibits upgrade or purchase. The `Hazel Kaine` Free tenant has MFA, two confirmed administrators, no vendor sample data, and no partial fixtures. CP-005 was not reached. P1-W02 is proposed for next-candidate contract definition only. The authoritative Markdown master is Version 1.55; Word remains intentionally stale.
 
 ## Chat and artifact protocol
 
@@ -183,12 +182,12 @@ P1-W01 is incomplete. D-075 through D-087 record the approved execution contract
 
 ## Next work-unit starting point
 
-Phase 0 is complete at CP-004. Phase 1 P1-W01 reached a Free-tier configuration blocker after official evidence, vendor-sample cleanup, and direct field-capacity observation. No partial fixtures were entered. D-088 now requires an explicit Zoho path decision.
+Phase 0 is complete at CP-004. Phase 1 P1-W01 is closed incomplete under D-088 option 1. P1-W02 now proposes the evidence-first outcome and boundaries for the next CRM comparison contract.
 
 ## Exact next action
 
-Review the P1-W01 evidence and explicitly choose whether Zoho remains documentation-only, receives a separately authorized Professional evaluation, or is eliminated before the comparison continues. Do not upgrade, purchase, create another account, or start HubSpot configuration from this blocker alone.
+Review and explicitly approve or revise the proposed P1-W02 outcome in `../deliverables/P1-W02-next-crm-comparison-contract.md`. Do not create a HubSpot or other account from outcome approval alone.
 
 ## Resume instruction
 
-Read this file, Sessions S-054 and S-055 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, `../deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`, `../evidence/P1-W01/zoho/evaluator-result.md`, and the Phase 1 and platform-trial sections of `../deliverables/window-sales-operations-master-plan.md`. Free cannot represent the CP-003 baseline, vendor sample data is gone, no partial fixtures were saved, and D-088 is open. Obtain explicit direction before any paid-tier action, other-account setup, or candidate transition. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Continue to prohibit real data, external connections, billing, purchases, customer communications, production use, CP-005 sign-off, and platform selection.
+Read this file, Sessions S-055 and S-056 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, `../deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`, `../evidence/P1-W01/zoho/evaluator-result.md`, `../deliverables/P1-W02-next-crm-comparison-contract.md`, and the Phase 1 and platform-trial sections of `../deliverables/window-sales-operations-master-plan.md`. D-088 option 1 is accepted, P1-W01 is closed incomplete without CP-005, and P1-W02 is unapproved. Present the proposed P1-W02 outcome for explicit approval or revision. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Continue to prohibit external accounts, real data, connections, billing, purchases, customer communications, production use, and platform selection.

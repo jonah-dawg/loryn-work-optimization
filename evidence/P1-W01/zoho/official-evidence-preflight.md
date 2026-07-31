@@ -1,6 +1,6 @@
 # P1-W01 Zoho Official-Evidence Preflight
 
-**Status:** In progress - official preflight and Free configuration-viability observation complete
+**Status:** Complete for the closed documentation-only Zoho result
 
 **Evidence checked:** July 30, 2026
 

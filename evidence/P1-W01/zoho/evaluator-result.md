@@ -1,6 +1,6 @@
 # P1-W01 Zoho Evaluator Result
 
-**Status:** Incomplete - Free configuration blocker; no CP-005 approval
+**Status:** Closed incomplete by D-088 option 1 - documentation-only paid-tier possibility; no CP-005 approval
 
 **Candidate:** Zoho CRM
 
@@ -22,7 +22,7 @@ Zoho Free cannot host the approved P1-W01 prototype faithfully because it provid
 
 Zoho Professional is the lowest current edition with clearly sufficient documented field capacity: 155 custom fields per module. For two full administrators, the current official USD comparison lists $46/month on annual billing or $70 month-to-month, before local taxes. This is a paid-tier possibility only. No trial, upgrade, billing action, purchase, or recommendation is authorized.
 
-The result is therefore `Incomplete`, not a Free-tier prototype pass and not a platform selection. Direct field, view, fixture, scenario, export-relationship, mobile, save/sync, and administration testing remains blocked unless a later work unit authorizes an appropriate paid tier or chooses another candidate path.
+The result is therefore `Incomplete`, not a Free-tier prototype pass and not a platform selection. D-088 option 1 retains Professional as documentation-only evidence and ends P1-W01 without paid-tier testing. Direct field, view, fixture, scenario, export-relationship, mobile, save/sync, and administration results remain unverified.
 
 ## Configuration-viability evidence
 
@@ -58,12 +58,13 @@ The Free result and paid-tier possibility are stated separately. A paid-tier `Co
 
 The weighted total is intentionally incomplete. No mobile or scenario score is assigned, and the documented governance, portability, and cost observations are not normalized into a partial total. Mandatory Free failures and unverified direct evidence prevent Zoho from being preferred at this point.
 
-## Open blocker and next decision
+## Approved disposition and next work unit
 
-The blocker is authorization, not an invitation to purchase: the approved work unit permits only Zoho Free, while credible direct testing requires at least Professional for the CP-003 field model. The next saved decision should choose one of these bounded paths:
+On July 31, 2026, the user explicitly approved D-088 option 1:
 
-1. Keep Zoho as a documentation-only paid-tier possibility and move to the approved comparison candidate without upgrading Zoho.
-2. Open a separately scoped, explicitly authorized Professional evaluation with a no-purchase exit plan.
-3. Eliminate Zoho if the documented two-admin production cost or paid dependency is unacceptable.
+- Keep Zoho as a documentation-only Professional-tier possibility.
+- Do not start a Zoho paid trial, upgrade, or purchase.
+- Close P1-W01 incomplete without CP-005.
+- Move only to definition of the next CRM comparison work unit.
 
-Until one path is explicitly approved, P1-W01 remains incomplete and CP-005 remains pending.
+This disposition does not approve a HubSpot or other candidate account, configuration, integration, customer data, communication, purchase, finalist test, or platform selection.
