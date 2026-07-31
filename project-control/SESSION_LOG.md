@@ -2169,3 +2169,57 @@ Wait for the exact synthetic-configuration authorization. Do not modify the Zoho
 ### Saved ending point
 
 Run the current official-evidence preflight and verify the vendor-sample cleanup method before modifying Zoho.
+
+## Session S-055 - Zoho Free configuration blocker documented
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W01 - Zoho synthetic prototype and evaluator screening
+
+**Checkpoint:** P1-W01 incomplete; CP-005 remains pending
+
+**Sign-off status:** Execution evidence recorded; no new approval or platform decision
+
+### Work completed
+
+- Verified current official Zoho evidence for Free users, administrators, MFA, custom fields, list views, workflows, import, export, backup, API capacity, and current USD paid-tier pricing.
+- Opened the separately authorized configuration gate and used only the signed-in `Hazel Kaine` tenant without requesting or recording credentials, codes, recovery information, private email addresses, or account identifiers.
+- Verified Zoho's dedicated sample-removal dialog, confirmed that it targeted sample data only, executed the already approved vendor-only removal, and observed the scheduled cleanup complete.
+- Confirmed no `(Sample)` records remained in the checked Leads, Contacts, Accounts, Deals, Tasks, Meetings, or Calls modules.
+- Observed two distinct active Administrator rows without retaining private identity details.
+- Observed that Zoho Free disables `Create New Module` and every new Deal field type, while exposing only the standard Deal fields.
+- Opened the editable Stage-Probability Mapping screen but saved no partial stage model because the supporting CP-003 fields cannot be created on Free.
+- Created the sanitized official-evidence preflight, configuration inventory, synthetic fixture sheet, and incomplete evaluator result under `../evidence/P1-W01/zoho/`.
+
+### Findings and blocker
+
+- Zoho Free cannot faithfully represent the CP-003 job baseline and receives confirmed mandatory failures for the applicable source, reminder, record-model, communication-control, and Centah-identifier gates.
+- Zoho Standard's documented 10 custom fields per module is also below the approved Deal/job requirement.
+- Zoho Professional is the lowest edition with clearly sufficient documented field capacity. Current official USD evidence gives a two-administrator cost of $46 per month on annual billing or $70 month-to-month, before tax.
+- The Professional path is only a paid-tier `Conditional Pass` possibility. No trial, billing, upgrade, purchase, or recommendation was authorized or performed.
+- Fixtures, scenarios, mobile timing, cross-device reliability, and weighted scoring remain incomplete because the approved baseline cannot be represented on Free.
+- **Open (D-088):** choose explicitly whether to keep Zoho as documentation-only, authorize a separately scoped Professional evaluation, or eliminate Zoho and continue the comparison.
+
+### Approval boundary
+
+- CP-004 remains the last signed-off checkpoint; CP-005 is not approved.
+- Do not infer authority for a Professional trial, upgrade, purchase, billing action, new candidate account, HubSpot configuration, Loryn testing, real data, integrations, communications, production use, or platform selection.
+- The Zoho tenant remains clean of vendor sample data and intentionally contains no partial fixture set.
+
+### Files changed
+
+- `deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W01/zoho/configuration-inventory.md`
+- `evidence/P1-W01/zoho/evaluator-result.md`
+- `evidence/P1-W01/zoho/official-evidence-preflight.md`
+- `evidence/P1-W01/zoho/synthetic-fixtures.csv`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Stop at D-088 and request explicit direction. Do not open a paid trial, upgrade, purchase, or start another candidate configuration from the Free blocker alone.

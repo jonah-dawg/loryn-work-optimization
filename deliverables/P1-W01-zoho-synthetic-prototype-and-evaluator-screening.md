@@ -1,6 +1,6 @@
 # P1-W01 - Zoho Synthetic Prototype and Evaluator Screening
 
-**Status:** Approved for execution - synthetic configuration and evaluator testing authorized
+**Status:** Execution incomplete - Zoho Free configuration blocker documented; CP-005 pending
 **Phase:** Phase 1 - Zoho prototype and HubSpot comparison
 **Updated:** July 30, 2026
 **Last signed-off checkpoint:** CP-004
@@ -156,6 +156,19 @@ Current non-sensitive setup status:
 - The technical partner accepted the invitation and is confirmed as the second administrator.
 - The bounded account-creation procedure is complete.
 - The user gave the exact synthetic-configuration authorization on July 30, 2026. Vendor-sample cleanup, approved minimum configuration, fixture entry/reset, and P1-W01 evaluator testing may now proceed within this contract.
+
+## Configuration-viability result
+
+- Official and direct tenant evidence confirms that Zoho CRM Free provides no custom fields. The tenant disabled every new Deal field type and `Create New Module`.
+- Free exposes only the standard Deal fields recorded in `../evidence/P1-W01/zoho/configuration-inventory.md`; these cannot store the complete CP-003 job model.
+- Standard's documented allowance of 10 custom fields per module is also below the approved Deal/job requirement. Professional's 155 custom fields per module is the lowest documented capacity that is clearly sufficient.
+- Current official USD evidence puts two Professional administrators at $46 per month on annual billing or $70 month-to-month, before local taxes. This is documentation only, not an upgrade or purchase recommendation.
+- The authorized vendor sample data was removed through Zoho's dedicated sample-removal control. The checked CRM modules no longer contain `(Sample)` records.
+- Two distinct active Administrator rows were observed without retaining private names, email addresses, or account identifiers.
+- No partial lifecycle or fixture set was saved. Entering incomplete records would omit approved fields or hide them in notes and invalidate the common scenarios.
+- The evidence-backed Free result includes mandatory failures; the Professional possibility remains conditional and untested. The weighted total is incomplete.
+- Evidence is stored in `../evidence/P1-W01/zoho/official-evidence-preflight.md`, `configuration-inventory.md`, `synthetic-fixtures.csv`, and `evaluator-result.md`.
+- P1-W01 remains incomplete pending an explicit decision to keep Zoho as documentation-only, authorize a separate Professional evaluation, or eliminate Zoho and continue the comparison. CP-005 remains pending.
 
 ## Approval boundary
 
