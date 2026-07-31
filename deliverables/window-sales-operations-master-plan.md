@@ -2,7 +2,7 @@
 
 ## Master Project Plan
 
-**Version:** 1.51
+**Version:** 1.52
 **Status:** Working source of truth  
 **Updated:** July 30, 2026
 **Primary team:** Window-covering sales consultant and technical partner
@@ -494,7 +494,7 @@ ChatGPT should distinguish confirmed facts, assumptions, decisions, and open que
 **Technical/configuration:** create the weighted platform scorecard, synthetic fixtures, scripted mobile scenarios, field inventory, Centah discovery checklist, and vendor/security questions.  
 **Gate:** the two-person team agrees on the synthetic-only trial boundary, mandatory requirements, and scoring method. CP-001 confirmed permission to transfer approved real fields, but real imports and external integrations remain blocked until production access, security, retention, and connection controls are defined.
 
-**Progress:** P0-W01 was signed off at CP-001. CP-002 approved the independent-lead and prospecting scope. CP-003 approved the connected prospecting and active-job lifecycles, stage-specific next actions, communication timing, quote and handoff rules, installation/post-install outcomes, minimum CRM fields, and sanitized validation. CP-004 approved the P0-W03 platform-evaluation method. Phase 1 has started with an approved P1-W01 execution contract for a synthetic Zoho prototype and evaluator screening. The account is now on Free Edition with Loryn-controlled MFA and the approved organization name `Hazel Kaine`; secondary-administrator verification remains pending. Synthetic configuration and testing remain separately gated and unapproved.
+**Progress:** P0-W01 was signed off at CP-001. CP-002 approved the independent-lead and prospecting scope. CP-003 approved the connected prospecting and active-job lifecycles, stage-specific next actions, communication timing, quote and handoff rules, installation/post-install outcomes, minimum CRM fields, and sanitized validation. CP-004 approved the P0-W03 platform-evaluation method. Phase 1 has started with an approved P1-W01 execution contract for a synthetic Zoho prototype and evaluator screening. The `Hazel Kaine` account is on Free Edition with Loryn-controlled MFA and two confirmed administrators. Account setup is complete; synthetic configuration and testing remain separately gated and unapproved.
 
 ### Phase 1 - Zoho prototype and HubSpot comparison (weeks 2-3)
 

@@ -2090,3 +2090,43 @@ Resume with Loryn's authorized account setup. Evaluate Centah only as a nonselec
 ### Saved ending point
 
 Invite and verify the technical partner as the secondary administrator, then stop before CRM configuration or testing.
+
+## Session S-053 - Zoho account setup completed
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W01 - Zoho synthetic prototype and evaluator screening
+
+**Checkpoint:** P1-W01 account setup complete; CP-005 remains pending
+
+**Sign-off status:** Two-administrator account setup confirmed complete; configuration gate remains closed
+
+**Confirmation evidence:** The user reported, “secondary admin confirmed.”
+
+### Confirmed account state
+
+- `Hazel Kaine` is on Zoho CRM Free Edition.
+- Loryn remains the account owner, super administrator, and primary administrator with privately controlled MFA and recovery.
+- The technical partner accepted the invitation and is confirmed as the second administrator.
+- Zoho vendor sample data remains present but is not an approved fixture set.
+- The bounded account-creation procedure is complete.
+
+### Approval boundary
+
+- Do not remove vendor sample data, create fields, enter fixtures, configure views, or run tests until the user gives the exact instruction `Begin P1-W01 synthetic configuration`.
+- External integrations, real data, billing, paid trials, purchases, customer communications, scoring, and platform selection remain unapproved.
+- CP-004 remains the last signed-off checkpoint.
+
+### Files changed
+
+- `deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Wait for the exact synthetic-configuration authorization. Do not modify the Zoho CRM account from readiness alone.
