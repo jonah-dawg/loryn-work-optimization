@@ -2130,3 +2130,42 @@ Invite and verify the technical partner as the secondary administrator, then sto
 ### Saved ending point
 
 Wait for the exact synthetic-configuration authorization. Do not modify the Zoho CRM account from readiness alone.
+
+## Session S-054 - P1-W01 synthetic configuration authorized
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W01 - Zoho synthetic prototype and evaluator screening
+
+**Checkpoint:** P1-W01 execution in progress; CP-005 remains pending
+
+**Sign-off status:** Synthetic configuration and evaluator testing explicitly authorized within the approved contract
+
+**Approval evidence:** The user stated the required exact instruction, “Begin P1-W01 synthetic configuration.”
+
+### Accepted decision
+
+- **Accepted (D-087):** Open the synthetic-configuration gate for P1-W01.
+- Authorize current official-evidence preflight, verified vendor-sample cleanup, approved minimum configuration, fixture entry/reset, evaluator testing, mobile timing, and Zoho result preparation.
+
+### Approval boundary
+
+- Use only approved synthetic data and the bounded P1-W01 configuration.
+- Do not connect email, calendar, maps accounts, Centah, or any other external service.
+- Real data, billing, paid trials, upgrades, purchases, customer communications, production use, CP-005 sign-off, and platform selection remain unapproved.
+- Stop if safe cleanup cannot be verified, a mandatory failure is confirmed with no acceptable path, or execution would require scope expansion.
+- CP-004 remains the last signed-off checkpoint.
+
+### Files changed
+
+- `deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Run the current official-evidence preflight and verify the vendor-sample cleanup method before modifying Zoho.

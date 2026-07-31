@@ -2,11 +2,11 @@
 
 **Updated:** July 30, 2026
 
-**Overall status:** Active - Phase 1 account setup complete; configuration authorization pending
+**Overall status:** Active - Phase 1 Zoho evidence preflight and synthetic configuration authorized
 **Current phase:** Phase 1 - Zoho prototype and HubSpot comparison
 **Active work unit:** P1-W01 - Zoho synthetic prototype and evaluator screening
 
-**Work-unit status:** Account setup complete; configuration gate closed
+**Work-unit status:** In progress - configuration gate open; official-evidence preflight first
 
 **Last signed-off checkpoint:** CP-004 - CRM platform evaluation method (July 30, 2026)
 
@@ -105,10 +105,12 @@
 - The approved trial organization name is `Hazel Kaine`, superseding only the earlier planned neutral label. No additional employer, Costco, Centah, or customer information is authorized.
 - Zoho vendor sample data was loaded during account creation. It is synthetic but is not part of the approved CP-004 fixtures; leave it untouched until configuration is authorized, then remove it through a verified method or isolate it before evaluator testing.
 - The technical partner accepted the invitation and is confirmed as the second administrator. The bounded account-creation procedure is complete.
+- The user gave the exact instruction `Begin P1-W01 synthetic configuration`. Verified vendor-sample cleanup, the approved minimum configuration, fixture handling, evaluator testing, and Zoho result preparation are authorized within P1-W01.
+- External connections, real data, billing, paid trials, purchases, customer communications, production use, CP-005 sign-off, and platform selection remain unapproved.
 
 ## Active work-unit contract
 
-**Status:** Approved for execution; account setup complete, configuration authorization pending.
+**Status:** In progress; account setup complete and synthetic configuration/testing authorized.
 
 **Outcome:** Create and evaluate the smallest useful synthetic Zoho CRM Free prototype against the CP-004 mandatory gates and scenarios, then determine whether Zoho remains viable for the candidate pool.
 
@@ -116,7 +118,7 @@
 
 - The signed CP-003 lifecycle, next-action, and minimum-field specification.
 - The signed CP-004 scorecard, mandatory gates, fixtures, scenarios, burden limit, and evidence format.
-- Approved P1-W01 decisions D-075 through D-086.
+- Approved P1-W01 decisions D-075 through D-087.
 
 **Acceptance checks:**
 
@@ -155,7 +157,7 @@ CP-003 approved `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimu
 
 CP-004 approved `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`. Decisions D-049 through D-061 record the mandatory gates, D-062 through D-069 record the complete 100-point scorecard and scoring rule, D-070 through D-072 record the scenarios, fixtures, and scripts, D-073 records the staged test-burden rule, and D-074 records the evaluator-only evidence format. At CP-004, the authoritative Markdown master was Version 1.39; Word remains intentionally stale.
 
-P1-W01 is in progress. D-075 through D-086 record the approved execution contract, account-creation authorization, platform-selection boundary, and approved organization name in `../deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`. The `Hazel Kaine` Free account has MFA and two confirmed administrators; account setup is complete. Synthetic configuration, vendor-sample cleanup, and testing remain unapproved. The authoritative Markdown master is Version 1.52; Word remains intentionally stale.
+P1-W01 is in progress. D-075 through D-087 record the approved execution contract, account setup, platform-selection boundary, approved organization name, and synthetic-configuration authorization in `../deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`. The `Hazel Kaine` Free account has MFA and two confirmed administrators. Official-evidence preflight, verified vendor-sample cleanup, minimum configuration, fixture handling, evaluator testing, and Zoho result preparation may proceed. The authoritative Markdown master is Version 1.53; Word remains intentionally stale.
 
 ## Chat and artifact protocol
 
@@ -176,12 +178,12 @@ P1-W01 is in progress. D-075 through D-086 record the approved execution contrac
 
 ## Next work-unit starting point
 
-Phase 0 is complete at CP-004. Phase 1 has started with an approved P1-W01 execution contract. Free Edition, MFA, the approved organization name, and two administrator roles are confirmed. Account setup is complete; the configuration gate remains closed.
+Phase 0 is complete at CP-004. Phase 1 has started with an approved P1-W01 execution contract. Account setup is complete and the configuration gate is open. Begin with current official evidence, then verified vendor-sample cleanup and minimum synthetic configuration.
 
 ## Exact next action
 
-If configuration should proceed, obtain the exact instruction `Begin P1-W01 synthetic configuration`. Do not remove vendor sample data, create fields, enter fixtures, configure views, or run tests from account readiness alone.
+Run the official-evidence preflight for Free Edition, two administrators, MFA, exports, limits, and production cost. Then verify a safe Zoho-supported method for removing vendor sample data before changing the account.
 
 ## Resume instruction
 
-Read this file, Sessions S-039 through S-053 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, `../deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`, and the Phase 1 and platform-trial sections of `../deliverables/window-sales-operations-master-plan.md`. The P1-W01 contract and bounded account setup are approved and complete. Free Edition, MFA, the `Hazel Kaine` organization name, and two administrator roles are confirmed. Vendor sample data remains present and untouched. Do not remove it, configure or test the account, or enter fixtures unless the user gives the separate exact configuration authorization. Continue to prohibit real data, external connections, purchases, customer communications, and platform selection.
+Read this file, Sessions S-039 through S-054 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, `../deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`, and the Phase 1 and platform-trial sections of `../deliverables/window-sales-operations-master-plan.md`. The P1-W01 contract, account setup, and synthetic configuration/testing are approved. Begin with official evidence and a verified vendor-sample cleanup method, then execute only the minimum synthetic scope. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Continue to prohibit real data, external connections, billing, purchases, customer communications, production use, CP-005 sign-off, and platform selection.

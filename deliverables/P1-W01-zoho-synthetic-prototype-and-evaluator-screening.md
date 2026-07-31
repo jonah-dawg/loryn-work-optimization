@@ -1,6 +1,6 @@
 # P1-W01 - Zoho Synthetic Prototype and Evaluator Screening
 
-**Status:** Approved for execution - account setup complete; configuration authorization pending
+**Status:** Approved for execution - synthetic configuration and evaluator testing authorized
 **Phase:** Phase 1 - Zoho prototype and HubSpot comparison
 **Updated:** July 30, 2026
 **Last signed-off checkpoint:** CP-004
@@ -154,8 +154,9 @@ Current non-sensitive setup status:
 - Zoho vendor sample data was loaded during account creation. It is not part of the approved fixture set and must remain unused until authorized configuration begins.
 - Before evaluator scenarios, remove the vendor sample records through a verified Zoho-supported method or isolate them so that only the eight approved fixtures can affect views, searches, duplicate handling, timing, and results. Do not delete anything until the configuration gate opens.
 - The technical partner accepted the invitation and is confirmed as the second administrator.
-- The bounded account-creation procedure is complete. Stop before CRM configuration or testing.
+- The bounded account-creation procedure is complete.
+- The user gave the exact synthetic-configuration authorization on July 30, 2026. Vendor-sample cleanup, approved minimum configuration, fixture entry/reset, and P1-W01 evaluator testing may now proceed within this contract.
 
 ## Approval boundary
 
-The complete work-unit contract and bounded account setup are approved and complete. Actual Zoho configuration, vendor-sample cleanup, platform testing, external connections, real-data use, customer communications, purchases, platform scoring, and platform selection remain unapproved. Configuration and testing require the exact instruction `Begin P1-W01 synthetic configuration`.
+The complete work-unit contract, bounded account setup, synthetic configuration, vendor-sample cleanup, fixture handling, evaluator testing, and Zoho result preparation are approved. External connections, real-data use, customer communications, billing, paid trials, purchases, production use, CP-005 sign-off, and platform selection remain unapproved.
