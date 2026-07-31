@@ -2,7 +2,7 @@
 
 ## Master Project Plan
 
-**Version:** 1.49
+**Version:** 1.50
 **Status:** Working source of truth  
 **Updated:** July 30, 2026
 **Primary team:** Window-covering sales consultant and technical partner
@@ -170,6 +170,8 @@ Track only metrics that change behavior:
 
 The selected CRM is the system of engagement for the consultant's daily workflow and the sole workflow system for independently sourced prospects and opportunities. Centah is used only for Costco-originated leads and remains the initial system of record for their identity and any retailer/program fields governed there. The CRM becomes authoritative for independent prospecting and for explicitly approved local workflow fields such as personal tasks, next actions, and local notes.
 
+Centah is not a candidate for the final standalone CRM. Its current workflow is retained only as a reference baseline and as the governed Costco-side system that the selected CRM must bridge or integrate with. Platform selection must choose a CRM that can operate independent business end to end outside Costco/Centah while also supporting an evidence-backed manual or automated Centah connection for Costco-originated work.
+
 The first release is a configured product, not a newly built application. A custom API, database, PWA, or website is authorized only when a measured requirement cannot be met safely and economically through CRM configuration or a thin integration adapter.
 
 ### Platform evaluation gate
@@ -187,7 +189,7 @@ Score each candidate on:
 - Reporting, automation limits, support model, upgrade cost, and exit portability.
 - Fit with the confirmed Centah integration mechanism.
 
-**Selection rule:** choose the lowest-total-cost platform that passes all mandatory governance, mobile workflow, data portability, and Centah integration requirements. Treat free tiers as prototypes, not as a promise that production will remain free.
+**Selection rule:** choose the lowest-total-cost CRM that can manage independent prospects and jobs without Centah and that passes all mandatory governance, mobile workflow, data portability, and Centah bridge/integration requirements. Centah-only is a nonselectable reference baseline, not a finalist or fallback final system. Treat free tiers as prototypes, not as a promise that production will remain free.
 
 ### Configured first release
 
@@ -360,9 +362,9 @@ Do not create a parallel API, database, or web application merely to reproduce n
 
 - **Zoho CRM Free - first prototype:** currently positioned for up to three users and includes core lead/deal management, mobile access, standard reports, a small number of workflows, and API access. Validate exact limits in the trial tenant before relying on them.
 - **HubSpot Free - comparison candidate:** currently positioned for up to two users with foundational CRM tools and email connectivity. Its full workflow builder generally requires higher paid tiers, so model likely upgrade cost before choosing it for automation-heavy use.
-- **Centah-only option:** include Centah in the evaluation. If its existing mobile, task, calendar, and reporting capabilities satisfy the operating model, avoid adding another CRM.
+- **Centah-only reference baseline:** observe the existing Centah workflow to measure current friction and define bridge/integration needs. It is not eligible for final selection because independent work requires a CRM outside Costco/Centah.
 
-The platform decision is not final until the same synthetic workflow script has been completed in each viable candidate and the production tenant's access, security, retention, data portability, and likely cost are acceptable. CP-004 approved thirteen mandatory gates covering the daily action center, source branching, essential mobile speed, reminders, administration, portability, the approved record model, human-controlled communications, the Centah bridge, save reliability, cost evidence, sustainable administration, and the common synthetic evidence standard. The complete evaluation method is maintained in `P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`.
+The platform decision is not final until the same synthetic workflow script has been completed in each viable CRM candidate, the Centah baseline has been documented for integration comparison, and the preferred CRM's production access, security, retention, data portability, likely cost, and Centah bridge path are acceptable. CP-004 approved thirteen mandatory gates covering the daily action center, source branching, essential mobile speed, reminders, administration, portability, the approved record model, human-controlled communications, the Centah bridge, save reliability, cost evidence, sustainable administration, and the common synthetic evidence standard. The complete evaluation method is maintained in `P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`.
 
 ### Repository organization
 
@@ -497,8 +499,8 @@ ChatGPT should distinguish confirmed facts, assumptions, decisions, and open que
 ### Phase 1 - Zoho prototype and HubSpot comparison (weeks 2-3)
 
 **Operational:** approve the separate prospecting and active-opportunity lifecycles, next-action rules, priorities, minimum fields, and representative daily scenarios.  
-**Technical/configuration:** configure Zoho first, reproduce the same scenarios in HubSpot, document tier limits and likely upgrade costs, and include a Centah-only baseline.  
-**Gate:** observed mobile tests and the scorecard identify a preferred platform or show that no candidate passes mandatory requirements.
+**Technical/configuration:** configure Zoho first, reproduce the same scenarios in HubSpot and any other approved CRM candidate, document tier limits and likely upgrade costs, and use Centah-only solely as the nonselectable current-state baseline.
+**Gate:** observed mobile tests and the scorecard identify a preferred CRM that supports independent work and a viable Centah bridge/integration path, or show that no CRM candidate passes mandatory requirements.
 
 ### Phase 2 - Configured CRM pilot and manual Centah bridge (weeks 4-6)
 
@@ -655,6 +657,7 @@ Update this table whenever a decision changes. Supersede rather than delete prio
 | D-082 | Accepted | Complete P1-W01 only after official evidence, verified administrator roles, the minimum configuration or documented limitations, resettable synthetic fixtures, evaluator screening, evidence-backed gate and criterion results, privacy review, and a clear viability outcome; limit CP-005 to the Zoho result and configuration inventory | Makes completion evidence-based while keeping Loryn out of evaluator work and preventing a Zoho checkpoint from implying platform selection or broader implementation authority | Trial execution reveals a missing decision-critical acceptance check or the Phase 1 checkpoint structure changes |
 | D-083 | Accepted | Approve the complete P1-W01 execution contract while keeping account creation and synthetic configuration behind their separate exact authorization phrases | Establishes an executable, bounded work unit without treating contract approval as permission for an external account or platform action | The approved work-unit scope or action-gate model changes before execution |
 | D-084 | Accepted | Authorize Loryn to create the neutral-label Zoho Free account, enable private MFA and recovery, invite the technical partner as secondary administrator, verify the roles, and then stop without configuration or testing | Opens only the approved account-setup gate while preserving credential privacy, no-billing rules, and the separate configuration gate | Account setup cannot follow the approved procedure or the user revokes the authorization before completion |
+| D-085 | Accepted | Exclude Centah as the final standalone system and select only among CRMs that can run independent business outside Costco/Centah while supporting an evidence-backed manual bridge or integration path for Costco/Centah work | The business needs one CRM for independently sourced work; Centah remains a governed Costco-side system and current-state baseline rather than the desired destination | Independent-work scope is removed or Centah becomes a confirmed full CRM with an approved operating model for all sources |
 
 ## 14. Immediate next actions
 
@@ -665,7 +668,7 @@ Update this table whenever a decision changes. Supersede rather than delete prio
 - [x] Approve the canonical pipeline, next-action invariant, and minimum fields. Mandatory platform-evaluation requirements continue in the next work unit.
 - [x] Create the weighted platform scorecard and scripted mobile test scenarios.
 - [ ] Configure the synthetic core workflow in Zoho CRM Free.
-- [ ] Reproduce the same scenarios in HubSpot Free and document the Centah-only baseline.
+- [ ] Reproduce the same scenarios in HubSpot Free and any other approved CRM candidate; document Centah-only as a nonselectable current-state baseline.
 - [ ] Review likely paid-tier costs, data portability, retention, permissions, API limits, and support before selecting the pilot platform.
 - [ ] Initialize the lightweight repository structure and baseline `AGENTS.md` for plans, configuration records, decisions, and any later connector code.
 - [ ] Agree on a lightweight recurring check-in cadence for reviewing progress and decisions.

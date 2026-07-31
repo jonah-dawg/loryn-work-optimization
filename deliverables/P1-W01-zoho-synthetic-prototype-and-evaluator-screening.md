@@ -11,6 +11,13 @@ Create and evaluate the smallest useful synthetic Zoho CRM prototype against the
 
 This outcome and execution contract are approved. Account creation and synthetic configuration remain separately gated and require their exact authorization phrases.
 
+### Platform-selection boundary
+
+- Zoho is being evaluated as a potential CRM for both independent work and the local workflow surrounding Costco/Centah opportunities.
+- Centah is not eligible to become the final standalone system. It remains the governed Costco-originated system and a reference baseline for measuring current friction and integration needs.
+- The eventual selection must be a CRM that supports independent prospects and jobs without Centah and also supports an evidence-backed manual bridge, import/export path, API, webhook, or other approved integration approach for Costco/Centah work.
+- If Zoho cannot meet both sides of that requirement at an acceptable production tier, it does not remain a viable finalist.
+
 ## Approved decisions
 
 ### Account ownership and administration

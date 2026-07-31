@@ -2007,3 +2007,43 @@ Await Loryn's non-sensitive report that the neutral-label Free account, MFA, and
 ### Saved ending point
 
 Resume with Loryn's interactive account setup under D-084. Do not begin synthetic configuration or testing.
+
+## Session S-051 - Final-platform CRM boundary clarified
+
+**Date:** July 30, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W01 - Zoho synthetic prototype and evaluator screening
+
+**Checkpoint:** P1-W01 execution paused; CP-005 remains pending
+
+**Sign-off status:** Platform-selection boundary explicitly accepted; account-setup handoff and configuration gate are unchanged
+
+**Approval evidence:** The user instructed that Centah is not the desired final system and that CRM candidates must support independent work outside Costco/Centah while allowing integration.
+
+### Accepted decision
+
+- **Accepted (D-085):** Centah is not eligible as the final standalone system.
+- Evaluate and select only among CRMs that can manage independent prospects and jobs outside Costco/Centah.
+- Require the selected CRM to support an evidence-backed manual bridge, import/export path, API, webhook, or other approved integration approach for Costco/Centah work.
+- Retain Centah-only only as the current-state reference baseline and governed Costco-side system.
+
+### Approval boundary
+
+- This clarification does not select Zoho, HubSpot, or another CRM.
+- It does not authorize synthetic configuration, another CRM account, real data, external integrations, purchases, customer communications, or production use.
+- The approved P1-W01 account-setup handoff remains unchanged, and configuration still requires the exact instruction `Begin P1-W01 synthetic configuration`.
+- CP-004 remains the last signed-off checkpoint.
+
+### Files changed
+
+- `deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Resume with Loryn's authorized account setup. Evaluate Centah only as a nonselectable baseline and integration constraint.

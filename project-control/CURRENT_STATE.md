@@ -14,7 +14,8 @@
 
 - The product is a mobile-first workflow system for an independent window-covering sales consultant.
 - Existing CRM products will be evaluated and configured before considering a custom application.
-- Zoho CRM Free is the first prototype candidate; HubSpot Free and the current Centah-only workflow are comparison baselines.
+- Zoho CRM Free is the first prototype candidate; HubSpot Free and other approved CRMs may be compared. The current Centah-only workflow is a nonselectable reference baseline, not a candidate final system.
+- The final platform must be a CRM that runs independent prospects and jobs outside Costco/Centah and supports an evidence-backed manual bridge or integration path for Costco-originated work.
 - Centah remains authoritative for Centah-originated identifiers and governed fields until a later mapping decision changes that boundary.
 - Each new order receives a new Centah lead number; store that identifier on the opportunity, not the reusable customer record.
 - A returning customer may have multiple opportunities.
@@ -70,7 +71,7 @@
 - The 10 Centah/integration points are allocated as practical Costco/Centah job and identifier handling 4, duplicate checking/reconciliation 3, and evidence-backed future import/export/API options 3. Unknown Centah capabilities remain unverified.
 - All criterion-level weights now total 100.
 - Seven common scenario areas are approved: quick prospect capture, morning action center, Costco/Centah lead handling, appointment workflow, visit/quote follow-up, both accepted-sale handoff branches, and the three-month installation exception.
-- Eight fixed synthetic fixtures use clearly fictional identities and relative T0 dates to give all three candidates identical starting conditions, including an intentional missing-next-action negative test.
+- Eight fixed synthetic fixtures use clearly fictional identities and relative T0 dates to give every evaluated CRM and the Centah reference baseline identical starting conditions where applicable, including an intentional missing-next-action negative test.
 - TS-01 through TS-07 now have approved common execution rules, exact steps, timing boundaries, no-send/no-travel controls, and expected results.
 - Evaluator screening covers all candidates first. Loryn tests no more than two viable finalists in one guided session of about 20 minutes each and receives no homework or follow-up test tasks.
 - The evaluator uses one test-run header and one compact result row per gate or criterion; Loryn does no evidence-recording work.
@@ -110,7 +111,7 @@
 
 - The signed CP-003 lifecycle, next-action, and minimum-field specification.
 - The signed CP-004 scorecard, mandatory gates, fixtures, scenarios, burden limit, and evidence format.
-- Approved P1-W01 decisions D-075 through D-084.
+- Approved P1-W01 decisions D-075 through D-085.
 
 **Acceptance checks:**
 
@@ -148,7 +149,7 @@ CP-003 approved `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimu
 
 CP-004 approved `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`. Decisions D-049 through D-061 record the mandatory gates, D-062 through D-069 record the complete 100-point scorecard and scoring rule, D-070 through D-072 record the scenarios, fixtures, and scripts, D-073 records the staged test-burden rule, and D-074 records the evaluator-only evidence format. At CP-004, the authoritative Markdown master was Version 1.39; Word remains intentionally stale.
 
-P1-W01 is in progress. D-075 through D-084 record the approved execution contract and account-creation authorization in `../deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`. Loryn may perform the bounded account setup; synthetic configuration and testing remain unapproved. The authoritative Markdown master is Version 1.49; Word remains intentionally stale.
+P1-W01 is in progress. D-075 through D-085 record the approved execution contract, account-creation authorization, and platform-selection boundary in `../deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`. Loryn may perform the bounded account setup; synthetic configuration and testing remain unapproved. The authoritative Markdown master is Version 1.50; Word remains intentionally stale.
 
 ## Chat and artifact protocol
 
