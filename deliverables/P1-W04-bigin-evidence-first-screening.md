@@ -1,6 +1,6 @@
 # P1-W04 - Bigin Premier Evidence-First Screening
 
-**Status:** Outcome approved as D-100; proposed execution contract unapproved; all external actions pending
+**Status:** Outcome approved as D-100; complete execution contract approved as D-101; all external actions pending
 
 **Phase:** Phase 1 - CRM candidate comparison
 
@@ -18,6 +18,8 @@ This outcome was explicitly approved as D-100 on August 1, 2026. D-100 authorize
 
 - **Accepted (D-100):** Approve the P1-W04 Bigin Premier evidence-first outcome and authorize detailed execution-contract drafting, the CP-003 field-capacity map, and additional current official research only.
 - D-100 does not approve the proposed contract or authorize an account or external platform action.
+- **Accepted (D-101):** Approve the complete P1-W04 Premier-only execution contract, including the tier boundary, prototype ownership, sequence, minimum configuration, stopping rules, separate action gates, acceptance checks, and CP-008 effect.
+- D-101 approves the contract only. It does not authorize an account, trial, tenant inspection, edition change, configuration, fixture entry, testing, billing, purchase, external connection, real data, communication, production use, Loryn participation, checkpoint, or platform selection.
 
 ## Recommendation
 
@@ -31,7 +33,7 @@ Recommend Bigin Premier as P1-W04 because current official evidence addresses th
 - Current official US pricing of `$15` per user monthly or `$12` per user per month billed annually. The two-administrator baseline is therefore `$30` monthly or `$288` annually before any applicable tax or add-on.
 - A 15-day trial that does not request a credit card and falls back to the one-user Free plan rather than charging automatically.
 
-## Why Premier is the proposed boundary
+## Why Premier is the approved boundary
 
 - Free is limited to one user, 500 total records, and one pipeline.
 - Express provides only 10 custom fields per module, below the conservative 15-field Pipeline map, and does not include Stage Transition Rules.
@@ -48,7 +50,7 @@ Recommend Bigin Premier as P1-W04 because current official evidence addresses th
 - Exact trial edition, trial contamination, two-administrator roles, MFA, removal, activity history, retention, full backup/export relationships, API limits, renewal, and taxes remain unverified.
 - Native offline behavior was not established by the current official preflight and must not be inferred.
 
-## Proposed candidate and tier boundary
+## Approved candidate and tier boundary
 
 - Evaluate Bigin Premier only. Free, Express, Bigin 360, add-ons, and connected Zoho products remain documentation-only unless a later explicit decision changes the boundary.
 - Use a no-credit-card 15-day trial only if the trial can be constrained to Premier-equivalent evidence without billing information.
@@ -56,17 +58,17 @@ Recommend Bigin Premier as P1-W04 because current official evidence addresses th
 - If signup begins on Bigin 360 or another higher scope, stop after recording the nonprivate edition label. A later exact authorization must approve any no-billing move to Premier before configuration.
 - Do not purchase, enter billing details, enable add-ons, or connect another service in P1-W04.
 
-## Proposed prototype ownership
+## Approved prototype ownership
 
 - The technical partner is the sole evaluator administrator under D-093.
 - Loryn performs no setup, testing, evidence capture, reset, or homework. She remains deferred until a separately approved finalist session.
 - Final production ownership remains Loryn as primary administrator with the technical partner as secondary ad hoc administrator, subject to later production-security and access decisions.
 - Keep credentials, MFA methods, recovery details, private emails, account identifiers, and session data out of all project artifacts.
 
-## Proposed execution sequence
+## Approved execution sequence
 
 1. Complete the Premier field-capacity map and official-feature inventory. This documentation step is complete under D-100, subject to direct correction.
-2. Obtain explicit approval of this complete execution contract.
+2. Obtain explicit approval of this complete execution contract. Completed as D-101.
 3. Obtain separate account-creation authorization.
 4. Create a bounded `Hazel Kaine` evaluator-only Bigin trial without billing information, external connections, real data, or retained vendor sample data.
 5. Inspect only nonprivate plan, trial-expiry, feature-boundary, sample-data, and administrator labels; stop if Premier-equivalent evidence cannot be isolated.
@@ -76,7 +78,7 @@ Recommend Bigin Premier as P1-W04 because current official evidence addresses th
 9. Load the CP-004 synthetic fixtures, run TS-01 through TS-07, perform mobile timing, and export the synthetic result unless an early mandatory failure stops the run.
 10. Remove or archive test-created artifacts using a verified narrow cleanup procedure and prepare the evidence-backed result.
 
-## Proposed minimum configuration
+## Approved minimum configuration
 
 - Contacts are reusable customer/prospect records; one Contact may link to multiple Pipeline records, with Companies used only when a business identity is operationally needed.
 - One `Window Sales Work` Team Pipeline holds active jobs. Use Costco/Centah and Independent sub-pipelines only if direct inspection confirms that they share fields, preserve a unified action center, and allow distinct transition rules; otherwise record the model as blocked rather than adding another system.
@@ -87,7 +89,7 @@ Recommend Bigin Premier as P1-W04 because current official evidence addresses th
 - Create practical views for today's appointments, people to contact today, overdue actions, waiting-on-others jobs, records missing a next action, and source-specific exceptions.
 - Keep communications manual. Do not connect email, calendar, phone, maps accounts, Centah, Zoho Sign, Zoho Flow, MCP, or another external service. Native address handoff to the device's navigation app may be tested without signing into another service.
 
-## Proposed stopping rules
+## Approved stopping rules
 
 - Stop before account creation if the field map exceeds Premier limits or current official evidence eliminates Premier.
 - Stop before configuration if the trial cannot be isolated to Premier-equivalent evidence without billing or higher-tier contamination.
@@ -95,16 +97,16 @@ Recommend Bigin Premier as P1-W04 because current official evidence addresses th
 - Record, rather than bypass, missing source-specific stage enforcement, conditional Centah requirements, unique-field protection, morning-view behavior, mobile behavior, export reconstruction, or administration controls.
 - Never activate Bigin 360, an add-on, a paid commitment, an external connection, or a custom application to make Bigin pass.
 
-## Proposed separate action gates
+## Approved separate action gates
 
 - D-100 approves the outcome only; it does not approve this execution contract.
-- Complete contract approval requires the explicit instruction `Approve the complete P1-W04 execution contract`.
+- D-101 approves the complete execution contract only; it does not authorize an account or tenant action.
 - Account creation requires the later explicit instruction `Authorize the Bigin Premier trial account`.
 - Any required no-billing move from a higher trial edition to Premier requires a separate exact authorization written after the tenant inspection.
 - Configuration and synthetic testing require the later explicit instruction `Begin P1-W04 synthetic configuration`.
 - A paid tier, billing action, production pilot, real data, external connection, Loryn finalist session, checkpoint, and platform selection each require separate later approval.
 
-## Proposed acceptance checks
+## Approved acceptance checks
 
 - Exact tenant edition, trial-expiry behavior, two-administrator production cost, material limits, and any higher-tier contamination are recorded.
 - The field map is directly confirmed or evidence-backed corrected without exceeding Premier's 25-field-per-module limits or hiding required facts in notes.
@@ -114,9 +116,9 @@ Recommend Bigin Premier as P1-W04 because current official evidence addresses th
 - The committed evidence contains only sanitized summaries and synthetic data and passes a secret/privacy review.
 - The result identifies Bigin Premier as viable, eliminated, or incomplete; Loryn remains uninvolved.
 
-## Proposed execution-contract boundary
+## Approved execution-contract boundary
 
-The complete contract remains unapproved. It preserves:
+The complete contract is approved as D-101. It preserves:
 
 - Bigin Premier as the only directly evaluated paid tier; Express and Bigin 360 remain documentation-only unless a later decision changes the boundary.
 - Technical-partner-only evaluator administration under D-093; Loryn remains deferred until a viable finalist session is separately approved.
@@ -124,10 +126,10 @@ The complete contract remains unapproved. It preserves:
 - Separate exact gates for account creation, tenant/tier inspection, synthetic configuration, any paid action, any external connection, finalist testing, checkpoint sign-off, and platform selection.
 - Synthetic data only, manual communications only, no billing details, and no production use.
 
-## Proposed checkpoint effect
+## Approved CP-008 effect
 
 A future CP-008 would approve only a completed Bigin evaluator result, configuration inventory, exact tier/cost record, and evidence-backed comparison status. It would not select Bigin, authorize payment or production use, connect Centah or another service, import real data, permit customer communication, or start a Loryn finalist session.
 
 ## Current action
 
-Review and explicitly approve or reject the complete P1-W04 execution contract. Contract approval would not authorize a Bigin account or any external action.
+Obtain the separate exact instruction `Authorize the Bigin Premier trial account` before creating an account or starting the no-credit-card trial. Account authorization would permit only the bounded account shell and nonprivate tier inspection, then stop before any edition change, configuration, fixture entry, or testing.

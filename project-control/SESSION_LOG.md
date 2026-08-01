@@ -3087,3 +3087,55 @@ Present the P1-W04 proposed outcome for explicit approval. Do not draft the exec
 ### Saved ending point
 
 Present the complete P1-W04 execution contract for explicit approval. Contract approval does not authorize account creation, trial activation, tenant inspection, configuration, or any other external action.
+
+## Session S-074 - P1-W04 execution contract approved
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W04 - Bigin Premier evidence-first screening
+
+**Checkpoint:** CP-007 remains the last signed-off checkpoint
+
+**Sign-off status:** Complete execution contract approved as D-101; no Bigin account, trial, or tenant action authorized
+
+### Orientation
+
+- Current phase: Phase 1 CRM candidate comparison.
+- Active work unit: P1-W04 Bigin Premier evidence-first screening.
+- Last signed checkpoint: CP-007, which eliminated Pipedrive Lite only.
+- Prior approval: D-100 approved the P1-W04 outcome for contract drafting, field mapping, and official research only.
+- Open blockers: separate account authorization, exact trial edition, Premier isolation, and the direct evidence items defined by the contract.
+- Approved outcome: bounded Premier-only evaluator screening with technical-partner-only administration and separate action gates.
+
+### Approval recorded
+
+- **Accepted (D-101):** Approve the complete P1-W04 Premier-only execution contract, including the tier boundary, prototype ownership, sequence, minimum configuration, stopping rules, separate action gates, acceptance checks, and CP-008 effect.
+- D-101 approves the contract only. It does not authorize an account, trial, tenant inspection, edition change, configuration, fixture entry, testing, billing, purchase, external connection, real data, communication, production use, Loryn participation, checkpoint, or platform selection.
+
+### Approved contract boundary
+
+- Bigin Premier is the only directly evaluated tier; Free, Express, Bigin 360, add-ons, and connected Zoho services remain documentation-only.
+- The technical partner is the sole evaluator administrator under D-093; Loryn remains deferred until a separately approved viable-finalist session.
+- The conservative documentation map remains 10 Contact, 15 Pipeline, and at most 2 Task custom fields.
+- Account creation, any no-billing edition change, synthetic configuration, paid action, external connection, finalist testing, CP-008, and platform selection remain separate approvals.
+- Synthetic data, manual communications, no billing details, no production use, and all privacy prohibitions remain mandatory.
+
+### Exact next action
+
+Obtain the separate instruction `Authorize the Bigin Premier trial account`. That later authorization would permit only creation of the bounded evaluator account shell and inspection of nonprivate tier, trial-expiry, feature-boundary, sample-data, and administrator labels, followed by a stop before any edition change, configuration, fixture entry, or testing.
+
+### Files changed
+
+- `deliverables/P1-W04-bigin-evidence-first-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W04/bigin/field-capacity-preflight.md`
+- `evidence/P1-W04/bigin/official-evidence-preflight.md`
+- `project-control/ARTIFACT_REGISTER.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+
+### Saved ending point
+
+Present the separate Bigin Premier account-creation gate. Do not create an account or begin a trial without the exact authorization.

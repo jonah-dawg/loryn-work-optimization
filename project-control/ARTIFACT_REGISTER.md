@@ -4,11 +4,11 @@
 
 | Artifact | Authority | Current status | Update trigger |
 |---|---|---|---|
-| `../deliverables/window-sales-operations-master-plan.md` | Authoritative product and delivery plan | Version 1.73; current | Material scope, architecture, roadmap, risk, governance, process, or decision change |
+| `../deliverables/window-sales-operations-master-plan.md` | Authoritative product and delivery plan | Version 1.74; current | Material scope, architecture, roadmap, risk, governance, process, or decision change |
 | `../deliverables/window-sales-operations-master-plan.docx` | Non-authoritative editable distribution copy | Version 1.4; stale by design until final release or explicit sharing milestone | Regenerate and visually verify only for a release or requested sharing copy |
 | `GUIDED_WORKFLOW.md` | Authoritative session and checkpoint procedure | Current | Workflow-control rule changes |
-| `CURRENT_STATE.md` | Authoritative restart point | P1-W04 outcome approved as D-100; proposed contract unapproved; CP-007 remains last checkpoint | Every sign-off, session stop, blocker, or active-work-unit change |
-| `SESSION_LOG.md` | Append-only execution history | S-073 records D-100, the proposed contract, and field map; CP-007 remains last checkpoint | Every sign-off or session close |
+| `CURRENT_STATE.md` | Authoritative restart point | P1-W04 contract approved as D-101; account authorization pending; CP-007 remains last checkpoint | Every sign-off, session stop, blocker, or active-work-unit change |
+| `SESSION_LOG.md` | Append-only execution history | S-074 records D-101; CP-007 remains last checkpoint | Every sign-off or session close |
 | `ARTIFACT_REGISTER.md` | Artifact authority and synchronization inventory | Current | Artifact added, renamed, superseded, or found stale |
 | `COLLABORATOR_PACKET.md` | Operational shared-Project onboarding and input-capture aid | Current; unapproved input remains subject to repository reconciliation | Shared-project procedure, active intake queue, or handoff format changes |
 | `../deliverables/P0-W01-current-workflow-and-permission-boundary.md` | Signed P0-W01 workflow and permission boundary | Approved at CP-001 | Supersede only through a later signed checkpoint |
@@ -27,7 +27,7 @@
 | `../evidence/P1-W03/pipedrive/configuration-inventory.md` | Signed P1-W03 configuration inventory | Approved at CP-007; configuration, fixtures, views, scenarios, export attempt, and cleanup state recorded | Every explicitly approved Pipedrive reopening or material later configuration change |
 | `../evidence/P1-W03/pipedrive/evaluator-result.md` | Signed P1-W03 evaluator result | Approved at CP-007; Lite eliminated by direct M-02 and M-09 failures | Every explicitly approved P1-W03 reopening or later evidence change |
 | `../evidence/P1-W03/pipedrive/synthetic-fixtures.csv` | P1-W03 synthetic preload fixture | Current; seven fictional rows imported for the D-099 run | Every approved fixture or preload-state change |
-| `../deliverables/P1-W04-bigin-evidence-first-screening.md` | P1-W04 outcome and proposed execution contract | Outcome approved as D-100; complete contract unapproved; no external action authorized | Every accepted P1-W04 decision and checkpoint |
+| `../deliverables/P1-W04-bigin-evidence-first-screening.md` | Approved P1-W04 outcome and execution contract | Outcome approved as D-100; complete contract approved as D-101; no external action authorized | Every accepted P1-W04 decision and checkpoint |
 | `../evidence/P1-W04/bigin/official-evidence-preflight.md` | P1-W04 Bigin official-source evidence | Current under D-100; Premier is the lowest plausible tier; direct evidence remains pending | Every material Bigin feature, tier, cost, trial, or evidence change |
 | `../evidence/P1-W04/bigin/field-capacity-preflight.md` | P1-W04 CP-003-to-Bigin field map | Documentation fit under D-100; 10 Contact, 15 Pipeline, and at most 2 Task custom fields; direct confirmation pending | Every direct field, module, tier, or capacity correction |
 | `REPOSITORY_BACKUP.md` | Repository location, synchronization boundary, and recovery instructions | Current | Repository, branch, tracked scope, or working-copy policy changes |
