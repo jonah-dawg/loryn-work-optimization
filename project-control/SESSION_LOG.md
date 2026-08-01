@@ -2587,3 +2587,61 @@ Inspect only the nonprivate labels and terms of any Starter-equivalent evaluatio
 ### Saved ending point
 
 Present three explicit options: retain HubSpot Starter as documentation-only; authorize a separately scoped paid evaluation after exact monthly checkout, renewal, tax, and total-cost review; or close HubSpot incomplete and screen the next CRM candidate. Do not infer approval from discussion.
+
+## Session S-064 - HubSpot closed incomplete; Pipedrive preflight prepared
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W02 closed; P1-W03 proposed
+
+**Checkpoint:** CP-004 remains the last signed-off checkpoint; CP-005 and CP-006 were not reached
+
+**Sign-off status:** D-094 and D-095 explicitly accepted; complete P1-W03 execution contract remains unapproved
+
+**Approval evidence:** The user answered “let's go with the recommendation, continue” to the recommendation to select P1-W02 stopping-rule option 3, then answered “continue” after the Pipedrive Lite proposed target, tier risk, and no-account boundary were presented.
+
+### Decision recorded
+
+- **Accepted (D-094):** Close P1-W02 incomplete without CP-006, retain HubSpot Starter as documentation-only, and continue to official-evidence screening of the next CRM candidate.
+- **Accepted (D-095):** Approve the P1-W03 Pipedrive evidence-first outcome and authorize detailed execution-contract drafting plus additional current official research only.
+- D-094 does not authorize a HubSpot purchase, Pipedrive account or trial, configuration, fixture entry, testing, integration, real data, communications, billing, production use, Loryn finalist testing, checkpoint sign-off, or platform selection.
+- D-095 preserves the same external-action boundary.
+
+### Work completed
+
+- Closed the P1-W02 contract incomplete and preserved the sanitized HubSpot evidence.
+- Reviewed current official Pipedrive pricing, trial, plan-limit, data-model, filter, search, mobile, export, duplicate, and API sources.
+- Drafted the P1-W03 proposed outcome in `../deliverables/P1-W03-pipedrive-evidence-first-screening.md`; D-095 subsequently approved that outcome only.
+- Recorded the official-source findings in `../evidence/P1-W03/pipedrive/official-evidence-preflight.md`.
+- Mapped the CP-003 minimum fields to 22 planned Lite custom fields in `../evidence/P1-W03/pipedrive/field-capacity-preflight.md`.
+- Drafted the complete Lite-only execution contract, separate action gates, stopping rules, acceptance checks, and CP-007 effect.
+
+### Preliminary Pipedrive finding
+
+- Pipedrive advertises a 14-day full-access trial with no credit card required.
+- Lite is listed at `$14` per seat per month billed annually, or `$168` per seat per year; two paid administrator seats would be `$336` per year before tax if Lite passes.
+- Lite allows 30 custom fields per company and includes customizable pipelines, import/export, duplicate merging, and API access.
+- The record model supports reusable people with multiple deals and linked activities.
+- Official mobile documentation lists Focus, Nearby, pipeline, activity, calendar, contacts, filters, offline mode, audio notes, and notifications on both supported mobile platforms; Nearby can open navigation.
+- Search includes person name and phone number.
+- Lite is not yet viable: the CP-003 field count, M-01 action center, M-07 exception visibility, trial tier contamination, exact cost terms, administration, mobile speed, save reliability, exports, and Centah bridge remain unverified.
+- Hard required-field rules are Premium-only, so Lite must prove visible exception handling instead.
+- The documentation field map uses 9 Person and 13 shared Lead/Deal custom fields, leaving eight fields under Lite's limit; activities use standard fields.
+- Official import guidance says deals have no native duplicate identifier, so the searchable Centah field and manual duplicate-review procedure must pass M-09 directly.
+
+### Files changed
+
+- `deliverables/P1-W02-next-crm-comparison-contract.md`
+- `deliverables/P1-W03-pipedrive-evidence-first-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W03/pipedrive/official-evidence-preflight.md`
+- `evidence/P1-W03/pipedrive/field-capacity-preflight.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Present the complete P1-W03 execution contract for explicit approval. Contract approval would not authorize an account, trial, configuration, testing, billing, purchase, or platform selection.

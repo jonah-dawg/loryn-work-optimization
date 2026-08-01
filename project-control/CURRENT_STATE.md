@@ -2,15 +2,15 @@
 
 **Updated:** August 1, 2026
 
-**Overall status:** Active - Phase 1 HubSpot stopping decision required
-**Current phase:** Phase 1 - Zoho prototype and HubSpot comparison
-**Active work unit:** P1-W02 - Next CRM comparison contract
+**Overall status:** Active - Phase 1 Pipedrive execution-contract decision required
+**Current phase:** Phase 1 - CRM candidate comparison
+**Active work unit:** P1-W03 - Pipedrive evidence-first screening
 
-**Work-unit status:** Paused at stopping rule - Free blocked; Starter is purchase-only in the inspected tenant
+**Work-unit status:** Proposed outcome approved; complete execution contract drafted and unapproved; no account action authorized
 
 **Last signed-off checkpoint:** CP-004 - CRM platform evaluation method (July 30, 2026)
 
-**Last approval:** D-093 - allow technical-partner-only prototype administration and defer Loryn's access until a separately authorized viable-finalist session (August 1, 2026)
+**Last approval:** D-095 - approve the P1-W03 Pipedrive outcome and authorize detailed contract drafting plus official research only (August 1, 2026)
 
 ## Confirmed baseline
 
@@ -117,7 +117,7 @@
 - **Accepted (D-089):** Approve the P1-W02 outcome and authorize detailed contract drafting plus current official-evidence research only.
 - Official HubSpot evidence confirms that Free permits only 10 custom properties in total and cannot represent the CP-003 baseline or common fixture set.
 - A Starter-level path remains a paid-tier `Conditional Pass` possibility with 1,000 custom properties per object and a conservative two-Core-Seat planning cost of $40/month before tax.
-- Exact Starter packaging and no-billing evaluation access remain unverified. The public 14-day offer is Marketing Hub Professional and cannot be used as Starter evidence.
+- Direct tenant evidence confirms that no clean no-billing Starter-equivalent evaluation appeared; the public 14-day offer is Marketing Hub Professional and cannot be used as Starter evidence.
 - M-01 remains a decision-critical risk because the multi-source custom report builder is Professional-only; Starter must directly prove a practical single action center or equivalent.
 - **Accepted (D-090):** Approve the complete P1-W02 execution contract, including its candidate/tier boundary, administrator model, minimum configuration, stopping rules, separate action gates, evidence handling, acceptance checks, and CP-006 effect.
 - **Accepted (D-091):** Authorize Loryn to create the `Hazel Kaine` HubSpot Free account shell, enable private MFA and recovery, invite the technical partner as secondary Super Admin, inspect only permitted edition and offer details, and then stop.
@@ -129,43 +129,50 @@
 - The available `Starter Customer Platform` path is a purchase offer, not a trial: one Core Seat at a limited `$7/mo` promotion, annual checkout selected by default, `$84` due before tax, and company-address plus payment details required.
 - A monthly-commit option exists, but its exact immediate total, full term, renewal price, and tax remain unverified. No no-billing Starter-equivalent evaluation appeared.
 - The checkout was abandoned without data entry, purchase, activation, or configuration, and the account was returned to the Free plan overview.
-- D-091 through D-093 do not authorize trial or tier activation, external configuration, fixture entry, testing, integration, real data, communications, billing, purchases, production use, finalist testing, checkpoint sign-off, or platform selection.
+- **Accepted (D-094):** Close P1-W02 incomplete without CP-006, retain HubSpot Starter as documentation-only, and continue to official-evidence screening of the next CRM candidate.
+- Official Pipedrive evidence identifies Lite as the lowest plausible next-candidate tier: a 14-day no-credit-card trial, 30 custom fields per company, `$14` per seat per month billed annually, mobile daily-work features, filters, import/export, duplicate merging, and API access.
+- Pipedrive Lite execution remains unapproved and untested. Its tight field limit, lack of hard required fields, full-access trial contamination, and unverified M-01 action center are decision-critical risks.
+- D-094 does not authorize account creation, trial activation, configuration, fixture entry, testing, integration, real data, communications, billing, purchases, production use, finalist testing, checkpoint sign-off, or platform selection.
+- **Accepted (D-095):** Approve the P1-W03 Pipedrive evidence-first outcome and authorize detailed execution-contract drafting plus additional current official research only.
+- The CP-003 documentation map uses 22 custom fields: 9 Person and 13 shared Lead/Deal fields, leaving eight fields under Lite's limit. Activities use standard fields.
+- Official evidence says deals have no native duplicate identifier. The searchable Centah field and a practical manual duplicate-review procedure must therefore pass M-09 directly.
+- D-095 does not authorize an account, trial, configuration, fixtures, testing, integrations, billing, purchases, real data, communications, production use, Loryn participation, checkpoint sign-off, or platform selection.
 
 ## Active work-unit contract
 
-**Status:** Paused at the approved tier-access stopping rule; account shell and offer inspection complete; no clean no-billing Starter-equivalent evaluation found.
+**Status:** Proposed outcome approved as D-095; complete execution contract drafted and unapproved; no account action authorized.
 
-**Approved outcome:** Define and approve the evidence-first screening contract for the next CRM candidate, beginning with the planned HubSpot comparison, so production-tier feasibility is checked before another account is created or Loryn is involved.
+**Approved outcome:** Evaluate Pipedrive as the next independent-work CRM candidate through an evidence-first, evaluator-only process, targeting Lite as the lowest plausible production tier and using a no-billing trial only after a complete execution contract and separate account-creation gate are explicitly approved.
 
 **Inputs:**
 
 - The signed CP-003 lifecycle, next-action, and minimum-field specification.
 - The signed CP-004 scorecard, mandatory gates, fixtures, scenarios, burden limit, and evidence format.
-- The closed incomplete P1-W01 Zoho result and accepted D-088 option 1.
-- The July 31 HubSpot official-evidence preflight in `../evidence/P1-W02/hubspot/official-evidence-preflight.md`.
-- The August 1 direct tenant offer inspection in `../evidence/P1-W02/hubspot/tenant-offer-inspection.md`.
+- The closed incomplete P1-W01 Zoho and P1-W02 HubSpot results.
+- Accepted D-094 option 3.
+- The August 1 Pipedrive official-evidence preflight in `../evidence/P1-W03/pipedrive/official-evidence-preflight.md`.
+- The August 1 Pipedrive Lite field-capacity map in `../evidence/P1-W03/pipedrive/field-capacity-preflight.md`.
 
 **Acceptance checks:**
 
-- The P1-W02 work-unit outcome is explicitly approved as D-089.
-- The complete P1-W02 execution contract is explicitly approved as D-090.
-- The bounded HubSpot Free account-shell procedure is explicitly authorized as D-091.
-- The synthetic-Free-only MFA exception is explicitly approved as D-092 and remains a recorded security limitation.
-- Technical-partner-only prototype administration and deferred Loryn access are explicitly approved as D-093.
-- The official-evidence preflight identifies Free as field-capacity blocked and Starter as a conditional paid-tier possibility.
+- The P1-W03 proposed outcome is explicitly approved as D-095.
+- The complete P1-W03 contract is explicitly approved before account creation is considered.
+- Current official evidence identifies Lite as a plausible no-billing evaluation target and names every decision-critical uncertainty.
+- A complete CP-003 default/custom-field mapping proves whether Lite's 30-field allowance is sufficient before account creation.
+- The future execution contract separates official research, account creation, trial activation, configuration, fixture entry, and testing into explicit gates.
 - Preserve the CP-004 common gates, fixtures, scenarios, evidence format, and Loryn burden limit.
-- Keep account creation, configuration, fixture entry, and testing behind separate explicit action gates.
 - Continue to prohibit real data, external connections, communications, billing, purchases, production use, and platform selection.
 
-**Approved checkpoint effect:** CP-006 would approve only a completed HubSpot evaluator result, configuration inventory, exact tier and cost record, and evidence-backed comparison status. CP-005 remains not reached and tied to P1-W01.
+**Checkpoint effect:** No P1-W03 checkpoint effect is approved. CP-005 and CP-006 were not reached in the closed incomplete Zoho and HubSpot work units.
 
 **Out of scope:** Trial or tier activation, candidate configuration, fixture entry, testing, platform selection, Loryn finalist testing, production use, real records, external integrations, purchases, billing, customer communications, or automation.
 
 ## Open items
 
-- Choose whether to retain HubSpot Starter as documentation-only, authorize a separately scoped paid evaluation after exact monthly/renewal/tax review, or close HubSpot incomplete and screen the next CRM.
-- If a paid evaluation is considered, verify the exact monthly one-seat checkout total, commitment term, renewal price, and tax before any purchase authorization.
-- Verify whether Starter can satisfy M-01 without the Professional-only multi-source custom report builder.
+- Approve or reject the complete P1-W03 Pipedrive execution contract.
+- Directly confirm the 22-field documentation map in an authorized Lite-equivalent tenant before fixture entry.
+- Verify whether Lite filters can expose every M-01 action-center state and M-07 missing-next-action exception without Premium required fields.
+- Verify the exact Lite trial boundary, monthly and two-admin production cost, renewal behavior, taxes, and commitment before any account or purchase decision.
 - D-011: production CRM tenant, sign-in method, access removal, and security/retention controls.
 - D-012: Centah API, webhook, export, sandbox, limits, and support model.
 - D-013: retention and deletion periods.
@@ -185,7 +192,7 @@ CP-003 approved `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimu
 
 CP-004 approved `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`. Decisions D-049 through D-061 record the mandatory gates, D-062 through D-069 record the complete 100-point scorecard and scoring rule, D-070 through D-072 record the scenarios, fixtures, and scripts, D-073 records the staged test-burden rule, and D-074 records the evaluator-only evidence format. At CP-004, the authoritative Markdown master was Version 1.39; Word remains intentionally stale.
 
-P1-W01 is closed incomplete by accepted D-088 option 1. D-075 through D-087 record the approved execution contract and bounded Zoho actions; D-088 retains Professional as documentation-only and prohibits upgrade or purchase. The `Hazel Kaine` Free tenant has MFA, two confirmed administrators, no vendor sample data, and no partial fixtures. CP-005 was not reached. D-089 approved the P1-W02 outcome and official-evidence research, D-090 approved the complete P1-W02 execution contract, D-091 opened the bounded HubSpot Free account-shell gate, D-092 made MFA optional only during the synthetic Free evaluation, and D-093 allows technical-partner-only prototype administration while deferring Loryn until a viable finalist. The HubSpot Free account shell and offer inspection are complete. The tenant exposes only a purchase path for Starter; no clean no-billing evaluation was found, so the stopping rule is active. The authoritative Markdown master is Version 1.62; Word remains intentionally stale.
+P1-W01 is closed incomplete by D-088 option 1; Zoho Professional remains documentation-only and CP-005 was not reached. P1-W02 is closed incomplete by D-094 option 3; HubSpot Starter remains documentation-only and CP-006 was not reached. D-093 continues to allow technical-partner-only prototype administration while deferring Loryn until a viable finalist. D-095 approves the P1-W03 Pipedrive outcome and contract research only. The complete contract, account, trial, configuration, and testing remain unapproved. The authoritative Markdown master is Version 1.64; Word remains intentionally stale.
 
 ## Chat and artifact protocol
 
@@ -206,12 +213,12 @@ P1-W01 is closed incomplete by accepted D-088 option 1. D-075 through D-087 reco
 
 ## Next work-unit starting point
 
-Phase 0 is complete at CP-004. Phase 1 P1-W01 is closed incomplete under D-088 option 1. P1-W02's account shell and offer inspection are complete. HubSpot Free is field-blocked, the tenant has no no-billing Starter evaluation, and execution is paused at the approved stopping rule.
+Phase 0 is complete at CP-004. Phase 1 P1-W01 and P1-W02 are closed incomplete under D-088 and D-094. D-095 approves P1-W03's Pipedrive outcome. The official preflight, 22-field capacity map, and complete draft execution contract are ready for contract approval.
 
 ## Exact next action
 
-Approve one of three P1-W02 stop outcomes: retain HubSpot Starter as documentation-only; authorize a separately scoped paid evaluation after exact monthly checkout, renewal, tax, and total-cost review; or close HubSpot incomplete and screen the next CRM candidate. Do not infer approval from discussion.
+Approve or reject the complete P1-W03 execution contract: Lite-only tier boundary, technical-partner evaluator ownership, bounded sequence and minimum configuration, stopping rules, separate action gates, acceptance checks, and CP-007 effect. Contract approval would not authorize an account, trial, configuration, testing, billing, purchase, or platform selection.
 
 ## Resume instruction
 
-Read this file, Sessions S-062 and S-063 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, `../deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`, `../evidence/P1-W01/zoho/evaluator-result.md`, `../evidence/P1-W02/hubspot/official-evidence-preflight.md`, `../evidence/P1-W02/hubspot/tenant-offer-inspection.md`, `../deliverables/P1-W02-next-crm-comparison-contract.md`, and the Phase 1 and platform-trial sections of `../deliverables/window-sales-operations-master-plan.md`. The HubSpot Free `Hazel Kaine` account shell and read-only offer inspection are complete. No clean no-billing Starter-equivalent evaluation exists in the inspected tenant; the account remains Free and no purchase or activation occurred. Present the three stopping-rule outcomes for explicit decision. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Continue to prohibit tier activation, real data, connections, configuration, fixture entry, testing, billing, purchases, customer communications, production use, finalist testing, and platform selection.
+Read this file, Sessions S-063 and S-064 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, the closed P1-W01 and P1-W02 contracts and evaluator evidence, `../deliverables/P1-W03-pipedrive-evidence-first-screening.md`, `../evidence/P1-W03/pipedrive/official-evidence-preflight.md`, `../evidence/P1-W03/pipedrive/field-capacity-preflight.md`, and the Phase 1 and platform-trial sections of `../deliverables/window-sales-operations-master-plan.md`. D-094 closes HubSpot incomplete; D-095 approves the Pipedrive outcome and contract research only. Present the complete P1-W03 execution contract for explicit approval. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Continue to prohibit account creation, trial activation, real data, connections, configuration, fixture entry, testing, billing, purchases, customer communications, production use, finalist testing, and platform selection.

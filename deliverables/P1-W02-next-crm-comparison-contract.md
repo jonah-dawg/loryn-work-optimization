@@ -1,6 +1,6 @@
 # P1-W02 - Next CRM Comparison Contract
 
-**Status:** Execution paused at approved stopping rule; Free blocked and no no-billing Starter-equivalent evaluation found
+**Status:** Closed incomplete by D-094 option 3; HubSpot Starter retained as documentation-only
 
 **Phase:** Phase 1 - Zoho prototype and HubSpot comparison
 
@@ -21,6 +21,7 @@ This outcome was explicitly approved as D-089 on July 31, 2026.
 - **Accepted (D-091):** Authorize Loryn to create the bounded HubSpot Free account shell, keep credentials and recovery private, use `Hazel Kaine`, enable MFA, invite the technical partner as secondary Super Admin, inspect only the permitted edition and offer details, and then stop.
 - **Accepted (D-092):** Make MFA optional only during the synthetic HubSpot Free evaluation. Record an MFA deferral as a security limitation; require MFA before any paid or promotional tier activation, external connection, real-data use, production use, or later security approval.
 - **Accepted (D-093):** Allow the technical partner to own and control evaluator-only prototype tenants as the sole prototype administrator, and defer Loryn's account access until a candidate becomes one of no more than two viable finalists.
+- **Accepted (D-094):** Select stopping-rule option 3: close HubSpot incomplete without CP-006, retain Starter as documentation-only, and continue to official-evidence screening of the next CRM candidate.
 - D-091 through D-093 do not authorize trial or tier activation, configuration, fixture entry, testing, integration, real-data use, communication, billing action, purchase, production use, finalist session, checkpoint sign-off, or platform selection.
 
 ## Starting evidence
@@ -176,3 +177,7 @@ Choose one separately gated outcome:
 3. Close HubSpot incomplete and screen the next CRM candidate.
 
 No option is approved by the inspection itself. Trial or tier activation, configuration, fixture entry, testing, integration, real data, communications, billing, purchases, production use, finalist testing, checkpoint sign-off, and platform selection remain unapproved.
+
+## Accepted disposition
+
+D-094 selects option 3. P1-W02 is closed incomplete, CP-006 was not reached, and HubSpot Starter remains a documentation-only paid-tier possibility. No HubSpot purchase, configuration, fixture, test, score, checkpoint, or platform recommendation is authorized.
