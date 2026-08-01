@@ -1,6 +1,6 @@
 # P1-W03 - Pipedrive Evidence-First Screening
 
-**Status:** Synthetic configuration active under D-099; fixture loading and evaluator testing in progress
+**Status:** Evaluator result prepared under D-099; proposed Lite elimination unapproved; CP-007 pending
 
 **Phase:** Phase 1 - CRM candidate comparison
 
@@ -118,8 +118,18 @@ CP-007 would approve only a completed Pipedrive evaluator result, configuration 
 - Configured the `Window Sales Jobs` pipeline with the nine approved open stages; Pipedrive Won represents `Finished`, and Lost plus a retained reason represents `Lost / Canceled`.
 - Added `Quote follow-up`, `Handoff`, `Installation check`, and `Customer follow-up` activity types and the six approved lost reasons used by the synthetic scenarios.
 - Disabled the generic post-won three-month activity prompt because its default task conflicts with the approved source-specific follow-up rules.
-- Prepared the seven-record preload fixture at `../evidence/P1-W03/pipedrive/synthetic-fixtures.csv`; `SYN-PROSPECT-A` remains reserved for TS-01.
-- Fixture upload, practical views, TS-01 through TS-07, mobile timing, export, duplicate review, cleanup, and the evaluator result remain incomplete.
+- Imported the seven-row preload as seven People and seven linked Deals with all records placed in `Window Sales Jobs`; the import added 14 items with zero updates, merges, or skips.
+- Added the six approved baseline activities, leaving `SYN-QUEUE-H` without a next activity for the negative test.
+- Created private `Missing Next Action` and `Waiting on Others` filters. The first returned only `SYN-QUEUE-H`; the second returned only `SYN-INSTALL-G`. Native Today and Overdue activity states were also directly visible.
+- Completed the directly verifiable desktop portions of TS-01 through TS-07. Phone-number and last-name search, quote history, overdue work, next-action visibility, source fields, and installation-exception visibility worked as recorded in `../evidence/P1-W03/pipedrive/evaluator-result.md`.
+- Confirmed two mandatory Lite failures: a duplicate Deal using the existing Centah lead number was accepted without a block or visible review route, and Lite could not conditionally require or hide the source-specific handoff fields or prevent premature handoff completion.
+- Generated server-side entity exports, but Chrome blocked the vendor-hosted download with `ERR_BLOCKED_BY_CLIENT`; export contents and relationship reconstruction remain unverified.
+- Removed the TS-01 Lead and Person and the duplicate Deal and Person. Seven baseline synthetic People remain; baseline scenario state requires a reset before any later rerun or closeout cleanup.
+- Native mobile timing, directions, weak-signal/save recovery, cross-device consistency, downloaded-export reconstruction, and production administration remain unverified. The stopping rule makes additional mobile testing unnecessary unless a later decision reopens Pipedrive.
+
+## Proposed evaluator outcome
+
+The prepared evaluator result identifies Pipedrive Lite as `Eliminated` because M-02 and M-09 fail directly. The weighted score remains intentionally incomplete, and the additional unverified gates do not weaken or reverse those mandatory failures. This outcome is proposed only: CP-007 has not been signed, Pipedrive has not been selected, and no next candidate or production action is authorized.
 
 ## Continuing boundary
 
@@ -128,4 +138,4 @@ CP-007 would approve only a completed Pipedrive evaluator result, configuration 
 
 ## Current action
 
-D-099 is active. Resume with the seven-record synthetic preload, then create the TS-01 prospect during the scripted run. Complete the desktop evidence that can be directly verified, record native-mobile-only criteria as unverified unless they are actually tested, perform narrow synthetic cleanup, and prepare the incomplete or completed evaluator result. Do not infer CP-007 sign-off or platform selection from execution progress.
+D-099 has produced the evaluator result and configuration inventory. Review the proposed Lite elimination and, if accepted, explicitly sign CP-007 to approve only the P1-W03 evidence-backed result. Do not infer CP-007 sign-off, a platform selection, a next-candidate authorization, or production authority from this execution record.

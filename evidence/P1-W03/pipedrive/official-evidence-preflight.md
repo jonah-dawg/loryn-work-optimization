@@ -1,6 +1,6 @@
 # P1-W03 Pipedrive Official-Evidence Preflight
 
-**Status:** Official-evidence preflight complete; Lite-only boundary and initial D-099 configuration directly verified
+**Status:** Official-evidence preflight complete; subsequent direct D-099 result proposes eliminating Lite
 
 **Candidate:** Pipedrive
 
@@ -8,7 +8,7 @@
 
 ## Preliminary disposition
 
-Pipedrive is suitable for a bounded next-candidate contract. Lite is the lowest plausible production tier, but it is not yet a passing candidate. The documentation mapping in `field-capacity-preflight.md` uses 22 of Lite's 30 custom fields. Direct tenant inspection in `tenant-shell-inspection.md` confirmed that the no-billing trial starts on Premium, and D-098 successfully changed it to Lite with no active add-ons or billing details. Lack of hard required fields, no native deal duplicate identifier, and an unverified single-screen action center still require direct synthetic proof.
+This preflight identified Lite as the lowest plausible Pipedrive tier and justified the bounded contract. Subsequent direct evidence corrected the field map to 25 of 30 fields and completed the D-099 synthetic run to the mandatory stopping rule. The prepared evaluator result proposes eliminating Lite because a duplicate Centah identifier was accepted without a block or visible review route and source-specific handoff requirements could not be enforced. CP-007 remains unsigned.
 
 ## Evidence summary
 
@@ -36,13 +36,13 @@ If neither is possible, stop before fixture entry and report the candidate incom
 
 The August 1 direct inspection confirmed that the trial began on Premium and showed LeadBooster, Smart Docs, and Projects as included. D-098 then authorized a narrow plan transition. Lite was selected, the three carried-over add-ons were disabled, the order summary fell from `$110` to `$24`, and Billing overview confirmed Lite with no active add-ons, no billing details, `$0` during the trial, and the `14-day free trial` label preserved. No configuration or record action occurred.
 
-## Open evidence items
+## Remaining evidence items after the stopping rule
 
-- The direct 25-field correction is within Lite's 30-company-field limit; complete fixture and filter behavior testing.
-- Verify whether Lite filters can expose all M-01 action-center states and M-07 missing-next-action exceptions without Premium required fields or custom reports.
+- The direct 25-field correction is within Lite's 30-company-field limit; fixture import and the missing-next-action filter passed directly.
+- The required states were reachable through Activities plus two Deal filters, but a single-screen M-01 action center remains unverified.
 - Verify renewal behavior, taxes, commitment, exact two-administrator production cost, and checkout terms. Direct tenant comparison displayed Lite at `$24` per seat per month on monthly billing.
 - Verify the exact calendar expiration date; the tenant displayed only `14-day free trial`.
-- Verify administrator roles, MFA, access removal, mobile timing, save/offline behavior, manual communication controls, exports, duplicates, and API restrictions only after the relevant action gates are approved.
+- Administrator roles, MFA, access removal, mobile timing, save/offline behavior, manual communication controls, downloaded-export reconstruction, and API restrictions remain unverified. The confirmed mandatory failures make further Lite testing unnecessary unless P1-W03 is explicitly reopened.
 
 ## Official sources reviewed
 

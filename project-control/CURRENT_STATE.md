@@ -2,11 +2,11 @@
 
 **Updated:** August 1, 2026
 
-**Overall status:** Active - Phase 1 Pipedrive Lite synthetic configuration in progress
+**Overall status:** Active - Phase 1 Pipedrive Lite evaluator result prepared for review
 **Current phase:** Phase 1 - CRM candidate comparison
 **Active work unit:** P1-W03 - Pipedrive evidence-first screening
 
-**Work-unit status:** Synthetic configuration active under D-099; fixture loading and evaluator testing in progress
+**Work-unit status:** Proposed Lite elimination prepared under D-099; CP-007 pending explicit sign-off
 
 **Last signed-off checkpoint:** CP-004 - CRM platform evaluation method (July 30, 2026)
 
@@ -131,7 +131,7 @@
 - The checkout was abandoned without data entry, purchase, activation, or configuration, and the account was returned to the Free plan overview.
 - **Accepted (D-094):** Close P1-W02 incomplete without CP-006, retain HubSpot Starter as documentation-only, and continue to official-evidence screening of the next CRM candidate.
 - Official Pipedrive evidence identifies Lite as the lowest plausible next-candidate tier: a 14-day no-credit-card trial, 30 custom fields per company, `$14` per seat per month billed annually, mobile daily-work features, filters, import/export, duplicate merging, and API access.
-- Pipedrive Lite synthetic execution is active under D-099. Its five-field remaining capacity, lack of hard required fields, and unverified M-01 action center remain decision-critical risks; the earlier Premium contamination was resolved by D-098.
+- Pipedrive Lite synthetic execution under D-099 produced a proposed eliminated result. The model fits at 25 of 30 custom fields, but source-specific handoff enforcement and Centah duplicate control failed directly; M-01 remains unverified.
 - D-094 does not authorize account creation, trial activation, configuration, fixture entry, testing, integration, real data, communications, billing, purchases, production use, finalist testing, checkpoint sign-off, or platform selection.
 - **Accepted (D-095):** Approve the P1-W03 Pipedrive evidence-first outcome and authorize detailed execution-contract drafting plus additional current official research only.
 - The CP-003 documentation map initially used 22 custom fields. Direct D-099 configuration corrected it to 25: 9 Person and 16 shared Lead/Deal fields, leaving five fields under Lite's limit. Activities use standard fields.
@@ -151,12 +151,15 @@
 - The Activities count changed from three to four during the vendor plan transition. No record was opened or inspected, and all preloaded content remains untouched.
 - D-098 does not authorize record inspection, configuration, fixtures, testing, integrations, billing, purchases, real data, communications, production use, Loryn participation, checkpoint sign-off, or platform selection.
 - **Accepted (D-099):** Begin P1-W03 synthetic configuration, including verified vendor-sample cleanup, the approved minimum Lite configuration, synthetic fixture handling, evaluator testing, and result preparation.
-- D-099 is active. Verified vendor sample data was removed; the tenant now uses 25 of 30 custom fields, the `Window Sales Jobs` pipeline, four added workflow activity types, and six approved lost reasons.
+- D-099 execution is complete enough to prepare the evaluator result. Verified vendor sample data was removed; the tenant uses 25 of 30 custom fields, the `Window Sales Jobs` pipeline, four added workflow activity types, six approved lost reasons, seven baseline People and Deals, six baseline activities, and two private exception filters.
+- Direct TS-03 testing accepted a duplicate Deal with the existing synthetic Centah identifier without blocking or visibly routing it for review. Direct TS-06 testing showed that Lite cannot conditionally require or hide source-specific handoff fields or prevent premature completion. The prepared evaluator result therefore proposes `Fail` for M-02 and M-09 and elimination of Lite.
+- Entity exports were generated server-side, but Chrome blocked the vendor-hosted download with `ERR_BLOCKED_BY_CLIENT`; export contents and relationship reconstruction remain unverified.
+- The TS-01 Lead and Person and the duplicate Deal and Person were deleted; the active People list returned to seven baseline synthetic records. The baseline scenario state requires reset before any rerun or tenant closeout.
 - D-099 does not authorize integrations, billing, purchases, real data, communications, production use, Loryn participation, checkpoint sign-off, or platform selection.
 
 ## Active work-unit contract
 
-**Status:** Complete execution contract approved; bounded synthetic configuration active under D-099.
+**Status:** Complete execution contract approved; evaluator result prepared under D-099; CP-007 pending.
 
 **Approved outcome:** Evaluate Pipedrive as the next independent-work CRM candidate through an evidence-first, evaluator-only process, targeting Lite as the lowest plausible production tier and using a no-billing trial only after a complete execution contract and separate account-creation gate are explicitly approved.
 
@@ -185,10 +188,9 @@
 
 ## Open items
 
-- Resume the seven-record synthetic fixture preload and create `SYN-PROSPECT-A` only during TS-01.
-- Configure practical morning-action and exception filters/views, then execute the directly verifiable desktop portions of TS-01 through TS-07.
-- The direct field correction uses 25 of 30 Lite custom fields: 9 Person and 16 shared Lead/Deal fields.
-- Verify whether Lite filters can expose every M-01 action-center state and M-07 missing-next-action exception without Premium required fields.
+- Review the prepared P1-W03 evaluator result and explicitly approve or reject CP-007. Do not infer sign-off from discussion.
+- If P1-W03 is reopened, reset the seven baseline fixtures and remove any orphaned TS-01 activity before another run or tenant closeout.
+- Native mobile timing, the single-screen M-01 action center, cross-device save/recovery, downloaded-export reconstruction, and several production-administration controls remain unverified. The confirmed M-02 and M-09 failures make further Lite testing unnecessary unless explicitly reopened.
 - Verify the exact Lite trial boundary, two-admin production checkout cost, renewal behavior, taxes, and commitment before any purchase decision. Direct tenant comparison displayed Lite at `$24` per seat per month on monthly billing.
 - D-011: production CRM tenant, sign-in method, access removal, and security/retention controls.
 - D-012: Centah API, webhook, export, sandbox, limits, and support model.
@@ -209,7 +211,7 @@ CP-003 approved `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimu
 
 CP-004 approved `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`. Decisions D-049 through D-061 record the mandatory gates, D-062 through D-069 record the complete 100-point scorecard and scoring rule, D-070 through D-072 record the scenarios, fixtures, and scripts, D-073 records the staged test-burden rule, and D-074 records the evaluator-only evidence format. At CP-004, the authoritative Markdown master was Version 1.39; Word remains intentionally stale.
 
-P1-W01 is closed incomplete by D-088 option 1; Zoho Professional remains documentation-only and CP-005 was not reached. P1-W02 is closed incomplete by D-094 option 3; HubSpot Starter remains documentation-only and CP-006 was not reached. D-093 continues to allow technical-partner-only prototype administration while deferring Loryn until a viable finalist. D-095 and D-096 approve the P1-W03 outcome and contract. D-097 completed the account-shell inspection, D-098 completed the no-billing transition to Lite with no active add-ons, and D-099 opened synthetic configuration and evaluator testing. The authoritative Markdown master is Version 1.69; Word remains intentionally stale.
+P1-W01 is closed incomplete by D-088 option 1; Zoho Professional remains documentation-only and CP-005 was not reached. P1-W02 is closed incomplete by D-094 option 3; HubSpot Starter remains documentation-only and CP-006 was not reached. D-093 continues to allow technical-partner-only prototype administration while deferring Loryn until a viable finalist. D-095 and D-096 approve the P1-W03 outcome and contract. D-097 completed the account-shell inspection, D-098 completed the no-billing transition to Lite with no active add-ons, and D-099 produced the prepared Pipedrive Lite evaluator result. CP-007 remains unsigned. The authoritative Markdown master is Version 1.70; Word remains intentionally stale.
 
 ## Chat and artifact protocol
 
@@ -230,12 +232,12 @@ P1-W01 is closed incomplete by D-088 option 1; Zoho Professional remains documen
 
 ## Next work-unit starting point
 
-Phase 0 is complete at CP-004. Phase 1 P1-W01 and P1-W02 are closed incomplete under D-088 and D-094. D-095 and D-096 approve P1-W03's Pipedrive outcome and contract. D-097 and D-098 complete the account-shell and Lite-only plan-boundary gates. D-099 opens the active synthetic-configuration run; the approved model fits at 25 of 30 custom fields, and fixture loading plus evaluator testing remain incomplete.
+Phase 0 is complete at CP-004. Phase 1 P1-W01 and P1-W02 are closed incomplete under D-088 and D-094. D-095 and D-096 approve P1-W03's Pipedrive outcome and contract. D-097 and D-098 complete the account-shell and Lite-only plan-boundary gates. D-099 produced a prepared evaluator result that proposes eliminating Lite after direct M-02 and M-09 failures. CP-007 remains unsigned, and no platform or next candidate is authorized.
 
 ## Exact next action
 
-Resume the seven-record synthetic preload, configure the practical action-center and exception views, and run the directly verifiable desktop scenarios. Record native-mobile-only criteria as unverified unless they are actually tested. Billing, purchases, external connections, real data, customer communications, production use, Loryn participation, checkpoint sign-off, and platform selection remain unapproved.
+Review `../evidence/P1-W03/pipedrive/evaluator-result.md` and the updated configuration inventory. If the proposed eliminated result is accepted, explicitly sign CP-007; otherwise identify the evidence that must be reopened. Billing, purchases, external connections, real data, customer communications, production use, Loryn participation, a next candidate, and platform selection remain unapproved.
 
 ## Resume instruction
 
-Read this file, Sessions S-068 and S-069 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, the closed P1-W01 and P1-W02 contracts and evaluator evidence, `../deliverables/P1-W03-pipedrive-evidence-first-screening.md`, and the P1-W03 evidence set. D-099 is the active authorization. Resume at synthetic fixture loading, then practical views and directly verifiable evaluator scenarios. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Continue to prohibit real data, external connections, billing, purchases, customer communications, production use, finalist testing, checkpoint sign-off, and platform selection.
+Read this file, Sessions S-069 and S-070 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, the closed P1-W01 and P1-W02 contracts and evaluator evidence, `../deliverables/P1-W03-pipedrive-evidence-first-screening.md`, and the P1-W03 evidence set. D-099 authorized the completed evaluator run; the prepared Lite elimination remains unapproved until CP-007 is explicitly signed. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Continue to prohibit real data, external connections, billing, purchases, customer communications, production use, finalist testing, the next candidate, and platform selection.

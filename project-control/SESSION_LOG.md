@@ -2871,3 +2871,59 @@ Present the separate `Begin P1-W03 synthetic configuration` gate. Until that exa
 ### Saved ending point
 
 Resume at the seven-record fixture upload, then create the practical action-center and exception views and execute the directly verifiable desktop scenarios. Keep native-mobile-only items unverified unless actually tested. The external-action boundary remains unchanged.
+
+## Session S-070 - Pipedrive evaluator result prepared at mandatory stopping rule
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W03 - Pipedrive evidence-first screening
+
+**Checkpoint:** CP-004 remains the last signed-off checkpoint; CP-007 is pending explicit review
+
+**Sign-off status:** D-099 evaluator execution completed to the stopping rule; proposed Lite elimination remains unapproved
+
+### Authorized work completed
+
+- Imported the seven-row approved preload as seven People and seven linked Deals. The import added 14 items with no updates, merges, or skips and placed every Deal in `Window Sales Jobs`.
+- Added six baseline activities and kept `SYN-QUEUE-H` without an activity for the negative test.
+- Created private `Missing Next Action` and `Waiting on Others` Deal filters and verified native Today and Overdue activity states.
+- Executed the directly verifiable desktop portions of TS-01 through TS-07 using synthetic data only.
+- Verified customer search by synthetic phone number and last name, quote-note/value/date history, overdue visibility, explicit handoff and installation tasks, and installation-exception visibility.
+- Generated server-side entity exports. Chrome blocked the vendor-hosted download with `ERR_BLOCKED_BY_CLIENT`, so export contents and relationship reconstruction remain unverified.
+
+### Mandatory stopping result
+
+- TS-03 accepted a second Deal with the existing `SYN-CENTAH-1001` value without blocking it or visibly routing it for duplicate review. The prepared result records M-09 as `Fail`.
+- TS-06 showed that Lite exposes the same handoff fields on both sources and cannot conditionally require the approved source-specific set, prevent premature completion, or produce the source-specific installation anchor. The prepared result records M-02 as `Fail`.
+- These direct mandatory failures make Pipedrive Lite nonviable under the CP-004 rules. Further mobile, save/recovery, administration, and export testing stopped rather than creating a misleading weighted score.
+- `../evidence/P1-W03/pipedrive/evaluator-result.md` proposes `Eliminated`; that outcome is unapproved until CP-007 is explicitly signed.
+
+### Cleanup and retained synthetic state
+
+- Deleted the temporary TS-01 Lead and Person and the duplicate Deal and Person. The active People list returned to the seven baseline synthetic records.
+- Pipedrive retains deleted records for 30 days, and the TS-01 activity may remain unlinked.
+- Retained the baseline fixtures, scenario activities, synthetic quote note/value, saved filters, and generated server-side exports as evaluation evidence. Reset them before any rerun or tenant closeout.
+
+### Approval boundary
+
+- No checkpoint, platform selection, next candidate, finalist session, billing, purchase, paid commitment, production use, external connection, real data, or customer communication is approved.
+- Loryn remains uninvolved in evaluator testing.
+- CP-007 would approve only the prepared evaluator result, configuration inventory, tier/cost record, and evidence-backed comparison status.
+
+### Files changed
+
+- `deliverables/P1-W03-pipedrive-evidence-first-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W03/pipedrive/configuration-inventory.md`
+- `evidence/P1-W03/pipedrive/evaluator-result.md`
+- `evidence/P1-W03/pipedrive/official-evidence-preflight.md`
+- `evidence/P1-W03/pipedrive/tenant-shell-inspection.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Review the prepared P1-W03 evaluator result. If the proposed Lite elimination is accepted, explicitly sign CP-007. Do not infer that sign-off, a next-candidate authorization, or a platform selection from this execution record.

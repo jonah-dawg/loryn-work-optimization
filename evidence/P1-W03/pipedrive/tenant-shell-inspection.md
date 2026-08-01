@@ -1,6 +1,6 @@
 # P1-W03 Pipedrive Tenant-Shell Inspection
 
-**Status:** Lite-only boundary verified; bounded synthetic configuration active under D-099
+**Status:** Lite-only boundary verified; D-099 evaluator run completed to mandatory stopping rule
 
 **Candidate:** Pipedrive
 
@@ -40,17 +40,21 @@ The initial inspection used the bounded D-097 authority to confirm only nonpriva
 - Used Pipedrive's global-administrator sample-data removal control. The confirmation named only `[Sample]` deals, people, organizations, and activities; the post-action activity screen reported that sample data was deleted successfully.
 - The Data fields screen directly displayed `0/30 custom fields in use` before configuration and `25/30 custom fields in use` afterward.
 - Configured 9 Person fields and 16 shared Lead/Deal fields, the nine-stage `Window Sales Jobs` pipeline, four workflow-specific activity types, and six lost reasons.
+- Imported seven approved synthetic People and seven linked Deals, scheduled six baseline activities, and created private missing-next-action and waiting-on-others filters.
+- Direct testing accepted a duplicate Deal with the same synthetic Centah lead number and exposed the same handoff fields on both source branches without conditional enforcement. These observations support the proposed M-09 and M-02 failures in `evaluator-result.md`.
+- Generated server-side entity exports; the vendor-hosted download was blocked by Chrome, so exported contents and relationship reconstruction remain unverified.
+- Deleted the temporary TS-01 Lead and Person and the duplicate Deal and Person. Seven baseline synthetic People remain.
 - No add-on, higher tier, billing detail, external connection, real record, communication, invitation, or production feature was used.
 
 ## Actions deliberately not taken
 
 - Did not enter billing information, accept a paid commitment, or activate an add-on.
-- Did not load the seven synthetic fixtures, create the TS-01 prospect, or run the scored scenarios before this saved state.
 - Did not configure external integrations, email, calendar, maps, permissions, billing, or production behavior.
 - Did not invite Loryn or use real customer, employer, Costco, or Centah data.
+- Did not perform native-mobile timing, send a message, start travel, inspect a downloaded export, or test production administration after the mandatory stopping rule was reached.
 
 ## Disposition
 
-The D-098 plan-boundary gate is complete, and D-099 has opened the synthetic configuration run. The approved model fits Lite at 25 of 30 custom fields, but practical views, fixture behavior, scripted scenarios, mobile timing, export, duplicate review, and save reliability remain unproven.
+The D-098 plan-boundary gate is complete, and D-099 produced the prepared evaluator result. The approved model fits Lite at 25 of 30 custom fields, but direct duplicate-control and source-specific handoff failures make the tier nonviable under the approved mandatory gates. CP-007 remains unsigned, and no platform or next candidate is authorized.
 
-Next action: resume the synthetic fixture preload and evaluator scenarios without using real data, external connections, communications, billing, add-ons, or production features.
+Next action: review `evaluator-result.md` and explicitly approve or reject CP-007. Reset the retained baseline scenario state only if the work unit is reopened or the tenant is being closed out.
