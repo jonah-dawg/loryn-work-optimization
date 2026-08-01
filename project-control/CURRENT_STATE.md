@@ -2,11 +2,11 @@
 
 **Updated:** August 1, 2026
 
-**Overall status:** Active - Phase 1 HubSpot Free account shell complete; tier-path inspection pending
+**Overall status:** Active - Phase 1 HubSpot stopping decision required
 **Current phase:** Phase 1 - Zoho prototype and HubSpot comparison
 **Active work unit:** P1-W02 - Next CRM comparison contract
 
-**Work-unit status:** Approved for execution; evaluator-only Free account shell complete; Starter-equivalent offer inspection pending
+**Work-unit status:** Paused at stopping rule - Free blocked; Starter is purchase-only in the inspected tenant
 
 **Last signed-off checkpoint:** CP-004 - CRM platform evaluation method (July 30, 2026)
 
@@ -125,11 +125,15 @@
 - **Accepted (D-092):** Make MFA optional only during the synthetic HubSpot Free evaluation. Record the deferral as a security limitation and require MFA before any paid or promotional tier, external connection, real-data use, production use, or later security approval.
 - **Accepted (D-093):** Allow the technical partner to own and control evaluator-only prototype tenants as the sole prototype administrator, defer Loryn's account access until a candidate becomes one of no more than two viable finalists, and require a separate gate before her finalist session.
 - The HubSpot Free `Hazel Kaine` account shell is complete with the technical partner as evaluator administrator and MFA deferred under D-092.
+- Direct tenant Account & Billing confirms `Free Tools`, with no active trial or paid entitlement displayed.
+- The available `Starter Customer Platform` path is a purchase offer, not a trial: one Core Seat at a limited `$7/mo` promotion, annual checkout selected by default, `$84` due before tax, and company-address plus payment details required.
+- A monthly-commit option exists, but its exact immediate total, full term, renewal price, and tax remain unverified. No no-billing Starter-equivalent evaluation appeared.
+- The checkout was abandoned without data entry, purchase, activation, or configuration, and the account was returned to the Free plan overview.
 - D-091 through D-093 do not authorize trial or tier activation, external configuration, fixture entry, testing, integration, real data, communications, billing, purchases, production use, finalist testing, checkpoint sign-off, or platform selection.
 
 ## Active work-unit contract
 
-**Status:** Approved for execution; evaluator-only Free account shell complete; MFA intentionally deferred under D-092; permitted offer inspection pending.
+**Status:** Paused at the approved tier-access stopping rule; account shell and offer inspection complete; no clean no-billing Starter-equivalent evaluation found.
 
 **Approved outcome:** Define and approve the evidence-first screening contract for the next CRM candidate, beginning with the planned HubSpot comparison, so production-tier feasibility is checked before another account is created or Loryn is involved.
 
@@ -139,6 +143,7 @@
 - The signed CP-004 scorecard, mandatory gates, fixtures, scenarios, burden limit, and evidence format.
 - The closed incomplete P1-W01 Zoho result and accepted D-088 option 1.
 - The July 31 HubSpot official-evidence preflight in `../evidence/P1-W02/hubspot/official-evidence-preflight.md`.
+- The August 1 direct tenant offer inspection in `../evidence/P1-W02/hubspot/tenant-offer-inspection.md`.
 
 **Acceptance checks:**
 
@@ -158,8 +163,8 @@
 
 ## Open items
 
-- Inspect and report only the nonprivate labels and terms of any Starter-equivalent evaluation offer.
-- Verify the exact Starter-equivalent SKU, two-seat total, commitment, renewal price, and whether a no-billing Starter-equivalent evaluation exists.
+- Choose whether to retain HubSpot Starter as documentation-only, authorize a separately scoped paid evaluation after exact monthly/renewal/tax review, or close HubSpot incomplete and screen the next CRM.
+- If a paid evaluation is considered, verify the exact monthly one-seat checkout total, commitment term, renewal price, and tax before any purchase authorization.
 - Verify whether Starter can satisfy M-01 without the Professional-only multi-source custom report builder.
 - D-011: production CRM tenant, sign-in method, access removal, and security/retention controls.
 - D-012: Centah API, webhook, export, sandbox, limits, and support model.
@@ -180,7 +185,7 @@ CP-003 approved `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimu
 
 CP-004 approved `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`. Decisions D-049 through D-061 record the mandatory gates, D-062 through D-069 record the complete 100-point scorecard and scoring rule, D-070 through D-072 record the scenarios, fixtures, and scripts, D-073 records the staged test-burden rule, and D-074 records the evaluator-only evidence format. At CP-004, the authoritative Markdown master was Version 1.39; Word remains intentionally stale.
 
-P1-W01 is closed incomplete by accepted D-088 option 1. D-075 through D-087 record the approved execution contract and bounded Zoho actions; D-088 retains Professional as documentation-only and prohibits upgrade or purchase. The `Hazel Kaine` Free tenant has MFA, two confirmed administrators, no vendor sample data, and no partial fixtures. CP-005 was not reached. D-089 approved the P1-W02 outcome and official-evidence research, D-090 approved the complete P1-W02 execution contract, D-091 opened the bounded HubSpot Free account-shell gate, D-092 made MFA optional only during the synthetic Free evaluation, and D-093 allows technical-partner-only prototype administration while deferring Loryn until a viable finalist. The HubSpot Free `Hazel Kaine` account shell is complete; offer inspection remains pending. The authoritative Markdown master is Version 1.61; Word remains intentionally stale.
+P1-W01 is closed incomplete by accepted D-088 option 1. D-075 through D-087 record the approved execution contract and bounded Zoho actions; D-088 retains Professional as documentation-only and prohibits upgrade or purchase. The `Hazel Kaine` Free tenant has MFA, two confirmed administrators, no vendor sample data, and no partial fixtures. CP-005 was not reached. D-089 approved the P1-W02 outcome and official-evidence research, D-090 approved the complete P1-W02 execution contract, D-091 opened the bounded HubSpot Free account-shell gate, D-092 made MFA optional only during the synthetic Free evaluation, and D-093 allows technical-partner-only prototype administration while deferring Loryn until a viable finalist. The HubSpot Free account shell and offer inspection are complete. The tenant exposes only a purchase path for Starter; no clean no-billing evaluation was found, so the stopping rule is active. The authoritative Markdown master is Version 1.62; Word remains intentionally stale.
 
 ## Chat and artifact protocol
 
@@ -201,12 +206,12 @@ P1-W01 is closed incomplete by accepted D-088 option 1. D-075 through D-087 reco
 
 ## Next work-unit starting point
 
-Phase 0 is complete at CP-004. Phase 1 P1-W01 is closed incomplete under D-088 option 1. P1-W02's outcome and complete execution contract are approved under D-089 and D-090. The evaluator-only Free account shell is complete under D-091 through D-093; Loryn remains uninvolved until a separately authorized finalist session.
+Phase 0 is complete at CP-004. Phase 1 P1-W01 is closed incomplete under D-088 option 1. P1-W02's account shell and offer inspection are complete. HubSpot Free is field-blocked, the tenant has no no-billing Starter evaluation, and execution is paused at the approved stopping rule.
 
 ## Exact next action
 
-Inspect only the nonprivate labels and terms of any Starter-equivalent evaluation offer available from the Free tenant, including whether billing or automatic activation is required, and stop before activating a trial or tier. Do not create fields, fixtures, or tests from D-093.
+Approve one of three P1-W02 stop outcomes: retain HubSpot Starter as documentation-only; authorize a separately scoped paid evaluation after exact monthly checkout, renewal, tax, and total-cost review; or close HubSpot incomplete and screen the next CRM candidate. Do not infer approval from discussion.
 
 ## Resume instruction
 
-Read this file, Sessions S-061 and S-062 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, `../deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`, `../evidence/P1-W01/zoho/evaluator-result.md`, `../evidence/P1-W02/hubspot/official-evidence-preflight.md`, `../deliverables/P1-W02-next-crm-comparison-contract.md`, and the Phase 1 and platform-trial sections of `../deliverables/window-sales-operations-master-plan.md`. The HubSpot Free `Hazel Kaine` account shell is complete with the technical partner as sole evaluator administrator and MFA deferred under D-092. D-093 defers all Loryn access and testing until a separately authorized viable-finalist session. Inspect only permitted offer labels and terms, then stop. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Continue to prohibit tier activation, real data, connections, configuration, fixture entry, testing, billing, purchases, customer communications, production use, finalist testing, and platform selection.
+Read this file, Sessions S-062 and S-063 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, `../deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`, `../evidence/P1-W01/zoho/evaluator-result.md`, `../evidence/P1-W02/hubspot/official-evidence-preflight.md`, `../evidence/P1-W02/hubspot/tenant-offer-inspection.md`, `../deliverables/P1-W02-next-crm-comparison-contract.md`, and the Phase 1 and platform-trial sections of `../deliverables/window-sales-operations-master-plan.md`. The HubSpot Free `Hazel Kaine` account shell and read-only offer inspection are complete. No clean no-billing Starter-equivalent evaluation exists in the inspected tenant; the account remains Free and no purchase or activation occurred. Present the three stopping-rule outcomes for explicit decision. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Continue to prohibit tier activation, real data, connections, configuration, fixture entry, testing, billing, purchases, customer communications, production use, finalist testing, and platform selection.

@@ -4,11 +4,11 @@
 
 | Artifact | Authority | Current status | Update trigger |
 |---|---|---|---|
-| `../deliverables/window-sales-operations-master-plan.md` | Authoritative product and delivery plan | Version 1.61; current | Material scope, architecture, roadmap, risk, governance, process, or decision change |
+| `../deliverables/window-sales-operations-master-plan.md` | Authoritative product and delivery plan | Version 1.62; current | Material scope, architecture, roadmap, risk, governance, process, or decision change |
 | `../deliverables/window-sales-operations-master-plan.docx` | Non-authoritative editable distribution copy | Version 1.4; stale by design until final release or explicit sharing milestone | Regenerate and visually verify only for a release or requested sharing copy |
 | `GUIDED_WORKFLOW.md` | Authoritative session and checkpoint procedure | Current | Workflow-control rule changes |
-| `CURRENT_STATE.md` | Authoritative restart point | P1-W02 evaluator-only Free account shell complete; offer inspection pending; D-093 accepted | Every sign-off, session stop, blocker, or active-work-unit change |
-| `SESSION_LOG.md` | Append-only execution history | S-062 records technical-partner-only prototype administration and deferred Loryn access; CP-004 remains the last checkpoint | Every sign-off or session close |
+| `CURRENT_STATE.md` | Authoritative restart point | P1-W02 stopped after purchase-only Starter finding; outcome decision required; D-093 remains latest approval | Every sign-off, session stop, blocker, or active-work-unit change |
+| `SESSION_LOG.md` | Append-only execution history | S-063 records direct tenant offer inspection and stopping-rule result; CP-004 remains the last checkpoint | Every sign-off or session close |
 | `ARTIFACT_REGISTER.md` | Artifact authority and synchronization inventory | Current | Artifact added, renamed, superseded, or found stale |
 | `COLLABORATOR_PACKET.md` | Operational shared-Project onboarding and input-capture aid | Current; unapproved input remains subject to repository reconciliation | Shared-project procedure, active intake queue, or handoff format changes |
 | `../deliverables/P0-W01-current-workflow-and-permission-boundary.md` | Signed P0-W01 workflow and permission boundary | Approved at CP-001 | Supersede only through a later signed checkpoint |
@@ -17,8 +17,9 @@
 | `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md` | Signed P0-W03 platform-evaluation method | Approved at CP-004 | Supersede only through a later signed checkpoint |
 | `../deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md` | Closed P1-W01 work-unit contract and execution record | Closed incomplete by D-088 option 1; CP-005 not reached | Supersede only through an explicitly approved later Zoho work unit |
 | `../evidence/P1-W01/zoho/` | Sanitized P1-W01 Zoho evidence set | Closed documentation-only result; Professional remains conditional and untested | Every material later Zoho evidence change |
-| `../deliverables/P1-W02-next-crm-comparison-contract.md` | Active P1-W02 work-unit contract | Approved; evaluator-only Free account shell complete; Loryn deferred under D-093; offer inspection pending | Every accepted P1-W02 decision and checkpoint |
-| `../evidence/P1-W02/hubspot/official-evidence-preflight.md` | Preliminary P1-W02 HubSpot evidence | Current official-source preflight; Free blocked, Starter conditional; no direct tenant evidence | Every material HubSpot feature, tier, cost, trial, or tenant-evidence change |
+| `../deliverables/P1-W02-next-crm-comparison-contract.md` | Active P1-W02 work-unit contract | Paused at stopping rule; Free blocked and inspected Starter path requires purchase | Every accepted P1-W02 decision and checkpoint |
+| `../evidence/P1-W02/hubspot/official-evidence-preflight.md` | P1-W02 HubSpot official-source evidence | Current; Free blocked, Starter conditional, and direct tenant follow-up linked | Every material HubSpot feature, tier, cost, trial, or tenant-evidence change |
+| `../evidence/P1-W02/hubspot/tenant-offer-inspection.md` | Sanitized direct P1-W02 HubSpot evidence | Current; Free confirmed, Starter purchase-only, no no-billing trial, no activation or purchase | Every material tenant offer, checkout, activation, or billing-state change |
 | `REPOSITORY_BACKUP.md` | Repository location, synchronization boundary, and recovery instructions | Current | Repository, branch, tracked scope, or working-copy policy changes |
 
 ## Planned artifacts not yet created

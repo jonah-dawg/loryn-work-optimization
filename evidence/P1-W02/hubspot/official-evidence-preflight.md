@@ -1,6 +1,6 @@
 # P1-W02 HubSpot Official-Evidence Preflight
 
-**Status:** Preliminary official-evidence finding; no account or external action authorized
+**Status:** Official-evidence preflight complete; direct tenant follow-up available
 
 **Candidate:** HubSpot CRM
 
@@ -98,6 +98,10 @@ Do not substitute the Marketing Hub Professional trial, infer Starter behavior f
 ## Open evidence items
 
 - Verify the exact Starter-equivalent SKU, two-Core-Seat total, commitment term, renewal price, and tax treatment without purchasing.
-- Determine whether a no-billing Starter-equivalent trial exists and whether it avoids Professional-only feature contamination.
+- Verify the exact monthly checkout total, renewal price, tax, and complete term if a paid evaluation is later considered.
 - Verify whether Starter can deliver M-01's single practical action center without the Professional custom report builder.
 - Directly verify required/unique field behavior, source-specific exceptions, mobile search and directions, manual communications, export completeness, duplicate handling, and cross-device reliability only after the relevant action gates are approved.
+
+## Direct tenant follow-up
+
+The August 1, 2026 inspection recorded in `tenant-offer-inspection.md` confirms that the evaluator tenant offers Starter Customer Platform only through a purchase checkout requiring company address and payment details. No clean no-billing Starter-equivalent evaluation appeared, so the P1-W02 stopping rule applies before configuration or testing.

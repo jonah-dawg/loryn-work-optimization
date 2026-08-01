@@ -2533,3 +2533,57 @@ Add Loryn with independent Super Admin access and confirm both administrators wi
 ### Saved ending point
 
 Inspect only the nonprivate labels and terms of any Starter-equivalent evaluation offer available from the Free tenant, including whether billing or automatic activation is required. Stop before activation, configuration, fixtures, or testing.
+
+## Session S-063 - HubSpot tenant offer inspected; stopping rule reached
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W02 - Next CRM comparison contract
+
+**Checkpoint:** CP-004 remains the last signed-off checkpoint; CP-006 remains pending and cannot be signed from the current evidence
+
+**Sign-off status:** No new approval; read-only tenant inspection completed under the D-090 contract and D-091 account-shell authority
+
+### Work completed
+
+- Used the signed-in evaluator tenant to inspect Account & Billing, the Starter upgrade comparison, the one-seat plan configurator, and the checkout terms.
+- Recorded the sanitized direct evidence in `../evidence/P1-W02/hubspot/tenant-offer-inspection.md`.
+- Exited checkout without entering address or payment information and returned the tenant to the Free plan overview.
+
+### Direct findings
+
+- Account & Billing lists `Free Tools`; no active trial or paid entitlement was displayed.
+- The tenant offers `Starter Customer Platform` as a purchase rather than a no-billing evaluation.
+- The offer displayed one Core Seat at a limited `$7/mo` promotion against a `$20/mo` base amount.
+- Annual billing was selected by default: `$240` base, `$156` annual promotion, and `$84` due immediately before tax.
+- A monthly-commit option exists, but its exact immediate total, complete term, renewal price, and tax remain unverified.
+- Company address and secure payment details are required to complete checkout.
+- No trial path, purchase, tier activation, data entry, external connection, configuration, fixture, test, communication, or production action occurred.
+
+### Stopping-rule result
+
+- HubSpot Free remains unable to represent the approved CP-003 baseline.
+- No clean no-billing Starter-equivalent evaluation exists in the inspected tenant.
+- P1-W02 execution stops before configuration and synthetic scenario testing.
+- HubSpot Starter remains a documentation-backed `Conditional Pass` possibility only; no HubSpot candidate score or platform recommendation exists.
+
+### Approval boundary
+
+- D-093 remains the last approval.
+- The inspection does not authorize a trial or tier, paid evaluation, purchase, billing action, configuration, fixture entry, testing, integration, real-data use, communication, production use, Loryn finalist testing, checkpoint sign-off, or platform selection.
+
+### Files changed
+
+- `deliverables/P1-W02-next-crm-comparison-contract.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W02/hubspot/official-evidence-preflight.md`
+- `evidence/P1-W02/hubspot/tenant-offer-inspection.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Present three explicit options: retain HubSpot Starter as documentation-only; authorize a separately scoped paid evaluation after exact monthly checkout, renewal, tax, and total-cost review; or close HubSpot incomplete and screen the next CRM candidate. Do not infer approval from discussion.

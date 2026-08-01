@@ -1,6 +1,6 @@
 # P1-W02 - Next CRM Comparison Contract
 
-**Status:** Approved for execution; HubSpot Free account-shell creation authorized by D-091 and awaiting completion
+**Status:** Execution paused at approved stopping rule; Free blocked and no no-billing Starter-equivalent evaluation found
 
 **Phase:** Phase 1 - Zoho prototype and HubSpot comparison
 
@@ -41,6 +41,19 @@ The July 31, 2026 official-source review is recorded in `../evidence/P1-W02/hubs
 - M-01 remains a decision-critical risk because the multi-source custom report builder is Professional-only; Starter must directly prove a practical single action center or equivalent.
 
 The preliminary disposition is therefore: Free `Fail`; Starter-level path `Conditional Pass` for contract planning only; no candidate score or platform recommendation.
+
+## Direct tenant offer inspection result
+
+The August 1, 2026 sanitized direct evidence is recorded in `../evidence/P1-W02/hubspot/tenant-offer-inspection.md`.
+
+- Account & Billing confirms `Free Tools` as the current plan, with no active trial or paid entitlement displayed.
+- The tenant offers `Starter Customer Platform` as a purchase beginning at a limited new-customer promotional price of `$7/mo/seat` rather than a trial.
+- The one-seat checkout defaulted to annual billing: `$240.00` base, `$156.00` annual promotion, and `$84.00` due immediately before tax.
+- A monthly-commit option is visible, but its exact total, renewal price, and full term remain unverified.
+- Company address and payment details are required to complete checkout.
+- No clean no-billing Starter-equivalent evaluation path appeared. No information was entered, no purchase or activation occurred, and the account remained on Free.
+
+The approved stopping rule now applies. Do not configure the field-blocked Free tenant or begin the common fixtures and scenarios.
 
 ## Approved candidate and tier boundary
 
@@ -154,8 +167,12 @@ CP-005 remains not reached and tied to the closed-incomplete Zoho work unit.
 - Do not use real data, connect email, calendar, maps, Centah, or another external service, send messages, enter billing information, start a paid trial, purchase anything, or select a platform.
 - Stop before account creation if official evidence confirms that no reasonable tier can meet a mandatory gate.
 
-## Current authorized action
+## Required stop decision
 
-The technical partner controls the evaluator-only prototype tenant. HubSpot Free, the `Hazel Kaine` organization name, evaluator administrator access, and the D-092 MFA deferral are confirmed; the bounded account shell is complete under D-093. Inspect only the nonprivate labels and terms of any Starter-equivalent evaluation offer, and then stop. Do not report credentials, codes, recovery details, private email addresses, or account identifiers.
+Choose one separately gated outcome:
 
-D-093 changes only prototype ownership and Loryn's participation point. It does not authorize trial or tier activation, configuration, fixture entry, testing, integration, real data, communications, billing, purchases, production use, finalist testing, checkpoint sign-off, or platform selection.
+1. Retain HubSpot Starter as documentation-only.
+2. Authorize a separately scoped paid evaluation or purchase only after exact monthly checkout, renewal, tax, and total-cost review.
+3. Close HubSpot incomplete and screen the next CRM candidate.
+
+No option is approved by the inspection itself. Trial or tier activation, configuration, fixture entry, testing, integration, real data, communications, billing, purchases, production use, finalist testing, checkpoint sign-off, and platform selection remain unapproved.
