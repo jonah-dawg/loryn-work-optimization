@@ -1,14 +1,14 @@
 # P1-W04 Bigin Premier Field-Capacity Preflight
 
-**Status:** Documentation fit complete; D-102 confirms Premier shell; direct field confirmation pending synthetic-configuration authorization
+**Status:** Direct field configuration confirmed under D-103; proposed evidence pending CP-008 review
 
 **Mapped:** August 1, 2026
 
 ## Result
 
-The conservative CP-003 model fits within Bigin Premier's documented limit of 25 custom fields per module without add-ons: 10 Contact fields, 15 fields in the proposed `Window Sales Work` Team Pipeline, and at most 2 Task fields. Events and Calls use documented default fields. The counts are module-specific and are not added into one shared allowance.
+The CP-003 model was directly configured within Bigin Premier's documented limit of 25 custom fields per module without add-ons: 10 Contact fields, 14 custom fields in `Window Sales Work` plus standard `Lead Source`, and no Task custom fields. Events use documented default fields. The counts are module-specific and are not added into one shared allowance.
 
-This is a documentation fit, not direct configuration proof. Default-field availability, the exact trial edition, Team Pipeline versus sub-pipeline behavior, stage-rule scope, unique-field handling, activity completion timestamps, mobile visibility, and import behavior must be confirmed in the bounded tenant before the mapping can be accepted as final.
+Direct configuration corrected the Pipeline estimate from 15 custom fields to 14 because standard `Lead Source` is available. It also confirmed that standard Task Due Date is date-only; a reminder may carry an on-due-date time, while Events retain start and end times. Mobile visibility, completion timestamp export, import behavior, and relationship reconstruction remain unverified because the M-01 stopping rule ended the run.
 
 ## Proposed record model
 
@@ -38,7 +38,7 @@ This is a documentation fit, not direct configuration proof. Default-field avail
 |---|---|---:|
 | Linked customer | Standard Related Contacts lookup | 0 |
 | Service address | Custom single-line text; direct mobile directions test is mandatory | 1 |
-| Lead source and source detail | Custom single-select plus single-line text | 2 |
+| Lead source and source detail | Standard Lead Source plus custom single-line text | 1 |
 | Centah lead number | Custom single-line text marked unique; Costco/Centah only | 1 |
 | Current stage | Standard Team Pipeline, sub-pipeline, and stage | 0 |
 | Last-contact date and time | Custom date-and-time | 1 |
@@ -53,7 +53,7 @@ This is a documentation fit, not direct configuration proof. Default-field avail
 | Post-install follow-up date/time and result | Custom date-and-time plus custom single-select or multiline text | 2 |
 | Close outcome or reason | Custom single-select; stage provides open/closed state | 1 |
 | Exception or stall reason | Custom multiline text that remains filterable; do not use a large multiline type if filtering is unavailable | 1 |
-| **Pipeline total** |  | **15** |
+| **Pipeline total** |  | **14** |
 
 ## Activity mapping
 
@@ -61,7 +61,7 @@ This is a documentation fit, not direct configuration proof. Default-field avail
 |---|---|---:|
 | Linked customer and job | Standard Related To link to Contact and Pipeline record | 0 |
 | Activity or task type | Standard Task, Event, or Call modules plus subject/title | 0 |
-| Due date/time and status | Standard Task Due Date, Status, and Reminder; reserve one custom date-and-time if a true due time is not directly available | 0-1 |
+| Due date/time and status | Standard Task Due Date and Status; Due Date is date-only, while Reminder may carry an on-due-date time; one custom date-and-time remains a possible but untested correction | 0-1 |
 | Completed date/time | Use system activity/timeline timestamp if directly exportable; otherwise one custom date-and-time on Tasks | 0-1 |
 | Result or note | Standard Task Description or Call Outcome/Result; direct completion enforcement test required | 0 |
 | **Task contingency total** |  | **0-2** |
@@ -73,7 +73,7 @@ Events and Calls have their own documented default date/time and outcome fields.
 | Module | Conservative custom-field use | Premier documented limit | Headroom |
 |---|---:|---:|---:|
 | Contacts | 10 | 25 | 15 |
-| `Window Sales Work` Team Pipeline | 15 | 25 | 10 |
+| `Window Sales Work` Team Pipeline | 14 | 25 | 11 |
 | Tasks | 0-2 | 25 | 23-25 |
 | Events | 0 | 25 | 25 |
 | Calls | 0 | 25 | 25 |
@@ -83,11 +83,11 @@ The `Centah lead number` uses one of the two documented custom unique fields ava
 ## Mandatory controls that capacity does not prove
 
 - Stage Transition Rules must conditionally require the Centah identifier and DocuSign only for Costco/Centah, require the coordinator email for both sources, and prevent premature closure.
-- The same Team Pipeline with separate sub-pipelines must preserve one unified morning action center and reusable customer history.
+- The same Team Pipeline preserved reusable Contacts and source-specific transition rules, but separate sub-pipeline tabs fragmented record lists. Dashboard components exposed aggregates rather than actionable record lists, and Pipeline views could not filter for records with no linked next Task. This directly failed M-01 in the evaluated configuration.
 - The unique Centah field must prevent or visibly route duplicates during both manual entry and import; case-insensitive matching is documented but direct behavior remains required.
-- Contact-only prospects must support the approved next-action rule and convert into one linked project without losing activities or duplicating the customer.
-- Task due time, completed timestamp, result enforcement, mobile address-to-directions behavior, and export relationship reconstruction remain direct-test items.
-- The ten-field Pipeline headroom is not permission to add scope. Any correction must be evidence-backed and tied to an approved requirement.
+- Contact-only prospects must support the approved next-action rule and convert into one linked project without losing activities or duplicating the customer. This remained unverified after the M-01 stopping rule fired.
+- Task due time, completed timestamp, result enforcement, mobile address-to-directions behavior, and export relationship reconstruction remain unverified direct-test items.
+- The eleven-field Pipeline headroom is not permission to add scope. Adding duplicated next-action fields would not resolve the directly observed separation of source record lists and absence of dashboard record-list components.
 
 ## Official sources
 

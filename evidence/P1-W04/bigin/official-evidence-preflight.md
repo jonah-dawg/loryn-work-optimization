@@ -1,6 +1,6 @@
 # P1-W04 Bigin Official-Evidence Preflight
 
-**Status:** Current official evidence; D-102 shell confirmed Premier; D-103 synthetic configuration started; direct proof remains incomplete
+**Status:** Current official preflight; D-103 direct evaluator result now proposes elimination pending CP-008
 
 **Candidate:** Bigin by Zoho CRM
 
@@ -10,7 +10,9 @@
 
 ## Preliminary disposition
 
-Bigin Premier is the strongest remaining candidate for a bounded P1-W04 evaluation. It is designed for smaller operations, its official field and workflow controls directly target the two failures that eliminated Pipedrive Lite, and its current two-administrator price is lower than the documented Zoho CRM Professional and Freshsales Pro possibilities. D-100 approved the evidence-first outcome, D-101 approved the complete contract, and D-103 opened the synthetic configuration and evaluator gate. The conservative field map fits within documented Premier limits, but Bigin is not yet viable or selected and direct synthetic proof remains mandatory.
+Bigin Premier was the strongest remaining candidate for a bounded P1-W04 evaluation. Its official field and workflow controls directly targeted the two failures that eliminated Pipedrive Lite, and its current two-administrator price is lower than the documented Zoho CRM Professional and Freshsales Pro possibilities. D-100 approved the evidence-first outcome, D-101 approved the complete contract, and D-103 opened the synthetic configuration and evaluator gate.
+
+Subsequent direct evidence corrected the configured map to 10 Contact custom fields and 14 Pipeline custom fields plus standard Lead Source, confirmed source-specific Stage Transition Rules, and blocked a manual duplicate Centah identifier. It also confirmed an M-01 failure: source record lists remain split by sub-pipeline, dashboard components are aggregate rather than actionable record lists, and Pipeline views cannot detect an active record with no linked next Task. `evaluator-result.md` therefore proposes `Eliminated`; that result remains unapproved pending CP-008.
 
 ## Evidence summary
 
@@ -19,10 +21,10 @@ Bigin Premier is the strongest remaining candidate for a bounded P1-W04 evaluati
 | Pricing and trial | Premier is `$15` per user monthly or `$12` per user per month billed annually. The trial lasts 15 days, requires no credit card, does not charge automatically, and falls back to Free. | Two-administrator baseline is `$30` monthly or `$288` annually before applicable tax/add-ons. Exact tenant checkout and renewal remain unverified. |
 | Tier boundary | Express has 10 custom fields per module. Premier has 25, five Team Pipelines, Stage Transition Rules, advanced date automation, duplicate cleanup, and 100,000 records. | Express is below the 16-field job baseline before default-field reuse; Premier is the lowest plausible tier. |
 | Record and source model | Team Pipelines support distinct business processes with their own fields, record types, stages, sub-pipelines, and permissions. Pipeline records link to contacts and expose activities, notes, files, and history. | Plausible reusable-customer/multiple-job model and a clean Costco-versus-Independent branch; direct cross-pipeline usability is required. |
-| Field capacity | Premier permits 25 custom fields per module. Bigin fields include dates, date-times, picklists, checkboxes, lookup, user, formula, and unique values. | Conservative documentation fit: 10 Contact, 15 Pipeline, and at most 2 Task custom fields; direct tenant confirmation remains required. |
+| Field capacity | Premier permits 25 custom fields per module. Bigin fields include dates, date-times, picklists, checkboxes, lookup, user, formula, and unique values. | Direct configuration fit: 10 Contact custom fields and 14 Pipeline custom fields plus standard Lead Source. No Task custom field was added before the stopping result. |
 | Handoff enforcement | Premier Stage Transition Rules can require fields, notes, files, or checklists before stage movement and can restrict closure from selected stages. | Strongest current evidence for M-02 and M-07; both handoff branches and installation anchors still require direct testing. |
 | Duplicate control | Custom fields can prohibit duplicate values, and Premier adds duplicate cleanup. | A Deal/Pipeline Centah identifier appears capable of blocking duplicates; TS-03 must verify manual entry and import. |
-| Action visibility | Custom list views, customizable dashboards, tasks/events/calls, dashboard drill-down, and mobile calendar agenda/day/week/month views are documented. | Plausible M-01 and M-04 path; one practical morning action center remains unverified. |
+| Action visibility | Custom list views, customizable dashboards, tasks/events/calls, dashboard drill-down, and mobile calendar agenda/day/week/month views are documented. | Direct testing supersedes the preliminary inference: source tabs, aggregate dashboard components, and no missing-linked-task Pipeline criterion fail M-01 in the evaluated configuration. |
 | Mobile | Official Android/iOS documentation covers dashboards, contacts, advanced filtering, activities, and calendar views. | Promising for Loryn's daily work, but phone/last-name search, directions, notes, timing, and weak-signal behavior require direct testing. |
 | Administration | Paid editions support multiple users; roles, profiles, invitations, deactivation, and deletion are documented. | Plausible two-administrator model; MFA, exact permissions, removal history, and recovery remain unverified. |
 | Portability | Module/view exports produce CSV files; notes can be exported by parent module. Paid editions include two full data backups per month. APIs and developer tools are listed across editions. | Plausible manual Centah bridge and exit path; relationship reconstruction and API limits remain unverified. |
@@ -33,8 +35,8 @@ Freshsales Pro remains a plausible fallback because official documentation suppo
 
 ## Mandatory pre-account checks
 
-- The conservative CP-003 field map is documented in `field-capacity-preflight.md`: 10 Contact, 15 Pipeline, and at most 2 Task custom fields. Direct tenant confirmation remains mandatory.
-- Confirm whether separate Team Pipelines or sub-pipelines best preserve one morning action center and reusable customer history.
+- The field map is directly corrected in `field-capacity-preflight.md`: 10 Contact custom fields and 14 Pipeline custom fields plus standard Lead Source.
+- Separate sub-pipelines preserved reusable Contacts and distinct transition rules but directly failed the unified morning-action-center requirement.
 - Verify exact Premier trial behavior and ensure Bigin 360-only capabilities cannot contaminate evidence.
 - Confirm stage-rule, unique-field, custom-view, mobile, export, user, MFA, retention, and API limits by tier.
 - Define narrow sample-data inspection and cleanup before any synthetic fixture load.

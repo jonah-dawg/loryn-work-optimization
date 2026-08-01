@@ -1,6 +1,6 @@
 # P1-W04 - Bigin Premier Evidence-First Screening
 
-**Status:** Outcome approved as D-100; contract approved as D-101; D-102 account shell complete; D-103 synthetic configuration authorized and started; pipeline configuration incomplete
+**Status:** D-103 evaluator run stopped on direct M-01 failure; proposed `Eliminated` outcome unapproved pending CP-008 review
 
 **Phase:** Phase 1 - CRM candidate comparison
 
@@ -24,9 +24,9 @@ This outcome was explicitly approved as D-100 on August 1, 2026. D-100 authorize
 - D-102 does not authorize an edition change, configuration, fixture entry, testing, billing details, purchase, add-on, external connection, real data, communication, production use, Loryn participation, checkpoint, or platform selection.
 - **D-102 completed:** Direct shell inspection confirmed Premier with 15 trial days remaining, one active Super Admin, vendor sample content present, and no billing prompt. No sample record was opened and no tenant setting was changed.
 - **Accepted (D-103):** Begin the approved P1-W04 synthetic configuration, including verified vendor-sample cleanup, the bounded minimum configuration, CP-004 synthetic fixtures, evaluator scenarios, mobile timing, export evidence, and narrow cleanup under the signed stopping rules.
-- **D-103 progress:** The verified vendor sample deal, contact, and company were moved to Bigin's recycle bin; active Pipelines, Contacts, Companies, Products, and Activities then showed no records. A `Window Sales Work` Team Pipeline wizard was started with `Opportunities` and `Opportunity` record labels, but the pipeline was not saved because browser-control verification stopped at the stage editor. No fixture, field, stage, rule, view, reminder, integration, billing detail, communication, or real data was saved.
+- **D-103 result:** The bounded Premier configuration and seven synthetic opportunity fixtures were saved and tested far enough to reach the signed stopping rule. Source-specific Stage Transition Rules and manual Centah duplicate prevention worked directly, and phone-number and last-name search both passed. M-01 failed because source record lists remain split by sub-pipeline, dashboards expose aggregates rather than actionable record lists, and Pipeline views cannot detect an active record with no linked next Task. The proposed `Eliminated` result is unapproved pending CP-008 review.
 
-## Recommendation
+## Initial recommendation
 
 Recommend Bigin Premier as P1-W04 because current official evidence addresses the two failures that eliminated Pipedrive Lite while remaining proportionate to a one-person operation:
 
@@ -38,6 +38,12 @@ Recommend Bigin Premier as P1-W04 because current official evidence addresses th
 - Current official US pricing of `$15` per user monthly or `$12` per user per month billed annually. The two-administrator baseline is therefore `$30` monthly or `$288` annually before any applicable tax or add-on.
 - A 15-day trial that does not request a credit card and falls back to the one-user Free plan rather than charging automatically.
 
+## Proposed evaluator outcome
+
+Propose `Eliminated` for the evaluated Bigin Premier configuration. Direct evidence showed that Premier solves the Pipedrive Lite failures through source-specific Stage Transition Rules and a unique Centah field, but it fails the independently mandatory M-01 daily-action-center gate. The source routes needed for correct handoff enforcement separate their record lists, the dashboard builder exposes aggregate components rather than actionable record lists, and Pipeline views cannot filter for an active record that has no linked next Task. This also leaves M-04 and M-07 unable to uphold the approved next-action invariant.
+
+The D-101 stopping rule ended the remaining mobile, export, import-duplicate, administration, and later scenario checks. No weighted score is calculated. CP-007 remains the last signed checkpoint; this proposed result is not approved unless CP-008 is explicitly signed.
+
 ## Why Premier is the approved boundary
 
 - Free is limited to one user, 500 total records, and one pipeline.
@@ -47,11 +53,11 @@ Recommend Bigin Premier as P1-W04 because current official evidence addresses th
 
 ## Decision-critical risks
 
-- A complete CP-003-to-Bigin map must confirm that 25 custom fields per relevant module is sufficient without hiding required facts in notes.
-- The cleanest source model may use separate Costco/Centah and Independent Team Pipelines. Direct testing must prove that this does not fragment the morning action center, reusable customer history, search, or reporting.
-- Stage Transition Rules must directly prove both handoff branches, premature-completion prevention, source-specific installation anchors, and the three-month exception.
-- A unique pipeline field must directly block or visibly route a duplicate synthetic Centah lead number during manual entry and import.
-- Mobile search by phone and last name, today's work, confirmation, directions, note capture, save/retry behavior, and one-minute timing remain unverified.
+- Direct configuration confirmed 10 Contact custom fields and 14 Pipeline custom fields plus standard Lead Source within Premier limits.
+- Separate Costco/Centah and Independent sub-pipelines preserved reusable Contacts and distinct transition rules but fragmented record lists and directly failed the morning action center.
+- Stage Transition Rules directly proved the source-specific handoff prompts and the Costco installation-confirmation prompt. Calculated installation anchors and broad premature-closure protection remain unverified.
+- A unique pipeline field directly blocked a duplicate synthetic Centah lead number during manual entry. Import behavior remains unverified.
+- Desktop search by phone and last name passed. Mobile today's work, confirmation, directions, note capture, save/retry behavior, and one-minute timing remain unverified after the stopping rule.
 - Exact trial edition, trial contamination, two-administrator roles, MFA, removal, activity history, retention, full backup/export relationships, API limits, renewal, and taxes remain unverified.
 - Native offline behavior was not established by the current official preflight and must not be inferred.
 
@@ -79,9 +85,9 @@ Recommend Bigin Premier as P1-W04 because current official evidence addresses th
 5. Inspect only nonprivate plan, trial-expiry, feature-boundary, sample-data, and administrator labels; stop if Premier-equivalent evidence cannot be isolated. Completed under D-102: Premier and 15 days remaining confirmed.
 6. If a no-billing edition change is needed, obtain a separate exact authorization before changing it. Not required because the tenant directly reports Premier.
 7. Obtain separate synthetic-configuration authorization. Completed as D-103.
-8. Configure only the approved contact, pipeline, activity, stage, transition-rule, unique-field, view, and reminder minimum. Started under D-103; no pipeline or related configuration has yet been saved.
-9. Load the CP-004 synthetic fixtures, run TS-01 through TS-07, perform mobile timing, and export the synthetic result unless an early mandatory failure stops the run.
-10. Remove or archive test-created artifacts using a verified narrow cleanup procedure and prepare the evidence-backed result.
+8. Configure only the approved contact, pipeline, activity, stage, transition-rule, unique-field, view, and reminder minimum. Completed far enough to test the decision-critical source, uniqueness, search, task, event, and morning-view behavior.
+9. Load the CP-004 synthetic fixtures, run TS-01 through TS-07, perform mobile timing, and export the synthetic result unless an early mandatory failure stops the run. Seven baseline opportunity fixtures were loaded; direct TS-02 produced an M-01 failure and stopped the remaining sequence.
+10. Remove or archive test-created artifacts using a verified narrow cleanup procedure and prepare the evidence-backed result. The blocked duplicate was not saved, final view/KPI drafts were discarded, and the baseline synthetic configuration remains as evaluator evidence.
 
 ## Approved minimum configuration
 
@@ -138,4 +144,4 @@ A future CP-008 would approve only a completed Bigin evaluator result, configura
 
 ## Current action
 
-Resume the unsaved `Window Sales Work` Team Pipeline wizard at the stage editor. Save nothing unless the approved stages and bounded field model can be entered without expanding scope. Then configure the remaining approved minimum, load only CP-004 synthetic fixtures, and run the signed evaluator sequence. Continue to prohibit edition changes, external connections, billing, real data, customer communications, production use, Loryn participation, checkpoint sign-off, and platform selection.
+Review `evidence/P1-W04/bigin/evaluator-result.md` and the linked configuration inventory. If the proposed Bigin Premier elimination is accepted, explicitly sign CP-008. Do not infer that sign-off, a next-candidate authorization, or a platform selection from D-103 or this execution record. Continue to prohibit edition changes, external connections, billing, real data, customer communications, production use, Loryn participation, checkpoint sign-off, and platform selection without the applicable separate approval.

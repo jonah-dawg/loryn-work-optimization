@@ -3296,3 +3296,72 @@ Present the synthetic-configuration gate. Do not remove sample content, configur
 ### Saved ending point
 
 Resume the open, unsaved `Window Sales Work` Team Pipeline wizard at the stage editor. Enter only the approved lifecycle stages and bounded fields, save and read back the result, and then continue the signed synthetic evaluator sequence. Do not expand the tier or data boundary, empty the recycle bin, connect services, enter billing, use real data, communicate with customers, involve Loryn, sign CP-008, or select a platform without the applicable separate approval.
+
+## Session S-078 - P1-W04 evaluator result proposed
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W04 - Bigin Premier evidence-first screening
+
+**Checkpoint:** CP-007 remains the last signed-off checkpoint; CP-008 is pending explicit review
+
+**Sign-off status:** D-103 execution stopped on direct M-01 failure; proposed `Eliminated` result unapproved
+
+### Orientation
+
+- Current phase: Phase 1 CRM candidate comparison.
+- Active work unit: P1-W04 Bigin Premier evidence-first screening.
+- Last signed checkpoint: CP-007, which eliminated Pipedrive Lite only.
+- Last approval: D-103, authorizing the bounded Bigin synthetic configuration and evaluator sequence.
+- Open blockers at start: saved configuration, source-specific enforcement, manual and import duplicate behavior, unified morning view, task timing, mobile behavior, administration, export reconstruction, and cost details.
+- Approved outcome: evaluator-only Premier screening with synthetic data, a mandatory-failure stopping rule, and separate checkpoint and production gates.
+
+### Direct sanitized configuration
+
+- Saved the `Window Sales Work` Team Pipeline with `Opportunities` / `Opportunity` record labels, nine approved open stages, `Finished`, and Bigin's native `Closed Lost` label.
+- Configured 10 Contact custom fields and 14 Pipeline custom fields plus standard Lead Source, within Premier's separate 25-field allowances.
+- Retained the system-labeled `Window Sales Work Standard` route as Independent and added `Costco / Centah` as the source-specific route.
+- Saved source-scoped Stage Transition Rules. Costco handoff required the Centah identifier, DocuSign date, and coordinator-email date; Independent handoff required only the coordinator-email date. The next Costco transition required installation confirmation.
+- Saved seven synthetic Contacts, seven linked Opportunities, three Tasks, and one timed Event. No real data or message was used.
+- A manual attempt to reuse `SYN-CENTAH-1001` was blocked by the unique Centah field. The duplicate form was discarded without saving.
+- Global search by the synthetic Beta phone number and by last name both returned the intended reusable Contact.
+
+### Direct stopping evidence
+
+- The Tasks dashboard directly showed three created Tasks, three open Tasks, and one overdue Task.
+- The dashboard builder offered KPI, Chart, and Target Meter components. The inspected KPI builder supported a module count with criteria and date duration, but no actionable record-list component was available.
+- Pipeline record lists remained separated by Independent and Costco/Centah sub-pipeline tabs.
+- Pipeline custom-view criteria exposed Pipeline fields, including Last Activity Time and the configured exception fields, but not a next-activity field or a condition for an active Pipeline record with no linked Task.
+- `SYN-QUEUE-H` therefore could not appear reliably with the other four named TS-02 records in one practical action center. M-01 fails directly; M-04 and M-07 also cannot uphold the approved next-action invariant.
+- The D-101 stopping rule ended mobile timing, import-duplicate testing, export reconstruction, administrator removal, and remaining scenario work. No weighted score was calculated.
+
+### Additional direct limitations
+
+- Standard Task Due Date is date-only; reminder time is separate and must be future. Events retain start and end time.
+- Bigin treated Saturday as outside configured working days even though the approved schedule includes Saturday hours.
+- Closure Restriction was inspected but not configured because a broad restriction could also block legitimate early `Closed Lost` exits.
+- Import duplicate behavior, source-specific calculated installation anchors, mobile directions and note timing, cross-device save behavior, export relationships, and exact production checkout remain unverified.
+
+### Proposed outcome and boundary
+
+- `evidence/P1-W04/bigin/evaluator-result.md` proposes `Eliminated` because M-01 fails directly. That outcome is unapproved until CP-008 is explicitly signed.
+- CP-007 remains the last signed checkpoint, and D-103 remains the last approval.
+- No edition change, external connection, billing detail, paid commitment, real data, customer communication, production use, Loryn participation, checkpoint sign-off, or platform selection occurred.
+- Seven baseline synthetic Contacts and Opportunities, three Tasks, one Event, and the bounded configuration remain in the evaluator tenant as evidence. Vendor samples and one blank malformed synthetic Contact remain recoverable in the recycle bin.
+
+### Files changed
+
+- `deliverables/P1-W04-bigin-evidence-first-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W04/bigin/configuration-inventory.md`
+- `evidence/P1-W04/bigin/evaluator-result.md`
+- `evidence/P1-W04/bigin/field-capacity-preflight.md`
+- `project-control/ARTIFACT_REGISTER.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+
+### Saved ending point
+
+Review the proposed P1-W04 evaluator result. If the proposed Bigin Premier elimination is accepted, explicitly sign CP-008. Do not infer that sign-off, a next-candidate authorization, or a platform selection from D-103 or this execution record.
