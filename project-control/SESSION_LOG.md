@@ -2358,3 +2358,46 @@ Draft the P1-W02 official-evidence preflight and detailed comparison-contract bo
 ### Saved ending point
 
 Present the complete P1-W02 execution contract for explicit approval, revision, or rejection. Do not create a HubSpot account from D-089 or from discussion of the draft.
+
+## Session S-059 - Complete P1-W02 execution contract approved
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W02 - Next CRM comparison contract
+
+**Checkpoint:** CP-004 remains the last signed-off checkpoint; CP-005 was not reached; CP-006 remains pending execution evidence
+
+**Sign-off status:** Complete P1-W02 execution contract explicitly approved; external action gates remain closed
+
+**Approval evidence:** The user stated, “Approve the complete P1-W02 execution contract.”
+
+### Accepted decision
+
+- **Accepted (D-090):** Approve the complete P1-W02 execution contract, including the candidate and tier boundary, administrator model, minimum configuration, evaluator sequence, stopping rules, separate action gates, fixture and evidence handling, acceptance checks, and CP-006 effect.
+
+### Effect
+
+- The evidence-first HubSpot comparison procedure is approved for execution.
+- HubSpot Free remains an account-shell and official-evidence baseline only because its 10-custom-property total cannot represent CP-003 or the common fixtures.
+- A Starter-level path remains conditional on exact SKU, two-seat cost, commitment, renewal behavior, no-billing evaluation access, and direct M-01 proof.
+- Loryn remains the account owner and primary Super Admin; the technical partner remains the secondary Super Admin for approved ad hoc support.
+- Account creation, qualifying tier activation, and synthetic configuration remain behind three separate exact authorization phrases.
+
+### Approval boundary
+
+- D-090 does not authorize a HubSpot or other external account, trial or tier activation, configuration, fixture entry, testing, integration, real-data use, communication, billing action, purchase, production use, Loryn finalist session, checkpoint sign-off, or platform selection.
+- CP-004 remains the last signed-off checkpoint. CP-005 was not reached, and CP-006 cannot be signed until the approved HubSpot evaluator result exists.
+
+### Files changed
+
+- `deliverables/P1-W02-next-crm-comparison-contract.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Present the separately gated HubSpot Free account-shell decision. Require the exact instruction `Authorize Loryn to create the HubSpot Free evaluation account` before any account is created. Do not activate a trial or tier, enter billing information, connect an external service, or begin configuration from D-090.

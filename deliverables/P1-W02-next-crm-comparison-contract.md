@@ -1,10 +1,10 @@
 # P1-W02 - Next CRM Comparison Contract
 
-**Status:** Unapproved - detailed execution contract ready for review; outcome approved by D-089
+**Status:** Approved for execution by D-090; account creation remains separately unapproved
 
 **Phase:** Phase 1 - Zoho prototype and HubSpot comparison
 
-**Updated:** July 31, 2026
+**Updated:** August 1, 2026
 
 **Last signed-off checkpoint:** CP-004
 
@@ -14,11 +14,11 @@ Define and approve the evidence-first screening contract for the next CRM candid
 
 This outcome was explicitly approved as D-089 on July 31, 2026.
 
-## Approved decision
+## Approved decisions
 
 - **Accepted (D-089):** Approve the P1-W02 work-unit outcome and authorize detailed contract drafting plus current official-evidence research only.
-- The approval does not authorize a HubSpot or other candidate account, trial, configuration, fixture entry, testing, integration, real-data use, communication, billing action, purchase, production use, finalist session, or platform selection.
-- The proposed contract boundaries below remain subject to detailed drafting and explicit approval.
+- **Accepted (D-090):** Approve the complete P1-W02 execution contract, including the candidate and tier boundary, administrator model, minimum configuration, evaluator sequence, stopping rules, separate action gates, evidence handling, acceptance checks, and CP-006 effect.
+- Contract approval does not authorize a HubSpot or other candidate account, trial or tier activation, configuration, fixture entry, testing, integration, real-data use, communication, billing action, purchase, production use, finalist session, checkpoint sign-off, or platform selection.
 
 ## Starting evidence
 
@@ -39,7 +39,7 @@ The July 31, 2026 official-source review is recorded in `../evidence/P1-W02/hubs
 
 The preliminary disposition is therefore: Free `Fail`; Starter-level path `Conditional Pass` for contract planning only; no candidate score or platform recommendation.
 
-## Proposed candidate and tier boundary
+## Approved candidate and tier boundary
 
 - Treat HubSpot Free as an official-evidence and account-shell baseline only. Do not load the common fixtures or claim a Free prototype result.
 - Treat the lowest plausible production path as a Starter-level Core Seat offering with two paid seats, subject to exact SKU, commitment, feature, and checkout verification.
@@ -47,15 +47,15 @@ The preliminary disposition is therefore: Free `Fail`; Starter-level path `Condi
 - Do not purchase Starter, enter billing information, or accept a paid commitment in P1-W02 without a later explicit authorization that names the verified offer and total.
 - If no clean no-billing Starter-equivalent evaluation is available, stop before configuration and present documentation-only, separately authorized paid evaluation, or next-candidate options.
 
-## Proposed account ownership and administration
+## Approved account ownership and administration
 
 - Loryn owns the HubSpot account and remains the primary Super Admin and daily user.
 - The technical partner is the secondary Super Admin for approved setup, troubleshooting, recovery support, and other ad hoc administration.
 - Account recovery remains under Loryn's control.
 - Passwords, passkeys, MFA methods or codes, recovery codes, private email addresses, account identifiers, and session details are never shared with Codex or stored in project artifacts.
-- Use `Hazel Kaine` as the proposed comparison organization name without adding employer, Costco, Centah, or customer information.
+- Use `Hazel Kaine` as the approved comparison organization name without adding employer, Costco, Centah, or customer information.
 
-## Proposed minimum configuration scope
+## Approved minimum configuration scope
 
 Configure or attempt to configure only after the relevant action gates open:
 
@@ -73,7 +73,7 @@ Configure or attempt to configure only after the relevant action gates open:
 
 Explicitly exclude real records, customer communications, connected inboxes or calendars, map-account connections, calling or phone-number setup, Centah or other integrations, imports from production, automatic outreach, AI agents, credit-consuming features, custom code, detailed quote attachments, billing, purchases, and production use.
 
-## Proposed evaluator sequence and stopping rules
+## Approved evaluator sequence and stopping rules
 
 1. **Official-evidence preflight:** complete the current tier, feature, user, MFA, export, API, retention, mobile, and cost review before account creation.
 2. **Account-shell verification:** after separate authorization, create the Free account, secure it, confirm two Super Admins, inspect the exact edition and available no-billing evaluation offer, and stop.
@@ -93,7 +93,7 @@ Apply these stopping rules:
 - A paid-tier possibility receives `Conditional Pass` only with exact tier, feature, seat, price, commitment, renewal, and restriction evidence.
 - Loryn performs no configuration, fixture work, reset, evidence capture, or evaluator testing. She participates only if HubSpot later becomes one of no more than two finalists.
 
-## Proposed account procedure and action gates
+## Approved account procedure and action gates
 
 1. Approve the complete P1-W02 execution contract.
 2. Require the exact instruction `Authorize Loryn to create the HubSpot Free evaluation account` before account creation.
@@ -108,7 +108,7 @@ Apply these stopping rules:
 
 An exact activation instruction authorizes only the verified no-billing offer named in the preceding review. It never authorizes a card, purchase, auto-renewal, paid commitment, different Hub, higher tier, integration, or production data.
 
-## Proposed fixture, reset, and evidence handling
+## Approved fixture, reset, and evidence handling
 
 - Reuse the CP-004 fixture definitions and T0-relative states without changing identities or expected results.
 - Preload the seven existing-record fixtures and create `SYN-PROSPECT-A` during TS-01 only after the approved baseline can be represented.
@@ -119,7 +119,7 @@ An exact activation instruction authorizes only the verified no-billing offer na
 - Commit only synthetic records and crop or redact private email addresses, account and organization IDs, notifications, tabs, billing details, and unrelated information.
 - Never capture passwords, passkeys, cookies, tokens, MFA or recovery material, or private account identifiers.
 
-## Proposed acceptance checks
+## Approved acceptance checks
 
 P1-W02 is complete only when:
 
@@ -134,13 +134,13 @@ P1-W02 is complete only when:
 - The result identifies HubSpot as viable for the candidate pool, eliminated, or incomplete with named blockers.
 - Loryn performs no evaluator setup, testing, evidence capture, reset, or homework.
 
-## Proposed CP-006 effect
+## Approved CP-006 effect
 
 CP-006 would approve only a completed HubSpot evaluator result, configuration inventory, exact tier and cost record, and evidence-backed comparison status. It would not select HubSpot, authorize a purchase, approve production use, connect Centah or another service, import real data, permit customer communication, or start a Loryn finalist session.
 
 CP-005 remains not reached and tied to the closed-incomplete Zoho work unit.
 
-## Proposed detailed contract boundaries
+## Approved detailed contract boundaries
 
 - Review current official feature, tier, administration, MFA, export, retention, API, mobile, and production-cost evidence before authorizing an account.
 - Identify the lowest plausible production tier for the approved CP-003 fields and relationships; do not treat a Free label as proof of production viability.
@@ -150,8 +150,8 @@ CP-005 remains not reached and tied to the closed-incomplete Zoho work unit.
 - Do not use real data, connect email, calendar, maps, Centah, or another external service, send messages, enter billing information, start a paid trial, purchase anything, or select a platform.
 - Stop before account creation if official evidence confirms that no reasonable tier can meet a mandatory gate.
 
-## Next decision
+## Next separately gated decision
 
-Approve, revise, or reject the complete P1-W02 execution contract, including the candidate/tier boundary, administrator model, minimum configuration, stopping rules, action-gate phrases, acceptance checks, and proposed CP-006 effect.
+Authorize or decline the bounded HubSpot Free account-shell procedure. Account creation requires the exact instruction `Authorize Loryn to create the HubSpot Free evaluation account`.
 
-D-089 authorizes contract drafting and official-evidence research only. It does not authorize a HubSpot or other external account.
+D-090 approves the execution contract only. It does not authorize a HubSpot or other external account, tier activation, configuration, fixture entry, testing, integration, real data, communications, billing, purchases, production use, checkpoint sign-off, or platform selection.
