@@ -1,6 +1,6 @@
 # P1-W03 Pipedrive Official-Evidence Preflight
 
-**Status:** Official-evidence preflight complete; direct tenant follow-up linked; Premium trial contamination confirmed; Lite switch and configuration unapproved
+**Status:** Official-evidence preflight complete; direct tenant follow-up linked; Lite-only no-billing boundary verified; configuration unapproved
 
 **Candidate:** Pipedrive
 
@@ -8,7 +8,7 @@
 
 ## Preliminary disposition
 
-Pipedrive is suitable for a bounded next-candidate contract. Lite is the lowest plausible production tier, but it is not yet a passing candidate. The documentation mapping in `field-capacity-preflight.md` uses 22 of Lite's 30 custom fields. Direct tenant inspection in `tenant-shell-inspection.md` confirmed that the no-billing trial starts on Premium with higher-tier and add-on features. Lack of hard required fields, no native deal duplicate identifier, Premium contamination, and an unverified single-screen action center still require a clean Lite boundary and direct synthetic proof.
+Pipedrive is suitable for a bounded next-candidate contract. Lite is the lowest plausible production tier, but it is not yet a passing candidate. The documentation mapping in `field-capacity-preflight.md` uses 22 of Lite's 30 custom fields. Direct tenant inspection in `tenant-shell-inspection.md` confirmed that the no-billing trial starts on Premium, and D-098 successfully changed it to Lite with no active add-ons or billing details. Lack of hard required fields, no native deal duplicate identifier, and an unverified single-screen action center still require direct synthetic proof.
 
 ## Evidence summary
 
@@ -34,14 +34,13 @@ The signup page describes full access and premium LeadBooster, Smart Docs, and P
 
 If neither is possible, stop before fixture entry and report the candidate incomplete rather than fabricating a Lite result.
 
-The August 1 direct inspection confirmed the first risk path: the current trial is Premium and shows LeadBooster, Smart Docs, and Projects as included. Lite appeared in the plan comparison, but D-097 did not authorize selecting it. No plan, billing, configuration, or record change was made.
+The August 1 direct inspection confirmed that the trial began on Premium and showed LeadBooster, Smart Docs, and Projects as included. D-098 then authorized a narrow plan transition. Lite was selected, the three carried-over add-ons were disabled, the order summary fell from `$110` to `$24`, and Billing overview confirmed Lite with no active add-ons, no billing details, `$0` during the trial, and the `14-day free trial` label preserved. No configuration or record action occurred.
 
 ## Open evidence items
 
 - Directly confirm the 22-field documentation map and correct it without exceeding Lite's 30-company-field limit.
 - Verify whether Lite filters can expose all M-01 action-center states and M-07 missing-next-action exceptions without Premium required fields or custom reports.
 - Verify renewal behavior, taxes, commitment, exact two-administrator production cost, and checkout terms. Direct tenant comparison displayed Lite at `$24` per seat per month on monthly billing.
-- Obtain separate authorization before switching the confirmed Premium trial to Lite; verify afterward that no billing information or paid commitment is required and that the remaining trial is preserved.
 - Verify the exact calendar expiration date; the tenant displayed only `14-day free trial`.
 - Verify administrator roles, MFA, access removal, mobile timing, save/offline behavior, manual communication controls, exports, duplicates, and API restrictions only after the relevant action gates are approved.
 

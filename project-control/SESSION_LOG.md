@@ -2773,3 +2773,51 @@ Guide the technical partner through private Pipedrive signup. Stop after the acc
 ### Saved ending point
 
 Present the proposed authorization to switch only the existing no-billing Pipedrive trial from Premium to Lite, then verify the plan and remaining-trial labels. Do not select Lite without explicit approval. If the switch requires billing, a paid commitment, or an unexpected loss of trial access, stop. Configuration and synthetic testing remain separately unapproved.
+
+## Session S-068 - Pipedrive Lite-only trial boundary authorized and verified
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W03 - Pipedrive evidence-first screening
+
+**Checkpoint:** CP-004 remains the last signed-off checkpoint; CP-007 remains pending execution evidence
+
+**Sign-off status:** No-billing Premium-to-Lite trial transition explicitly approved and completed as D-098; configuration remains unapproved
+
+**Approval evidence:** The user gave the exact instruction `Authorize switching the Pipedrive trial from Premium to Lite with no billing information`.
+
+### Decision recorded
+
+- **Accepted (D-098):** Switch only the existing no-billing Pipedrive trial from Premium to Lite, remove carried-over trial add-ons, verify the resulting plan and remaining-trial labels, and stop before configuration.
+
+### Authorized action completed
+
+- Opened the existing plan-management flow and selected Lite on monthly billing.
+- The first order summary retained LeadBooster, Projects, and Smart Docs and showed a `$110` estimated post-trial total. Disabled all three before confirmation.
+- Confirmed the plan change only after the summary showed `$24` for one Lite seat and no selected add-ons.
+- Returned to Billing overview and verified Lite, one seat, `$24`, `$0` during the trial, no active add-ons, no billing details, and the preserved `14-day free trial` label.
+- The former add-ons now appear only as optional trial offers.
+
+### Evidence and boundary
+
+- Updated `../evidence/P1-W03/pipedrive/tenant-shell-inspection.md` with the sanitized before-and-after readback.
+- The exact calendar expiration date remains unverified because the tenant displays only the duration label.
+- The Activities count changed from three to four during the vendor plan transition. No record was opened or inspected, and all preloaded content remains untouched.
+- No configuration, fixture entry, synthetic testing, integration, billing-detail entry, purchase, real-data action, customer communication, invitation, production action, checkpoint sign-off, or platform selection occurred.
+- D-098 resolves the Premium-contamination blocker only. CP-007 was not reached, and Pipedrive remains unscored.
+
+### Files changed
+
+- `deliverables/P1-W03-pipedrive-evidence-first-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W03/pipedrive/official-evidence-preflight.md`
+- `evidence/P1-W03/pipedrive/tenant-shell-inspection.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Present the separate `Begin P1-W03 synthetic configuration` gate. Until that exact authorization is received, do not inspect or clean preloaded records, configure the approved model, enter synthetic fixtures, or run tests.

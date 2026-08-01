@@ -2,15 +2,15 @@
 
 **Updated:** August 1, 2026
 
-**Overall status:** Active - Phase 1 Pipedrive plan-boundary decision required
+**Overall status:** Active - Phase 1 Pipedrive Lite configuration authorization required
 **Current phase:** Phase 1 - CRM candidate comparison
 **Active work unit:** P1-W03 - Pipedrive evidence-first screening
 
-**Work-unit status:** Account shell and D-097 inspection complete; trial is Premium; Lite switch and configuration unapproved
+**Work-unit status:** Lite-only no-billing trial boundary verified under D-098; configuration and testing unapproved
 
 **Last signed-off checkpoint:** CP-004 - CRM platform evaluation method (July 30, 2026)
 
-**Last approval:** D-097 - authorize the bounded `Hazel Kaine` Pipedrive evaluator account and no-credit-card trial (August 1, 2026)
+**Last approval:** D-098 - authorize the no-billing Pipedrive Premium-to-Lite trial transition and readback (August 1, 2026)
 
 ## Confirmed baseline
 
@@ -144,11 +144,16 @@
 - The D-097 account shell and read-only inspection are complete. Billing overview confirms a `14-day free trial` on Premium, billed monthly, with one seat in use, no billing details entered, and a `$0` trial amount.
 - Premium includes LeadBooster, Smart Docs, and Projects, so the current tenant is not clean Lite evidence. Lite appeared at `$24` monthly or `$14` per seat per month billed annually but was not selected.
 - The exact calendar expiration date was not displayed. Three preloaded activity indicators appeared before evaluator data entry and remain uninspected and untouched.
-- No plan, billing, configuration, fixture, record, integration, communication, or invitation change was made.
+- During the D-097 inspection, no plan, billing, configuration, fixture, record, integration, communication, or invitation change was made.
+- **Accepted (D-098):** Switch only the existing no-billing Pipedrive trial from Premium to Lite, remove carried-over trial add-ons, verify the resulting plan and remaining-trial labels, and stop before configuration.
+- D-098 is complete. Billing overview now confirms Lite, one seat, `$24` monthly pricing, `$0` during the trial, no active add-ons, no billing details, and the preserved `14-day free trial` label.
+- The change flow initially carried LeadBooster, Projects, and Smart Docs into a `$110` post-trial estimate. All were disabled before confirmation, reducing the summary to `$24`.
+- The Activities count changed from three to four during the vendor plan transition. No record was opened or inspected, and all preloaded content remains untouched.
+- D-098 does not authorize record inspection, configuration, fixtures, testing, integrations, billing, purchases, real data, communications, production use, Loryn participation, checkpoint sign-off, or platform selection.
 
 ## Active work-unit contract
 
-**Status:** Complete execution contract approved; account shell and read-only inspection complete under D-097; Premium contamination confirmed; Lite switch and configuration unapproved.
+**Status:** Complete execution contract approved; Lite-only no-billing boundary verified under D-098; configuration and testing unapproved.
 
 **Approved outcome:** Evaluate Pipedrive as the next independent-work CRM candidate through an evidence-first, evaluator-only process, targeting Lite as the lowest plausible production tier and using a no-billing trial only after a complete execution contract and separate account-creation gate are explicitly approved.
 
@@ -177,7 +182,7 @@
 
 ## Open items
 
-- Decide whether to authorize a no-billing Premium-to-Lite trial switch; if authorized, verify the resulting Lite and remaining-trial labels before configuration.
+- Obtain the separate `Begin P1-W03 synthetic configuration` authorization before inspecting or cleaning preloaded records, configuring the approved model, entering fixtures, or testing.
 - Directly confirm the 22-field documentation map in an authorized Lite-equivalent tenant before fixture entry.
 - Verify whether Lite filters can expose every M-01 action-center state and M-07 missing-next-action exception without Premium required fields.
 - Verify the exact Lite trial boundary, two-admin production checkout cost, renewal behavior, taxes, and commitment before any purchase decision. Direct tenant comparison displayed Lite at `$24` per seat per month on monthly billing.
@@ -200,7 +205,7 @@ CP-003 approved `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimu
 
 CP-004 approved `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`. Decisions D-049 through D-061 record the mandatory gates, D-062 through D-069 record the complete 100-point scorecard and scoring rule, D-070 through D-072 record the scenarios, fixtures, and scripts, D-073 records the staged test-burden rule, and D-074 records the evaluator-only evidence format. At CP-004, the authoritative Markdown master was Version 1.39; Word remains intentionally stale.
 
-P1-W01 is closed incomplete by D-088 option 1; Zoho Professional remains documentation-only and CP-005 was not reached. P1-W02 is closed incomplete by D-094 option 3; HubSpot Starter remains documentation-only and CP-006 was not reached. D-093 continues to allow technical-partner-only prototype administration while deferring Loryn until a viable finalist. D-095 and D-096 approve the P1-W03 outcome and contract. The D-097 Pipedrive account-shell and plan inspection are complete; the trial is Premium, and a separate Lite-switch gate is required before configuration. Configuration and testing remain unapproved. The authoritative Markdown master is Version 1.67; Word remains intentionally stale.
+P1-W01 is closed incomplete by D-088 option 1; Zoho Professional remains documentation-only and CP-005 was not reached. P1-W02 is closed incomplete by D-094 option 3; HubSpot Starter remains documentation-only and CP-006 was not reached. D-093 continues to allow technical-partner-only prototype administration while deferring Loryn until a viable finalist. D-095 and D-096 approve the P1-W03 outcome and contract. D-097 completed the account-shell inspection, and D-098 completed the no-billing transition to Lite with no active add-ons. Configuration and testing remain unapproved. The authoritative Markdown master is Version 1.68; Word remains intentionally stale.
 
 ## Chat and artifact protocol
 
@@ -221,12 +226,12 @@ P1-W01 is closed incomplete by D-088 option 1; Zoho Professional remains documen
 
 ## Next work-unit starting point
 
-Phase 0 is complete at CP-004. Phase 1 P1-W01 and P1-W02 are closed incomplete under D-088 and D-094. D-095 and D-096 approve P1-W03's Pipedrive outcome and contract. The D-097 account-shell and read-only plan inspection are complete. The current trial is Premium, so the approved stopping rule blocks configuration until a separate Lite-switch decision is made.
+Phase 0 is complete at CP-004. Phase 1 P1-W01 and P1-W02 are closed incomplete under D-088 and D-094. D-095 and D-096 approve P1-W03's Pipedrive outcome and contract. D-097 and D-098 complete the account-shell and Lite-only plan-boundary gates. The clean no-billing Lite trial is ready for a separately authorized synthetic-configuration run.
 
 ## Exact next action
 
-Present the proposed authorization to switch only the existing no-billing Pipedrive trial from Premium to Lite and then verify the resulting plan and remaining-trial labels. Do not select Lite without explicit approval. If the switch requires billing, a paid commitment, or an unexpected loss of the trial, stop. Configuration, record inspection, fixture entry, and testing remain separately unapproved.
+Present the separate `Begin P1-W03 synthetic configuration` gate. Do not inspect or clean preloaded records, configure fields or stages, enter fixtures, or run tests until that exact authorization is received. Billing, purchases, external connections, real data, customer communications, production use, Loryn participation, checkpoint sign-off, and platform selection remain unapproved.
 
 ## Resume instruction
 
-Read this file, Sessions S-066 and S-067 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, the closed P1-W01 and P1-W02 contracts and evaluator evidence, `../deliverables/P1-W03-pipedrive-evidence-first-screening.md`, `../evidence/P1-W03/pipedrive/official-evidence-preflight.md`, `../evidence/P1-W03/pipedrive/field-capacity-preflight.md`, `../evidence/P1-W03/pipedrive/tenant-shell-inspection.md`, and the Phase 1 and platform-trial sections of `../deliverables/window-sales-operations-master-plan.md`. D-097 account-shell inspection is complete and found a Premium trial. No Lite switch is approved. Present the separate no-billing Premium-to-Lite switch gate, and do not act unless it is explicitly authorized. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Continue to prohibit real data, connections, configuration, record inspection, fixture entry, testing, billing, purchases, customer communications, production use, finalist testing, and platform selection.
+Read this file, Sessions S-067 and S-068 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, the closed P1-W01 and P1-W02 contracts and evaluator evidence, `../deliverables/P1-W03-pipedrive-evidence-first-screening.md`, `../evidence/P1-W03/pipedrive/official-evidence-preflight.md`, `../evidence/P1-W03/pipedrive/field-capacity-preflight.md`, `../evidence/P1-W03/pipedrive/tenant-shell-inspection.md`, and the Phase 1 and platform-trial sections of `../deliverables/window-sales-operations-master-plan.md`. D-098 completed the Lite-only no-billing plan transition. Present the separate `Begin P1-W03 synthetic configuration` gate, and do not act unless it is explicitly authorized. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Continue to prohibit real data, connections, record inspection, configuration, fixture entry, testing, billing, purchases, customer communications, production use, finalist testing, and platform selection until their respective gates are approved.
