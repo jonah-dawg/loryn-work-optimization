@@ -1,6 +1,6 @@
 # P1-W04 - Bigin Premier Evidence-First Screening
 
-**Status:** Outcome approved as D-100; complete execution contract approved as D-101; all external actions pending
+**Status:** Outcome approved as D-100; contract approved as D-101; bounded account creation and tier inspection authorized as D-102; configuration pending
 
 **Phase:** Phase 1 - CRM candidate comparison
 
@@ -20,6 +20,8 @@ This outcome was explicitly approved as D-100 on August 1, 2026. D-100 authorize
 - D-100 does not approve the proposed contract or authorize an account or external platform action.
 - **Accepted (D-101):** Approve the complete P1-W04 Premier-only execution contract, including the tier boundary, prototype ownership, sequence, minimum configuration, stopping rules, separate action gates, acceptance checks, and CP-008 effect.
 - D-101 approves the contract only. It does not authorize an account, trial, tenant inspection, edition change, configuration, fixture entry, testing, billing, purchase, external connection, real data, communication, production use, Loryn participation, checkpoint, or platform selection.
+- **Accepted (D-102):** Authorize the technical partner to create the bounded `Hazel Kaine` Bigin evaluator account and no-credit-card trial, inspect only nonprivate plan, trial-expiry, feature-boundary, sample-data, and administrator labels, and then stop.
+- D-102 does not authorize an edition change, configuration, fixture entry, testing, billing details, purchase, add-on, external connection, real data, communication, production use, Loryn participation, checkpoint, or platform selection.
 
 ## Recommendation
 
@@ -69,7 +71,7 @@ Recommend Bigin Premier as P1-W04 because current official evidence addresses th
 
 1. Complete the Premier field-capacity map and official-feature inventory. This documentation step is complete under D-100, subject to direct correction.
 2. Obtain explicit approval of this complete execution contract. Completed as D-101.
-3. Obtain separate account-creation authorization.
+3. Obtain separate account-creation authorization. Completed as D-102.
 4. Create a bounded `Hazel Kaine` evaluator-only Bigin trial without billing information, external connections, real data, or retained vendor sample data.
 5. Inspect only nonprivate plan, trial-expiry, feature-boundary, sample-data, and administrator labels; stop if Premier-equivalent evidence cannot be isolated.
 6. If a no-billing edition change is needed, obtain a separate exact authorization before changing it.
@@ -101,7 +103,7 @@ Recommend Bigin Premier as P1-W04 because current official evidence addresses th
 
 - D-100 approves the outcome only; it does not approve this execution contract.
 - D-101 approves the complete execution contract only; it does not authorize an account or tenant action.
-- Account creation requires the later explicit instruction `Authorize the Bigin Premier trial account`.
+- D-102 opens only the bounded account-creation and nonprivate tier-inspection gate.
 - Any required no-billing move from a higher trial edition to Premier requires a separate exact authorization written after the tenant inspection.
 - Configuration and synthetic testing require the later explicit instruction `Begin P1-W04 synthetic configuration`.
 - A paid tier, billing action, production pilot, real data, external connection, Loryn finalist session, checkpoint, and platform selection each require separate later approval.
@@ -132,4 +134,4 @@ A future CP-008 would approve only a completed Bigin evaluator result, configura
 
 ## Current action
 
-Obtain the separate exact instruction `Authorize the Bigin Premier trial account` before creating an account or starting the no-credit-card trial. Account authorization would permit only the bounded account shell and nonprivate tier inspection, then stop before any edition change, configuration, fixture entry, or testing.
+Create the bounded `Hazel Kaine` Bigin evaluator account and no-credit-card trial using private credentials outside project artifacts. Inspect only nonprivate plan, trial-expiry, feature-boundary, sample-data, and administrator labels, then stop. If signup requires billing, an external connection, real data, or employer/customer information beyond the approved organization name, stop and record the blocker without entering it. Do not change edition, configure fields or pipelines, open sample records, enter fixtures, or test workflows.

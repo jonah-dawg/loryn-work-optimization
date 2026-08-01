@@ -3139,3 +3139,52 @@ Obtain the separate instruction `Authorize the Bigin Premier trial account`. Tha
 ### Saved ending point
 
 Present the separate Bigin Premier account-creation gate. Do not create an account or begin a trial without the exact authorization.
+
+## Session S-075 - P1-W04 Bigin account gate authorized
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W04 - Bigin Premier evidence-first screening
+
+**Checkpoint:** CP-007 remains the last signed-off checkpoint
+
+**Sign-off status:** Bounded account creation and nonprivate tier inspection authorized as D-102; account result and configuration pending
+
+### Orientation
+
+- Current phase: Phase 1 CRM candidate comparison.
+- Active work unit: P1-W04 Bigin Premier evidence-first screening.
+- Last signed checkpoint: CP-007, which eliminated Pipedrive Lite only.
+- Prior approval: D-101 approved the complete Premier-only execution contract.
+- Open blockers: create the bounded account, identify the exact trial edition, and determine whether Premier-equivalent evidence can be isolated without billing or a broader action.
+- Approved outcome: evaluator-only Bigin Premier screening with synthetic data and separate action gates.
+
+### Approval recorded
+
+- **Accepted (D-102):** Authorize the technical partner to create the bounded `Hazel Kaine` Bigin evaluator account and no-credit-card trial, inspect only nonprivate plan, trial-expiry, feature-boundary, sample-data, and administrator labels, and then stop.
+- D-102 does not authorize an edition change, configuration, fixture entry, testing, billing details, purchase, add-on, external connection, real data, communication, production use, Loryn participation, checkpoint, or platform selection.
+
+### Account procedure boundary
+
+- Use private credentials and recovery information outside Codex and project artifacts.
+- Enter only the information necessary for the synthetic `Hazel Kaine` evaluator shell; do not enter customer, employer, Costco, Centah, or other real operational information.
+- Do not enter billing information or activate a paid commitment, add-on, integration, or connected Zoho service.
+- Inspect only nonprivate plan, trial-expiry, feature-boundary, sample-data, and administrator labels after initial sign-in.
+- Do not open sample records. Stop before any edition change, field or pipeline configuration, fixture entry, workflow test, import, export, or communication.
+- Report only sanitized labels and blockers; do not record private email addresses, account identifiers, credentials, verification codes, or recovery details.
+
+### Files changed
+
+- `deliverables/P1-W04-bigin-evidence-first-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W04/bigin/field-capacity-preflight.md`
+- `evidence/P1-W04/bigin/official-evidence-preflight.md`
+- `project-control/ARTIFACT_REGISTER.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+
+### Saved ending point
+
+Create the bounded evaluator account, inspect the allowed nonprivate labels, and report the result. Do not change edition or begin configuration without a later exact authorization.

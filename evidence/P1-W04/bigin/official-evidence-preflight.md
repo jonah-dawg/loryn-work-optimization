@@ -1,6 +1,6 @@
 # P1-W04 Bigin Official-Evidence Preflight
 
-**Status:** Current official evidence; outcome approved as D-100; contract approved as D-101; all external actions unapproved
+**Status:** Current official evidence; outcome approved as D-100; contract approved as D-101; bounded account gate authorized as D-102; tenant evidence pending
 
 **Candidate:** Bigin by Zoho CRM
 

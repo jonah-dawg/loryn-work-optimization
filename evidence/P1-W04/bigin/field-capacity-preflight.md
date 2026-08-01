@@ -1,6 +1,6 @@
 # P1-W04 Bigin Premier Field-Capacity Preflight
 
-**Status:** Documentation fit complete under D-100; contract approved as D-101; direct tenant confirmation pending separate account authorization
+**Status:** Documentation fit complete under D-100; contract approved as D-101; account gate authorized as D-102; direct tenant confirmation pending account creation
 
 **Mapped:** August 1, 2026
 
