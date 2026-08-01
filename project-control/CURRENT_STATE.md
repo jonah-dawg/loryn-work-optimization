@@ -2,11 +2,11 @@
 
 **Updated:** August 1, 2026
 
-**Overall status:** Active - Phase 1 next comparison work unit pending definition
+**Overall status:** Active - Phase 1 Bigin proposed outcome pending approval
 **Current phase:** Phase 1 - CRM candidate comparison
-**Active work unit:** None - P1-W03 closed; next comparison work unit pending
+**Active work unit:** P1-W04 - Bigin Premier evidence-first screening
 
-**Work-unit status:** P1-W03 signed off at CP-007; Pipedrive Lite eliminated
+**Work-unit status:** Unapproved proposed outcome; contract and all external actions pending
 
 **Last signed-off checkpoint:** CP-007 - Pipedrive Lite evaluator result (August 1, 2026)
 
@@ -158,42 +158,45 @@
 - D-099 does not authorize integrations, billing, purchases, real data, communications, production use, Loryn participation, checkpoint sign-off, or platform selection.
 - **Signed off (CP-007):** Approve the P1-W03 evaluator result, configuration inventory, Lite tier/cost record, and evidence-backed `Eliminated` status. M-02 and M-09 fail directly.
 - CP-007 does not select another CRM, authorize another account or work unit, permit Loryn finalist testing, or authorize billing, production use, integrations, real data, or customer communications.
+- Preliminary current official evidence identifies Bigin by Zoho CRM Premier as the strongest next candidate. Premier lists 25 custom fields per module, five Team Pipelines, Stage Transition Rules, unique fields, duplicate cleanup, advanced date automation, mobile apps, import/export, paid-edition backups, and developer APIs.
+- Official US pricing lists Premier at `$15` per user monthly or `$12` per user per month billed annually. The two-administrator baseline is `$30` monthly or `$288` annually before applicable tax or add-ons.
+- The 15-day Bigin trial requires no credit card, does not charge automatically, and falls back to Free. No account or trial is authorized.
+- Express is not the proposed tier because its 10 custom fields per module are below the 16-field job baseline before default-field reuse. Premier's 25-field limit and Stage Transition Rules make it the lowest plausible tier.
+- Freshsales Pro remains the documentation-only fallback. Its field dependencies and unique fields are promising, but its current `$39` per-user annual-billing rate is materially higher and its scope is less proportionate to the one-person operation.
 
 ## Active work-unit contract
 
-**Status:** Closed at CP-007; Pipedrive Lite eliminated.
+**Status:** Unapproved proposed outcome only; no execution contract or external action authorized.
 
-**Approved outcome:** Evaluate Pipedrive as the next independent-work CRM candidate through an evidence-first, evaluator-only process, targeting Lite as the lowest plausible production tier and using a no-billing trial only after a complete execution contract and separate account-creation gate are explicitly approved.
+**Proposed outcome:** Evaluate Bigin Premier as the next independent-work CRM candidate through an evidence-first, evaluator-only process. Begin with a complete CP-003 field-capacity map and execution contract, and use the no-credit-card trial only after separate outcome, contract, and account-creation approvals.
 
 **Inputs:**
 
 - The signed CP-003 lifecycle, next-action, and minimum-field specification.
 - The signed CP-004 scorecard, mandatory gates, fixtures, scenarios, burden limit, and evidence format.
 - The closed incomplete P1-W01 Zoho and P1-W02 HubSpot results.
-- Accepted D-094 option 3.
-- The August 1 Pipedrive official-evidence preflight in `../evidence/P1-W03/pipedrive/official-evidence-preflight.md`.
-- The August 1 Pipedrive Lite field-capacity map in `../evidence/P1-W03/pipedrive/field-capacity-preflight.md`.
+- The signed P1-W03 Pipedrive Lite elimination at CP-007.
+- The August 1 Bigin official-evidence preflight in `../evidence/P1-W04/bigin/official-evidence-preflight.md`.
 
 **Acceptance checks:**
 
-- The P1-W03 proposed outcome is explicitly approved as D-095.
-- The complete P1-W03 contract is explicitly approved as D-096.
-- Current official evidence identifies Lite as a plausible no-billing evaluation target and names every decision-critical uncertainty.
-- A complete CP-003 default/custom-field mapping proves whether Lite's 30-field allowance is sufficient before account creation.
-- The future execution contract separates official research, account creation, trial activation, configuration, fixture entry, and testing into explicit gates.
+- The proposed P1-W04 outcome remains unapproved until explicitly accepted.
+- Current official evidence identifies Premier as the lowest plausible Bigin tier and names every decision-critical uncertainty.
+- A complete CP-003 default/custom-field mapping must prove whether Premier's 25-field-per-module allowance is sufficient before account creation.
+- The future execution contract must separate official research, account creation, trial/tier inspection, configuration, fixture entry, and testing into explicit gates.
 - Preserve the CP-004 common gates, fixtures, scenarios, evidence format, and Loryn burden limit.
 - Continue to prohibit real data, external connections, communications, billing, purchases, production use, and platform selection.
 
-**Approved checkpoint effect:** CP-007 approves only the completed Pipedrive evaluator result, configuration inventory, exact tier and cost record, and evidence-backed comparison status. CP-005 and CP-006 were not reached in the closed incomplete Zoho and HubSpot work units.
+**Proposed checkpoint effect:** A future CP-008 would approve only a completed Bigin evaluator result, configuration inventory, exact tier/cost record, and evidence-backed comparison status. It would not select Bigin or authorize payment, production use, integrations, real data, customer communication, or a Loryn finalist session.
 
-**Out of scope:** Any unapproved edition change or configuration outside the D-099 minimum, platform selection, Loryn finalist testing, production use, real records, external integrations, purchases, billing, customer communications, or automation.
+**Out of scope:** Account creation, trial activation, tenant inspection, configuration, fixture entry, testing, billing, purchases, external connections, real data, customer communications, production use, Loryn participation, checkpoint sign-off, and platform selection.
 
 ## Open items
 
-- Define and approve the next Phase 1 CRM comparison work unit. No next candidate is currently authorized.
+- Explicitly approve or reject the P1-W04 Bigin Premier proposed outcome. Approval would authorize contract drafting and further official research only.
+- Build the complete CP-003-to-Bigin field map only after outcome approval; do not create an account.
+- Verify the exact Premier trial boundary, Team Pipeline source model, Stage Transition Rules, unique-field behavior, unified morning view, mobile directions/speed, MFA, export relationships, API limits, retention, and two-administrator cost terms during contract design.
 - If P1-W03 is reopened, reset the seven baseline fixtures and remove any orphaned TS-01 activity before another run or tenant closeout.
-- Native mobile timing, the single-screen M-01 action center, cross-device save/recovery, downloaded-export reconstruction, and several production-administration controls remain unverified. The confirmed M-02 and M-09 failures make further Lite testing unnecessary unless explicitly reopened.
-- Verify the exact Lite trial boundary, two-admin production checkout cost, renewal behavior, taxes, and commitment before any purchase decision. Direct tenant comparison displayed Lite at `$24` per seat per month on monthly billing.
 - D-011: production CRM tenant, sign-in method, access removal, and security/retention controls.
 - D-012: Centah API, webhook, export, sandbox, limits, and support model.
 - D-013: retention and deletion periods.
@@ -213,7 +216,7 @@ CP-003 approved `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimu
 
 CP-004 approved `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`. Decisions D-049 through D-061 record the mandatory gates, D-062 through D-069 record the complete 100-point scorecard and scoring rule, D-070 through D-072 record the scenarios, fixtures, and scripts, D-073 records the staged test-burden rule, and D-074 records the evaluator-only evidence format. At CP-004, the authoritative Markdown master was Version 1.39; Word remains intentionally stale.
 
-P1-W01 is closed incomplete by D-088 option 1; Zoho Professional remains documentation-only and CP-005 was not reached. P1-W02 is closed incomplete by D-094 option 3; HubSpot Starter remains documentation-only and CP-006 was not reached. D-093 continues to allow technical-partner-only prototype administration while deferring Loryn until a viable finalist. D-095 and D-096 approved the P1-W03 outcome and contract. D-097 completed the account-shell inspection, D-098 completed the no-billing transition to Lite with no active add-ons, D-099 produced the Pipedrive evaluator result, and CP-007 approved that result and eliminated Lite. The authoritative Markdown master is Version 1.71; Word remains intentionally stale.
+P1-W01 is closed incomplete by D-088 option 1; Zoho Professional remains documentation-only and CP-005 was not reached. P1-W02 is closed incomplete by D-094 option 3; HubSpot Starter remains documentation-only and CP-006 was not reached. D-093 continues to allow technical-partner-only prototype administration while deferring Loryn until a viable finalist. D-095 and D-096 approved the P1-W03 outcome and contract. D-097 completed the account-shell inspection, D-098 completed the no-billing transition to Lite with no active add-ons, D-099 produced the Pipedrive evaluator result, and CP-007 approved that result and eliminated Lite. P1-W04 now proposes Bigin Premier without authorizing it. The authoritative Markdown master is Version 1.72; Word remains intentionally stale.
 
 CP-007 approved `../evidence/P1-W03/pipedrive/evaluator-result.md` and the linked configuration, tier, and cost evidence. Pipedrive Lite fails M-02 source-specific workflow and M-09 safe Centah/Costco bridge because the evaluated tier cannot enforce the required source-specific handoff and accepted a duplicate synthetic Centah identifier without a block or visible review route. CP-007 does not select another CRM or authorize another candidate.
 
@@ -236,12 +239,12 @@ CP-007 approved `../evidence/P1-W03/pipedrive/evaluator-result.md` and the linke
 
 ## Next work-unit starting point
 
-Phase 0 is complete at CP-004. Phase 1 P1-W01 and P1-W02 are closed incomplete under D-088 and D-094. P1-W03 is closed at CP-007 with Pipedrive Lite eliminated after direct M-02 and M-09 failures. No platform or next candidate is authorized.
+Phase 0 is complete at CP-004. Phase 1 P1-W01 and P1-W02 are closed incomplete under D-088 and D-094. P1-W03 is closed at CP-007 with Pipedrive Lite eliminated. P1-W04 now proposes Bigin Premier as the next evidence-first candidate; the outcome, contract, account, and all external actions remain unapproved.
 
 ## Exact next action
 
-Define the next Phase 1 CRM comparison work unit and its proposed outcome using official evidence only. Do not create another account, start a trial, configure a platform, involve Loryn, or take any external action until the corresponding work-unit contract and separate action gates are explicitly approved.
+Present the P1-W04 proposed outcome for explicit approval. If approved, draft the complete Bigin Premier execution contract and CP-003 field-capacity map using official evidence only. Do not create an account, start a trial, inspect a tenant, configure a platform, involve Loryn, or take any external action.
 
 ## Resume instruction
 
-Read this file, Sessions S-070 and S-071 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, the closed P1-W01 and P1-W02 contracts and evaluator evidence, the closed `../deliverables/P1-W03-pipedrive-evidence-first-screening.md`, and the signed P1-W03 evidence set. CP-007 is the last signed checkpoint and eliminates Pipedrive Lite only. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Continue to prohibit real data, external connections, billing, purchases, customer communications, production use, finalist testing, a next-candidate account, and platform selection.
+Read this file, Sessions S-071 and S-072 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, the closed P1-W01 through P1-W03 records, `../deliverables/P1-W04-bigin-evidence-first-screening.md`, and `../evidence/P1-W04/bigin/official-evidence-preflight.md`. CP-007 is the last signed checkpoint. P1-W04 is an unapproved proposed outcome only. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Continue to prohibit account creation, trial activation, tenant inspection, configuration, real data, external connections, billing, purchases, customer communications, production use, finalist testing, and platform selection.

@@ -4,11 +4,11 @@
 
 | Artifact | Authority | Current status | Update trigger |
 |---|---|---|---|
-| `../deliverables/window-sales-operations-master-plan.md` | Authoritative product and delivery plan | Version 1.71; current | Material scope, architecture, roadmap, risk, governance, process, or decision change |
+| `../deliverables/window-sales-operations-master-plan.md` | Authoritative product and delivery plan | Version 1.72; current | Material scope, architecture, roadmap, risk, governance, process, or decision change |
 | `../deliverables/window-sales-operations-master-plan.docx` | Non-authoritative editable distribution copy | Version 1.4; stale by design until final release or explicit sharing milestone | Regenerate and visually verify only for a release or requested sharing copy |
 | `GUIDED_WORKFLOW.md` | Authoritative session and checkpoint procedure | Current | Workflow-control rule changes |
-| `CURRENT_STATE.md` | Authoritative restart point | P1-W03 closed at CP-007; Pipedrive Lite eliminated; next work unit pending | Every sign-off, session stop, blocker, or active-work-unit change |
-| `SESSION_LOG.md` | Append-only execution history | S-071 records CP-007 sign-off; CP-007 is the last checkpoint | Every sign-off or session close |
+| `CURRENT_STATE.md` | Authoritative restart point | P1-W04 Bigin Premier outcome proposed; unapproved; CP-007 remains last checkpoint | Every sign-off, session stop, blocker, or active-work-unit change |
+| `SESSION_LOG.md` | Append-only execution history | S-072 records the P1-W04 proposal and official preflight; CP-007 remains last checkpoint | Every sign-off or session close |
 | `ARTIFACT_REGISTER.md` | Artifact authority and synchronization inventory | Current | Artifact added, renamed, superseded, or found stale |
 | `COLLABORATOR_PACKET.md` | Operational shared-Project onboarding and input-capture aid | Current; unapproved input remains subject to repository reconciliation | Shared-project procedure, active intake queue, or handoff format changes |
 | `../deliverables/P0-W01-current-workflow-and-permission-boundary.md` | Signed P0-W01 workflow and permission boundary | Approved at CP-001 | Supersede only through a later signed checkpoint |
@@ -27,6 +27,8 @@
 | `../evidence/P1-W03/pipedrive/configuration-inventory.md` | Signed P1-W03 configuration inventory | Approved at CP-007; configuration, fixtures, views, scenarios, export attempt, and cleanup state recorded | Every explicitly approved Pipedrive reopening or material later configuration change |
 | `../evidence/P1-W03/pipedrive/evaluator-result.md` | Signed P1-W03 evaluator result | Approved at CP-007; Lite eliminated by direct M-02 and M-09 failures | Every explicitly approved P1-W03 reopening or later evidence change |
 | `../evidence/P1-W03/pipedrive/synthetic-fixtures.csv` | P1-W03 synthetic preload fixture | Current; seven fictional rows imported for the D-099 run | Every approved fixture or preload-state change |
+| `../deliverables/P1-W04-bigin-evidence-first-screening.md` | Proposed P1-W04 work-unit outcome | Unapproved; Bigin Premier recommended for contract drafting only | Every accepted P1-W04 decision and checkpoint |
+| `../evidence/P1-W04/bigin/official-evidence-preflight.md` | Preliminary P1-W04 Bigin official-source evidence | Current; Premier is the lowest plausible tier; direct evidence remains pending | Every material Bigin feature, tier, cost, trial, or evidence change |
 | `REPOSITORY_BACKUP.md` | Repository location, synchronization boundary, and recovery instructions | Current | Repository, branch, tracked scope, or working-copy policy changes |
 
 ## Planned artifacts not yet created

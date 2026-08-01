@@ -2977,3 +2977,58 @@ Review the prepared P1-W03 evaluator result. If the proposed Lite elimination is
 ### Saved ending point
 
 Define and approve the next Phase 1 CRM comparison work unit using official evidence before authorizing another account, trial, configuration, or external action.
+
+## Session S-072 - P1-W04 Bigin outcome proposed
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W04 - Bigin Premier evidence-first screening
+
+**Checkpoint:** CP-007 remains the last signed-off checkpoint; CP-008 effect is proposed only
+
+**Sign-off status:** Proposed outcome unapproved; no Bigin account or external action authorized
+
+### Orientation
+
+- Current phase: Phase 1 CRM candidate comparison.
+- Active work unit: P1-W04 definition and official-evidence preflight.
+- Last approval: CP-007, which eliminated Pipedrive Lite only.
+- Open blocker: identify a right-sized CRM tier that can enforce source-specific handoffs and opportunity-level Centah duplicate control while preserving mobile usability and reasonable cost.
+- Proposed outcome: evaluate Bigin Premier through a separately approved evidence-first contract and no-credit-card trial.
+
+### Work completed
+
+- Reviewed current official Bigin pricing, edition limits, Team Pipelines, custom and unique fields, Stage Transition Rules, workflows, mobile dashboards/calendar/contacts, user management, export, backup, and API positioning.
+- Confirmed Premier at `$15` per user monthly or `$12` per user per month billed annually; two administrators therefore baseline at `$30` monthly or `$288` annually before applicable tax or add-ons.
+- Confirmed the no-credit-card 15-day trial does not autocharge and falls back to the one-user Free plan.
+- Identified Premier as the lowest plausible tier: Express has 10 custom fields per module, while Premier has 25 plus Stage Transition Rules, five Team Pipelines, advanced date automation, and duplicate cleanup.
+- Compared Freshsales Pro as the strongest documentation-only fallback. Its unique fields, field dependencies, and mobile offline behavior are promising, but the current annual-billing price is `$39` per user per month and is less proportionate to the one-person operation.
+- Drafted `../deliverables/P1-W04-bigin-evidence-first-screening.md` and recorded the official evidence in `../evidence/P1-W04/bigin/official-evidence-preflight.md`.
+
+### Decision-critical uncertainties
+
+- Complete CP-003 field mapping within Premier's 25-field-per-module limits.
+- Separate Team Pipelines versus sub-pipelines for Costco/Centah and Independent work without fragmenting the morning action center or reusable customer history.
+- Direct stage-transition, unique-field, duplicate-import, date-anchor, mobile, search, directions, save/retry, export-relationship, administration, MFA, retention, API-limit, and exact cost behavior.
+- Exact trial edition and isolation from any Bigin 360-only capability.
+
+### Approval boundary
+
+- No decision number is assigned because the proposed outcome is unapproved.
+- No account, trial, tenant inspection, configuration, fixture entry, test, billing detail, purchase, external connection, real data, customer communication, production use, Loryn participation, checkpoint, or platform selection is authorized.
+- Explicit outcome approval would authorize detailed contract drafting, the field-capacity map, and further current official research only.
+
+### Files changed
+
+- `deliverables/P1-W04-bigin-evidence-first-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W04/bigin/official-evidence-preflight.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Present the P1-W04 proposed outcome for explicit approval. Do not draft the execution contract or field map until the outcome is approved, and do not create a Bigin account without a later separate authorization.
