@@ -2683,3 +2683,46 @@ Present the complete P1-W03 execution contract for explicit approval. Contract a
 ### Saved ending point
 
 Present the separate Pipedrive Lite account-creation gate. Do not create or activate the trial until the explicit authorization is received.
+
+## Session S-066 - Pipedrive evaluator account and trial authorized
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W03 - Pipedrive evidence-first screening
+
+**Checkpoint:** CP-004 remains the last signed-off checkpoint; CP-007 remains pending execution evidence
+
+**Sign-off status:** Bounded evaluator account and no-credit-card trial explicitly authorized as D-097; setup pending
+
+**Approval evidence:** The user gave the instruction `authorize the pipedrive lite trial account`.
+
+### Decision recorded
+
+- **Accepted (D-097):** Authorize the technical partner to create the bounded `Hazel Kaine` Pipedrive evaluator account and no-credit-card trial, then inspect only nonprivate edition, expiry, and feature-boundary labels before stopping.
+
+### Authorized account procedure
+
+- The technical partner creates and controls the evaluator account using private credentials.
+- Use `Hazel Kaine` as the organization name.
+- Do not enter billing information, invite Loryn, connect another service, or use real data. If vendor sample data appears, report it and leave it untouched until configuration is separately authorized.
+- Keep passwords, MFA methods or codes, recovery details, private email addresses, account identifiers, and session details outside project artifacts and chat.
+- After first sign-in, report only nonprivate plan, trial-expiry, and feature-boundary labels, then stop.
+
+### Continuing boundary
+
+- D-097 does not authorize configuration, fixture entry, synthetic testing, integrations, billing, purchases, real data, customer communications, production use, Loryn participation, CP-007 sign-off, or platform selection.
+- Configuration and testing still require the exact instruction `Begin P1-W03 synthetic configuration` after the account shell and Lite-equivalent boundary are confirmed.
+
+### Files changed
+
+- `deliverables/P1-W03-pipedrive-evidence-first-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Guide the technical partner through private Pipedrive signup. Stop after the account shell, plan, expiry, and Lite-equivalent feature boundary are confirmed.

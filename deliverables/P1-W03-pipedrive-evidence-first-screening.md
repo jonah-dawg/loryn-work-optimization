@@ -1,6 +1,6 @@
 # P1-W03 - Pipedrive Evidence-First Screening
 
-**Status:** Complete execution contract approved as D-096; account creation remains separately unapproved
+**Status:** Complete execution contract approved; bounded evaluator account and no-credit-card trial authorized as D-097; setup pending
 
 **Phase:** Phase 1 - CRM candidate comparison
 
@@ -20,8 +20,10 @@ This outcome was explicitly approved as D-095 on August 1, 2026.
 
 - **Accepted (D-095):** Approve the P1-W03 proposed outcome and authorize detailed execution-contract drafting plus additional current official-evidence research only.
 - **Accepted (D-096):** Approve the complete P1-W03 execution contract, including the Lite-only tier boundary, prototype ownership, execution sequence, minimum configuration, stopping rules, separate action gates, acceptance checks, and CP-007 effect.
+- **Accepted (D-097):** Authorize the technical partner to create the bounded `Hazel Kaine` Pipedrive evaluator account and no-credit-card trial, then inspect only the nonprivate edition and feature boundary before stopping.
 - D-095 does not authorize account creation, trial activation, configuration, fixture entry, testing, integrations, billing, purchases, real data, customer communications, Loryn participation, production use, checkpoint sign-off, or platform selection.
 - D-096 approves the contract only and preserves every separate action gate.
+- D-097 does not authorize configuration, fixture entry, synthetic testing, integrations, billing, purchases, real data, customer communications, production use, Loryn participation, checkpoint sign-off, or platform selection.
 
 ## Why Pipedrive is proposed next
 
@@ -112,4 +114,4 @@ CP-007 would approve only a completed Pipedrive evaluator result, configuration 
 
 ## Current action gate
 
-The complete contract is approved. Account creation remains unapproved and requires the later explicit instruction `Authorize the Pipedrive Lite trial account`. That instruction would authorize only the bounded no-credit-card evaluator account and trial setup, followed by edition and feature-boundary inspection. Configuration and synthetic testing would remain behind the separate `Begin P1-W03 synthetic configuration` gate.
+The bounded evaluator account and no-credit-card trial are authorized as D-097. The technical partner may create the account using private credentials, the `Hazel Kaine` organization name, no billing information, no real data, no external connections, and no Loryn invitation. If vendor sample data appears, report it and leave it untouched until the configuration gate. After first sign-in, inspect and report only the nonprivate plan, trial-expiry, and feature-boundary labels, then stop. Configuration and synthetic testing remain behind the separate `Begin P1-W03 synthetic configuration` gate.
