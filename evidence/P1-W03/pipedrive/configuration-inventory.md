@@ -1,6 +1,6 @@
 # P1-W03 Pipedrive Lite Configuration Inventory
 
-**Status:** Evaluator configuration and stopping-rule run complete under D-099; CP-007 pending
+**Status:** Approved at CP-007 as the signed Pipedrive Lite configuration inventory
 
 **Configured:** August 1, 2026
 

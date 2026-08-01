@@ -1,6 +1,6 @@
 # P1-W03 Pipedrive Official-Evidence Preflight
 
-**Status:** Official-evidence preflight complete; subsequent direct D-099 result proposes eliminating Lite
+**Status:** Official-evidence preflight complete; CP-007 subsequently eliminated Lite
 
 **Candidate:** Pipedrive
 
@@ -8,7 +8,7 @@
 
 ## Preliminary disposition
 
-This preflight identified Lite as the lowest plausible Pipedrive tier and justified the bounded contract. Subsequent direct evidence corrected the field map to 25 of 30 fields and completed the D-099 synthetic run to the mandatory stopping rule. The prepared evaluator result proposes eliminating Lite because a duplicate Centah identifier was accepted without a block or visible review route and source-specific handoff requirements could not be enforced. CP-007 remains unsigned.
+This preflight identified Lite as the lowest plausible Pipedrive tier and justified the bounded contract. Subsequent direct evidence corrected the field map to 25 of 30 fields and completed the D-099 synthetic run to the mandatory stopping rule. CP-007 approved the evaluator result and eliminated Lite because a duplicate Centah identifier was accepted without a block or visible review route and source-specific handoff requirements could not be enforced.
 
 ## Evidence summary
 

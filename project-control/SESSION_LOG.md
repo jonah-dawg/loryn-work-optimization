@@ -2927,3 +2927,53 @@ Resume at the seven-record fixture upload, then create the practical action-cent
 ### Saved ending point
 
 Review the prepared P1-W03 evaluator result. If the proposed Lite elimination is accepted, explicitly sign CP-007. Do not infer that sign-off, a next-candidate authorization, or a platform selection from this execution record.
+
+## Session S-071 - P1-W03 signed off at CP-007
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W03 - Pipedrive evidence-first screening
+
+**Checkpoint:** CP-007
+
+**Sign-off status:** Signed off August 1, 2026; Pipedrive Lite eliminated
+
+**Approval evidence:** The user explicitly said, `Sign off CP-007.`
+
+### Approved result
+
+- Approved `../evidence/P1-W03/pipedrive/evaluator-result.md`, the linked configuration inventory, the Lite tier/cost record, and the evidence-backed comparison status.
+- Approved Pipedrive Lite as `Eliminated` because M-02 source-specific workflow and M-09 safe Centah/Costco bridge fail directly.
+- Confirmed that the weighted score remains intentionally incomplete under the approved stopping rule and that the unverified mobile, reliability, export, and administration items do not reverse the two mandatory failures.
+- Closed P1-W03 at CP-007.
+
+### Validation
+
+- The evaluator result contains all thirteen mandatory-gate rows and all seven scenario rows.
+- The configuration inventory records the 25-field map, seven-person/seven-deal import, practical filters, direct scenario observations, export limitation, and cleanup state.
+- Privacy and secret checks found no credentials, private email addresses, account identifiers, real customer data, or private integration payloads.
+- Markdown and Git diff checks passed before commit.
+
+### Approval boundary
+
+- CP-007 approves the Pipedrive Lite evaluator result only.
+- It does not select another CRM, authorize a next candidate or account, start a Loryn finalist session, permit billing or production use, connect Centah or another service, import real data, or send customer communications.
+- Pipedrive Lite can be reopened only through a later explicitly approved work unit.
+
+### Files changed
+
+- `deliverables/P1-W03-pipedrive-evidence-first-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W03/pipedrive/configuration-inventory.md`
+- `evidence/P1-W03/pipedrive/evaluator-result.md`
+- `evidence/P1-W03/pipedrive/official-evidence-preflight.md`
+- `evidence/P1-W03/pipedrive/tenant-shell-inspection.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Define and approve the next Phase 1 CRM comparison work unit using official evidence before authorizing another account, trial, configuration, or external action.

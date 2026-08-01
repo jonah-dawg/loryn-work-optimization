@@ -1,6 +1,6 @@
 # P1-W03 Pipedrive Evaluator Result
 
-**Status:** Prepared under D-099 - proposed Lite elimination; CP-007 not signed
+**Status:** Approved at CP-007 - Pipedrive Lite eliminated
 
 **Candidate:** Pipedrive
 
@@ -14,14 +14,14 @@
 
 **Fixture reset confirmation:** Vendor sample data removed; seven approved preload fixtures imported; temporary TS-01 and duplicate-test records removed after the run; baseline scenario changes remain and require reset before another run
 
-## Proposed outcome
+## Approved outcome
 
-Pipedrive Lite is proposed as `Eliminated`. It can represent the baseline at 25 of 30 custom fields and provides useful search, activities, pipeline stages, filters, and desktop task visibility. However, two directly observed mandatory failures make the evaluated tier nonviable:
+Pipedrive Lite is `Eliminated`. It can represent the baseline at 25 of 30 custom fields and provides useful search, activities, pipeline stages, filters, and desktop task visibility. However, two directly observed mandatory failures make the evaluated tier nonviable:
 
 1. M-02 fails because Lite cannot conditionally require the Costco/Centah versus Independent handoff fields, hide false-source fields, prevent premature handoff completion, or produce the required source-specific installation anchor.
 2. M-09 fails because a duplicate Deal using the existing synthetic Centah lead number was accepted without a block or visible duplicate-review route.
 
-The approved stopping rule ends further evaluator testing after a confirmed mandatory failure. Native mobile timing, cross-device save behavior, and downloaded-export reconstruction therefore remain unverified and no weighted score is calculated. This result does not approve CP-007, select a platform, authorize Loryn testing, or permit billing, production use, integrations, real data, or customer communications.
+The approved stopping rule ends further evaluator testing after a confirmed mandatory failure. Native mobile timing, cross-device save behavior, and downloaded-export reconstruction therefore remain unverified and no weighted score is calculated. CP-007 approves this result only; it does not select a platform, authorize Loryn testing, or permit billing, production use, integrations, real data, or customer communications.
 
 ## Scenario result summary
 
@@ -66,4 +66,4 @@ The weighted total is intentionally incomplete. Mandatory failures M-02 and M-09
 
 ## Approval boundary
 
-This prepared result is unapproved. CP-007 would approve only this Pipedrive evaluator result, configuration inventory, tier/cost record, and evidence-backed comparison status. It would not select Pipedrive, authorize a purchase or production use, connect Centah or another service, permit real data or customer communications, start a Loryn finalist session, or authorize the next candidate.
+CP-007 approves this Pipedrive evaluator result, configuration inventory, tier/cost record, and evidence-backed comparison status. It does not select Pipedrive, authorize a purchase or production use, connect Centah or another service, permit real data or customer communications, start a Loryn finalist session, or authorize the next candidate.

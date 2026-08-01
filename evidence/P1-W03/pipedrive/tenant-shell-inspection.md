@@ -1,6 +1,6 @@
 # P1-W03 Pipedrive Tenant-Shell Inspection
 
-**Status:** Lite-only boundary verified; D-099 evaluator run completed to mandatory stopping rule
+**Status:** Lite-only boundary and evaluator evidence approved at CP-007; Lite eliminated
 
 **Candidate:** Pipedrive
 
@@ -55,6 +55,6 @@ The initial inspection used the bounded D-097 authority to confirm only nonpriva
 
 ## Disposition
 
-The D-098 plan-boundary gate is complete, and D-099 produced the prepared evaluator result. The approved model fits Lite at 25 of 30 custom fields, but direct duplicate-control and source-specific handoff failures make the tier nonviable under the approved mandatory gates. CP-007 remains unsigned, and no platform or next candidate is authorized.
+The D-098 plan-boundary gate is complete, and D-099 produced the evaluator result. The approved model fits Lite at 25 of 30 custom fields, but direct duplicate-control and source-specific handoff failures make the tier nonviable under the approved mandatory gates. CP-007 approved that result and eliminated Lite; no platform or next candidate is authorized.
 
-Next action: review `evaluator-result.md` and explicitly approve or reject CP-007. Reset the retained baseline scenario state only if the work unit is reopened or the tenant is being closed out.
+Next action: define and approve the next Phase 1 comparison work unit. Reset the retained Pipedrive baseline scenario state only if the tenant is being closed out or P1-W03 is explicitly reopened.

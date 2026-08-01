@@ -1,12 +1,12 @@
 # P1-W03 - Pipedrive Evidence-First Screening
 
-**Status:** Evaluator result prepared under D-099; proposed Lite elimination unapproved; CP-007 pending
+**Status:** Closed - Pipedrive Lite eliminated at CP-007
 
 **Phase:** Phase 1 - CRM candidate comparison
 
 **Updated:** August 1, 2026
 
-**Last signed-off checkpoint:** CP-004
+**Last signed-off checkpoint:** CP-007
 
 ## Approved work-unit outcome
 
@@ -23,6 +23,7 @@ This outcome was explicitly approved as D-095 on August 1, 2026.
 - **Accepted (D-097):** Authorize the technical partner to create the bounded `Hazel Kaine` Pipedrive evaluator account and no-credit-card trial, then inspect only the nonprivate edition and feature boundary before stopping.
 - **Accepted (D-098):** Authorize changing only the existing no-billing Pipedrive trial from Premium to Lite, removing carried-over trial add-ons, verifying the resulting plan and remaining trial, and then stopping before configuration.
 - **Accepted (D-099):** Begin P1-W03 synthetic configuration, including verified vendor-sample cleanup, the approved minimum Lite configuration, synthetic fixture handling, evaluator testing, and result preparation.
+- **Signed off (CP-007):** Approve the completed Pipedrive evaluator result, configuration inventory, Lite tier/cost record, and evidence-backed `Eliminated` status.
 - D-095 does not authorize account creation, trial activation, configuration, fixture entry, testing, integrations, billing, purchases, real data, customer communications, Loryn participation, production use, checkpoint sign-off, or platform selection.
 - D-096 approves the contract only and preserves every separate action gate.
 - D-097 does not authorize configuration, fixture entry, synthetic testing, integrations, billing, purchases, real data, customer communications, production use, Loryn participation, checkpoint sign-off, or platform selection.
@@ -109,7 +110,7 @@ This outcome was explicitly approved as D-095 on August 1, 2026.
 
 ## Approved CP-007 effect
 
-CP-007 would approve only a completed Pipedrive evaluator result, configuration inventory, exact tier and cost record, and evidence-backed comparison status. It would not select Pipedrive, authorize payment or production use, connect Centah or another service, import real data, permit customer communication, or start a Loryn finalist session.
+CP-007 approves only the completed Pipedrive evaluator result, configuration inventory, exact tier and cost record, and evidence-backed comparison status. It does not select Pipedrive, authorize payment or production use, connect Centah or another service, import real data, permit customer communication, or start a Loryn finalist session.
 
 ## Authorized configuration progress
 
@@ -127,15 +128,15 @@ CP-007 would approve only a completed Pipedrive evaluator result, configuration 
 - Removed the TS-01 Lead and Person and the duplicate Deal and Person. Seven baseline synthetic People remain; baseline scenario state requires a reset before any later rerun or closeout cleanup.
 - Native mobile timing, directions, weak-signal/save recovery, cross-device consistency, downloaded-export reconstruction, and production administration remain unverified. The stopping rule makes additional mobile testing unnecessary unless a later decision reopens Pipedrive.
 
-## Proposed evaluator outcome
+## Approved evaluator outcome
 
-The prepared evaluator result identifies Pipedrive Lite as `Eliminated` because M-02 and M-09 fail directly. The weighted score remains intentionally incomplete, and the additional unverified gates do not weaken or reverse those mandatory failures. This outcome is proposed only: CP-007 has not been signed, Pipedrive has not been selected, and no next candidate or production action is authorized.
+CP-007 approves Pipedrive Lite as `Eliminated` because M-02 and M-09 fail directly. The weighted score remains intentionally incomplete, and the additional unverified gates do not weaken or reverse those mandatory failures. Pipedrive has not been selected, and no next candidate or production action is authorized.
 
 ## Continuing boundary
 
-- The bounded account shell, trial, and Lite-only plan boundary are complete under D-097 and D-098. D-099 authorizes only synthetic configuration and evaluator testing. Integrations, billing, purchases, real data, customer communications, Loryn participation, production use, checkpoint sign-off, and platform selection remain unapproved.
+- The bounded account shell, trial, and Lite-only plan boundary are complete under D-097 and D-098. D-099 authorized only synthetic configuration and evaluator testing; CP-007 subsequently approved the result and closed P1-W03. Integrations, billing, purchases, real data, customer communications, Loryn participation, production use, a next candidate, and platform selection remain unapproved.
 - Loryn remains uninvolved until a candidate becomes one of no more than two viable finalists and a separate finalist-session gate is approved.
 
 ## Current action
 
-D-099 has produced the evaluator result and configuration inventory. Review the proposed Lite elimination and, if accepted, explicitly sign CP-007 to approve only the P1-W03 evidence-backed result. Do not infer CP-007 sign-off, a platform selection, a next-candidate authorization, or production authority from this execution record.
+P1-W03 is closed at CP-007 with Pipedrive Lite eliminated. Define and approve the next Phase 1 comparison work unit before creating another account or taking any external platform action. Do not infer a platform selection, next-candidate authorization, or production authority from CP-007.
