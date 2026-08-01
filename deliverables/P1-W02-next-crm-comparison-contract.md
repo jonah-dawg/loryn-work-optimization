@@ -1,6 +1,6 @@
 # P1-W02 - Next CRM Comparison Contract
 
-**Status:** Unapproved - proposed outcome and boundaries only
+**Status:** In progress - outcome approved; detailed contract and boundaries unapproved
 
 **Phase:** Phase 1 - Zoho prototype and HubSpot comparison
 
@@ -8,11 +8,17 @@
 
 **Last signed-off checkpoint:** CP-004
 
-## Proposed work-unit outcome
+## Approved work-unit outcome
 
 Define and approve the evidence-first screening contract for the next CRM candidate, beginning with the planned HubSpot comparison, so the project can determine whether a practical production tier can represent the CP-003 workflow before creating another account or involving Loryn.
 
-This outcome is proposed, not approved.
+This outcome was explicitly approved as D-089 on July 31, 2026.
+
+## Approved decision
+
+- **Accepted (D-089):** Approve the P1-W02 work-unit outcome and authorize detailed contract drafting plus current official-evidence research only.
+- The approval does not authorize a HubSpot or other candidate account, trial, configuration, fixture entry, testing, integration, real-data use, communication, billing action, purchase, production use, finalist session, or platform selection.
+- The proposed contract boundaries below remain subject to detailed drafting and explicit approval.
 
 ## Starting evidence
 
@@ -31,8 +37,8 @@ This outcome is proposed, not approved.
 - Do not use real data, connect email, calendar, maps, Centah, or another external service, send messages, enter billing information, start a paid trial, purchase anything, or select a platform.
 - Stop before account creation if official evidence confirms that no reasonable tier can meet a mandatory gate.
 
-## Proposed first decision
+## Next decision
 
-Approve or revise the proposed P1-W02 outcome before drafting the detailed evidence checklist, account procedure, testing sequence, and action-gate phrases.
+Review the official-evidence preflight and the detailed comparison-contract boundaries before approving the complete P1-W02 execution contract.
 
-Approval of this outcome will authorize contract drafting and official-evidence research only. It will not authorize a HubSpot or other external account.
+D-089 authorizes contract drafting and official-evidence research only. It does not authorize a HubSpot or other external account.

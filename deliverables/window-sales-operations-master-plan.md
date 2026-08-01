@@ -2,7 +2,7 @@
 
 ## Master Project Plan
 
-**Version:** 1.55
+**Version:** 1.56
 **Status:** Working source of truth  
 **Updated:** July 31, 2026
 **Primary team:** Window-covering sales consultant and technical partner
@@ -494,7 +494,7 @@ ChatGPT should distinguish confirmed facts, assumptions, decisions, and open que
 **Technical/configuration:** create the weighted platform scorecard, synthetic fixtures, scripted mobile scenarios, field inventory, Centah discovery checklist, and vendor/security questions.  
 **Gate:** the two-person team agrees on the synthetic-only trial boundary, mandatory requirements, and scoring method. CP-001 confirmed permission to transfer approved real fields, but real imports and external integrations remain blocked until production access, security, retention, and connection controls are defined.
 
-**Progress:** P0-W01 was signed off at CP-001. CP-002 approved the independent-lead and prospecting scope. CP-003 approved the connected prospecting and active-job lifecycles, stage-specific next actions, communication timing, quote and handoff rules, installation/post-install outcomes, minimum CRM fields, and sanitized validation. CP-004 approved the P0-W03 platform-evaluation method. P1-W01 screened the `Hazel Kaine` Zoho Free tenant, removed vendor sample data, and confirmed that Free cannot represent the CP-003 baseline. D-088 option 1 is accepted: Zoho Professional remains a documentation-only paid-tier possibility, no upgrade or purchase is authorized, P1-W01 is closed incomplete, and CP-005 was not reached. P1-W02 is now at unapproved work-unit outcome definition for the next CRM comparison. External accounts, connections, real data, billing, customer communications, production use, and platform selection remain unapproved.
+**Progress:** P0-W01 was signed off at CP-001. CP-002 approved the independent-lead and prospecting scope. CP-003 approved the connected prospecting and active-job lifecycles, stage-specific next actions, communication timing, quote and handoff rules, installation/post-install outcomes, minimum CRM fields, and sanitized validation. CP-004 approved the P0-W03 platform-evaluation method. P1-W01 screened the `Hazel Kaine` Zoho Free tenant, removed vendor sample data, and confirmed that Free cannot represent the CP-003 baseline. D-088 option 1 is accepted: Zoho Professional remains a documentation-only paid-tier possibility, no upgrade or purchase is authorized, P1-W01 is closed incomplete, and CP-005 was not reached. D-089 approves the P1-W02 evidence-first comparison outcome and authorizes detailed contract drafting plus current official-evidence research only. The detailed P1-W02 contract, external accounts, connections, configuration, fixture entry, testing, real data, billing, customer communications, production use, and platform selection remain unapproved.
 
 ### Phase 1 - Zoho prototype and HubSpot comparison (weeks 2-3)
 
@@ -661,6 +661,7 @@ Update this table whenever a decision changes. Supersede rather than delete prio
 | D-086 | Accepted | Use `Hazel Kaine` as the approved Zoho trial organization name, replacing only the earlier planned neutral label while continuing to prohibit additional employer, Costco, Centah, or customer information | Reflects the organization name actually chosen by the account owner without broadening the synthetic trial or data-entry boundary | The account owner changes the approved organization name or the trial is replaced |
 | D-087 | Accepted | Open the P1-W01 synthetic-configuration gate, authorizing verified vendor-sample cleanup, approved minimum configuration, fixture handling, evaluator testing, and Zoho result preparation within the signed contract | Moves the ready Free account into bounded evaluation without authorizing integrations, real data, billing, communications, production use, checkpoint sign-off, or platform selection | The user revokes execution authority or a safety, privacy, tier, or account-state blocker requires a new contract decision |
 | D-088 | Accepted | Keep Zoho as a documentation-only Professional-tier possibility, do not upgrade or purchase it, close P1-W01 incomplete without CP-005, and proceed only to definition of the next CRM comparison work unit | Preserves Zoho's evidence-backed paid possibility without spending money or fabricating a Free result, while continuing the approved comparison sequence | A later explicitly approved work unit authorizes paid Zoho evaluation or the platform shortlist changes |
+| D-089 | Accepted | Approve the P1-W02 evidence-first comparison outcome and authorize detailed contract drafting plus current official-evidence research only | Checks the lowest plausible production tier before another account is created or Loryn is involved while preserving separate execution gates | The approved comparison outcome or action-gate model changes before the detailed contract is signed |
 
 ## 14. Immediate next actions
 

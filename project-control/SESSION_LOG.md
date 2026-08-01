@@ -2270,3 +2270,46 @@ Stop at D-088 and request explicit direction. Do not open a paid trial, upgrade,
 ### Saved ending point
 
 Present the proposed P1-W02 outcome for explicit approval or revision. Do not create or configure another external account from D-088 option 1 alone.
+
+## Session S-057 - P1-W02 outcome approved
+
+**Date:** July 31, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W02 - Next CRM comparison contract
+
+**Checkpoint:** CP-004 remains the last signed-off checkpoint; no new checkpoint approved
+
+**Sign-off status:** P1-W02 outcome explicitly approved; detailed contract and external execution remain unapproved
+
+**Approval evidence:** The user stated, “Approve the P1-W02 proposed outcome.”
+
+### Accepted decision
+
+- **Accepted (D-089):** Approve the P1-W02 evidence-first comparison outcome and authorize detailed contract drafting plus current official-evidence research only.
+
+### Effect
+
+- P1-W02 is active in contract design, beginning with the planned HubSpot comparison.
+- The lowest plausible production tier will be screened against current official evidence before another account is considered.
+- The CP-004 gates, fixtures, scenarios, evidence format, and Loryn burden limit remain the common evaluation method.
+- Loryn remains uninvolved until a candidate survives evaluator screening and becomes one of no more than two finalists.
+
+### Approval boundary
+
+- The detailed P1-W02 execution contract and proposed boundaries remain unapproved.
+- D-089 does not authorize a HubSpot or other candidate account, trial, configuration, fixture entry, testing, integration, real-data use, communication, billing action, purchase, production use, finalist session, checkpoint sign-off, or platform selection.
+- CP-004 remains the last signed-off checkpoint. CP-005 was not reached in P1-W01.
+
+### Files changed
+
+- `deliverables/P1-W02-next-crm-comparison-contract.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Draft the P1-W02 official-evidence preflight and detailed comparison-contract boundaries, beginning with current official HubSpot tier evidence, then present the next material contract decision. Do not create or configure an external account from D-089.
