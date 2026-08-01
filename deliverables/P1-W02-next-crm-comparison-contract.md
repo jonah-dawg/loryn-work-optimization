@@ -20,7 +20,8 @@ This outcome was explicitly approved as D-089 on July 31, 2026.
 - **Accepted (D-090):** Approve the complete P1-W02 execution contract, including the candidate and tier boundary, administrator model, minimum configuration, evaluator sequence, stopping rules, separate action gates, evidence handling, acceptance checks, and CP-006 effect.
 - **Accepted (D-091):** Authorize Loryn to create the bounded HubSpot Free account shell, keep credentials and recovery private, use `Hazel Kaine`, enable MFA, invite the technical partner as secondary Super Admin, inspect only the permitted edition and offer details, and then stop.
 - **Accepted (D-092):** Make MFA optional only during the synthetic HubSpot Free evaluation. Record an MFA deferral as a security limitation; require MFA before any paid or promotional tier activation, external connection, real-data use, production use, or later security approval.
-- D-091 and D-092 do not authorize trial or tier activation, configuration, fixture entry, testing, integration, real-data use, communication, billing action, purchase, production use, finalist session, checkpoint sign-off, or platform selection.
+- **Accepted (D-093):** Allow the technical partner to own and control evaluator-only prototype tenants as the sole prototype administrator, and defer Loryn's account access until a candidate becomes one of no more than two viable finalists.
+- D-091 through D-093 do not authorize trial or tier activation, configuration, fixture entry, testing, integration, real-data use, communication, billing action, purchase, production use, finalist session, checkpoint sign-off, or platform selection.
 
 ## Starting evidence
 
@@ -49,11 +50,12 @@ The preliminary disposition is therefore: Free `Fail`; Starter-level path `Condi
 - Do not purchase Starter, enter billing information, or accept a paid commitment in P1-W02 without a later explicit authorization that names the verified offer and total.
 - If no clean no-billing Starter-equivalent evaluation is available, stop before configuration and present documentation-only, separately authorized paid evaluation, or next-candidate options.
 
-## Approved account ownership and administration
+## Approved prototype ownership and administration
 
-- Loryn owns the HubSpot account and remains the primary Super Admin and daily user.
-- The technical partner is the secondary Super Admin for approved setup, troubleshooting, recovery support, and other ad hoc administration.
-- Loryn must receive independent Super Admin access and retain control of her own credentials and recovery. The technical partner may retain Super Admin control for approved evaluator setup and testing.
+- The technical partner may own and control the HubSpot prototype tenant as the sole administrator throughout evaluator screening.
+- Loryn needs no prototype account, setup work, configuration work, evidence work, reset work, or evaluator testing.
+- If HubSpot becomes one of no more than two viable finalists, require a separate finalist-session gate before inviting Loryn or asking her to test. At that gate, give her independent access appropriate to evaluating her daily and administrator workflow.
+- Final production ownership, recovery, and administrator roles remain undecided until platform selection; the approved target operating model still expects Loryn to manage the selected tool with technical-partner support.
 - Passwords, passkeys, MFA methods or codes, recovery codes, private email addresses, account identifiers, and session details are never shared with Codex or stored in project artifacts.
 - Use `Hazel Kaine` as the approved comparison organization name without adding employer, Costco, Centah, or customer information.
 
@@ -78,7 +80,7 @@ Explicitly exclude real records, customer communications, connected inboxes or c
 ## Approved evaluator sequence and stopping rules
 
 1. **Official-evidence preflight:** complete the current tier, feature, user, MFA, export, API, retention, mobile, and cost review before account creation.
-2. **Account-shell verification:** after separate authorization, create the Free account, secure it, confirm two Super Admins, inspect the exact edition and available no-billing evaluation offer, and stop.
+2. **Account-shell verification:** after separate authorization, create the Free account, confirm the evaluator's administrator access, inspect the exact edition and available no-billing evaluation offer, and stop. Loryn access is not required during evaluator screening.
 3. **Tier-access decision:** verify whether a clean Starter-equivalent evaluation exists without billing or Professional-only contamination. Require a separate activation gate.
 4. **Configuration viability:** after separate authorization, configure the approved records, fields, stages, source rules, tasks, and views on the exact evaluated tier.
 5. **Synthetic scenario screening:** load or reset the common fixtures and run TS-01 through TS-07 without messages, integrations, travel, or real data.
@@ -99,11 +101,11 @@ Apply these stopping rules:
 
 1. Approve the complete P1-W02 execution contract.
 2. Require the exact instruction `Authorize Loryn to create the HubSpot Free evaluation account` before account creation.
-3. Loryn creates the account herself with private credentials and recovery under her control.
+3. The technical partner may create and manage the evaluator-only prototype account with private credentials and recovery.
 4. Use `Hazel Kaine` as the organization name; enter no employer, Costco, Centah, or customer information.
 5. Select the normal U.S. region if asked. Decline imports, connected inboxes, calendars, calling, phone numbers, data enrichment, AI agents, and other external or credit-consuming setup.
 6. Enter no billing information, make no purchase, and do not activate any trial during account creation.
-7. Invite and confirm both Super Admin users without recording private identifiers. MFA may be enabled or intentionally deferred only while the tenant remains HubSpot Free and synthetic-only under D-092.
+7. Confirm the technical partner's administrator access without recording private identifiers. No second prototype user is required. MFA may be enabled or intentionally deferred only while the tenant remains HubSpot Free and synthetic-only under D-092.
 8. Inspect only the edition label, feature-access labels, trial offer, commitment language, billing requirement, and downgrade behavior needed to identify a clean Starter-equivalent evaluation.
 9. If a no-billing Starter-equivalent evaluation is verified, require the exact instruction `Authorize the no-billing HubSpot Starter-equivalent evaluation` before activation.
 10. After the correct tier is active and separately confirmed, require the exact instruction `Begin P1-W02 HubSpot synthetic configuration` before creating fields, views, fixtures, or tests.
@@ -127,7 +129,7 @@ P1-W02 is complete only when:
 
 - Current official and direct tenant evidence identifies the exact evaluated tier, two-administrator seat model, recurring cost, commitment, renewal behavior, and material limits.
 - HubSpot Free remains clearly separated from any paid-tier result.
-- Account ownership, both Super Admin roles, the enabled-or-deferred MFA state, and access-removal behavior are verified without storing private details. An MFA deferral is recorded as a security limitation and cannot satisfy a later paid-tier, connected-data, real-data, production, or security-approval gate.
+- Prototype ownership, evaluator administrator access, and the enabled-or-deferred MFA state are verified without storing private details. Two-administrator and access-removal behavior may remain official-evidence-backed or `Unverified` during evaluator screening, but must be directly verified before HubSpot can pass M-05 or advance beyond finalist evaluation. An MFA deferral is recorded as a security limitation and cannot satisfy a later paid-tier, connected-data, real-data, production, or security-approval gate.
 - The approved minimum configuration is completed on the exact evaluated tier, or each unsupported item is recorded with evidence under the stopping rule.
 - TS-01 through TS-07 receive evaluator screening unless an early-stop condition applies.
 - Every applicable mandatory gate and weighted criterion records a result or score, evidence, confidence, and uncertainty; the total remains incomplete while required evidence is `Unverified`.
@@ -154,6 +156,6 @@ CP-005 remains not reached and tied to the closed-incomplete Zoho work unit.
 
 ## Current authorized action
 
-The technical partner created the account as Loryn's proxy; HubSpot Free and the `Hazel Kaine` organization name are confirmed. Add Loryn with independent Super Admin access, record MFA as enabled or intentionally deferred under D-092, inspect only the nonprivate labels and terms of any Starter-equivalent evaluation offer, and then stop. Do not report credentials, codes, recovery details, private email addresses, or account identifiers.
+The technical partner controls the evaluator-only prototype tenant. HubSpot Free, the `Hazel Kaine` organization name, evaluator administrator access, and the D-092 MFA deferral are confirmed; the bounded account shell is complete under D-093. Inspect only the nonprivate labels and terms of any Starter-equivalent evaluation offer, and then stop. Do not report credentials, codes, recovery details, private email addresses, or account identifiers.
 
-D-092 changes only the synthetic Free MFA requirement. It does not authorize trial or tier activation, configuration, fixture entry, testing, integration, real data, communications, billing, purchases, production use, checkpoint sign-off, or platform selection.
+D-093 changes only prototype ownership and Loryn's participation point. It does not authorize trial or tier activation, configuration, fixture entry, testing, integration, real data, communications, billing, purchases, production use, finalist testing, checkpoint sign-off, or platform selection.

@@ -2490,3 +2490,46 @@ Guide Loryn through the bounded HubSpot Free account-shell procedure. Stop after
 ### Saved ending point
 
 Add Loryn with independent Super Admin access and confirm both administrators without private identifiers. Inspect only nonprivate Starter-equivalent evaluation labels and terms, then stop before tier activation, configuration, fixtures, or testing.
+
+## Session S-062 - Prototype administration moved fully to evaluator
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W02 - Next CRM comparison contract
+
+**Checkpoint:** CP-004 remains the last signed-off checkpoint; CP-006 remains pending execution evidence
+
+**Sign-off status:** Technical-partner-only prototype administration explicitly approved; Loryn access deferred
+
+**Approval evidence:** The user stated, “loryns access isn't required for these prototypes, lets just finish the testing so she can get the comparisons to evaluate”.
+
+### Accepted decision
+
+- **Accepted (D-093):** Allow the technical partner to own and control evaluator-only prototype tenants as the sole prototype administrator, defer Loryn's account access until a candidate becomes one of no more than two viable finalists, and require a separate gate before her finalist session.
+
+### Effect
+
+- The HubSpot Free `Hazel Kaine` account shell is complete with the technical partner as the evaluator administrator and MFA intentionally deferred under D-092.
+- Loryn receives no prototype account, setup work, configuration work, evidence work, reset work, evaluator testing, or homework.
+- Two-administrator and access-removal behavior may remain official-evidence-backed or `Unverified` during evaluator screening, but HubSpot cannot pass M-05 or advance beyond finalist evaluation until the required direct evidence exists.
+- If HubSpot becomes a viable finalist, a separate gate will authorize Loryn's limited guided session and appropriate independent access.
+
+### Approval boundary
+
+- D-093 changes prototype ownership and the timing of Loryn's involvement only.
+- The user's instruction to finish testing does not bypass the exact tier-activation or synthetic-configuration gates. HubSpot Free remains unable to represent the common fixture baseline.
+- Trial or tier activation, configuration, fixture entry, testing, integration, real-data use, communication, billing action, purchase, production use, Loryn finalist testing, checkpoint sign-off, and platform selection remain unapproved.
+
+### Files changed
+
+- `deliverables/P1-W02-next-crm-comparison-contract.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Inspect only the nonprivate labels and terms of any Starter-equivalent evaluation offer available from the Free tenant, including whether billing or automatic activation is required. Stop before activation, configuration, fixtures, or testing.
