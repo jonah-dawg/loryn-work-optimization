@@ -1,6 +1,6 @@
 # P1-W03 - Pipedrive Evidence-First Screening
 
-**Status:** Complete execution contract approved; bounded evaluator account and no-credit-card trial authorized as D-097; setup pending
+**Status:** Account shell and read-only plan inspection complete under D-097; Premium trial contamination confirmed; Lite switch and configuration unapproved
 
 **Phase:** Phase 1 - CRM candidate comparison
 
@@ -39,9 +39,9 @@ This outcome was explicitly approved as D-095 on August 1, 2026.
 
 - The CP-003 mapping must prove that the 30-field Lite allowance is sufficient after appropriate default fields are used. Do not collapse required data into notes merely to fit the limit.
 - Required-field enforcement is Premium-only. Lite must instead prove that filters and practical views visibly expose active records missing a next action, due date, source-specific data, or exception result.
-- The public trial advertises full access and premium add-ons. The evaluator must identify and use a Lite-equivalent feature boundary before configuration so higher-tier behavior does not contaminate the result.
+- Direct tenant inspection confirms that the trial starts on Premium and includes LeadBooster, Smart Docs, and Projects. The evaluator must switch to and verify Lite before configuration so higher-tier behavior does not contaminate the result.
 - M-01 must be proven directly: today's appointments, people to contact, overdue actions, jobs waiting on someone else, and records missing a next action must be practically reachable as one morning action center or an approved equivalent.
-- The exact monthly Lite price, renewal behavior, taxes, trial-retention behavior, two-administrator permissions, and access-removal workflow remain to be verified.
+- Direct tenant comparison confirms Lite at `$24` per seat per month on monthly billing. Renewal behavior, taxes, trial-retention behavior, exact two-administrator checkout cost, permissions, and access-removal workflow remain to be verified.
 - Mobile behavior, save reliability, offline recovery, field search, directions, manual communications, exports, duplicates, and the Centah bridge remain untested.
 
 ## Approved candidate and tier boundary
@@ -63,7 +63,7 @@ This outcome was explicitly approved as D-095 on August 1, 2026.
 1. Complete the Lite field-capacity map and direct official-feature inventory.
 2. Obtain separate account-creation authorization.
 3. Create a `Hazel Kaine` evaluator-only trial with no billing information, external connections, real data, or vendor sample data retained for testing.
-4. Confirm the tenant's plan and feature boundary; stop if Lite-equivalent behavior cannot be isolated.
+4. Confirm the tenant's plan and feature boundary; stop if Lite-equivalent behavior cannot be isolated. Direct inspection reached this stop because the tenant is on Premium; a separate no-billing Lite-switch gate is now required.
 5. Obtain separate synthetic-configuration authorization.
 6. Configure only the approved fields, pipeline, activity types, filters, and practical morning views.
 7. Load the CP-004 synthetic fixtures, run TS-01 through TS-07, perform mobile timing, and export the synthetic result unless an early mandatory failure stops the run.
@@ -109,9 +109,11 @@ CP-007 would approve only a completed Pipedrive evaluator result, configuration 
 
 ## Continuing boundary
 
-- Account creation, trial activation, configuration, fixture entry, testing, integrations, billing, purchases, real data, customer communications, Loryn participation, production use, checkpoint sign-off, and platform selection remain unapproved.
+- The bounded account shell and trial are complete under D-097. A Premium-to-Lite edition change, configuration, fixture entry, testing, integrations, billing, purchases, real data, customer communications, Loryn participation, production use, checkpoint sign-off, and platform selection remain unapproved.
 - Loryn remains uninvolved until a candidate becomes one of no more than two viable finalists and a separate finalist-session gate is approved.
 
 ## Current action gate
 
-The bounded evaluator account and no-credit-card trial are authorized as D-097. The technical partner may create the account using private credentials, the `Hazel Kaine` organization name, no billing information, no real data, no external connections, and no Loryn invitation. If vendor sample data appears, report it and leave it untouched until the configuration gate. After first sign-in, inspect and report only the nonprivate plan, trial-expiry, and feature-boundary labels, then stop. Configuration and synthetic testing remain behind the separate `Begin P1-W03 synthetic configuration` gate.
+The bounded account shell and D-097 inspection are complete. Direct evidence in `../evidence/P1-W03/pipedrive/tenant-shell-inspection.md` confirms a `14-day free trial` on Premium, one seat in use, no billing details entered, and visible higher-tier/add-on contamination. An exact calendar expiration date was not displayed. Lite appeared in the read-only comparison at `$24` monthly or `$14` per seat per month billed annually, but no plan was selected.
+
+The proposed next gate is a separate authorization to switch only the no-billing trial from Premium to Lite and then read back the resulting plan and remaining-trial state. If the switch requires billing, a paid commitment, or an unexpected loss of the trial, stop. Configuration and synthetic testing remain behind the later `Begin P1-W03 synthetic configuration` gate.

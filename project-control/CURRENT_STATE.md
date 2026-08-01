@@ -2,11 +2,11 @@
 
 **Updated:** August 1, 2026
 
-**Overall status:** Active - Phase 1 Pipedrive evaluator account setup authorized and pending
+**Overall status:** Active - Phase 1 Pipedrive plan-boundary decision required
 **Current phase:** Phase 1 - CRM candidate comparison
 **Active work unit:** P1-W03 - Pipedrive evidence-first screening
 
-**Work-unit status:** Bounded evaluator account and no-credit-card trial authorized; setup pending; configuration unapproved
+**Work-unit status:** Account shell and D-097 inspection complete; trial is Premium; Lite switch and configuration unapproved
 
 **Last signed-off checkpoint:** CP-004 - CRM platform evaluation method (July 30, 2026)
 
@@ -141,10 +141,14 @@
 - D-096 does not authorize account creation, trial activation, configuration, fixtures, testing, integrations, billing, purchases, real data, communications, production use, Loryn participation, checkpoint sign-off, or platform selection.
 - **Accepted (D-097):** Authorize the technical partner to create the bounded `Hazel Kaine` Pipedrive evaluator account and no-credit-card trial, then inspect only nonprivate edition, expiry, and feature-boundary labels before stopping.
 - D-097 does not authorize configuration, fixtures, testing, integrations, billing, purchases, real data, communications, production use, Loryn participation, checkpoint sign-off, or platform selection.
+- The D-097 account shell and read-only inspection are complete. Billing overview confirms a `14-day free trial` on Premium, billed monthly, with one seat in use, no billing details entered, and a `$0` trial amount.
+- Premium includes LeadBooster, Smart Docs, and Projects, so the current tenant is not clean Lite evidence. Lite appeared at `$24` monthly or `$14` per seat per month billed annually but was not selected.
+- The exact calendar expiration date was not displayed. Three preloaded activity indicators appeared before evaluator data entry and remain uninspected and untouched.
+- No plan, billing, configuration, fixture, record, integration, communication, or invitation change was made.
 
 ## Active work-unit contract
 
-**Status:** Complete execution contract approved; bounded evaluator account and no-credit-card trial authorized as D-097; setup pending.
+**Status:** Complete execution contract approved; account shell and read-only inspection complete under D-097; Premium contamination confirmed; Lite switch and configuration unapproved.
 
 **Approved outcome:** Evaluate Pipedrive as the next independent-work CRM candidate through an evidence-first, evaluator-only process, targeting Lite as the lowest plausible production tier and using a no-billing trial only after a complete execution contract and separate account-creation gate are explicitly approved.
 
@@ -169,14 +173,14 @@
 
 **Approved checkpoint effect:** CP-007 would approve only a completed Pipedrive evaluator result, configuration inventory, exact tier and cost record, and evidence-backed comparison status. CP-005 and CP-006 were not reached in the closed incomplete Zoho and HubSpot work units.
 
-**Out of scope:** Trial or tier activation, candidate configuration, fixture entry, testing, platform selection, Loryn finalist testing, production use, real records, external integrations, purchases, billing, customer communications, or automation.
+**Out of scope:** Any unapproved edition change, candidate configuration, fixture entry, testing, platform selection, Loryn finalist testing, production use, real records, external integrations, purchases, billing, customer communications, or automation.
 
 ## Open items
 
-- Complete the bounded evaluator account and trial setup, then report only nonprivate plan, expiry, and feature-boundary labels.
+- Decide whether to authorize a no-billing Premium-to-Lite trial switch; if authorized, verify the resulting Lite and remaining-trial labels before configuration.
 - Directly confirm the 22-field documentation map in an authorized Lite-equivalent tenant before fixture entry.
 - Verify whether Lite filters can expose every M-01 action-center state and M-07 missing-next-action exception without Premium required fields.
-- Verify the exact Lite trial boundary, monthly and two-admin production cost, renewal behavior, taxes, and commitment before any account or purchase decision.
+- Verify the exact Lite trial boundary, two-admin production checkout cost, renewal behavior, taxes, and commitment before any purchase decision. Direct tenant comparison displayed Lite at `$24` per seat per month on monthly billing.
 - D-011: production CRM tenant, sign-in method, access removal, and security/retention controls.
 - D-012: Centah API, webhook, export, sandbox, limits, and support model.
 - D-013: retention and deletion periods.
@@ -196,7 +200,7 @@ CP-003 approved `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimu
 
 CP-004 approved `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`. Decisions D-049 through D-061 record the mandatory gates, D-062 through D-069 record the complete 100-point scorecard and scoring rule, D-070 through D-072 record the scenarios, fixtures, and scripts, D-073 records the staged test-burden rule, and D-074 records the evaluator-only evidence format. At CP-004, the authoritative Markdown master was Version 1.39; Word remains intentionally stale.
 
-P1-W01 is closed incomplete by D-088 option 1; Zoho Professional remains documentation-only and CP-005 was not reached. P1-W02 is closed incomplete by D-094 option 3; HubSpot Starter remains documentation-only and CP-006 was not reached. D-093 continues to allow technical-partner-only prototype administration while deferring Loryn until a viable finalist. D-095 and D-096 approve the P1-W03 outcome and contract. D-097 authorizes the bounded Pipedrive evaluator account and no-credit-card trial; setup is pending. Configuration and testing remain unapproved. The authoritative Markdown master is Version 1.66; Word remains intentionally stale.
+P1-W01 is closed incomplete by D-088 option 1; Zoho Professional remains documentation-only and CP-005 was not reached. P1-W02 is closed incomplete by D-094 option 3; HubSpot Starter remains documentation-only and CP-006 was not reached. D-093 continues to allow technical-partner-only prototype administration while deferring Loryn until a viable finalist. D-095 and D-096 approve the P1-W03 outcome and contract. The D-097 Pipedrive account-shell and plan inspection are complete; the trial is Premium, and a separate Lite-switch gate is required before configuration. Configuration and testing remain unapproved. The authoritative Markdown master is Version 1.67; Word remains intentionally stale.
 
 ## Chat and artifact protocol
 
@@ -217,12 +221,12 @@ P1-W01 is closed incomplete by D-088 option 1; Zoho Professional remains documen
 
 ## Next work-unit starting point
 
-Phase 0 is complete at CP-004. Phase 1 P1-W01 and P1-W02 are closed incomplete under D-088 and D-094. D-095 and D-096 approve P1-W03's Pipedrive outcome and contract. D-097 opens the bounded evaluator account and no-credit-card trial gate; setup is pending.
+Phase 0 is complete at CP-004. Phase 1 P1-W01 and P1-W02 are closed incomplete under D-088 and D-094. D-095 and D-096 approve P1-W03's Pipedrive outcome and contract. The D-097 account-shell and read-only plan inspection are complete. The current trial is Premium, so the approved stopping rule blocks configuration until a separate Lite-switch decision is made.
 
 ## Exact next action
 
-The technical partner creates the Pipedrive evaluator account using private credentials and the `Hazel Kaine` organization name. Do not enter billing information, invite Loryn, connect another service, or use real data. If vendor sample data appears, report it and leave it untouched until configuration is separately authorized. After first sign-in, report only the nonprivate plan, trial-expiry, and feature-boundary labels, then stop before configuration or fixture entry.
+Present the proposed authorization to switch only the existing no-billing Pipedrive trial from Premium to Lite and then verify the resulting plan and remaining-trial labels. Do not select Lite without explicit approval. If the switch requires billing, a paid commitment, or an unexpected loss of the trial, stop. Configuration, record inspection, fixture entry, and testing remain separately unapproved.
 
 ## Resume instruction
 
-Read this file, Sessions S-065 and S-066 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, the closed P1-W01 and P1-W02 contracts and evaluator evidence, `../deliverables/P1-W03-pipedrive-evidence-first-screening.md`, `../evidence/P1-W03/pipedrive/official-evidence-preflight.md`, `../evidence/P1-W03/pipedrive/field-capacity-preflight.md`, and the Phase 1 and platform-trial sections of `../deliverables/window-sales-operations-master-plan.md`. D-097 authorizes only the bounded evaluator account and no-credit-card trial. Guide private signup and stop after nonprivate plan, expiry, and feature-boundary inspection. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Continue to prohibit real data, connections, configuration, fixture entry, testing, billing, purchases, customer communications, production use, finalist testing, and platform selection.
+Read this file, Sessions S-066 and S-067 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, the closed P1-W01 and P1-W02 contracts and evaluator evidence, `../deliverables/P1-W03-pipedrive-evidence-first-screening.md`, `../evidence/P1-W03/pipedrive/official-evidence-preflight.md`, `../evidence/P1-W03/pipedrive/field-capacity-preflight.md`, `../evidence/P1-W03/pipedrive/tenant-shell-inspection.md`, and the Phase 1 and platform-trial sections of `../deliverables/window-sales-operations-master-plan.md`. D-097 account-shell inspection is complete and found a Premium trial. No Lite switch is approved. Present the separate no-billing Premium-to-Lite switch gate, and do not act unless it is explicitly authorized. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Continue to prohibit real data, connections, configuration, record inspection, fixture entry, testing, billing, purchases, customer communications, production use, finalist testing, and platform selection.

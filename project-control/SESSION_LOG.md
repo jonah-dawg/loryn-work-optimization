@@ -2726,3 +2726,50 @@ Present the separate Pipedrive Lite account-creation gate. Do not create or acti
 ### Saved ending point
 
 Guide the technical partner through private Pipedrive signup. Stop after the account shell, plan, expiry, and Lite-equivalent feature boundary are confirmed.
+
+## Session S-067 - Pipedrive tenant inspected; Premium stopping boundary reached
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W03 - Pipedrive evidence-first screening
+
+**Checkpoint:** CP-004 remains the last signed-off checkpoint; CP-007 remains pending execution evidence
+
+**Sign-off status:** No new approval; bounded read-only account-shell and plan inspection completed under D-097
+
+### Work completed
+
+- Confirmed the `Hazel Kaine` evaluator account shell and inspected only the setup surface, Billing overview, and read-only plan comparison.
+- Recorded sanitized direct evidence in `../evidence/P1-W03/pipedrive/tenant-shell-inspection.md`.
+- Returned to Billing overview without saving a plan change or entering billing information.
+
+### Direct tenant findings
+
+- Billing overview displays a `14-day free trial`, Premium as the current plan, monthly billing, one seat in use, and `$0` during the trial.
+- No exact calendar expiration date was displayed.
+- Premium includes LeadBooster, Smart Docs, and Projects, confirming higher-tier and add-on contamination.
+- Lite appeared in the plan comparison at `$24` per seat per month on monthly billing or `$14` per seat per month billed annually. It was not selected.
+- The Lite comparison displayed 2,500 leads and deals per seat, 30 custom fields per company, 15 reports per seat, and 30,000 API tokens per seat, subject to displayed caps.
+- The setup surface showed three preloaded activity indicators before evaluator data entry. Their contents and origin were not inspected, and they remain untouched.
+
+### Stopping boundary
+
+- The current Premium trial cannot serve as clean Lite evidence. The approved stopping rule blocks configuration until a separate no-billing Premium-to-Lite switch is explicitly authorized and verified.
+- No plan change, billing action, purchase, configuration, record inspection, fixture entry, synthetic test, integration, customer communication, real-data action, invitation, or production action occurred.
+- D-097 remains the last approval. CP-007 was not reached, and no platform was scored or selected.
+
+### Files changed
+
+- `deliverables/P1-W03-pipedrive-evidence-first-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W03/pipedrive/official-evidence-preflight.md`
+- `evidence/P1-W03/pipedrive/tenant-shell-inspection.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Present the proposed authorization to switch only the existing no-billing Pipedrive trial from Premium to Lite, then verify the plan and remaining-trial labels. Do not select Lite without explicit approval. If the switch requires billing, a paid commitment, or an unexpected loss of trial access, stop. Configuration and synthetic testing remain separately unapproved.

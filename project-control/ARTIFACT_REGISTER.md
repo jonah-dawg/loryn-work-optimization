@@ -4,11 +4,11 @@
 
 | Artifact | Authority | Current status | Update trigger |
 |---|---|---|---|
-| `../deliverables/window-sales-operations-master-plan.md` | Authoritative product and delivery plan | Version 1.66; current | Material scope, architecture, roadmap, risk, governance, process, or decision change |
+| `../deliverables/window-sales-operations-master-plan.md` | Authoritative product and delivery plan | Version 1.67; current | Material scope, architecture, roadmap, risk, governance, process, or decision change |
 | `../deliverables/window-sales-operations-master-plan.docx` | Non-authoritative editable distribution copy | Version 1.4; stale by design until final release or explicit sharing milestone | Regenerate and visually verify only for a release or requested sharing copy |
 | `GUIDED_WORKFLOW.md` | Authoritative session and checkpoint procedure | Current | Workflow-control rule changes |
-| `CURRENT_STATE.md` | Authoritative restart point | P1-W03 evaluator account and trial authorized; setup pending; D-097 accepted | Every sign-off, session stop, blocker, or active-work-unit change |
-| `SESSION_LOG.md` | Append-only execution history | S-066 records bounded Pipedrive evaluator account and trial authorization; CP-004 remains the last checkpoint | Every sign-off or session close |
+| `CURRENT_STATE.md` | Authoritative restart point | P1-W03 account-shell inspection complete; Premium trial found; Lite-switch decision required; D-097 remains last approval | Every sign-off, session stop, blocker, or active-work-unit change |
+| `SESSION_LOG.md` | Append-only execution history | S-067 records the bounded Pipedrive tenant inspection and Premium stopping boundary; CP-004 remains the last checkpoint | Every sign-off or session close |
 | `ARTIFACT_REGISTER.md` | Artifact authority and synchronization inventory | Current | Artifact added, renamed, superseded, or found stale |
 | `COLLABORATOR_PACKET.md` | Operational shared-Project onboarding and input-capture aid | Current; unapproved input remains subject to repository reconciliation | Shared-project procedure, active intake queue, or handoff format changes |
 | `../deliverables/P0-W01-current-workflow-and-permission-boundary.md` | Signed P0-W01 workflow and permission boundary | Approved at CP-001 | Supersede only through a later signed checkpoint |
@@ -20,9 +20,10 @@
 | `../deliverables/P1-W02-next-crm-comparison-contract.md` | Closed P1-W02 work-unit contract | Closed incomplete by D-094 option 3; HubSpot Starter remains documentation-only; CP-006 not reached | Supersede only through an explicitly approved later HubSpot work unit |
 | `../evidence/P1-W02/hubspot/official-evidence-preflight.md` | P1-W02 HubSpot official-source evidence | Current; Free blocked, Starter conditional, and direct tenant follow-up linked | Every material HubSpot feature, tier, cost, trial, or tenant-evidence change |
 | `../evidence/P1-W02/hubspot/tenant-offer-inspection.md` | Sanitized direct P1-W02 HubSpot evidence | Current; Free confirmed, Starter purchase-only, no no-billing trial, no activation or purchase | Every material tenant offer, checkout, activation, or billing-state change |
-| `../deliverables/P1-W03-pipedrive-evidence-first-screening.md` | Active P1-W03 work-unit contract | Contract approved; bounded evaluator account and trial authorized as D-097; setup pending | Every accepted P1-W03 decision and checkpoint |
-| `../evidence/P1-W03/pipedrive/official-evidence-preflight.md` | P1-W03 Pipedrive official-source evidence | Current; Lite plausible, 22-field map linked, direct testing pending | Every material Pipedrive feature, tier, cost, trial, or tenant-evidence change |
+| `../deliverables/P1-W03-pipedrive-evidence-first-screening.md` | Active P1-W03 work-unit contract | Account-shell inspection complete; Premium contamination confirmed; Lite switch and configuration unapproved | Every accepted P1-W03 decision and checkpoint |
+| `../evidence/P1-W03/pipedrive/official-evidence-preflight.md` | P1-W03 Pipedrive official-source evidence | Current; Lite plausible, direct Premium-trial finding linked, clean Lite boundary pending | Every material Pipedrive feature, tier, cost, trial, or tenant-evidence change |
 | `../evidence/P1-W03/pipedrive/field-capacity-preflight.md` | P1-W03 Pipedrive field-capacity evidence | Documentation map uses 22 of 30 Lite custom fields; direct tenant confirmation pending | Every material CP-003-to-Pipedrive mapping or field-limit change |
+| `../evidence/P1-W03/pipedrive/tenant-shell-inspection.md` | Sanitized direct P1-W03 Pipedrive evidence | Current; Premium trial and included add-ons confirmed; no Lite switch, billing, configuration, or data action | Every material tenant plan, trial, billing, or feature-boundary change |
 | `REPOSITORY_BACKUP.md` | Repository location, synchronization boundary, and recovery instructions | Current | Repository, branch, tracked scope, or working-copy policy changes |
 
 ## Planned artifacts not yet created
