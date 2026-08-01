@@ -1,6 +1,6 @@
 # P1-W04 - Bigin Premier Evidence-First Screening
 
-**Status:** Unapproved proposed outcome; contract and all external actions pending
+**Status:** Outcome approved as D-100; proposed execution contract unapproved; all external actions pending
 
 **Phase:** Phase 1 - CRM candidate comparison
 
@@ -8,17 +8,22 @@
 
 **Last signed-off checkpoint:** CP-007
 
-## Proposed work-unit outcome
+## Approved work-unit outcome
 
-Evaluate Bigin by Zoho CRM Premier as the next independent-work CRM candidate through an evidence-first, evaluator-only process. Begin with a CP-003 field-capacity map and a complete execution contract. Use the no-credit-card 15-day trial only after the proposed outcome, contract, and separate account-creation gate are explicitly approved.
+Evaluate Bigin by Zoho CRM Premier as the next independent-work CRM candidate through an evidence-first, evaluator-only process. Begin with a CP-003 field-capacity map and a complete execution contract. Use the no-credit-card 15-day trial only after the outcome, contract, and separate account-creation gate are explicitly approved.
 
-This outcome is unapproved. It does not authorize an account, trial, tenant inspection, configuration, fixture entry, testing, billing, purchase, external connection, real data, customer communication, Loryn participation, checkpoint sign-off, or platform selection.
+This outcome was explicitly approved as D-100 on August 1, 2026. D-100 authorizes detailed execution-contract drafting, the CP-003 field-capacity map, and additional current official research only. It does not authorize an account, trial, tenant inspection, configuration, fixture entry, testing, billing, purchase, external connection, real data, customer communication, Loryn participation, checkpoint sign-off, or platform selection.
+
+## Approved decision
+
+- **Accepted (D-100):** Approve the P1-W04 Bigin Premier evidence-first outcome and authorize detailed execution-contract drafting, the CP-003 field-capacity map, and additional current official research only.
+- D-100 does not approve the proposed contract or authorize an account or external platform action.
 
 ## Recommendation
 
 Recommend Bigin Premier as P1-W04 because current official evidence addresses the two failures that eliminated Pipedrive Lite while remaining proportionate to a one-person operation:
 
-- 25 custom fields per module, versus the CP-003 baseline of 16 job fields and 9 customer fields before default-field reuse is mapped.
+- 25 custom fields per module; the conservative CP-003 map uses 10 Contact fields, 15 Pipeline fields, and at most 2 Task fields after documented defaults are applied.
 - Up to five Team Pipelines with pipeline-specific fields, stages, record types, and permissions.
 - Stage Transition Rules that can require fields or checklists before a record moves stages and can restrict premature closure.
 - Custom fields that may be mandatory or unique, including opportunity-level duplicate prevention.
@@ -29,7 +34,7 @@ Recommend Bigin Premier as P1-W04 because current official evidence addresses th
 ## Why Premier is the proposed boundary
 
 - Free is limited to one user, 500 total records, and one pipeline.
-- Express provides only 10 custom fields per module, below the 16 job-field baseline before default-field reuse is mapped, and does not include Stage Transition Rules.
+- Express provides only 10 custom fields per module, below the conservative 15-field Pipeline map, and does not include Stage Transition Rules.
 - Premier raises the limit to 25 custom fields per module and adds Stage Transition Rules, advanced date-based automation, duplicate cleanup, advanced field types, five Team Pipelines, and 100,000 records.
 - Bigin 360 is unnecessary unless direct evidence proves that Premier cannot represent the approved model within 25 fields per module.
 
@@ -43,9 +48,75 @@ Recommend Bigin Premier as P1-W04 because current official evidence addresses th
 - Exact trial edition, trial contamination, two-administrator roles, MFA, removal, activity history, retention, full backup/export relationships, API limits, renewal, and taxes remain unverified.
 - Native offline behavior was not established by the current official preflight and must not be inferred.
 
+## Proposed candidate and tier boundary
+
+- Evaluate Bigin Premier only. Free, Express, Bigin 360, add-ons, and connected Zoho products remain documentation-only unless a later explicit decision changes the boundary.
+- Use a no-credit-card 15-day trial only if the trial can be constrained to Premier-equivalent evidence without billing information.
+- Treat every trial capability as unavailable until official evidence and direct tenant inspection both show that it belongs to Premier.
+- If signup begins on Bigin 360 or another higher scope, stop after recording the nonprivate edition label. A later exact authorization must approve any no-billing move to Premier before configuration.
+- Do not purchase, enter billing details, enable add-ons, or connect another service in P1-W04.
+
+## Proposed prototype ownership
+
+- The technical partner is the sole evaluator administrator under D-093.
+- Loryn performs no setup, testing, evidence capture, reset, or homework. She remains deferred until a separately approved finalist session.
+- Final production ownership remains Loryn as primary administrator with the technical partner as secondary ad hoc administrator, subject to later production-security and access decisions.
+- Keep credentials, MFA methods, recovery details, private emails, account identifiers, and session data out of all project artifacts.
+
+## Proposed execution sequence
+
+1. Complete the Premier field-capacity map and official-feature inventory. This documentation step is complete under D-100, subject to direct correction.
+2. Obtain explicit approval of this complete execution contract.
+3. Obtain separate account-creation authorization.
+4. Create a bounded `Hazel Kaine` evaluator-only Bigin trial without billing information, external connections, real data, or retained vendor sample data.
+5. Inspect only nonprivate plan, trial-expiry, feature-boundary, sample-data, and administrator labels; stop if Premier-equivalent evidence cannot be isolated.
+6. If a no-billing edition change is needed, obtain a separate exact authorization before changing it.
+7. Obtain separate synthetic-configuration authorization.
+8. Configure only the approved contact, pipeline, activity, stage, transition-rule, unique-field, view, and reminder minimum.
+9. Load the CP-004 synthetic fixtures, run TS-01 through TS-07, perform mobile timing, and export the synthetic result unless an early mandatory failure stops the run.
+10. Remove or archive test-created artifacts using a verified narrow cleanup procedure and prepare the evidence-backed result.
+
+## Proposed minimum configuration
+
+- Contacts are reusable customer/prospect records; one Contact may link to multiple Pipeline records, with Companies used only when a business identity is operationally needed.
+- One `Window Sales Work` Team Pipeline holds active jobs. Use Costco/Centah and Independent sub-pipelines only if direct inspection confirms that they share fields, preserve a unified action center, and allow distinct transition rules; otherwise record the model as blocked rather than adding another system.
+- Prospecting remains on Contacts plus linked Activities until conversion creates one Pipeline record for the confirmed project, preserving the reusable Contact and its history.
+- Use no more than the documented conservative map: 10 Contact custom fields, 15 Pipeline custom fields, and at most 2 Task custom fields. Events and Calls use documented defaults unless direct evidence requires a bounded correction within Premier.
+- Mark the Pipeline `Centah lead number` custom text field unique. Stage rules must require it only on the Costco/Centah path and must not request it on the Independent path.
+- Configure the approved active-job stages, retained close outcomes, source-specific handoff fields, installation anchors, and three-month exception without adding an unapproved project, ticket, or custom application layer.
+- Create practical views for today's appointments, people to contact today, overdue actions, waiting-on-others jobs, records missing a next action, and source-specific exceptions.
+- Keep communications manual. Do not connect email, calendar, phone, maps accounts, Centah, Zoho Sign, Zoho Flow, MCP, or another external service. Native address handoff to the device's navigation app may be tested without signing into another service.
+
+## Proposed stopping rules
+
+- Stop before account creation if the field map exceeds Premier limits or current official evidence eliminates Premier.
+- Stop before configuration if the trial cannot be isolated to Premier-equivalent evidence without billing or higher-tier contamination.
+- Stop when a confirmed mandatory failure makes Bigin nonviable, except for one short check needed to document the failure.
+- Record, rather than bypass, missing source-specific stage enforcement, conditional Centah requirements, unique-field protection, morning-view behavior, mobile behavior, export reconstruction, or administration controls.
+- Never activate Bigin 360, an add-on, a paid commitment, an external connection, or a custom application to make Bigin pass.
+
+## Proposed separate action gates
+
+- D-100 approves the outcome only; it does not approve this execution contract.
+- Complete contract approval requires the explicit instruction `Approve the complete P1-W04 execution contract`.
+- Account creation requires the later explicit instruction `Authorize the Bigin Premier trial account`.
+- Any required no-billing move from a higher trial edition to Premier requires a separate exact authorization written after the tenant inspection.
+- Configuration and synthetic testing require the later explicit instruction `Begin P1-W04 synthetic configuration`.
+- A paid tier, billing action, production pilot, real data, external connection, Loryn finalist session, checkpoint, and platform selection each require separate later approval.
+
+## Proposed acceptance checks
+
+- Exact tenant edition, trial-expiry behavior, two-administrator production cost, material limits, and any higher-tier contamination are recorded.
+- The field map is directly confirmed or evidence-backed corrected without exceeding Premier's 25-field-per-module limits or hiding required facts in notes.
+- The configured model or documented stopping failure covers every CP-003 record, stage, source, next-action, handoff, and exception requirement.
+- M-01 through M-13 and the weighted criteria contain evidence, confidence, and uncertainty; missing required evidence keeps the score incomplete.
+- Direct tests cover one practical morning action center, phone and last-name search, directions, appointments, notes, reminders, missing-next-action detection, source-specific transition rules, Centah uniqueness during manual entry and import, date anchors, save/retry behavior, mobile timing, administrator removal, and export reconstructability while the candidate remains viable.
+- The committed evidence contains only sanitized summaries and synthetic data and passes a secret/privacy review.
+- The result identifies Bigin Premier as viable, eliminated, or incomplete; Loryn remains uninvolved.
+
 ## Proposed execution-contract boundary
 
-If the proposed outcome is approved, the next step is contract drafting and additional official research only. The contract must preserve:
+The complete contract remains unapproved. It preserves:
 
 - Bigin Premier as the only directly evaluated paid tier; Express and Bigin 360 remain documentation-only unless a later decision changes the boundary.
 - Technical-partner-only evaluator administration under D-093; Loryn remains deferred until a viable finalist session is separately approved.
@@ -59,4 +130,4 @@ A future CP-008 would approve only a completed Bigin evaluator result, configura
 
 ## Current action
 
-Review and explicitly approve or reject the proposed P1-W04 outcome. Approval would authorize detailed execution-contract drafting and further current official research only; it would not authorize a Bigin account or any external action.
+Review and explicitly approve or reject the complete P1-W04 execution contract. Contract approval would not authorize a Bigin account or any external action.

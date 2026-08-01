@@ -3032,3 +3032,58 @@ Define and approve the next Phase 1 CRM comparison work unit using official evid
 ### Saved ending point
 
 Present the P1-W04 proposed outcome for explicit approval. Do not draft the execution contract or field map until the outcome is approved, and do not create a Bigin account without a later separate authorization.
+
+## Session S-073 - P1-W04 outcome approved and contract proposed
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W04 - Bigin Premier evidence-first screening
+
+**Checkpoint:** CP-007 remains the last signed-off checkpoint
+
+**Sign-off status:** Outcome approved as D-100; proposed complete execution contract unapproved; no Bigin account or external action authorized
+
+### Orientation
+
+- Current phase: Phase 1 CRM candidate comparison.
+- Active work unit: P1-W04 Bigin Premier evidence-first screening.
+- Last signed checkpoint: CP-007, which eliminated Pipedrive Lite only.
+- Open blockers: complete contract approval, exact trial edition, Premier isolation, source-specific transition-rule behavior, unique Centah handling, unified action-center behavior, task timestamps, mobile behavior, administration, portability, and exact production cost.
+- Proposed outcome: bounded Premier-only evaluator screening with separate contract, account, edition-change, configuration, paid-action, external-connection, finalist, checkpoint, and selection gates.
+
+### Approval recorded
+
+- **Accepted (D-100):** Approve the P1-W04 Bigin Premier evidence-first outcome and authorize detailed execution-contract drafting, the CP-003 field-capacity map, and additional current official research only.
+- D-100 does not approve the proposed contract or authorize an account, trial, tenant inspection, configuration, fixtures, testing, billing, purchase, connection, real data, communication, production use, Loryn participation, checkpoint, or platform selection.
+
+### Work completed under D-100
+
+- Revalidated current official Bigin pricing, field types and limits, default module fields, Team Pipelines, Stage Transition Rules, unique fields, pipeline records, activity relationships, and import behavior.
+- Completed the conservative CP-003 field map at 10 Contact custom fields, 15 Pipeline custom fields, and at most 2 Task custom fields, each within Premier's documented separate 25-field-per-module limit without add-ons.
+- Reserved one of the Pipeline module's two documented custom unique fields for the opportunity-level Centah lead number.
+- Proposed one reusable Contact with multiple linked Pipeline records, Contact-plus-Activity prospecting before conversion, and one `Window Sales Work` Team Pipeline with source sub-pipelines only if direct evidence preserves a unified action center and distinct transition controls.
+- Drafted the complete Premier-only execution contract with technical-partner-only ownership, minimum configuration, stopping rules, acceptance checks, synthetic-only controls, and separate exact action gates.
+
+### Proposed action gates
+
+- Contract: `Approve the complete P1-W04 execution contract`.
+- Account: `Authorize the Bigin Premier trial account`.
+- Any no-billing move from a higher trial edition to Premier: separate exact authorization after tenant inspection.
+- Configuration and synthetic testing: `Begin P1-W04 synthetic configuration`.
+- Payment, production, real data, external connections, Loryn finalist testing, CP-008, and platform selection remain separate later approvals.
+
+### Files changed
+
+- `deliverables/P1-W04-bigin-evidence-first-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W04/bigin/field-capacity-preflight.md`
+- `evidence/P1-W04/bigin/official-evidence-preflight.md`
+- `project-control/ARTIFACT_REGISTER.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+
+### Saved ending point
+
+Present the complete P1-W04 execution contract for explicit approval. Contract approval does not authorize account creation, trial activation, tenant inspection, configuration, or any other external action.
