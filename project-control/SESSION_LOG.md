@@ -3474,3 +3474,63 @@ Define and approve the next Phase 1 CRM comparison work unit using current offic
 ### Saved ending point
 
 Review the unapproved P1-W05 Freshsales Pro proposed outcome. If accepted, explicitly approve it before drafting the CP-003 field-capacity map or complete execution contract. Do not create an account, start a trial, inspect or configure a tenant, enter fixtures, test, add billing, connect a service, use real data, communicate with customers, involve Loryn, sign CP-009, or select a platform without the applicable separate approval.
+
+## Session S-081 - P1-W05 outcome approved and contract drafted
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W05 - Freshsales Pro evidence-first screening
+
+**Checkpoint:** CP-008 remains the last signed-off checkpoint
+
+**Sign-off status:** D-105 outcome approved; complete execution contract proposed and unapproved
+
+**Approval evidence:** The user explicitly said, `Approve the P1-W05 proposed outcome`.
+
+### Orientation
+
+- Current phase: Phase 1 CRM candidate comparison.
+- Active work unit: P1-W05 Freshsales Pro evidence-first screening.
+- Last signed checkpoint: CP-008, which eliminated Bigin Premier only.
+- Last approval: D-105, approving the Freshsales Pro evidence-first outcome and authorizing the field map, complete-contract drafting, and additional official research only.
+- Open blockers: explicit complete-contract approval; separate account authorization; fully-loaded-trial tier isolation; separate synthetic-configuration authorization; M-01 action-center proof; source/dependency import integrity; Pro-level administration history; exact checkout; mobile timing; export reconstruction; and every direct tenant result.
+- Approved outcome: evaluate Freshsales Pro through a bounded evaluator-only process while keeping Loryn, real data, billing, integrations, communications, production use, checkpoint sign-off, and platform selection outside the work unit.
+
+### Decision recorded
+
+- **Accepted (D-105):** Approve the P1-W05 Freshsales Pro evidence-first outcome and authorize the CP-003 field-capacity map, complete Pro-only execution-contract drafting, and additional current official research only.
+- D-105 does not approve the complete execution contract and does not authorize an account, trial, tenant inspection, edition change, configuration, fixture entry, testing, billing, purchase, external connection, real data, customer communication, production use, Loryn participation, CP-009, or platform selection.
+
+### Field-capacity result
+
+- The conservative map uses 9 Contact custom fields, 17 Deal custom fields, and at most 2 Task or custom-activity contingency fields within Pro's documented 250-per-module limit.
+- Standard Contact fields cover identity, reachable channels, social profiles, address, lifecycle stage, source, and do-not-disturb state.
+- Standard Deal fields cover related Contacts, source, pipeline/stage, value, and system activity metadata.
+- Explicit Contact and Deal next-action fields are retained to permit missing-next-action detection, but the evaluator must prove they can drive reminders without routine duplicate entry.
+- The proposed one-pipeline model uses `Work source` as a controlling field, a unique Deal-level Centah identifier, Costco/Centah-only dependent fields, and a common coordinator-email field.
+- Field capacity does not resolve M-01, working-day timing, dependency validation bypass during imports, Pro administration history, mobile behavior, or export reconstruction.
+
+### Complete-contract draft
+
+- Freshsales Pro is the only proposed directly evaluated tier. Enterprise, Growth, Freshsales Suite, add-ons, marketplace apps, and custom modules remain documentation-only.
+- The technical partner remains the sole evaluator administrator under D-093; Loryn remains deferred until a separately approved viable-finalist session.
+- The sequence separates complete-contract approval, account creation, trial inspection, any edition resolution, synthetic configuration, paid action, external connection, finalist testing, CP-009, and platform selection.
+- The fully loaded 21-day trial must be constrained to Pro-attributed evidence without billing.
+- M-01 is the first direct stopping test after the minimum synthetic action-center state is configured.
+- All data remains synthetic and communications remain manual/no-send; no account or external action occurred.
+
+### Files changed
+
+- `deliverables/P1-W05-freshsales-pro-evidence-first-definition.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W05/freshsales/field-capacity-preflight.md`
+- `evidence/P1-W05/freshsales/official-evidence-preflight.md`
+- `project-control/ARTIFACT_REGISTER.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+
+### Saved ending point
+
+Review and explicitly approve or reject the complete P1-W05 Freshsales Pro execution contract. Do not create an account, start a trial, inspect or configure a tenant, enter fixtures, test, add billing, connect a service, use real data, communicate with customers, involve Loryn, sign CP-009, or select a platform without the applicable separate approval.

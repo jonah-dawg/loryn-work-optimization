@@ -1,6 +1,6 @@
 # P1-W05 Freshsales Pro Official-Evidence Preflight
 
-**Status:** Preliminary; proposed outcome unapproved
+**Status:** Current under D-105; outcome approved, direct tenant evidence pending
 
 **Candidate:** Freshsales
 
@@ -10,7 +10,7 @@
 
 ## Preliminary disposition
 
-Freshsales Pro is the next recommended evidence-first candidate, but it is neither approved nor viable yet. It is the lowest documented Freshsales tier that combines 250 custom fields per module, up to 10 deal pipelines, and field dependencies. Its unique Deal fields, Activities dashboard, workflow-created tasks, mobile offline behavior, full export, and API surface make it a credible response to failures observed in prior candidates.
+Freshsales Pro is the approved P1-W05 evidence-first candidate, but it is not yet viable or preferred. It is the lowest documented Freshsales tier that combines 250 custom fields per module, up to 10 deal pipelines, and field dependencies. Its unique Deal fields, Activities dashboard, workflow-created tasks, mobile offline behavior, full export, and API surface make it a credible response to failures observed in prior candidates.
 
 The largest unresolved issue is M-01. Official documentation shows actionable daily and overdue activity lists, but not one practical view that also detects waiting-on-others Deals and active Deals with no next action or due date. Trial contamination, field-dependency import bypass, Pro-versus-Enterprise administration history, exact checkout, and direct mobile behavior also remain unresolved.
 
@@ -51,7 +51,7 @@ The largest unresolved issue is M-01. Official documentation shows actionable da
 | M-12 Sustainable learning and administration | `Unverified` | Guided evaluator use, routine cleanup, configuration inventory, and weekly administration estimate. |
 | M-13 Common synthetic evidence standard | `Conditional Pass` | Same CP-004 fixtures, TS-01 through TS-07, result rows, device/tier record, sanitized evidence, and stopping rules. |
 
-These states are research preflight labels, not evaluation results. No Freshsales gate has passed.
+These states are research preflight labels, not evaluation results. D-105 approved the outcome and field-map/contract drafting only; no Freshsales gate has passed.
 
 ## Proposed pre-account stopping checks
 
