@@ -2,11 +2,11 @@
 
 **Updated:** August 1, 2026
 
-**Overall status:** Active - Phase 1 Bigin account creation and tier inspection authorized
+**Overall status:** Active - Phase 1 Bigin synthetic-configuration authorization pending
 **Current phase:** Phase 1 - CRM candidate comparison
 **Active work unit:** P1-W04 - Bigin Premier evidence-first screening
 
-**Work-unit status:** Outcome approved as D-100; contract approved as D-101; bounded account and tier-inspection gate authorized as D-102; configuration pending
+**Work-unit status:** Outcome approved as D-100; contract approved as D-101; D-102 account shell complete on Premier; synthetic configuration unapproved
 
 **Last signed-off checkpoint:** CP-007 - Pipedrive Lite evaluator result (August 1, 2026)
 
@@ -170,10 +170,12 @@
 - D-101 approves the contract only. It does not authorize an account, trial, tenant inspection, edition change, configuration, fixture entry, testing, billing, purchase, external connection, real data, communication, production use, Loryn participation, checkpoint, or platform selection.
 - **Accepted (D-102):** Authorize the technical partner to create the bounded `Hazel Kaine` Bigin evaluator account and no-credit-card trial, inspect only nonprivate plan, trial-expiry, feature-boundary, sample-data, and administrator labels, and then stop.
 - D-102 does not authorize an edition change, configuration, fixture entry, testing, billing details, purchase, add-on, external connection, real data, communication, production use, Loryn participation, checkpoint, or platform selection.
+- D-102 direct inspection is complete: the shell reports Premier with 15 trial days remaining, one active Super Admin, vendor sample content present, and no billing prompt. No sample record was opened and no tenant setting was changed.
+- Premier-equivalent evidence is isolated without an edition change. Synthetic configuration remains separately unapproved.
 
 ## Active work-unit contract
 
-**Status:** Outcome approved as D-100; contract approved as D-101; bounded account and tier-inspection gate open as D-102; configuration and broader actions unapproved.
+**Status:** Outcome approved as D-100; contract approved as D-101; D-102 account and tier inspection complete; synthetic configuration and broader actions unapproved.
 
 **Approved outcome:** Evaluate Bigin Premier as the next independent-work CRM candidate through an evidence-first, evaluator-only process. Begin with a complete CP-003 field-capacity map and execution contract, and use the no-credit-card trial only after separate contract and account-creation approvals.
 
@@ -201,9 +203,9 @@
 
 ## Open items
 
-- Create the bounded `Hazel Kaine` evaluator account and no-credit-card trial using private credentials outside project artifacts.
-- Inspect only nonprivate plan, trial-expiry, feature-boundary, sample-data, and administrator labels; stop before any edition change, configuration, fixture entry, or testing.
-- Stop and record a blocker if signup requires billing, an external connection, real data, or employer/customer information beyond the approved organization name.
+- Require the separate exact instruction `Begin P1-W04 synthetic configuration` before removing vendor sample content, configuring fields or pipelines, entering fixtures, or testing workflows.
+- After configuration authorization, verify the vendor sample markers before narrowly removing only vendor-created content; do not open or alter unrelated records.
+- Directly confirm the documented field map, source sub-pipeline behavior, Stage Transition Rules, unique Centah field, unified morning view, task timestamps, mobile behavior, administration, export relationships, and cost evidence under the approved stopping rules.
 - Verify the exact Premier trial boundary, Team Pipeline source model, Stage Transition Rules, unique-field behavior, unified morning view, task due-time/completion behavior, mobile directions/speed, MFA, export relationships, API limits, retention, and two-administrator cost through direct evidence when separately authorized.
 - If P1-W03 is reopened, reset the seven baseline fixtures and remove any orphaned TS-01 activity before another run or tenant closeout.
 - D-011: production CRM tenant, sign-in method, access removal, and security/retention controls.
@@ -225,7 +227,7 @@ CP-003 approved `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimu
 
 CP-004 approved `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`. Decisions D-049 through D-061 record the mandatory gates, D-062 through D-069 record the complete 100-point scorecard and scoring rule, D-070 through D-072 record the scenarios, fixtures, and scripts, D-073 records the staged test-burden rule, and D-074 records the evaluator-only evidence format. At CP-004, the authoritative Markdown master was Version 1.39; Word remains intentionally stale.
 
-P1-W01 is closed incomplete by D-088 option 1; Zoho Professional remains documentation-only and CP-005 was not reached. P1-W02 is closed incomplete by D-094 option 3; HubSpot Starter remains documentation-only and CP-006 was not reached. D-093 continues to allow technical-partner-only prototype administration while deferring Loryn until a viable finalist. D-095 and D-096 approved the P1-W03 outcome and contract. D-097 completed the account-shell inspection, D-098 completed the no-billing transition to Lite with no active add-ons, D-099 produced the Pipedrive evaluator result, and CP-007 approved that result and eliminated Lite. D-100 approved the P1-W04 Bigin Premier outcome, D-101 approved the complete Premier-only execution contract, and D-102 opened the bounded account and nonprivate tier-inspection gate. Configuration remains unapproved. The authoritative Markdown master is Version 1.75; Word remains intentionally stale.
+P1-W01 is closed incomplete by D-088 option 1; Zoho Professional remains documentation-only and CP-005 was not reached. P1-W02 is closed incomplete by D-094 option 3; HubSpot Starter remains documentation-only and CP-006 was not reached. D-093 continues to allow technical-partner-only prototype administration while deferring Loryn until a viable finalist. D-095 and D-096 approved the P1-W03 outcome and contract. D-097 completed the account-shell inspection, D-098 completed the no-billing transition to Lite with no active add-ons, D-099 produced the Pipedrive evaluator result, and CP-007 approved that result and eliminated Lite. D-100 approved the P1-W04 Bigin Premier outcome, D-101 approved the complete Premier-only execution contract, and D-102 completed the bounded account shell on Premier with 15 trial days remaining. Synthetic configuration remains unapproved. The authoritative Markdown master is Version 1.76; Word remains intentionally stale.
 
 CP-007 approved `../evidence/P1-W03/pipedrive/evaluator-result.md` and the linked configuration, tier, and cost evidence. Pipedrive Lite fails M-02 source-specific workflow and M-09 safe Centah/Costco bridge because the evaluated tier cannot enforce the required source-specific handoff and accepted a duplicate synthetic Centah identifier without a block or visible review route. CP-007 does not select another CRM or authorize another candidate.
 
@@ -248,12 +250,12 @@ CP-007 approved `../evidence/P1-W03/pipedrive/evaluator-result.md` and the linke
 
 ## Next work-unit starting point
 
-Phase 0 is complete at CP-004. Phase 1 P1-W01 and P1-W02 are closed incomplete under D-088 and D-094. P1-W03 is closed at CP-007 with Pipedrive Lite eliminated. D-100 approves the P1-W04 Bigin Premier evidence-first outcome, D-101 approves the complete execution contract, and D-102 authorizes the bounded evaluator account and tier inspection. Configuration and all broader actions remain unapproved.
+Phase 0 is complete at CP-004. Phase 1 P1-W01 and P1-W02 are closed incomplete under D-088 and D-094. P1-W03 is closed at CP-007 with Pipedrive Lite eliminated. D-100 approves the P1-W04 Bigin Premier evidence-first outcome, D-101 approves the complete execution contract, and D-102 is complete with a confirmed 15-day Premier trial shell. Synthetic configuration and all broader actions remain unapproved.
 
 ## Exact next action
 
-Create the bounded `Hazel Kaine` Bigin evaluator account and no-credit-card trial using private credentials. Inspect only nonprivate plan, trial-expiry, feature-boundary, sample-data, and administrator labels, report the result without private account information, and stop before any edition change, configuration, fixture entry, or testing.
+Obtain the separate exact instruction `Begin P1-W04 synthetic configuration`. Until then, do not remove sample content, configure fields or pipelines, enter fixtures, test workflows, change edition, connect services, add billing, or take another tenant action.
 
 ## Resume instruction
 
-Read this file, Sessions S-074 and S-075 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, the closed P1-W01 through P1-W03 records, `../deliverables/P1-W04-bigin-evidence-first-screening.md`, `../evidence/P1-W04/bigin/official-evidence-preflight.md`, and `../evidence/P1-W04/bigin/field-capacity-preflight.md`. CP-007 is the last signed checkpoint; D-102 is the last approval. The bounded account and nonprivate tier-inspection gate is authorized, but no account result has been recorded and configuration remains unapproved. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Continue to prohibit edition changes, configuration, fixtures, testing, real data, external connections, billing, purchases, customer communications, production use, finalist testing, and platform selection until the applicable separate gates are explicitly approved.
+Read this file, Sessions S-075 and S-076 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, the closed P1-W01 through P1-W03 records, `../deliverables/P1-W04-bigin-evidence-first-screening.md`, `../evidence/P1-W04/bigin/official-evidence-preflight.md`, `../evidence/P1-W04/bigin/field-capacity-preflight.md`, and `../evidence/P1-W04/bigin/tenant-shell-inspection.md`. CP-007 is the last signed checkpoint; D-102 is the last approval. The bounded Premier shell inspection is complete, but synthetic configuration remains unapproved. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Continue to prohibit edition changes, configuration, fixtures, testing, real data, external connections, billing, purchases, customer communications, production use, finalist testing, and platform selection until the applicable separate gates are explicitly approved.

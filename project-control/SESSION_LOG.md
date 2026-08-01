@@ -3188,3 +3188,55 @@ Present the separate Bigin Premier account-creation gate. Do not create an accou
 ### Saved ending point
 
 Create the bounded evaluator account, inspect the allowed nonprivate labels, and report the result. Do not change edition or begin configuration without a later exact authorization.
+
+## Session S-076 - P1-W04 Premier shell confirmed
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W04 - Bigin Premier evidence-first screening
+
+**Checkpoint:** CP-007 remains the last signed-off checkpoint
+
+**Sign-off status:** D-102 account and tier inspection complete; synthetic configuration unapproved
+
+### Orientation
+
+- Current phase: Phase 1 CRM candidate comparison.
+- Active work unit: P1-W04 Bigin Premier evidence-first screening.
+- Last signed checkpoint: CP-007, which eliminated Pipedrive Lite only.
+- Last approval: D-102, authorizing only the bounded evaluator account and nonprivate shell inspection.
+- Open blockers: synthetic-configuration authorization and the direct configuration, scenario, mobile, administration, export, and cost evidence defined by the signed contract.
+- Approved outcome: evaluator-only Premier screening with synthetic data and separate action gates.
+
+### Direct sanitized evidence
+
+- The tenant displayed `15 days left in your Premier trial.`
+- One active user is present with the `Super Admin` profile and `Level 1` role.
+- Vendor-branded sample content is present in the default Sales Pipeline; no sample record was opened.
+- The shell exposes the expected Pipelines, Contacts, Companies, Products, Activities, Dashboards, user-control, field, stage, automation, and data-administration areas.
+- No billing prompt or billing information was encountered.
+- Premier-equivalent evidence is isolated without an edition change.
+
+### Actions not taken
+
+- No sample record or private account detail was opened or recorded in project artifacts.
+- No field, pipeline, stage, transition rule, view, automation, user, role, profile, or organization setting was changed.
+- No fixture, import, export, integration, add-on, billing detail, real data, or communication was entered or activated.
+- No Loryn access, checkpoint, or platform selection was requested or inferred.
+
+### Files changed
+
+- `deliverables/P1-W04-bigin-evidence-first-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W04/bigin/field-capacity-preflight.md`
+- `evidence/P1-W04/bigin/official-evidence-preflight.md`
+- `evidence/P1-W04/bigin/tenant-shell-inspection.md`
+- `project-control/ARTIFACT_REGISTER.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+
+### Saved ending point
+
+Present the synthetic-configuration gate. Do not remove sample content, configure the tenant, enter fixtures, or begin testing without the exact instruction `Begin P1-W04 synthetic configuration`.

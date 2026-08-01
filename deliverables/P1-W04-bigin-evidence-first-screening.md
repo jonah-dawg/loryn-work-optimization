@@ -1,6 +1,6 @@
 # P1-W04 - Bigin Premier Evidence-First Screening
 
-**Status:** Outcome approved as D-100; contract approved as D-101; bounded account creation and tier inspection authorized as D-102; configuration pending
+**Status:** Outcome approved as D-100; contract approved as D-101; D-102 account shell complete on Premier; synthetic configuration pending authorization
 
 **Phase:** Phase 1 - CRM candidate comparison
 
@@ -22,6 +22,7 @@ This outcome was explicitly approved as D-100 on August 1, 2026. D-100 authorize
 - D-101 approves the contract only. It does not authorize an account, trial, tenant inspection, edition change, configuration, fixture entry, testing, billing, purchase, external connection, real data, communication, production use, Loryn participation, checkpoint, or platform selection.
 - **Accepted (D-102):** Authorize the technical partner to create the bounded `Hazel Kaine` Bigin evaluator account and no-credit-card trial, inspect only nonprivate plan, trial-expiry, feature-boundary, sample-data, and administrator labels, and then stop.
 - D-102 does not authorize an edition change, configuration, fixture entry, testing, billing details, purchase, add-on, external connection, real data, communication, production use, Loryn participation, checkpoint, or platform selection.
+- **D-102 completed:** Direct shell inspection confirmed Premier with 15 trial days remaining, one active Super Admin, vendor sample content present, and no billing prompt. No sample record was opened and no tenant setting was changed.
 
 ## Recommendation
 
@@ -72,9 +73,9 @@ Recommend Bigin Premier as P1-W04 because current official evidence addresses th
 1. Complete the Premier field-capacity map and official-feature inventory. This documentation step is complete under D-100, subject to direct correction.
 2. Obtain explicit approval of this complete execution contract. Completed as D-101.
 3. Obtain separate account-creation authorization. Completed as D-102.
-4. Create a bounded `Hazel Kaine` evaluator-only Bigin trial without billing information, external connections, real data, or retained vendor sample data.
-5. Inspect only nonprivate plan, trial-expiry, feature-boundary, sample-data, and administrator labels; stop if Premier-equivalent evidence cannot be isolated.
-6. If a no-billing edition change is needed, obtain a separate exact authorization before changing it.
+4. Create a bounded `Hazel Kaine` evaluator-only Bigin trial without billing information, external connections, real data, or retained vendor sample data. Completed under D-102.
+5. Inspect only nonprivate plan, trial-expiry, feature-boundary, sample-data, and administrator labels; stop if Premier-equivalent evidence cannot be isolated. Completed under D-102: Premier and 15 days remaining confirmed.
+6. If a no-billing edition change is needed, obtain a separate exact authorization before changing it. Not required because the tenant directly reports Premier.
 7. Obtain separate synthetic-configuration authorization.
 8. Configure only the approved contact, pipeline, activity, stage, transition-rule, unique-field, view, and reminder minimum.
 9. Load the CP-004 synthetic fixtures, run TS-01 through TS-07, perform mobile timing, and export the synthetic result unless an early mandatory failure stops the run.
@@ -134,4 +135,4 @@ A future CP-008 would approve only a completed Bigin evaluator result, configura
 
 ## Current action
 
-Create the bounded `Hazel Kaine` Bigin evaluator account and no-credit-card trial using private credentials outside project artifacts. Inspect only nonprivate plan, trial-expiry, feature-boundary, sample-data, and administrator labels, then stop. If signup requires billing, an external connection, real data, or employer/customer information beyond the approved organization name, stop and record the blocker without entering it. Do not change edition, configure fields or pipelines, open sample records, enter fixtures, or test workflows.
+Obtain the separate exact instruction `Begin P1-W04 synthetic configuration`. Until then, do not remove sample content, configure fields or pipelines, enter fixtures, test workflows, change edition, connect services, add billing, or take another tenant action.
