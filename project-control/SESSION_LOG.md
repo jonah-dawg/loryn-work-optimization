@@ -2401,3 +2401,47 @@ Present the complete P1-W02 execution contract for explicit approval, revision, 
 ### Saved ending point
 
 Present the separately gated HubSpot Free account-shell decision. Require the exact instruction `Authorize Loryn to create the HubSpot Free evaluation account` before any account is created. Do not activate a trial or tier, enter billing information, connect an external service, or begin configuration from D-090.
+
+## Session S-060 - HubSpot Free account-shell creation authorized
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W02 - Next CRM comparison contract
+
+**Checkpoint:** CP-004 remains the last signed-off checkpoint; CP-006 remains pending execution evidence
+
+**Sign-off status:** Bounded HubSpot Free account-shell procedure explicitly authorized; completion not yet confirmed
+
+**Approval evidence:** The user stated, “Authorize Loryn to create the HubSpot Free evaluation account”.
+
+### Accepted decision
+
+- **Accepted (D-091):** Authorize Loryn to create the `Hazel Kaine` HubSpot Free account shell, keep credentials and recovery private, enable MFA, invite the technical partner as secondary Super Admin, inspect only permitted edition and evaluation-offer details, and then stop.
+
+### Authorized procedure
+
+- Loryn creates the account herself using private credentials and recovery under her control.
+- Use `Hazel Kaine` as the organization name and select the normal U.S. region if asked.
+- Decline imports, connected inboxes, calendars, calling, phone numbers, enrichment, AI agents, and external or credit-consuming setup.
+- Enter no billing information, make no purchase, and activate no trial or tier.
+- Enable private MFA, invite the technical partner, confirm both Super Admin roles, inspect only the displayed edition and nonprivate offer terms, report the permitted confirmations, and stop before configuration.
+
+### Approval boundary
+
+- D-091 does not authorize trial or tier activation, configuration, fixture entry, testing, integration, real-data use, communication, billing action, purchase, production use, Loryn finalist testing, checkpoint sign-off, or platform selection.
+- Credentials, passwords, passkeys, MFA methods or codes, recovery details, private email addresses, account identifiers, session information, and private notifications remain prohibited from project artifacts and chat reporting.
+- CP-004 remains the last signed-off checkpoint. CP-006 cannot be signed until an approved HubSpot evaluator result exists.
+
+### Files changed
+
+- `deliverables/P1-W02-next-crm-comparison-contract.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Guide Loryn through the bounded HubSpot Free account-shell procedure. Stop after she reports the displayed Free edition, private MFA enabled, both Super Admin roles confirmed, and any nonprivate Starter-equivalent evaluation labels and terms. Do not activate a trial or tier, enter billing, connect a service, create CRM fields or records, or begin testing.

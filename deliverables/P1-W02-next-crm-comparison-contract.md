@@ -1,6 +1,6 @@
 # P1-W02 - Next CRM Comparison Contract
 
-**Status:** Approved for execution by D-090; account creation remains separately unapproved
+**Status:** Approved for execution; HubSpot Free account-shell creation authorized by D-091 and awaiting completion
 
 **Phase:** Phase 1 - Zoho prototype and HubSpot comparison
 
@@ -18,7 +18,8 @@ This outcome was explicitly approved as D-089 on July 31, 2026.
 
 - **Accepted (D-089):** Approve the P1-W02 work-unit outcome and authorize detailed contract drafting plus current official-evidence research only.
 - **Accepted (D-090):** Approve the complete P1-W02 execution contract, including the candidate and tier boundary, administrator model, minimum configuration, evaluator sequence, stopping rules, separate action gates, evidence handling, acceptance checks, and CP-006 effect.
-- Contract approval does not authorize a HubSpot or other candidate account, trial or tier activation, configuration, fixture entry, testing, integration, real-data use, communication, billing action, purchase, production use, finalist session, checkpoint sign-off, or platform selection.
+- **Accepted (D-091):** Authorize Loryn to create the bounded HubSpot Free account shell, keep credentials and recovery private, use `Hazel Kaine`, enable MFA, invite the technical partner as secondary Super Admin, inspect only the permitted edition and offer details, and then stop.
+- D-091 does not authorize trial or tier activation, configuration, fixture entry, testing, integration, real-data use, communication, billing action, purchase, production use, finalist session, checkpoint sign-off, or platform selection.
 
 ## Starting evidence
 
@@ -150,8 +151,8 @@ CP-005 remains not reached and tied to the closed-incomplete Zoho work unit.
 - Do not use real data, connect email, calendar, maps, Centah, or another external service, send messages, enter billing information, start a paid trial, purchase anything, or select a platform.
 - Stop before account creation if official evidence confirms that no reasonable tier can meet a mandatory gate.
 
-## Next separately gated decision
+## Current authorized action
 
-Authorize or decline the bounded HubSpot Free account-shell procedure. Account creation requires the exact instruction `Authorize Loryn to create the HubSpot Free evaluation account`.
+Loryn may complete steps 3 through 8 of the approved account procedure and then stop. Report only whether account creation succeeded, the displayed Free edition, whether private MFA is enabled, whether both Super Admin roles are confirmed, and the nonprivate labels and terms of any Starter-equivalent evaluation offer. Do not report credentials, codes, recovery details, private email addresses, or account identifiers.
 
-D-090 approves the execution contract only. It does not authorize a HubSpot or other external account, tier activation, configuration, fixture entry, testing, integration, real data, communications, billing, purchases, production use, checkpoint sign-off, or platform selection.
+D-091 authorizes only the Free account shell and bounded inspection. It does not authorize trial or tier activation, configuration, fixture entry, testing, integration, real data, communications, billing, purchases, production use, checkpoint sign-off, or platform selection.
