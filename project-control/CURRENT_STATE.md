@@ -2,15 +2,15 @@
 
 **Updated:** August 1, 2026
 
-**Overall status:** Active - Phase 1 Bigin synthetic-configuration authorization pending
+**Overall status:** Active - Phase 1 Bigin synthetic configuration started; pipeline setup incomplete
 **Current phase:** Phase 1 - CRM candidate comparison
 **Active work unit:** P1-W04 - Bigin Premier evidence-first screening
 
-**Work-unit status:** Outcome approved as D-100; contract approved as D-101; D-102 account shell complete on Premier; synthetic configuration unapproved
+**Work-unit status:** Outcome approved as D-100; contract approved as D-101; D-102 account shell complete; D-103 configuration authorized and started; no approved pipeline configuration saved
 
 **Last signed-off checkpoint:** CP-007 - Pipedrive Lite evaluator result (August 1, 2026)
 
-**Last approval:** D-102 - authorize the bounded Bigin evaluator account, no-credit-card trial, and nonprivate tier inspection (August 1, 2026)
+**Last approval:** D-103 - begin the approved P1-W04 synthetic configuration and evaluator sequence (August 1, 2026)
 
 ## Confirmed baseline
 
@@ -171,11 +171,15 @@
 - **Accepted (D-102):** Authorize the technical partner to create the bounded `Hazel Kaine` Bigin evaluator account and no-credit-card trial, inspect only nonprivate plan, trial-expiry, feature-boundary, sample-data, and administrator labels, and then stop.
 - D-102 does not authorize an edition change, configuration, fixture entry, testing, billing details, purchase, add-on, external connection, real data, communication, production use, Loryn participation, checkpoint, or platform selection.
 - D-102 direct inspection is complete: the shell reports Premier with 15 trial days remaining, one active Super Admin, vendor sample content present, and no billing prompt. No sample record was opened and no tenant setting was changed.
-- Premier-equivalent evidence is isolated without an edition change. Synthetic configuration remains separately unapproved.
+- Premier-equivalent evidence was isolated without an edition change; D-103 subsequently opened the signed synthetic configuration and evaluator gate.
+- **Accepted (D-103):** Begin the approved P1-W04 synthetic configuration, including verified vendor-sample cleanup, the bounded minimum configuration, CP-004 synthetic fixtures, evaluator scenarios, mobile timing, export evidence, and narrow cleanup under the signed stopping rules.
+- Verified vendor sample records were moved to Bigin's recycle bin; active Pipeline, Contact, Company, Product, and Activity views then showed no records. The recycle bin was not emptied.
+- A `Window Sales Work` Team Pipeline wizard accepted `Opportunities` and `Opportunity` as its record labels and reached the stage editor. It remains unsaved because direct control stopped when the browser URL could not be verified confidently.
+- No field, stage, transition rule, view, reminder, fixture, integration, billing detail, communication, or real data was saved or entered.
 
 ## Active work-unit contract
 
-**Status:** Outcome approved as D-100; contract approved as D-101; D-102 account and tier inspection complete; synthetic configuration and broader actions unapproved.
+**Status:** Outcome approved as D-100; contract approved as D-101; D-102 account and tier inspection complete; D-103 synthetic configuration authorized and started; pipeline setup incomplete.
 
 **Approved outcome:** Evaluate Bigin Premier as the next independent-work CRM candidate through an evidence-first, evaluator-only process. Begin with a complete CP-003 field-capacity map and execution contract, and use the no-credit-card trial only after separate contract and account-creation approvals.
 
@@ -199,12 +203,12 @@
 
 **Approved checkpoint effect:** A future CP-008 would approve only a completed Bigin evaluator result, configuration inventory, exact tier/cost record, and evidence-backed comparison status. It would not select Bigin or authorize payment, production use, integrations, real data, customer communication, or a Loryn finalist session.
 
-**Out of scope:** Account creation, trial activation, tenant inspection, configuration, fixture entry, testing, billing, purchases, external connections, real data, customer communications, production use, Loryn participation, checkpoint sign-off, and platform selection.
+**Out of scope:** Edition changes, billing, purchases, external connections, real data, customer communications, production use, Loryn participation, checkpoint sign-off, and platform selection. D-103 now permits only the signed synthetic configuration, fixture, evaluator-test, mobile-timing, export, and narrow-cleanup actions.
 
 ## Open items
 
-- Require the separate exact instruction `Begin P1-W04 synthetic configuration` before removing vendor sample content, configuring fields or pipelines, entering fixtures, or testing workflows.
-- After configuration authorization, verify the vendor sample markers before narrowly removing only vendor-created content; do not open or alter unrelated records.
+- Resume the unsaved `Window Sales Work` Team Pipeline wizard at the stage editor. Do not claim or test a configuration until it is saved and read back.
+- Vendor sample cleanup is complete in active views; do not empty the recycle bin or alter unrelated records.
 - Directly confirm the documented field map, source sub-pipeline behavior, Stage Transition Rules, unique Centah field, unified morning view, task timestamps, mobile behavior, administration, export relationships, and cost evidence under the approved stopping rules.
 - Verify the exact Premier trial boundary, Team Pipeline source model, Stage Transition Rules, unique-field behavior, unified morning view, task due-time/completion behavior, mobile directions/speed, MFA, export relationships, API limits, retention, and two-administrator cost through direct evidence when separately authorized.
 - If P1-W03 is reopened, reset the seven baseline fixtures and remove any orphaned TS-01 activity before another run or tenant closeout.
@@ -227,7 +231,7 @@ CP-003 approved `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimu
 
 CP-004 approved `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`. Decisions D-049 through D-061 record the mandatory gates, D-062 through D-069 record the complete 100-point scorecard and scoring rule, D-070 through D-072 record the scenarios, fixtures, and scripts, D-073 records the staged test-burden rule, and D-074 records the evaluator-only evidence format. At CP-004, the authoritative Markdown master was Version 1.39; Word remains intentionally stale.
 
-P1-W01 is closed incomplete by D-088 option 1; Zoho Professional remains documentation-only and CP-005 was not reached. P1-W02 is closed incomplete by D-094 option 3; HubSpot Starter remains documentation-only and CP-006 was not reached. D-093 continues to allow technical-partner-only prototype administration while deferring Loryn until a viable finalist. D-095 and D-096 approved the P1-W03 outcome and contract. D-097 completed the account-shell inspection, D-098 completed the no-billing transition to Lite with no active add-ons, D-099 produced the Pipedrive evaluator result, and CP-007 approved that result and eliminated Lite. D-100 approved the P1-W04 Bigin Premier outcome, D-101 approved the complete Premier-only execution contract, and D-102 completed the bounded account shell on Premier with 15 trial days remaining. Synthetic configuration remains unapproved. The authoritative Markdown master is Version 1.76; Word remains intentionally stale.
+P1-W01 is closed incomplete by D-088 option 1; Zoho Professional remains documentation-only and CP-005 was not reached. P1-W02 is closed incomplete by D-094 option 3; HubSpot Starter remains documentation-only and CP-006 was not reached. D-093 continues to allow technical-partner-only prototype administration while deferring Loryn until a viable finalist. D-095 and D-096 approved the P1-W03 outcome and contract. D-097 completed the account-shell inspection, D-098 completed the no-billing transition to Lite with no active add-ons, D-099 produced the Pipedrive evaluator result, and CP-007 approved that result and eliminated Lite. D-100 approved the P1-W04 Bigin Premier outcome, D-101 approved the complete Premier-only execution contract, D-102 completed the bounded account shell on Premier with 15 trial days remaining, and D-103 authorized and started synthetic configuration. Sample cleanup is complete in active views; the Team Pipeline wizard remains unsaved at the stage editor. The authoritative Markdown master is Version 1.77; Word remains intentionally stale.
 
 CP-007 approved `../evidence/P1-W03/pipedrive/evaluator-result.md` and the linked configuration, tier, and cost evidence. Pipedrive Lite fails M-02 source-specific workflow and M-09 safe Centah/Costco bridge because the evaluated tier cannot enforce the required source-specific handoff and accepted a duplicate synthetic Centah identifier without a block or visible review route. CP-007 does not select another CRM or authorize another candidate.
 
@@ -250,12 +254,12 @@ CP-007 approved `../evidence/P1-W03/pipedrive/evaluator-result.md` and the linke
 
 ## Next work-unit starting point
 
-Phase 0 is complete at CP-004. Phase 1 P1-W01 and P1-W02 are closed incomplete under D-088 and D-094. P1-W03 is closed at CP-007 with Pipedrive Lite eliminated. D-100 approves the P1-W04 Bigin Premier evidence-first outcome, D-101 approves the complete execution contract, and D-102 is complete with a confirmed 15-day Premier trial shell. Synthetic configuration and all broader actions remain unapproved.
+Phase 0 is complete at CP-004. Phase 1 P1-W01 and P1-W02 are closed incomplete under D-088 and D-094. P1-W03 is closed at CP-007 with Pipedrive Lite eliminated. D-100 approves the P1-W04 Bigin Premier evidence-first outcome, D-101 approves the complete execution contract, D-102 is complete with a confirmed 15-day Premier trial shell, and D-103 authorizes the signed synthetic configuration and evaluator sequence. Sample cleanup is complete in active views; the Team Pipeline wizard remains unsaved at the stage editor.
 
 ## Exact next action
 
-Obtain the separate exact instruction `Begin P1-W04 synthetic configuration`. Until then, do not remove sample content, configure fields or pipelines, enter fixtures, test workflows, change edition, connect services, add billing, or take another tenant action.
+Resume the open, unsaved `Window Sales Work` Team Pipeline wizard at the stage editor. Enter only the approved stages and bounded fields, save and read back the result, then continue through the signed fixtures and evaluator sequence. Do not change edition, connect services, add billing, use real data, communicate with customers, involve Loryn, sign CP-008, or select a platform without the applicable separate approval.
 
 ## Resume instruction
 
-Read this file, Sessions S-075 and S-076 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, the closed P1-W01 through P1-W03 records, `../deliverables/P1-W04-bigin-evidence-first-screening.md`, `../evidence/P1-W04/bigin/official-evidence-preflight.md`, `../evidence/P1-W04/bigin/field-capacity-preflight.md`, and `../evidence/P1-W04/bigin/tenant-shell-inspection.md`. CP-007 is the last signed checkpoint; D-102 is the last approval. The bounded Premier shell inspection is complete, but synthetic configuration remains unapproved. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Continue to prohibit edition changes, configuration, fixtures, testing, real data, external connections, billing, purchases, customer communications, production use, finalist testing, and platform selection until the applicable separate gates are explicitly approved.
+Read this file, Sessions S-076 and S-077 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, the closed P1-W01 through P1-W03 records, `../deliverables/P1-W04-bigin-evidence-first-screening.md`, and the linked Bigin evidence including `../evidence/P1-W04/bigin/configuration-inventory.md`. CP-007 is the last signed checkpoint; D-103 is the last approval. Sample cleanup is complete in active views, and the unsaved Team Pipeline wizard is open at the stage editor. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Continue only the signed synthetic configuration and evaluator sequence; prohibit edition changes, real data, external connections, billing, purchases, customer communications, production use, finalist testing, checkpoint sign-off, and platform selection until separately approved.

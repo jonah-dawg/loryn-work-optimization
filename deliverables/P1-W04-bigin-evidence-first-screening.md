@@ -1,6 +1,6 @@
 # P1-W04 - Bigin Premier Evidence-First Screening
 
-**Status:** Outcome approved as D-100; contract approved as D-101; D-102 account shell complete on Premier; synthetic configuration pending authorization
+**Status:** Outcome approved as D-100; contract approved as D-101; D-102 account shell complete; D-103 synthetic configuration authorized and started; pipeline configuration incomplete
 
 **Phase:** Phase 1 - CRM candidate comparison
 
@@ -23,6 +23,8 @@ This outcome was explicitly approved as D-100 on August 1, 2026. D-100 authorize
 - **Accepted (D-102):** Authorize the technical partner to create the bounded `Hazel Kaine` Bigin evaluator account and no-credit-card trial, inspect only nonprivate plan, trial-expiry, feature-boundary, sample-data, and administrator labels, and then stop.
 - D-102 does not authorize an edition change, configuration, fixture entry, testing, billing details, purchase, add-on, external connection, real data, communication, production use, Loryn participation, checkpoint, or platform selection.
 - **D-102 completed:** Direct shell inspection confirmed Premier with 15 trial days remaining, one active Super Admin, vendor sample content present, and no billing prompt. No sample record was opened and no tenant setting was changed.
+- **Accepted (D-103):** Begin the approved P1-W04 synthetic configuration, including verified vendor-sample cleanup, the bounded minimum configuration, CP-004 synthetic fixtures, evaluator scenarios, mobile timing, export evidence, and narrow cleanup under the signed stopping rules.
+- **D-103 progress:** The verified vendor sample deal, contact, and company were moved to Bigin's recycle bin; active Pipelines, Contacts, Companies, Products, and Activities then showed no records. A `Window Sales Work` Team Pipeline wizard was started with `Opportunities` and `Opportunity` record labels, but the pipeline was not saved because browser-control verification stopped at the stage editor. No fixture, field, stage, rule, view, reminder, integration, billing detail, communication, or real data was saved.
 
 ## Recommendation
 
@@ -76,8 +78,8 @@ Recommend Bigin Premier as P1-W04 because current official evidence addresses th
 4. Create a bounded `Hazel Kaine` evaluator-only Bigin trial without billing information, external connections, real data, or retained vendor sample data. Completed under D-102.
 5. Inspect only nonprivate plan, trial-expiry, feature-boundary, sample-data, and administrator labels; stop if Premier-equivalent evidence cannot be isolated. Completed under D-102: Premier and 15 days remaining confirmed.
 6. If a no-billing edition change is needed, obtain a separate exact authorization before changing it. Not required because the tenant directly reports Premier.
-7. Obtain separate synthetic-configuration authorization.
-8. Configure only the approved contact, pipeline, activity, stage, transition-rule, unique-field, view, and reminder minimum.
+7. Obtain separate synthetic-configuration authorization. Completed as D-103.
+8. Configure only the approved contact, pipeline, activity, stage, transition-rule, unique-field, view, and reminder minimum. Started under D-103; no pipeline or related configuration has yet been saved.
 9. Load the CP-004 synthetic fixtures, run TS-01 through TS-07, perform mobile timing, and export the synthetic result unless an early mandatory failure stops the run.
 10. Remove or archive test-created artifacts using a verified narrow cleanup procedure and prepare the evidence-backed result.
 
@@ -105,6 +107,7 @@ Recommend Bigin Premier as P1-W04 because current official evidence addresses th
 - D-100 approves the outcome only; it does not approve this execution contract.
 - D-101 approves the complete execution contract only; it does not authorize an account or tenant action.
 - D-102 opens only the bounded account-creation and nonprivate tier-inspection gate.
+- D-103 opens the approved synthetic configuration, fixture, evaluator-test, mobile-timing, export, and narrow-cleanup gate. It does not authorize billing, a paid commitment, external connections, real data, customer communications, production use, Loryn participation, checkpoint sign-off, or platform selection.
 - Any required no-billing move from a higher trial edition to Premier requires a separate exact authorization written after the tenant inspection.
 - Configuration and synthetic testing require the later explicit instruction `Begin P1-W04 synthetic configuration`.
 - A paid tier, billing action, production pilot, real data, external connection, Loryn finalist session, checkpoint, and platform selection each require separate later approval.
@@ -135,4 +138,4 @@ A future CP-008 would approve only a completed Bigin evaluator result, configura
 
 ## Current action
 
-Obtain the separate exact instruction `Begin P1-W04 synthetic configuration`. Until then, do not remove sample content, configure fields or pipelines, enter fixtures, test workflows, change edition, connect services, add billing, or take another tenant action.
+Resume the unsaved `Window Sales Work` Team Pipeline wizard at the stage editor. Save nothing unless the approved stages and bounded field model can be entered without expanding scope. Then configure the remaining approved minimum, load only CP-004 synthetic fixtures, and run the signed evaluator sequence. Continue to prohibit edition changes, external connections, billing, real data, customer communications, production use, Loryn participation, checkpoint sign-off, and platform selection.

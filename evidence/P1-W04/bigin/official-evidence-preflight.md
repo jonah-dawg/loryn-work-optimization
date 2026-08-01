@@ -1,6 +1,6 @@
 # P1-W04 Bigin Official-Evidence Preflight
 
-**Status:** Current official evidence; D-102 direct shell confirms Premier with 15 trial days remaining; configuration pending authorization
+**Status:** Current official evidence; D-102 shell confirmed Premier; D-103 synthetic configuration started; direct proof remains incomplete
 
 **Candidate:** Bigin by Zoho CRM
 
@@ -10,7 +10,7 @@
 
 ## Preliminary disposition
 
-Bigin Premier is the strongest remaining candidate for a bounded P1-W04 evaluation. It is designed for smaller operations, its official field and workflow controls directly target the two failures that eliminated Pipedrive Lite, and its current two-administrator price is lower than the documented Zoho CRM Professional and Freshsales Pro possibilities. D-100 approved the evidence-first outcome and D-101 approved the complete contract. The conservative field map fits within documented Premier limits, but Bigin is not yet viable or selected and direct synthetic proof remains mandatory.
+Bigin Premier is the strongest remaining candidate for a bounded P1-W04 evaluation. It is designed for smaller operations, its official field and workflow controls directly target the two failures that eliminated Pipedrive Lite, and its current two-administrator price is lower than the documented Zoho CRM Professional and Freshsales Pro possibilities. D-100 approved the evidence-first outcome, D-101 approved the complete contract, and D-103 opened the synthetic configuration and evaluator gate. The conservative field map fits within documented Premier limits, but Bigin is not yet viable or selected and direct synthetic proof remains mandatory.
 
 ## Evidence summary
 

@@ -3240,3 +3240,59 @@ Create the bounded evaluator account, inspect the allowed nonprivate labels, and
 ### Saved ending point
 
 Present the synthetic-configuration gate. Do not remove sample content, configure the tenant, enter fixtures, or begin testing without the exact instruction `Begin P1-W04 synthetic configuration`.
+
+## Session S-077 - P1-W04 synthetic configuration started
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W04 - Bigin Premier evidence-first screening
+
+**Checkpoint:** CP-007 remains the last signed-off checkpoint
+
+**Sign-off status:** D-103 synthetic configuration authorized and started; pipeline configuration incomplete
+
+### Orientation
+
+- Current phase: Phase 1 CRM candidate comparison.
+- Active work unit: P1-W04 Bigin Premier evidence-first screening.
+- Last signed checkpoint: CP-007, which eliminated Pipedrive Lite only.
+- Last prior approval: D-102, which completed the bounded Premier account and shell inspection.
+- Open blockers at start: synthetic-configuration authorization and all direct configuration, scenario, mobile, administration, export, and cleanup evidence.
+- Approved outcome: evaluator-only Premier screening with synthetic data and separate action gates.
+
+### Approval recorded
+
+- **Accepted (D-103):** Begin the approved P1-W04 synthetic configuration, including verified vendor-sample cleanup, the bounded minimum configuration, CP-004 synthetic fixtures, evaluator scenarios, mobile timing, export evidence, and narrow cleanup under the signed stopping rules.
+- D-103 does not authorize an edition change, billing, a paid commitment, an external connection, real data, customer communication, production use, Loryn participation, checkpoint sign-off, or platform selection.
+
+### Direct sanitized progress
+
+- The single vendor sample Pipeline record was moved to Bigin's recycle bin.
+- The linked Contact explicitly identified itself as a sample Contact and was moved to the recycle bin.
+- The linked Company used the vendor's standard sample identity and vendor community address and was moved to the recycle bin.
+- Active Pipeline, Contact, Company, Product, and Activity views then showed no records. The recycle bin was not emptied.
+- The `Create Team Pipeline` wizard accepted `Window Sales Work`, `Opportunities`, and `Opportunity` and advanced to the stage editor.
+- Browser semantic control could not interact reliably with the visible stage boxes. Direct Windows control then stopped because it could not verify the current browser URL with enough confidence.
+- The Chrome tab was handed back with the wizard open and unsaved.
+
+### Actions not completed
+
+- No Team Pipeline, sub-pipeline, stage, custom field, Stage Transition Rule, custom view, reminder, or automation was saved.
+- No CP-004 fixture was entered, and TS-01 through TS-07, mobile timing, administration checks, and export were not started.
+- No external connection, add-on, billing detail, paid commitment, real data, customer communication, production action, Loryn participation, checkpoint sign-off, or platform selection occurred.
+
+### Files changed
+
+- `deliverables/P1-W04-bigin-evidence-first-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W04/bigin/configuration-inventory.md`
+- `evidence/P1-W04/bigin/official-evidence-preflight.md`
+- `project-control/ARTIFACT_REGISTER.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+
+### Saved ending point
+
+Resume the open, unsaved `Window Sales Work` Team Pipeline wizard at the stage editor. Enter only the approved lifecycle stages and bounded fields, save and read back the result, and then continue the signed synthetic evaluator sequence. Do not expand the tier or data boundary, empty the recycle bin, connect services, enter billing, use real data, communicate with customers, involve Loryn, sign CP-008, or select a platform without the applicable separate approval.
