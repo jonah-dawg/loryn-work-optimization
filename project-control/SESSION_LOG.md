@@ -2445,3 +2445,48 @@ Present the separately gated HubSpot Free account-shell decision. Require the ex
 ### Saved ending point
 
 Guide Loryn through the bounded HubSpot Free account-shell procedure. Stop after she reports the displayed Free edition, private MFA enabled, both Super Admin roles confirmed, and any nonprivate Starter-equivalent evaluation labels and terms. Do not activate a trial or tier, enter billing, connect a service, create CRM fields or records, or begin testing.
+
+## Session S-061 - Synthetic Free MFA exception approved
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W02 - Next CRM comparison contract
+
+**Checkpoint:** CP-004 remains the last signed-off checkpoint; CP-006 remains pending execution evidence
+
+**Sign-off status:** Synthetic-Free-only MFA exception explicitly approved; account shell partially confirmed
+
+**Approval evidence:** The user stated, “Revise P1-W02 to make MFA optional during the synthetic Free evaluation.”
+
+### Accepted decision
+
+- **Accepted (D-092):** Make MFA optional only during the synthetic HubSpot Free evaluation, record a deferral as a security limitation, and require MFA before any paid or promotional tier activation, external connection, real-data use, production use, or later security approval.
+
+### Confirmed account-shell facts
+
+- The technical partner created the account as Loryn's proxy and may retain Super Admin control during approved evaluator setup and testing.
+- Direct tenant reporting confirms HubSpot Free.
+- The organization name is confirmed as `Hazel Kaine`.
+- MFA is intentionally deferred under D-092 rather than recorded as enabled or satisfied.
+- Loryn's independent Super Admin access and the permitted evaluation-offer inspection remain unconfirmed.
+
+### Approval boundary
+
+- D-092 changes only the MFA requirement during the synthetic HubSpot Free evaluation.
+- It does not authorize trial or tier activation, configuration, fixture entry, testing, integration, real-data use, communication, billing action, purchase, production use, Loryn finalist testing, checkpoint sign-off, or platform selection.
+- The absence of MFA must remain visible in the security evidence and cannot receive a later production-security pass.
+- Credentials, MFA or recovery details, private email addresses, account identifiers, and session information remain prohibited from reporting and project artifacts.
+
+### Files changed
+
+- `deliverables/P1-W02-next-crm-comparison-contract.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Add Loryn with independent Super Admin access and confirm both administrators without private identifiers. Inspect only nonprivate Starter-equivalent evaluation labels and terms, then stop before tier activation, configuration, fixtures, or testing.

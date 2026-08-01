@@ -19,7 +19,8 @@ This outcome was explicitly approved as D-089 on July 31, 2026.
 - **Accepted (D-089):** Approve the P1-W02 work-unit outcome and authorize detailed contract drafting plus current official-evidence research only.
 - **Accepted (D-090):** Approve the complete P1-W02 execution contract, including the candidate and tier boundary, administrator model, minimum configuration, evaluator sequence, stopping rules, separate action gates, evidence handling, acceptance checks, and CP-006 effect.
 - **Accepted (D-091):** Authorize Loryn to create the bounded HubSpot Free account shell, keep credentials and recovery private, use `Hazel Kaine`, enable MFA, invite the technical partner as secondary Super Admin, inspect only the permitted edition and offer details, and then stop.
-- D-091 does not authorize trial or tier activation, configuration, fixture entry, testing, integration, real-data use, communication, billing action, purchase, production use, finalist session, checkpoint sign-off, or platform selection.
+- **Accepted (D-092):** Make MFA optional only during the synthetic HubSpot Free evaluation. Record an MFA deferral as a security limitation; require MFA before any paid or promotional tier activation, external connection, real-data use, production use, or later security approval.
+- D-091 and D-092 do not authorize trial or tier activation, configuration, fixture entry, testing, integration, real-data use, communication, billing action, purchase, production use, finalist session, checkpoint sign-off, or platform selection.
 
 ## Starting evidence
 
@@ -52,7 +53,7 @@ The preliminary disposition is therefore: Free `Fail`; Starter-level path `Condi
 
 - Loryn owns the HubSpot account and remains the primary Super Admin and daily user.
 - The technical partner is the secondary Super Admin for approved setup, troubleshooting, recovery support, and other ad hoc administration.
-- Account recovery remains under Loryn's control.
+- Loryn must receive independent Super Admin access and retain control of her own credentials and recovery. The technical partner may retain Super Admin control for approved evaluator setup and testing.
 - Passwords, passkeys, MFA methods or codes, recovery codes, private email addresses, account identifiers, and session details are never shared with Codex or stored in project artifacts.
 - Use `Hazel Kaine` as the approved comparison organization name without adding employer, Costco, Centah, or customer information.
 
@@ -102,7 +103,7 @@ Apply these stopping rules:
 4. Use `Hazel Kaine` as the organization name; enter no employer, Costco, Centah, or customer information.
 5. Select the normal U.S. region if asked. Decline imports, connected inboxes, calendars, calling, phone numbers, data enrichment, AI agents, and other external or credit-consuming setup.
 6. Enter no billing information, make no purchase, and do not activate any trial during account creation.
-7. Enable private MFA, invite the technical partner, confirm both Super Admin roles without recording private identifiers, and stop.
+7. Invite and confirm both Super Admin users without recording private identifiers. MFA may be enabled or intentionally deferred only while the tenant remains HubSpot Free and synthetic-only under D-092.
 8. Inspect only the edition label, feature-access labels, trial offer, commitment language, billing requirement, and downgrade behavior needed to identify a clean Starter-equivalent evaluation.
 9. If a no-billing Starter-equivalent evaluation is verified, require the exact instruction `Authorize the no-billing HubSpot Starter-equivalent evaluation` before activation.
 10. After the correct tier is active and separately confirmed, require the exact instruction `Begin P1-W02 HubSpot synthetic configuration` before creating fields, views, fixtures, or tests.
@@ -126,7 +127,7 @@ P1-W02 is complete only when:
 
 - Current official and direct tenant evidence identifies the exact evaluated tier, two-administrator seat model, recurring cost, commitment, renewal behavior, and material limits.
 - HubSpot Free remains clearly separated from any paid-tier result.
-- Account ownership, both Super Admin roles, MFA, and access-removal behavior are verified without storing private details.
+- Account ownership, both Super Admin roles, the enabled-or-deferred MFA state, and access-removal behavior are verified without storing private details. An MFA deferral is recorded as a security limitation and cannot satisfy a later paid-tier, connected-data, real-data, production, or security-approval gate.
 - The approved minimum configuration is completed on the exact evaluated tier, or each unsupported item is recorded with evidence under the stopping rule.
 - TS-01 through TS-07 receive evaluator screening unless an early-stop condition applies.
 - Every applicable mandatory gate and weighted criterion records a result or score, evidence, confidence, and uncertainty; the total remains incomplete while required evidence is `Unverified`.
@@ -153,6 +154,6 @@ CP-005 remains not reached and tied to the closed-incomplete Zoho work unit.
 
 ## Current authorized action
 
-Loryn may complete steps 3 through 8 of the approved account procedure and then stop. Report only whether account creation succeeded, the displayed Free edition, whether private MFA is enabled, whether both Super Admin roles are confirmed, and the nonprivate labels and terms of any Starter-equivalent evaluation offer. Do not report credentials, codes, recovery details, private email addresses, or account identifiers.
+The technical partner created the account as Loryn's proxy; HubSpot Free and the `Hazel Kaine` organization name are confirmed. Add Loryn with independent Super Admin access, record MFA as enabled or intentionally deferred under D-092, inspect only the nonprivate labels and terms of any Starter-equivalent evaluation offer, and then stop. Do not report credentials, codes, recovery details, private email addresses, or account identifiers.
 
-D-091 authorizes only the Free account shell and bounded inspection. It does not authorize trial or tier activation, configuration, fixture entry, testing, integration, real data, communications, billing, purchases, production use, checkpoint sign-off, or platform selection.
+D-092 changes only the synthetic Free MFA requirement. It does not authorize trial or tier activation, configuration, fixture entry, testing, integration, real data, communications, billing, purchases, production use, checkpoint sign-off, or platform selection.

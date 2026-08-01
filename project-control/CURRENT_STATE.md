@@ -2,15 +2,15 @@
 
 **Updated:** August 1, 2026
 
-**Overall status:** Active - Phase 1 HubSpot Free account setup authorized and awaiting completion
+**Overall status:** Active - Phase 1 HubSpot Free account shell partially confirmed
 **Current phase:** Phase 1 - Zoho prototype and HubSpot comparison
 **Active work unit:** P1-W02 - Next CRM comparison contract
 
-**Work-unit status:** Approved for execution; bounded HubSpot Free account-shell creation authorized by D-091
+**Work-unit status:** Approved for execution; Free and organization confirmed; Loryn Super Admin access and offer inspection pending
 
 **Last signed-off checkpoint:** CP-004 - CRM platform evaluation method (July 30, 2026)
 
-**Last approval:** D-091 - authorize Loryn to create and secure the bounded HubSpot Free account shell, inspect permitted tier-offer details, and then stop (August 1, 2026)
+**Last approval:** D-092 - make MFA optional only during the synthetic HubSpot Free evaluation and require it before any paid, connected, real-data, production, or later security stage (August 1, 2026)
 
 ## Confirmed baseline
 
@@ -121,11 +121,13 @@
 - M-01 remains a decision-critical risk because the multi-source custom report builder is Professional-only; Starter must directly prove a practical single action center or equivalent.
 - **Accepted (D-090):** Approve the complete P1-W02 execution contract, including its candidate/tier boundary, administrator model, minimum configuration, stopping rules, separate action gates, evidence handling, acceptance checks, and CP-006 effect.
 - **Accepted (D-091):** Authorize Loryn to create the `Hazel Kaine` HubSpot Free account shell, enable private MFA and recovery, invite the technical partner as secondary Super Admin, inspect only permitted edition and offer details, and then stop.
-- D-091 does not authorize trial or tier activation, external configuration, fixture entry, testing, integration, real data, communications, billing, purchases, production use, checkpoint sign-off, or platform selection.
+- The technical partner created the account as Loryn's proxy and may retain Super Admin control during evaluator setup and testing. Direct tenant reporting confirms HubSpot Free and the `Hazel Kaine` organization name.
+- **Accepted (D-092):** Make MFA optional only during the synthetic HubSpot Free evaluation. Record the deferral as a security limitation and require MFA before any paid or promotional tier, external connection, real-data use, production use, or later security approval.
+- D-091 and D-092 do not authorize trial or tier activation, external configuration, fixture entry, testing, integration, real data, communications, billing, purchases, production use, checkpoint sign-off, or platform selection.
 
 ## Active work-unit contract
 
-**Status:** Approved for execution; official-evidence preflight complete; bounded Free account-shell procedure authorized by D-091 and awaiting completion.
+**Status:** Approved for execution; Free edition and `Hazel Kaine` confirmed; MFA intentionally deferred under D-092; Loryn Super Admin access and permitted offer inspection remain pending.
 
 **Approved outcome:** Define and approve the evidence-first screening contract for the next CRM candidate, beginning with the planned HubSpot comparison, so production-tier feasibility is checked before another account is created or Loryn is involved.
 
@@ -141,6 +143,7 @@
 - The P1-W02 work-unit outcome is explicitly approved as D-089.
 - The complete P1-W02 execution contract is explicitly approved as D-090.
 - The bounded HubSpot Free account-shell procedure is explicitly authorized as D-091.
+- The synthetic-Free-only MFA exception is explicitly approved as D-092 and remains a recorded security limitation.
 - The official-evidence preflight identifies Free as field-capacity blocked and Starter as a conditional paid-tier possibility.
 - Preserve the CP-004 common gates, fixtures, scenarios, evidence format, and Loryn burden limit.
 - Keep account creation, configuration, fixture entry, and testing behind separate explicit action gates.
@@ -152,7 +155,8 @@
 
 ## Open items
 
-- Complete and report the bounded HubSpot Free account-shell procedure without private identifiers.
+- Add Loryn with independent Super Admin access and confirm both administrators without private identifiers.
+- Inspect and report only the nonprivate labels and terms of any Starter-equivalent evaluation offer.
 - Verify the exact Starter-equivalent SKU, two-seat total, commitment, renewal price, and whether a no-billing Starter-equivalent evaluation exists.
 - Verify whether Starter can satisfy M-01 without the Professional-only multi-source custom report builder.
 - D-011: production CRM tenant, sign-in method, access removal, and security/retention controls.
@@ -174,7 +178,7 @@ CP-003 approved `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimu
 
 CP-004 approved `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`. Decisions D-049 through D-061 record the mandatory gates, D-062 through D-069 record the complete 100-point scorecard and scoring rule, D-070 through D-072 record the scenarios, fixtures, and scripts, D-073 records the staged test-burden rule, and D-074 records the evaluator-only evidence format. At CP-004, the authoritative Markdown master was Version 1.39; Word remains intentionally stale.
 
-P1-W01 is closed incomplete by accepted D-088 option 1. D-075 through D-087 record the approved execution contract and bounded Zoho actions; D-088 retains Professional as documentation-only and prohibits upgrade or purchase. The `Hazel Kaine` Free tenant has MFA, two confirmed administrators, no vendor sample data, and no partial fixtures. CP-005 was not reached. D-089 approved the P1-W02 outcome and official-evidence research, D-090 approved the complete P1-W02 execution contract, and D-091 opens only the bounded HubSpot Free account-shell gate. The authoritative Markdown master is Version 1.59; Word remains intentionally stale.
+P1-W01 is closed incomplete by accepted D-088 option 1. D-075 through D-087 record the approved execution contract and bounded Zoho actions; D-088 retains Professional as documentation-only and prohibits upgrade or purchase. The `Hazel Kaine` Free tenant has MFA, two confirmed administrators, no vendor sample data, and no partial fixtures. CP-005 was not reached. D-089 approved the P1-W02 outcome and official-evidence research, D-090 approved the complete P1-W02 execution contract, D-091 opened the bounded HubSpot Free account-shell gate, and D-092 makes MFA optional only during the synthetic Free evaluation. The HubSpot Free edition and `Hazel Kaine` organization are confirmed; Loryn Super Admin access and offer inspection remain pending. The authoritative Markdown master is Version 1.60; Word remains intentionally stale.
 
 ## Chat and artifact protocol
 
@@ -195,12 +199,12 @@ P1-W01 is closed incomplete by accepted D-088 option 1. D-075 through D-087 reco
 
 ## Next work-unit starting point
 
-Phase 0 is complete at CP-004. Phase 1 P1-W01 is closed incomplete under D-088 option 1. P1-W02's outcome and complete execution contract are approved under D-089 and D-090. D-091 authorizes only the bounded HubSpot Free account shell; completion is not yet confirmed.
+Phase 0 is complete at CP-004. Phase 1 P1-W01 is closed incomplete under D-088 option 1. P1-W02's outcome and complete execution contract are approved under D-089 and D-090. The D-091 account shell is partially confirmed, and D-092 records the synthetic-Free-only MFA exception.
 
 ## Exact next action
 
-Guide Loryn through the approved HubSpot Free account-shell procedure. She creates the account with private credentials and recovery, uses `Hazel Kaine`, declines imports and connections, enters no billing information, activates no trial, enables MFA, invites the technical partner as secondary Super Admin, inspects only the permitted edition and offer details, reports nonprivate confirmations, and stops before configuration.
+Add Loryn with independent Super Admin access and confirm both administrators without reporting private identifiers. Record MFA as intentionally deferred under D-092, inspect only the nonprivate labels and terms of any Starter-equivalent evaluation offer, and stop before trial activation, configuration, fixtures, or testing.
 
 ## Resume instruction
 
-Read this file, Sessions S-059 and S-060 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, `../deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`, `../evidence/P1-W01/zoho/evaluator-result.md`, `../evidence/P1-W02/hubspot/official-evidence-preflight.md`, `../deliverables/P1-W02-next-crm-comparison-contract.md`, and the Phase 1 and platform-trial sections of `../deliverables/window-sales-operations-master-plan.md`. D-091 authorizes only the bounded HubSpot Free account-shell procedure. Guide Loryn through it and stop after nonprivate confirmation of the Free edition, private MFA, both Super Admin roles, and any permitted evaluation-offer labels and terms. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Continue to prohibit tier activation, real data, connections, configuration, fixture entry, testing, billing, purchases, customer communications, production use, and platform selection.
+Read this file, Sessions S-060 and S-061 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, `../deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`, `../evidence/P1-W01/zoho/evaluator-result.md`, `../evidence/P1-W02/hubspot/official-evidence-preflight.md`, `../deliverables/P1-W02-next-crm-comparison-contract.md`, and the Phase 1 and platform-trial sections of `../deliverables/window-sales-operations-master-plan.md`. The HubSpot Free edition and `Hazel Kaine` organization are confirmed. D-092 permits MFA deferral only while the evaluation remains synthetic and on Free. Add Loryn with independent Super Admin access, confirm both administrators, inspect only permitted offer labels and terms, and stop. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Continue to prohibit tier activation, real data, connections, configuration, fixture entry, testing, billing, purchases, customer communications, production use, and platform selection.
