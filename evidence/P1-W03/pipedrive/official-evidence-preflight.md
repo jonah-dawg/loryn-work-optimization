@@ -1,6 +1,6 @@
 # P1-W03 Pipedrive Official-Evidence Preflight
 
-**Status:** Official-evidence preflight complete; direct tenant follow-up linked; Lite-only no-billing boundary verified; configuration unapproved
+**Status:** Official-evidence preflight complete; Lite-only boundary and initial D-099 configuration directly verified
 
 **Candidate:** Pipedrive
 
@@ -16,7 +16,7 @@ Pipedrive is suitable for a bounded next-candidate contract. Lite is the lowest 
 |---|---|---|
 | Trial | Pipedrive advertises a 14-day full-access trial with no credit card required. Without billing details, access locks after the trial rather than converting automatically to paid service. | A clean no-billing evaluation appears available, subject to exact tenant confirmation and a Lite-equivalent feature boundary. |
 | Lite cost | Current US pricing lists Lite at `$14` per seat per month billed annually, one annual payment of `$168` per seat. | The two-administrator production baseline is `$336` per year before tax if Lite passes. Exact monthly price, tax, renewal, and checkout terms remain open. |
-| Custom fields and volume | Lite allows 30 custom fields per company and 2,500 leads plus deals per seat. The documentation map uses 22 custom fields. | Plausible with eight fields of contingency; direct tenant confirmation remains required before fixtures. |
+| Custom fields and volume | Lite allows 30 custom fields per company and 2,500 leads plus deals per seat. The initial documentation map used 22 fields; direct configuration corrected it to 25. | Directly confirmed at 25 of 30, leaving five fields of contingency. Fixture behavior remains untested. |
 | Required data | Custom fields exist on Lite, but required-field rules and pipeline-specific field visibility require Premium. | Lite must pass M-07 through visible exception filters and views; do not infer that required fields exist. |
 | Record model | People can have multiple open deals; activities can link to people, organizations, leads, and deals. | Plausible match for reusable customers, multiple jobs, and linked next actions. |
 | Action visibility | Deals sort by next activity; advanced filters cover deals, contacts, activities, and projects; notifications include activity reminders and overdue scheduling visibility. | Plausible M-01 and M-04 path, but the combined morning action center requires direct proof. |
@@ -38,7 +38,7 @@ The August 1 direct inspection confirmed that the trial began on Premium and sho
 
 ## Open evidence items
 
-- Directly confirm the 22-field documentation map and correct it without exceeding Lite's 30-company-field limit.
+- The direct 25-field correction is within Lite's 30-company-field limit; complete fixture and filter behavior testing.
 - Verify whether Lite filters can expose all M-01 action-center states and M-07 missing-next-action exceptions without Premium required fields or custom reports.
 - Verify renewal behavior, taxes, commitment, exact two-administrator production cost, and checkout terms. Direct tenant comparison displayed Lite at `$24` per seat per month on monthly billing.
 - Verify the exact calendar expiration date; the tenant displayed only `14-day free trial`.

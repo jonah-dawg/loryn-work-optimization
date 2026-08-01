@@ -2821,3 +2821,53 @@ Present the proposed authorization to switch only the existing no-billing Pipedr
 ### Saved ending point
 
 Present the separate `Begin P1-W03 synthetic configuration` gate. Until that exact authorization is received, do not inspect or clean preloaded records, configure the approved model, enter synthetic fixtures, or run tests.
+
+## Session S-069 - Pipedrive synthetic configuration authorized and begun
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W03 - Pipedrive evidence-first screening
+
+**Checkpoint:** CP-004 remains the last signed-off checkpoint; CP-007 remains pending execution evidence
+
+**Sign-off status:** Synthetic configuration and evaluator testing explicitly authorized as D-099; execution in progress
+
+**Approval evidence:** The user gave the exact instruction `Begin P1-W03 synthetic configuration`.
+
+### Decision recorded
+
+- **Accepted (D-099):** Begin P1-W03 synthetic configuration, including verified vendor-sample cleanup, the approved minimum Lite configuration, synthetic fixture handling, evaluator testing, and result preparation.
+
+### Authorized action completed
+
+- Inspected the preloaded records and verified that the visible activities and linked records were labeled `[Sample]`.
+- Used Pipedrive's global-administrator sample-data removal control and verified the successful-removal state.
+- Directly confirmed the Lite custom-field limit and configured 25 of 30 fields: 9 Person fields and 16 shared Lead/Deal fields.
+- Corrected the documentation map because last-contact date and time require separate fields and standard acquisition metadata does not represent the approved Costco/independent operational source branch.
+- Configured the nine-stage `Window Sales Jobs` pipeline, four workflow-specific activity types, six lost reasons, and disabled the conflicting generic post-won three-month task prompt.
+- Prepared the seven-record synthetic preload in `../evidence/P1-W03/pipedrive/synthetic-fixtures.csv`; `SYN-PROSPECT-A` remains reserved for TS-01.
+
+### Incomplete execution and boundary
+
+- The fixture file has not yet been loaded. Practical views, TS-01 through TS-07, mobile timing, duplicate review, export, save/recovery evidence, cleanup, and the evaluator result remain incomplete.
+- Browser control could list the signed-in Chrome tab but could not take control of it after the upload page reset. Chrome, the extension, and the native connection all passed read-only diagnostics; no fixture file was transmitted.
+- No billing detail, purchase, add-on, higher tier, external connection, real data, customer communication, production action, Loryn participation, checkpoint sign-off, or platform selection occurred.
+- Mobile-only criteria remain unverified until actually tested and must not be inferred from desktop or responsive-web behavior.
+
+### Files changed
+
+- `deliverables/P1-W03-pipedrive-evidence-first-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W03/pipedrive/configuration-inventory.md`
+- `evidence/P1-W03/pipedrive/field-capacity-preflight.md`
+- `evidence/P1-W03/pipedrive/synthetic-fixtures.csv`
+- `evidence/P1-W03/pipedrive/tenant-shell-inspection.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Resume at the seven-record fixture upload, then create the practical action-center and exception views and execute the directly verifiable desktop scenarios. Keep native-mobile-only items unverified unless actually tested. The external-action boundary remains unchanged.

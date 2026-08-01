@@ -1,14 +1,14 @@
 # P1-W03 Pipedrive Lite Field-Capacity Preflight
 
-**Status:** Documentation mapping; direct tenant confirmation pending; no account action authorized
+**Status:** Direct Lite configuration confirmed under D-099
 
 **Mapped:** August 1, 2026
 
 ## Result
 
-The CP-003 minimum model maps to 22 planned Pipedrive custom fields: 9 Person fields and 13 shared Lead/Deal fields. Activities use standard fields. This is below Lite's official 30-custom-field company limit and leaves eight fields of contingency.
+The directly configured CP-003 model uses 25 Pipedrive custom fields: 9 Person fields and 16 shared Lead/Deal fields. Activities use standard fields. The Lite tenant displayed `25/30 custom fields in use`, leaving five fields of contingency.
 
-This is a capacity finding, not a configuration result. Field availability, filter behavior, search behavior, and the exact count must be confirmed in an authorized Lite-equivalent trial before fixtures are entered.
+The three-field correction from the documentation map is evidence-backed: Pipedrive does not offer a combined custom date-time field, so last contact uses separate date and time fields; and the standard acquisition metadata does not represent the approved Costco/independent operational branch, so `Lead source` and `Source detail` are explicit shared Lead/Deal fields. Filter, search, fixture, and scenario behavior still require direct testing.
 
 ## Person mapping
 
@@ -35,10 +35,10 @@ Pipedrive uses the same custom fields for leads and deals, so prospect fields do
 | Prospect state | Custom single option; directly test preservation through conversion and archive outcomes | 1 |
 | Linked customer | Standard linked Person or Organization | 0 |
 | Service address | Custom address field on Lead/Deal | 1 |
-| Source and source detail | Standard source channel and source channel ID; confirm allowed values | 0 |
+| Source and source detail | Custom `Lead source` single option and `Source detail` text; standard acquisition metadata is not used as the operational branch | 2 |
 | Centah lead number | Custom text on Lead/Deal; Costco/Centah only | 1 |
 | Current stage | Standard pipeline and stage | 0 |
-| Last-contact date and time | Custom date/time unless the trial proves a standard system value is complete and filterable | 1 |
+| Last-contact date and time | Separate custom date and time fields; the tenant has no combined custom date-time type | 2 |
 | Next action and due date/time | Standard linked next Activity | 0 |
 | Appointment date and time | Standard linked meeting Activity | 0 |
 | Quoted amount | Standard Deal value | 0 |
@@ -52,7 +52,7 @@ Pipedrive uses the same custom fields for leads and deals, so prospect fields do
 | Post-install result | Custom single option or text after direct option review | 1 |
 | Close outcome or reason | Standard won/lost status and lost reason; directly prove the `Finished` mapping | 0 |
 | Exception or stall reason | Custom large text | 1 |
-| **Lead/Deal total** |  | **13** |
+| **Lead/Deal total** |  | **16** |
 
 ## Activity mapping
 
@@ -70,7 +70,17 @@ Pipedrive uses the same custom fields for leads and deals, so prospect fields do
 - Lite cannot hard-require custom fields. Missing-field and next-action controls must work through filters or visible exception views.
 - Official import guidance says deals have no native duplicate identifier. The Centah lead number must therefore be searchable and supported by a reliable duplicate-review procedure; the synthetic duplicate test must fail Pipedrive if that procedure is impractical or unreliable.
 - The Lead-to-Deal conversion must preserve the prospect history and shared fields without duplicate customers or jobs.
-- The eight-field contingency is not permission to add scope. Any added field must map to an approved requirement or an evidence-backed correction.
+- The five-field contingency is not permission to add scope. Any added field must map to an approved requirement or an evidence-backed correction.
+
+## Direct configuration inventory
+
+### Person fields (9)
+
+`Alternate reachable channel`, `Preferred contact method`, `Acquisition date`, `Contact-permission status`, `Overall do-not-contact status`, `Do-not-contact date`, `Do-not-contact reason`, `Channel-specific opt-outs`, and `Unresolved-problem indicator`.
+
+### Shared Lead/Deal fields (16)
+
+`Prospect state`, `Service address`, `Lead source`, `Source detail`, `Centah lead number`, `Last-contact date`, `Last-contact time`, `Quote-sent date`, `Acceptance date`, `DocuSign-sent date`, `Coordinator-email date`, `Installation status`, `Installation-confirmed date`, `Post-install follow-up date`, `Post-install result`, and `Exception or stall reason`.
 
 ## Sources
 

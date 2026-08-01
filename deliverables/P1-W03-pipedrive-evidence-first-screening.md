@@ -1,6 +1,6 @@
 # P1-W03 - Pipedrive Evidence-First Screening
 
-**Status:** Lite-only no-billing trial boundary verified under D-098; configuration and testing unapproved
+**Status:** Synthetic configuration active under D-099; fixture loading and evaluator testing in progress
 
 **Phase:** Phase 1 - CRM candidate comparison
 
@@ -22,10 +22,12 @@ This outcome was explicitly approved as D-095 on August 1, 2026.
 - **Accepted (D-096):** Approve the complete P1-W03 execution contract, including the Lite-only tier boundary, prototype ownership, execution sequence, minimum configuration, stopping rules, separate action gates, acceptance checks, and CP-007 effect.
 - **Accepted (D-097):** Authorize the technical partner to create the bounded `Hazel Kaine` Pipedrive evaluator account and no-credit-card trial, then inspect only the nonprivate edition and feature boundary before stopping.
 - **Accepted (D-098):** Authorize changing only the existing no-billing Pipedrive trial from Premium to Lite, removing carried-over trial add-ons, verifying the resulting plan and remaining trial, and then stopping before configuration.
+- **Accepted (D-099):** Begin P1-W03 synthetic configuration, including verified vendor-sample cleanup, the approved minimum Lite configuration, synthetic fixture handling, evaluator testing, and result preparation.
 - D-095 does not authorize account creation, trial activation, configuration, fixture entry, testing, integrations, billing, purchases, real data, customer communications, Loryn participation, production use, checkpoint sign-off, or platform selection.
 - D-096 approves the contract only and preserves every separate action gate.
 - D-097 does not authorize configuration, fixture entry, synthetic testing, integrations, billing, purchases, real data, customer communications, production use, Loryn participation, checkpoint sign-off, or platform selection.
 - D-098 authorizes only the completed Lite plan-boundary change and readback. It does not authorize record inspection, configuration, fixture entry, synthetic testing, integrations, billing, purchases, real data, customer communications, production use, Loryn participation, checkpoint sign-off, or platform selection.
+- D-099 opens record inspection, verified vendor-sample cleanup, approved configuration, synthetic fixture handling, evaluator testing, and result preparation only. It does not authorize integrations, billing, purchases, real data, customer communications, production use, Loryn participation, checkpoint sign-off, or platform selection.
 
 ## Why Pipedrive is proposed next
 
@@ -75,7 +77,7 @@ This outcome was explicitly approved as D-095 on August 1, 2026.
 
 - Reusable people, Leads Inbox prospects, deals for individual jobs, and linked activities.
 - The approved active-job stages and retained outcomes without adding an unapproved parallel project module.
-- No more than the mapped 22 custom fields unless a later evidence-backed correction remains within Lite's 30-field limit.
+- No more than the directly corrected 25 custom fields unless a later evidence-backed correction remains within Lite's 30-field limit. The correction splits last-contact date and time and adds explicit operational source and source-detail fields because the standard acquisition metadata does not represent the approved Costco/independent branch.
 - One distinct deal-level Centah lead-number field used only for Costco/Centah jobs.
 - Practical filters or views for today's appointments, calls due today, overdue actions, waiting-on-others jobs, records missing a next action, and source-specific exceptions.
 - Manual communications only. Do not connect email, calendar, maps accounts, Centah, or another external service; native address handoff to the phone's navigation app may be tested without signing into another service.
@@ -98,7 +100,7 @@ This outcome was explicitly approved as D-095 on August 1, 2026.
 ## Approved acceptance checks
 
 - Exact tenant edition, trial-expiry behavior, two-administrator production cost, material limits, and higher-tier contamination are recorded.
-- The 22-field map is directly confirmed or corrected without exceeding Lite's 30-field limit or hiding required facts in notes.
+- The field map is directly confirmed or evidence-backed corrected without exceeding Lite's 30-field limit or hiding required facts in notes. The current direct correction uses 25 fields.
 - The configured model or documented stopping failure covers every CP-003 record and next-action requirement.
 - M-01 through M-13 and the weighted criteria contain evidence, confidence, and uncertainty; missing required evidence keeps the score incomplete.
 - Search by last name and phone number, directions, appointments, notes, reminders, missing-next-action detection, deal-level Centah duplicate review, save reliability, mobile behavior, and export reconstructability are directly tested while the candidate remains viable.
@@ -109,13 +111,21 @@ This outcome was explicitly approved as D-095 on August 1, 2026.
 
 CP-007 would approve only a completed Pipedrive evaluator result, configuration inventory, exact tier and cost record, and evidence-backed comparison status. It would not select Pipedrive, authorize payment or production use, connect Centah or another service, import real data, permit customer communication, or start a Loryn finalist session.
 
+## Authorized configuration progress
+
+- Verified that the preloaded records were Pipedrive `[Sample]` content and removed them through the vendor's global-admin sample-data control; unrelated records were not selected.
+- Directly confirmed Lite's `30 custom fields` limit and configured 25 fields: 9 Person fields and 16 shared Lead/Deal fields.
+- Configured the `Window Sales Jobs` pipeline with the nine approved open stages; Pipedrive Won represents `Finished`, and Lost plus a retained reason represents `Lost / Canceled`.
+- Added `Quote follow-up`, `Handoff`, `Installation check`, and `Customer follow-up` activity types and the six approved lost reasons used by the synthetic scenarios.
+- Disabled the generic post-won three-month activity prompt because its default task conflicts with the approved source-specific follow-up rules.
+- Prepared the seven-record preload fixture at `../evidence/P1-W03/pipedrive/synthetic-fixtures.csv`; `SYN-PROSPECT-A` remains reserved for TS-01.
+- Fixture upload, practical views, TS-01 through TS-07, mobile timing, export, duplicate review, cleanup, and the evaluator result remain incomplete.
+
 ## Continuing boundary
 
-- The bounded account shell, trial, and Lite-only plan boundary are complete under D-097 and D-098. Record inspection, configuration, fixture entry, testing, integrations, billing, purchases, real data, customer communications, Loryn participation, production use, checkpoint sign-off, and platform selection remain unapproved.
+- The bounded account shell, trial, and Lite-only plan boundary are complete under D-097 and D-098. D-099 authorizes only synthetic configuration and evaluator testing. Integrations, billing, purchases, real data, customer communications, Loryn participation, production use, checkpoint sign-off, and platform selection remain unapproved.
 - Loryn remains uninvolved until a candidate becomes one of no more than two viable finalists and a separate finalist-session gate is approved.
 
-## Current action gate
+## Current action
 
-The D-098 plan transition is complete. Direct evidence in `../evidence/P1-W03/pipedrive/tenant-shell-inspection.md` confirms Lite, one seat, `$24` monthly pricing, `$0` during the trial, no active add-ons, no billing details, and the preserved `14-day free trial` label. The exact calendar expiration date was not displayed. The Activities count changed from three to four during the vendor plan transition, but no record was inspected and all preloaded content remains untouched.
-
-The next gate is the separately required `Begin P1-W03 synthetic configuration` authorization. Until that exact approval is received, do not inspect or clean preloaded records, configure fields or lifecycle elements, enter fixtures, or run tests.
+D-099 is active. Resume with the seven-record synthetic preload, then create the TS-01 prospect during the scripted run. Complete the desktop evidence that can be directly verified, record native-mobile-only criteria as unverified unless they are actually tested, perform narrow synthetic cleanup, and prepare the incomplete or completed evaluator result. Do not infer CP-007 sign-off or platform selection from execution progress.

@@ -1,6 +1,6 @@
 # P1-W03 Pipedrive Tenant-Shell Inspection
 
-**Status:** Lite-only no-billing trial boundary verified under D-098; configuration remains unapproved
+**Status:** Lite-only boundary verified; bounded synthetic configuration active under D-099
 
 **Candidate:** Pipedrive
 
@@ -34,15 +34,23 @@ The initial inspection used the bounded D-097 authority to confirm only nonpriva
 - The exact calendar expiration date still was not displayed; the remaining-trial label continued to show `14-day free trial`.
 - The Activities navigation count changed from three to four after the plan transition. No activity record was opened or inspected, so its origin remains unverified; all preloaded content remains untouched.
 
+## D-099 configuration evidence
+
+- Inspected the preloaded records and confirmed that all eight visible activities and their linked records were labeled `[Sample]`.
+- Used Pipedrive's global-administrator sample-data removal control. The confirmation named only `[Sample]` deals, people, organizations, and activities; the post-action activity screen reported that sample data was deleted successfully.
+- The Data fields screen directly displayed `0/30 custom fields in use` before configuration and `25/30 custom fields in use` afterward.
+- Configured 9 Person fields and 16 shared Lead/Deal fields, the nine-stage `Window Sales Jobs` pipeline, four workflow-specific activity types, and six lost reasons.
+- No add-on, higher tier, billing detail, external connection, real record, communication, invitation, or production feature was used.
+
 ## Actions deliberately not taken
 
 - Did not enter billing information, accept a paid commitment, or activate an add-on.
-- Did not create, open, edit, import, delete, or inspect any contact, deal, activity, or other record.
-- Did not configure fields, stages, filters, views, automations, permissions, integrations, email, calendar, maps, or mobile behavior.
+- Did not load the seven synthetic fixtures, create the TS-01 prospect, or run the scored scenarios before this saved state.
+- Did not configure external integrations, email, calendar, maps, permissions, billing, or production behavior.
 - Did not invite Loryn or use real customer, employer, Costco, or Centah data.
 
 ## Disposition
 
-The D-098 plan-boundary gate is complete. The tenant now exposes Lite with no active add-ons, no billing details, and the 14-day trial label preserved. This resolves the Premium-contamination blocker but does not prove configuration viability or any mandatory gate.
+The D-098 plan-boundary gate is complete, and D-099 has opened the synthetic configuration run. The approved model fits Lite at 25 of 30 custom fields, but practical views, fixture behavior, scripted scenarios, mobile timing, export, duplicate review, and save reliability remain unproven.
 
-Recommended next gate: obtain the separately required `Begin P1-W03 synthetic configuration` authorization before inspecting or cleaning preloaded records, configuring the approved field and lifecycle model, entering synthetic fixtures, or running tests.
+Next action: resume the synthetic fixture preload and evaluator scenarios without using real data, external connections, communications, billing, add-ons, or production features.

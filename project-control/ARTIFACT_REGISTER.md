@@ -4,11 +4,11 @@
 
 | Artifact | Authority | Current status | Update trigger |
 |---|---|---|---|
-| `../deliverables/window-sales-operations-master-plan.md` | Authoritative product and delivery plan | Version 1.68; current | Material scope, architecture, roadmap, risk, governance, process, or decision change |
+| `../deliverables/window-sales-operations-master-plan.md` | Authoritative product and delivery plan | Version 1.69; current | Material scope, architecture, roadmap, risk, governance, process, or decision change |
 | `../deliverables/window-sales-operations-master-plan.docx` | Non-authoritative editable distribution copy | Version 1.4; stale by design until final release or explicit sharing milestone | Regenerate and visually verify only for a release or requested sharing copy |
 | `GUIDED_WORKFLOW.md` | Authoritative session and checkpoint procedure | Current | Workflow-control rule changes |
-| `CURRENT_STATE.md` | Authoritative restart point | P1-W03 Lite-only no-billing boundary verified; configuration authorization required; D-098 accepted | Every sign-off, session stop, blocker, or active-work-unit change |
-| `SESSION_LOG.md` | Append-only execution history | S-068 records the authorized Pipedrive Lite transition and readback; CP-004 remains the last checkpoint | Every sign-off or session close |
+| `CURRENT_STATE.md` | Authoritative restart point | P1-W03 synthetic configuration active; D-099 accepted; fixture load pending | Every sign-off, session stop, blocker, or active-work-unit change |
+| `SESSION_LOG.md` | Append-only execution history | S-069 records D-099 and the initial bounded configuration; CP-004 remains the last checkpoint | Every sign-off or session close |
 | `ARTIFACT_REGISTER.md` | Artifact authority and synchronization inventory | Current | Artifact added, renamed, superseded, or found stale |
 | `COLLABORATOR_PACKET.md` | Operational shared-Project onboarding and input-capture aid | Current; unapproved input remains subject to repository reconciliation | Shared-project procedure, active intake queue, or handoff format changes |
 | `../deliverables/P0-W01-current-workflow-and-permission-boundary.md` | Signed P0-W01 workflow and permission boundary | Approved at CP-001 | Supersede only through a later signed checkpoint |
@@ -20,10 +20,12 @@
 | `../deliverables/P1-W02-next-crm-comparison-contract.md` | Closed P1-W02 work-unit contract | Closed incomplete by D-094 option 3; HubSpot Starter remains documentation-only; CP-006 not reached | Supersede only through an explicitly approved later HubSpot work unit |
 | `../evidence/P1-W02/hubspot/official-evidence-preflight.md` | P1-W02 HubSpot official-source evidence | Current; Free blocked, Starter conditional, and direct tenant follow-up linked | Every material HubSpot feature, tier, cost, trial, or tenant-evidence change |
 | `../evidence/P1-W02/hubspot/tenant-offer-inspection.md` | Sanitized direct P1-W02 HubSpot evidence | Current; Free confirmed, Starter purchase-only, no no-billing trial, no activation or purchase | Every material tenant offer, checkout, activation, or billing-state change |
-| `../deliverables/P1-W03-pipedrive-evidence-first-screening.md` | Active P1-W03 work-unit contract | Lite-only no-billing boundary verified under D-098; configuration and testing unapproved | Every accepted P1-W03 decision and checkpoint |
-| `../evidence/P1-W03/pipedrive/official-evidence-preflight.md` | P1-W03 Pipedrive official-source evidence | Current; Lite boundary verified, direct configuration evidence pending | Every material Pipedrive feature, tier, cost, trial, or tenant-evidence change |
-| `../evidence/P1-W03/pipedrive/field-capacity-preflight.md` | P1-W03 Pipedrive field-capacity evidence | Documentation map uses 22 of 30 Lite custom fields; direct tenant confirmation pending | Every material CP-003-to-Pipedrive mapping or field-limit change |
-| `../evidence/P1-W03/pipedrive/tenant-shell-inspection.md` | Sanitized direct P1-W03 Pipedrive evidence | Current; Lite active, no add-ons or billing details, trial preserved, configuration untouched | Every material tenant plan, trial, billing, or feature-boundary change |
+| `../deliverables/P1-W03-pipedrive-evidence-first-screening.md` | Active P1-W03 work-unit contract | D-099 active; fixture loading and evaluator testing in progress | Every accepted P1-W03 decision and checkpoint |
+| `../evidence/P1-W03/pipedrive/official-evidence-preflight.md` | P1-W03 Pipedrive official-source evidence | Current; Lite boundary verified and linked to direct configuration evidence | Every material Pipedrive feature, tier, cost, trial, or tenant-evidence change |
+| `../evidence/P1-W03/pipedrive/field-capacity-preflight.md` | P1-W03 Pipedrive field-capacity evidence | Direct configuration uses 25 of 30 Lite custom fields | Every material CP-003-to-Pipedrive mapping or field-limit change |
+| `../evidence/P1-W03/pipedrive/tenant-shell-inspection.md` | Sanitized direct P1-W03 Pipedrive evidence | Current; Lite boundary and initial D-099 configuration recorded | Every material tenant plan, trial, billing, or feature-boundary change |
+| `../evidence/P1-W03/pipedrive/configuration-inventory.md` | Sanitized P1-W03 configuration inventory | In progress; fields, pipeline, activity types, lost reasons, and fixture state recorded | Every material Pipedrive configuration or synthetic-fixture change |
+| `../evidence/P1-W03/pipedrive/synthetic-fixtures.csv` | P1-W03 synthetic preload fixture | Prepared; seven fictional rows; not yet loaded at the saved state | Every approved fixture or preload-state change |
 | `REPOSITORY_BACKUP.md` | Repository location, synchronization boundary, and recovery instructions | Current | Repository, branch, tracked scope, or working-copy policy changes |
 
 ## Planned artifacts not yet created
