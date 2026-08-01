@@ -2,7 +2,7 @@
 
 ## Master Project Plan
 
-**Version:** 1.56
+**Version:** 1.57
 **Status:** Working source of truth  
 **Updated:** July 31, 2026
 **Primary team:** Window-covering sales consultant and technical partner
@@ -494,7 +494,7 @@ ChatGPT should distinguish confirmed facts, assumptions, decisions, and open que
 **Technical/configuration:** create the weighted platform scorecard, synthetic fixtures, scripted mobile scenarios, field inventory, Centah discovery checklist, and vendor/security questions.  
 **Gate:** the two-person team agrees on the synthetic-only trial boundary, mandatory requirements, and scoring method. CP-001 confirmed permission to transfer approved real fields, but real imports and external integrations remain blocked until production access, security, retention, and connection controls are defined.
 
-**Progress:** P0-W01 was signed off at CP-001. CP-002 approved the independent-lead and prospecting scope. CP-003 approved the connected prospecting and active-job lifecycles, stage-specific next actions, communication timing, quote and handoff rules, installation/post-install outcomes, minimum CRM fields, and sanitized validation. CP-004 approved the P0-W03 platform-evaluation method. P1-W01 screened the `Hazel Kaine` Zoho Free tenant, removed vendor sample data, and confirmed that Free cannot represent the CP-003 baseline. D-088 option 1 is accepted: Zoho Professional remains a documentation-only paid-tier possibility, no upgrade or purchase is authorized, P1-W01 is closed incomplete, and CP-005 was not reached. D-089 approves the P1-W02 evidence-first comparison outcome and authorizes detailed contract drafting plus current official-evidence research only. The detailed P1-W02 contract, external accounts, connections, configuration, fixture entry, testing, real data, billing, customer communications, production use, and platform selection remain unapproved.
+**Progress:** P0-W01 was signed off at CP-001. CP-002 approved the independent-lead and prospecting scope. CP-003 approved the connected prospecting and active-job lifecycles, stage-specific next actions, communication timing, quote and handoff rules, installation/post-install outcomes, minimum CRM fields, and sanitized validation. CP-004 approved the P0-W03 platform-evaluation method. P1-W01 screened the `Hazel Kaine` Zoho Free tenant, removed vendor sample data, and confirmed that Free cannot represent the CP-003 baseline. D-088 option 1 is accepted: Zoho Professional remains a documentation-only paid-tier possibility, no upgrade or purchase is authorized, P1-W01 is closed incomplete, and CP-005 was not reached. D-089 approves the P1-W02 evidence-first comparison outcome and authorizes detailed contract drafting plus current official-evidence research only. The HubSpot preflight confirms that Free's 10-custom-property total cannot represent CP-003; a $20-per-Core-Seat Starter-level path remains conditional on exact packaging, no-billing evaluation access, and direct proof of the M-01 action center. The detailed P1-W02 contract is ready but unapproved. External accounts, connections, tier activation, configuration, fixture entry, testing, real data, billing, customer communications, production use, and platform selection remain unapproved.
 
 ### Phase 1 - Zoho prototype and HubSpot comparison (weeks 2-3)
 
@@ -684,6 +684,8 @@ Update this table whenever a decision changes. Supersede rather than delete prio
 - [Zoho CRM pricing and editions](https://www.zoho.com/crm/zohocrm-pricing.html) - official current description of Free and paid tier users, CRM features, workflows, mobile access, and API availability.
 - [Zoho CRM API limits](https://www.zoho.com/crm/developer/docs/api/v8/api-limits.html) - official current API credit and concurrency limits by edition.
 - [HubSpot free CRM tools](https://www.hubspot.com/pricing/crm) - official current Free and Starter positioning, user limits, record limits, and email connectivity.
+- [HubSpot Product & Services Catalog](https://legal.hubspot.com/hubspot-product-and-services-catalog) - official current product packaging, custom-property limits, seats, pipelines, imports, exports, and list pricing.
+- [HubSpot Smart CRM pricing](https://www.hubspot.com/pricing/smart-crm) - current marketing and packaging description; reconcile its Starter presentation against the catalog and exact account offer before any purchase.
 - [HubSpot workflow availability](https://knowledge.hubspot.com/workflows/create-workflows) - official subscription requirements for the full workflow builder.
 - [HubSpot API usage guidelines](https://developers.hubspot.com/docs/developer-tooling/platform/usage-guidelines) - official API limits and application guidance.
 - [Projects in ChatGPT](https://help.openai.com/en/articles/10169521-projects-in-chatgpt) - official guidance on project chats, files, instructions, and shared context.
@@ -692,7 +694,7 @@ Update this table whenever a decision changes. Supersede rather than delete prio
 - [Custom instructions with AGENTS.md](https://learn.chatgpt.com/docs/agent-configuration/agents-md) - official Codex instruction discovery and layering guidance.
 - [Worktrees](https://learn.chatgpt.com/docs/environments/git-worktrees) - official Codex desktop guidance for isolated parallel repository work.
 
-**Evidence note:** Centah, Zoho, and HubSpot product capabilities and tier limits above are based on official public pages reviewed July 29, 2026. Pricing, limits, and packaging can change and must be revalidated in the trial tenant before platform selection. OpenAI's current project and long-running-work guidance was reviewed July 29, 2026 for the chat strategy. CP-001 confirmed the approved real-data transfer scope, and CP-002 approved the independent-lead and prospecting workflow requirements. The plan still does not assume a Centah API contract, an approved Centah connection method, or communications compliance for purchased lists or automated outreach; those remain discovery gates.
+**Evidence note:** Centah and Zoho product evidence was reviewed July 29-30, 2026. HubSpot feature, tier, security, portability, API, mobile, cost, and trial evidence was refreshed July 31, 2026 in `../evidence/P1-W02/hubspot/official-evidence-preflight.md`. Pricing, limits, packaging, and account-specific offers can change and must be revalidated before activation or selection. OpenAI's current project and long-running-work guidance was reviewed July 29, 2026 for the chat strategy. CP-001 confirmed the approved real-data transfer scope, and CP-002 approved the independent-lead and prospecting workflow requirements. The plan still does not assume a Centah API contract, an approved Centah connection method, or communications compliance for purchased lists or automated outreach; those remain discovery gates.
 
 ## 16. Guided execution, sign-off, and session continuity
 

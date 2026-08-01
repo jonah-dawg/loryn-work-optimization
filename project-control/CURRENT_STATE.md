@@ -2,11 +2,11 @@
 
 **Updated:** July 31, 2026
 
-**Overall status:** Active - Phase 1 next CRM comparison contract design
+**Overall status:** Active - Phase 1 HubSpot comparison contract ready for review
 **Current phase:** Phase 1 - Zoho prototype and HubSpot comparison
 **Active work unit:** P1-W02 - Next CRM comparison contract
 
-**Work-unit status:** In progress - outcome approved; detailed contract and boundaries unapproved
+**Work-unit status:** Unapproved - detailed execution contract ready for review; no account authorized
 
 **Last signed-off checkpoint:** CP-004 - CRM platform evaluation method (July 30, 2026)
 
@@ -115,11 +115,15 @@
 - No partial lifecycle or incomplete fixtures were saved. P1-W01 evidence is under `../evidence/P1-W01/zoho/`, the weighted total remains incomplete, and CP-005 was not reached.
 - **Accepted (D-088 option 1):** Keep Zoho as a documentation-only Professional-tier possibility, do not upgrade or purchase it, close P1-W01 incomplete without CP-005, and proceed only to definition of the next CRM comparison work unit.
 - **Accepted (D-089):** Approve the P1-W02 outcome and authorize detailed contract drafting plus current official-evidence research only.
-- P1-W02 remains in contract design in `../deliverables/P1-W02-next-crm-comparison-contract.md`. D-089 does not authorize a HubSpot or other account, external configuration, fixture entry, or testing.
+- Official HubSpot evidence confirms that Free permits only 10 custom properties in total and cannot represent the CP-003 baseline or common fixture set.
+- A Starter-level path remains a paid-tier `Conditional Pass` possibility with 1,000 custom properties per object and a conservative two-Core-Seat planning cost of $40/month before tax.
+- Exact Starter packaging and no-billing evaluation access remain unverified. The public 14-day offer is Marketing Hub Professional and cannot be used as Starter evidence.
+- M-01 remains a decision-critical risk because the multi-source custom report builder is Professional-only; Starter must directly prove a practical single action center or equivalent.
+- The complete P1-W02 execution contract is drafted in `../deliverables/P1-W02-next-crm-comparison-contract.md`. D-089 does not authorize a HubSpot or other account, tier activation, external configuration, fixture entry, or testing.
 
 ## Active work-unit contract
 
-**Status:** In progress; outcome approved, detailed contract and boundaries unapproved.
+**Status:** Unapproved; outcome approved, official-evidence preflight complete, detailed execution contract ready for review.
 
 **Approved outcome:** Define and approve the evidence-first screening contract for the next CRM candidate, beginning with the planned HubSpot comparison, so production-tier feasibility is checked before another account is created or Loryn is involved.
 
@@ -128,21 +132,25 @@
 - The signed CP-003 lifecycle, next-action, and minimum-field specification.
 - The signed CP-004 scorecard, mandatory gates, fixtures, scenarios, burden limit, and evidence format.
 - The closed incomplete P1-W01 Zoho result and accepted D-088 option 1.
+- The July 31 HubSpot official-evidence preflight in `../evidence/P1-W02/hubspot/official-evidence-preflight.md`.
 
 **Acceptance checks:**
 
 - The P1-W02 work-unit outcome is explicitly approved as D-089.
-- Define an official-evidence preflight that checks the lowest plausible production tier before account creation.
+- The official-evidence preflight identifies Free as field-capacity blocked and Starter as a conditional paid-tier possibility.
 - Preserve the CP-004 common gates, fixtures, scenarios, evidence format, and Loryn burden limit.
 - Keep account creation, configuration, fixture entry, and testing behind separate explicit action gates.
 - Continue to prohibit real data, external connections, communications, billing, purchases, production use, and platform selection.
 
-**Checkpoint effect:** Not yet proposed. CP-005 was not reached in P1-W01.
+**Proposed checkpoint effect:** CP-006 would approve only a completed HubSpot evaluator result, configuration inventory, exact tier and cost record, and evidence-backed comparison status. CP-005 remains not reached and tied to P1-W01.
 
 **Out of scope:** HubSpot or other account setup, candidate configuration, fixture entry, testing, platform selection, Loryn finalist testing, production use, real records, external integrations, purchases, customer communications, or automation.
 
 ## Open items
 
+- Approve, revise, or reject the complete P1-W02 execution contract.
+- Verify the exact Starter-equivalent SKU, two-seat total, commitment, renewal price, and whether a no-billing Starter-equivalent evaluation exists.
+- Verify whether Starter can satisfy M-01 without the Professional-only multi-source custom report builder.
 - D-011: production CRM tenant, sign-in method, access removal, and security/retention controls.
 - D-012: Centah API, webhook, export, sandbox, limits, and support model.
 - D-013: retention and deletion periods.
@@ -162,7 +170,7 @@ CP-003 approved `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimu
 
 CP-004 approved `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`. Decisions D-049 through D-061 record the mandatory gates, D-062 through D-069 record the complete 100-point scorecard and scoring rule, D-070 through D-072 record the scenarios, fixtures, and scripts, D-073 records the staged test-burden rule, and D-074 records the evaluator-only evidence format. At CP-004, the authoritative Markdown master was Version 1.39; Word remains intentionally stale.
 
-P1-W01 is closed incomplete by accepted D-088 option 1. D-075 through D-087 record the approved execution contract and bounded Zoho actions; D-088 retains Professional as documentation-only and prohibits upgrade or purchase. The `Hazel Kaine` Free tenant has MFA, two confirmed administrators, no vendor sample data, and no partial fixtures. CP-005 was not reached. D-089 approves the P1-W02 outcome and authorizes detailed contract drafting plus official-evidence research only. The authoritative Markdown master is Version 1.56; Word remains intentionally stale.
+P1-W01 is closed incomplete by accepted D-088 option 1. D-075 through D-087 record the approved execution contract and bounded Zoho actions; D-088 retains Professional as documentation-only and prohibits upgrade or purchase. The `Hazel Kaine` Free tenant has MFA, two confirmed administrators, no vendor sample data, and no partial fixtures. CP-005 was not reached. D-089 approves the P1-W02 outcome and authorizes detailed contract drafting plus official-evidence research only. The HubSpot preflight and complete P1-W02 contract draft are ready for review. The authoritative Markdown master is Version 1.57; Word remains intentionally stale.
 
 ## Chat and artifact protocol
 
@@ -183,12 +191,12 @@ P1-W01 is closed incomplete by accepted D-088 option 1. D-075 through D-087 reco
 
 ## Next work-unit starting point
 
-Phase 0 is complete at CP-004. Phase 1 P1-W01 is closed incomplete under D-088 option 1. P1-W02 is in contract design under D-089; its outcome is approved, while the detailed contract and boundaries remain unapproved.
+Phase 0 is complete at CP-004. Phase 1 P1-W01 is closed incomplete under D-088 option 1. P1-W02's outcome is approved under D-089, and its official-evidence preflight and detailed execution contract are ready for explicit approval or revision.
 
 ## Exact next action
 
-Draft the P1-W02 official-evidence preflight and detailed comparison-contract boundaries, beginning with current official HubSpot tier evidence, then present the next material contract decision. Do not create a HubSpot or other account from D-089.
+Review and explicitly approve, revise, or reject the complete P1-W02 execution contract in `../deliverables/P1-W02-next-crm-comparison-contract.md`. Contract approval alone must not create a HubSpot account or activate a tier.
 
 ## Resume instruction
 
-Read this file, Sessions S-056 and S-057 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, `../deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`, `../evidence/P1-W01/zoho/evaluator-result.md`, `../deliverables/P1-W02-next-crm-comparison-contract.md`, and the Phase 1 and platform-trial sections of `../deliverables/window-sales-operations-master-plan.md`. D-089 approves the P1-W02 outcome and authorizes detailed contract drafting plus current official-evidence research only; the detailed contract remains unapproved. Draft the official-evidence preflight and present the next material contract decision. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Continue to prohibit external accounts, real data, connections, configuration, fixture entry, testing, billing, purchases, customer communications, production use, and platform selection.
+Read this file, Sessions S-057 and S-058 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, `../deliverables/P1-W01-zoho-synthetic-prototype-and-evaluator-screening.md`, `../evidence/P1-W01/zoho/evaluator-result.md`, `../evidence/P1-W02/hubspot/official-evidence-preflight.md`, `../deliverables/P1-W02-next-crm-comparison-contract.md`, and the Phase 1 and platform-trial sections of `../deliverables/window-sales-operations-master-plan.md`. D-089 remains the last approval. HubSpot Free is field-capacity blocked; Starter remains conditional on exact tier access and direct M-01 proof. Present the complete P1-W02 execution contract for explicit approval or revision. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Continue to prohibit external accounts, tier activation, real data, connections, configuration, fixture entry, testing, billing, purchases, customer communications, production use, and platform selection.

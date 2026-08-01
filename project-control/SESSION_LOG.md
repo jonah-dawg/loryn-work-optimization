@@ -2313,3 +2313,48 @@ Present the proposed P1-W02 outcome for explicit approval or revision. Do not cr
 ### Saved ending point
 
 Draft the P1-W02 official-evidence preflight and detailed comparison-contract boundaries, beginning with current official HubSpot tier evidence, then present the next material contract decision. Do not create or configure an external account from D-089.
+
+## Session S-058 - HubSpot preflight and P1-W02 contract draft
+
+**Date:** July 31, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W02 - Next CRM comparison contract
+
+**Checkpoint:** CP-004 remains the last signed-off checkpoint; CP-005 was not reached; CP-006 effect is proposed only
+
+**Sign-off status:** No new approval; work performed under D-089 research and drafting authority
+
+### Work completed
+
+- Reviewed current official HubSpot feature, tier, custom-property, required/unique-field, pipeline, view, task, dashboard, mobile, administration, MFA, history, export, deletion, API, cost, and trial evidence.
+- Recorded the official-source preflight in `../evidence/P1-W02/hubspot/official-evidence-preflight.md`.
+- Drafted the complete P1-W02 candidate/tier boundary, administrator model, minimum configuration, evaluator sequence, stopping rules, account procedure, separate action gates, fixture/evidence handling, acceptance checks, and proposed CP-006 effect.
+
+### Preliminary findings
+
+- HubSpot Free permits only 10 custom properties in total and cannot represent the CP-003 baseline or receive the common fixtures faithfully.
+- A Starter-level path remains plausible with 1,000 custom properties per object and a conservative planning cost of $40/month before tax for two Core Seats.
+- Starter packaging, exact commitment and renewal terms, and no-billing evaluation access remain unverified because current official pages are not fully consistent.
+- The public 14-day trial is Marketing Hub Professional and cannot establish Starter capability.
+- M-01 remains a decision-critical risk because multi-source custom reporting is Professional-only; Starter must directly prove a practical single action center or equivalent.
+
+### Approval boundary
+
+- D-089 remains the last approval. The complete P1-W02 execution contract is unapproved.
+- No HubSpot account, trial, tier activation, configuration, fixture entry, test, integration, real-data use, communication, billing action, purchase, production use, Loryn finalist session, checkpoint sign-off, or platform selection was authorized or performed.
+- Contract approval, if later given, will still leave account creation, qualifying tier activation, and synthetic configuration behind three separate exact instructions.
+
+### Files changed
+
+- `deliverables/P1-W02-next-crm-comparison-contract.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W02/hubspot/official-evidence-preflight.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Present the complete P1-W02 execution contract for explicit approval, revision, or rejection. Do not create a HubSpot account from D-089 or from discussion of the draft.
