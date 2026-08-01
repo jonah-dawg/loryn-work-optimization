@@ -2,15 +2,15 @@
 
 **Updated:** August 1, 2026
 
-**Overall status:** Active - P1-W04 Bigin evaluator result proposed; CP-008 review required
+**Overall status:** Active - P1-W04 closed at CP-008; next CRM work unit not yet authorized
 **Current phase:** Phase 1 - CRM candidate comparison
-**Active work unit:** P1-W04 - Bigin Premier evidence-first screening
+**Active work unit:** None - next Phase 1 CRM comparison work unit requires definition and approval
 
-**Work-unit status:** D-103 evaluator run stopped on direct M-01 failure; proposed `Eliminated` result unapproved pending CP-008
+**Work-unit status:** P1-W04 closed at CP-008; Bigin Premier eliminated
 
-**Last signed-off checkpoint:** CP-007 - Pipedrive Lite evaluator result (August 1, 2026)
+**Last signed-off checkpoint:** CP-008 - Bigin Premier evaluator result (August 1, 2026)
 
-**Last approval:** D-103 - begin the approved P1-W04 synthetic configuration and evaluator sequence (August 1, 2026)
+**Last approval:** CP-008 - approve the Bigin evaluator result and evidence-backed `Eliminated` status (August 1, 2026)
 
 ## Confirmed baseline
 
@@ -178,12 +178,14 @@
 - The system-retained `Window Sales Work Standard` sub-pipeline serves as the Independent route, while `Costco / Centah` provides the second route. Direct Stage Transition Rule prompts required Centah, DocuSign, and coordinator dates for Costco handoff and only coordinator date for Independent handoff.
 - Seven synthetic Contacts, seven linked Opportunities, three Tasks, and one Event were saved. A manual duplicate using `SYN-CENTAH-1001` was blocked, and synthetic phone-number and last-name searches both returned the intended Contact.
 - Direct TS-02 inspection confirmed that source record lists remain on separate tabs, dashboards expose aggregate components rather than actionable record lists, and Pipeline views cannot filter for an active record with no linked next Task. M-01 therefore fails, and M-04/M-07 also cannot uphold the approved next-action invariant.
-- The signed stopping rule ended mobile timing, import-duplicate testing, export reconstruction, administrator removal, and later scenario work. The proposed `Eliminated` result remains unapproved pending CP-008 review.
+- The signed stopping rule ended mobile timing, import-duplicate testing, export reconstruction, administrator removal, and later scenario work. CP-008 subsequently approved the evidence-backed `Eliminated` result.
 - No external connection, billing detail, paid commitment, real data, customer communication, production action, Loryn participation, checkpoint sign-off, or platform selection occurred.
+- **Signed off (CP-008):** Approve the Bigin evaluator result, linked configuration inventory, tier/cost evidence, and evidence-backed `Eliminated` status. M-01 fails directly, and M-04/M-07 also fail to uphold the approved next-action invariant.
+- CP-008 closes P1-W04 only. It does not select another CRM, authorize a next candidate or account, start Loryn finalist testing, permit billing or production use, connect Centah or another service, import real data, or send customer communications.
 
 ## Active work-unit contract
 
-**Status:** D-103 evaluator evidence prepared; proposed `Eliminated` result unapproved pending CP-008 review.
+**Status:** Closed at CP-008; Bigin Premier eliminated.
 
 **Approved outcome:** Evaluate Bigin Premier as the next independent-work CRM candidate through an evidence-first, evaluator-only process. Begin with a complete CP-003 field-capacity map and execution contract, and use the no-credit-card trial only after separate contract and account-creation approvals.
 
@@ -205,14 +207,14 @@
 - Preserve the CP-004 common gates, fixtures, scenarios, evidence format, and Loryn burden limit.
 - Continue to prohibit real data, external connections, communications, billing, purchases, production use, and platform selection.
 
-**Approved checkpoint effect:** A future CP-008 would approve only a completed Bigin evaluator result, configuration inventory, exact tier/cost record, and evidence-backed comparison status. It would not select Bigin or authorize payment, production use, integrations, real data, customer communication, or a Loryn finalist session.
+**Approved checkpoint effect:** CP-008 approves only the completed Bigin evaluator result, configuration inventory, tier/cost record, and evidence-backed comparison status. It does not select another CRM or authorize payment, production use, integrations, real data, customer communication, a Loryn finalist session, or the next candidate.
 
-**Out of scope:** Edition changes, billing, purchases, external connections, real data, customer communications, production use, Loryn participation, checkpoint sign-off, and platform selection. D-103 now permits only the signed synthetic configuration, fixture, evaluator-test, mobile-timing, export, and narrow-cleanup actions.
+**Out of scope:** P1-W04 is closed. Further Bigin configuration, testing, cleanup, edition changes, billing, purchases, external connections, real data, customer communications, production use, Loryn participation, and platform selection all require later explicit authorization.
 
 ## Open items
 
-- Review the proposed Bigin evaluator result and linked configuration inventory. CP-008 requires explicit sign-off; do not infer approval from D-103 or this saved evidence.
-- If CP-008 approves the proposed elimination, separately define and authorize the next candidate or work unit. No next CRM account or tenant action is currently authorized.
+- Define and explicitly approve the next Phase 1 CRM comparison work unit. No next CRM account, trial, configuration, or tenant action is authorized.
+- Treat the Bigin evidence set as signed and immutable unless a later explicitly approved P1-W04 reopening supersedes it.
 - Vendor sample records and one blank malformed synthetic Contact remain recoverable in Bigin's recycle bin; seven baseline synthetic Contacts and Opportunities plus activities remain as evaluator evidence.
 - Mobile timing, import duplicate behavior, export reconstruction, administrator removal, exact two-administrator checkout, API limits, and retention remain unverified because the mandatory stopping rule ended the run.
 - If P1-W03 is reopened, reset the seven baseline fixtures and remove any orphaned TS-01 activity before another run or tenant closeout.
@@ -235,7 +237,7 @@ CP-003 approved `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimu
 
 CP-004 approved `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`. Decisions D-049 through D-061 record the mandatory gates, D-062 through D-069 record the complete 100-point scorecard and scoring rule, D-070 through D-072 record the scenarios, fixtures, and scripts, D-073 records the staged test-burden rule, and D-074 records the evaluator-only evidence format. At CP-004, the authoritative Markdown master was Version 1.39; Word remains intentionally stale.
 
-P1-W01 is closed incomplete by D-088 option 1; Zoho Professional remains documentation-only and CP-005 was not reached. P1-W02 is closed incomplete by D-094 option 3; HubSpot Starter remains documentation-only and CP-006 was not reached. D-093 continues to allow technical-partner-only prototype administration while deferring Loryn until a viable finalist. D-095 and D-096 approved the P1-W03 outcome and contract. D-097 completed the account-shell inspection, D-098 completed the no-billing transition to Lite with no active add-ons, D-099 produced the Pipedrive evaluator result, and CP-007 approved that result and eliminated Lite. D-100 approved the P1-W04 Bigin Premier outcome, D-101 approved the complete Premier-only execution contract, D-102 completed the bounded account shell, and D-103 authorized the synthetic run. Direct M-01 evidence now supports a proposed Bigin `Eliminated` result, but CP-008 has not been signed. The authoritative Markdown master is Version 1.78; Word remains intentionally stale.
+P1-W01 is closed incomplete by D-088 option 1; Zoho Professional remains documentation-only and CP-005 was not reached. P1-W02 is closed incomplete by D-094 option 3; HubSpot Starter remains documentation-only and CP-006 was not reached. D-093 continues to allow technical-partner-only prototype administration while deferring Loryn until a viable finalist. P1-W03 is closed at CP-007 with Pipedrive Lite eliminated. D-100 through D-103 opened and executed P1-W04, and CP-008 approved the Bigin evaluator result and eliminated Bigin Premier after direct M-01 failure. The authoritative Markdown master is Version 1.79; Word remains intentionally stale.
 
 CP-007 approved `../evidence/P1-W03/pipedrive/evaluator-result.md` and the linked configuration, tier, and cost evidence. Pipedrive Lite fails M-02 source-specific workflow and M-09 safe Centah/Costco bridge because the evaluated tier cannot enforce the required source-specific handoff and accepted a duplicate synthetic Centah identifier without a block or visible review route. CP-007 does not select another CRM or authorize another candidate.
 
@@ -258,12 +260,12 @@ CP-007 approved `../evidence/P1-W03/pipedrive/evaluator-result.md` and the linke
 
 ## Next work-unit starting point
 
-Phase 0 is complete at CP-004. Phase 1 P1-W01 and P1-W02 are closed incomplete under D-088 and D-094. P1-W03 is closed at CP-007 with Pipedrive Lite eliminated. P1-W04 has a completed proposed evaluator result under D-103: direct M-01 evidence supports `Eliminated`, but CP-008 remains unsigned.
+Phase 0 is complete at CP-004. Phase 1 P1-W01 and P1-W02 are closed incomplete under D-088 and D-094. P1-W03 is closed at CP-007 with Pipedrive Lite eliminated. P1-W04 is closed at CP-008 with Bigin Premier eliminated. No next candidate or work unit is authorized.
 
 ## Exact next action
 
-Review `../evidence/P1-W04/bigin/evaluator-result.md` and the linked configuration inventory. If the proposed Bigin Premier elimination is accepted, explicitly sign CP-008. Do not infer that sign-off, authorize a next candidate, or select a platform from this evidence alone.
+Define and approve the next Phase 1 CRM comparison work unit using current official evidence. Do not create another account, start another trial, configure another tenant, involve Loryn, or select a platform without the applicable separate approval.
 
 ## Resume instruction
 
-Read this file, Session S-078 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, `../deliverables/P1-W04-bigin-evidence-first-screening.md`, and the linked Bigin configuration and evaluator evidence. CP-007 is the last signed checkpoint; D-103 is the last approval. The proposed Bigin `Eliminated` result is unapproved pending CP-008 review. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Do not continue tenant testing after the mandatory stopping result, authorize a next candidate, change edition, connect services, add billing, use real data, communicate with customers, begin finalist testing, sign CP-008, or select a platform without the applicable separate approval.
+Read this file, Session S-079 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, the signed P1-W03 and P1-W04 records, and the linked Bigin evidence. CP-008 is the last signed checkpoint and approval. P1-W04 is closed with Bigin Premier eliminated; no next candidate is authorized. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Define and approve the next work unit before any new account, trial, configuration, external connection, billing, real data, customer communication, finalist testing, or platform selection.

@@ -4,11 +4,11 @@
 
 | Artifact | Authority | Current status | Update trigger |
 |---|---|---|---|
-| `../deliverables/window-sales-operations-master-plan.md` | Authoritative product and delivery plan | Version 1.78; current | Material scope, architecture, roadmap, risk, governance, process, or decision change |
+| `../deliverables/window-sales-operations-master-plan.md` | Authoritative product and delivery plan | Version 1.79; current | Material scope, architecture, roadmap, risk, governance, process, or decision change |
 | `../deliverables/window-sales-operations-master-plan.docx` | Non-authoritative editable distribution copy | Version 1.4; stale by design until final release or explicit sharing milestone | Regenerate and visually verify only for a release or requested sharing copy |
 | `GUIDED_WORKFLOW.md` | Authoritative session and checkpoint procedure | Current | Workflow-control rule changes |
-| `CURRENT_STATE.md` | Authoritative restart point | D-103 run stopped on M-01; proposed Bigin elimination awaits CP-008; CP-007 remains last checkpoint | Every sign-off, session stop, blocker, or active-work-unit change |
-| `SESSION_LOG.md` | Append-only execution history | S-078 records the proposed Bigin evaluator result and stopping evidence; CP-007 remains last checkpoint | Every sign-off or session close |
+| `CURRENT_STATE.md` | Authoritative restart point | P1-W04 closed at CP-008; Bigin Premier eliminated; next work unit unapproved | Every sign-off, session stop, blocker, or active-work-unit change |
+| `SESSION_LOG.md` | Append-only execution history | S-079 records CP-008 sign-off and the bounded Bigin elimination | Every sign-off or session close |
 | `ARTIFACT_REGISTER.md` | Artifact authority and synchronization inventory | Current | Artifact added, renamed, superseded, or found stale |
 | `COLLABORATOR_PACKET.md` | Operational shared-Project onboarding and input-capture aid | Current; unapproved input remains subject to repository reconciliation | Shared-project procedure, active intake queue, or handoff format changes |
 | `../deliverables/P0-W01-current-workflow-and-permission-boundary.md` | Signed P0-W01 workflow and permission boundary | Approved at CP-001 | Supersede only through a later signed checkpoint |
@@ -27,12 +27,12 @@
 | `../evidence/P1-W03/pipedrive/configuration-inventory.md` | Signed P1-W03 configuration inventory | Approved at CP-007; configuration, fixtures, views, scenarios, export attempt, and cleanup state recorded | Every explicitly approved Pipedrive reopening or material later configuration change |
 | `../evidence/P1-W03/pipedrive/evaluator-result.md` | Signed P1-W03 evaluator result | Approved at CP-007; Lite eliminated by direct M-02 and M-09 failures | Every explicitly approved P1-W03 reopening or later evidence change |
 | `../evidence/P1-W03/pipedrive/synthetic-fixtures.csv` | P1-W03 synthetic preload fixture | Current; seven fictional rows imported for the D-099 run | Every approved fixture or preload-state change |
-| `../deliverables/P1-W04-bigin-evidence-first-screening.md` | Approved P1-W04 outcome and execution contract | D-103 run stopped on direct M-01 failure; proposed elimination awaits CP-008 | Every accepted P1-W04 decision and checkpoint |
-| `../evidence/P1-W04/bigin/official-evidence-preflight.md` | P1-W04 Bigin official-source evidence | Current preflight; direct evaluator result supersedes unresolved tenant assumptions where recorded | Every material Bigin feature, tier, cost, trial, or evidence change |
-| `../evidence/P1-W04/bigin/field-capacity-preflight.md` | P1-W04 CP-003-to-Bigin field map | Directly corrected to 10 Contact and 14 Pipeline custom fields plus standard Lead Source; pending CP-008 | Every direct field, module, tier, or capacity correction |
-| `../evidence/P1-W04/bigin/tenant-shell-inspection.md` | Sanitized direct P1-W04 tenant evidence | D-102 complete; Premier, 15 days, one active Super Admin, sample content, and no billing prompt confirmed | Every material later tenant-edition, trial, administrator, sample-state, or billing-boundary change |
-| `../evidence/P1-W04/bigin/configuration-inventory.md` | Sanitized direct P1-W04 configuration evidence | Proposed evidence; saved model, fixtures, rules, duplicate/search tests, and M-01 stopping result await CP-008 | Every saved configuration, fixture, test, export, cleanup, or stopping-result change |
-| `../evidence/P1-W04/bigin/evaluator-result.md` | Proposed P1-W04 evaluator result | Unapproved; proposes Bigin Premier elimination on direct M-01 failure | CP-008 review, explicit reopening, or material later evidence change |
+| `../deliverables/P1-W04-bigin-evidence-first-screening.md` | Signed P1-W04 work-unit contract and result | Closed at CP-008; Bigin Premier eliminated | Supersede only through an explicitly approved later Bigin work unit |
+| `../evidence/P1-W04/bigin/official-evidence-preflight.md` | P1-W04 Bigin official-source evidence | Signed evidence set; CP-008 eliminated Premier | Every explicitly approved Bigin reopening or material later evidence change |
+| `../evidence/P1-W04/bigin/field-capacity-preflight.md` | P1-W04 CP-003-to-Bigin field map | Approved at CP-008; 10 Contact and 14 Pipeline custom fields plus standard Lead Source | Every explicitly approved Bigin reopening or material later mapping change |
+| `../evidence/P1-W04/bigin/tenant-shell-inspection.md` | Sanitized direct P1-W04 tenant evidence | Signed evidence set; Premier tier boundary approved at CP-008 | Every explicitly approved Bigin reopening or material later tenant-evidence change |
+| `../evidence/P1-W04/bigin/configuration-inventory.md` | Signed P1-W04 configuration inventory | Approved at CP-008; saved model, fixtures, rules, duplicate/search tests, and stopping state recorded | Every explicitly approved Bigin reopening or material later configuration change |
+| `../evidence/P1-W04/bigin/evaluator-result.md` | Signed P1-W04 evaluator result | Approved at CP-008; Bigin Premier eliminated by direct M-01 failure | Every explicitly approved Bigin reopening or material later evidence change |
 | `REPOSITORY_BACKUP.md` | Repository location, synchronization boundary, and recovery instructions | Current | Repository, branch, tracked scope, or working-copy policy changes |
 
 ## Planned artifacts not yet created

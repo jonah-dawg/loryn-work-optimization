@@ -1,10 +1,10 @@
 # P1-W04 Bigin Official-Evidence Preflight
 
-**Status:** Current official preflight; D-103 direct evaluator result now proposes elimination pending CP-008
+**Status:** Signed P1-W04 evidence set; CP-008 eliminated Bigin Premier
 
 **Candidate:** Bigin by Zoho CRM
 
-**Proposed evaluated tier:** Premier
+**Evaluated tier:** Premier
 
 **Reviewed:** August 1, 2026
 
@@ -12,7 +12,7 @@
 
 Bigin Premier was the strongest remaining candidate for a bounded P1-W04 evaluation. Its official field and workflow controls directly targeted the two failures that eliminated Pipedrive Lite, and its current two-administrator price is lower than the documented Zoho CRM Professional and Freshsales Pro possibilities. D-100 approved the evidence-first outcome, D-101 approved the complete contract, and D-103 opened the synthetic configuration and evaluator gate.
 
-Subsequent direct evidence corrected the configured map to 10 Contact custom fields and 14 Pipeline custom fields plus standard Lead Source, confirmed source-specific Stage Transition Rules, and blocked a manual duplicate Centah identifier. It also confirmed an M-01 failure: source record lists remain split by sub-pipeline, dashboard components are aggregate rather than actionable record lists, and Pipeline views cannot detect an active record with no linked next Task. `evaluator-result.md` therefore proposes `Eliminated`; that result remains unapproved pending CP-008.
+Subsequent direct evidence corrected the configured map to 10 Contact custom fields and 14 Pipeline custom fields plus standard Lead Source, confirmed source-specific Stage Transition Rules, and blocked a manual duplicate Centah identifier. It also confirmed an M-01 failure: source record lists remain split by sub-pipeline, dashboard components are aggregate rather than actionable record lists, and Pipeline views cannot detect an active record with no linked next Task. CP-008 approved `evaluator-result.md` and eliminated Bigin Premier.
 
 ## Evidence summary
 

@@ -1,6 +1,6 @@
 # P1-W04 Bigin Premier Field-Capacity Preflight
 
-**Status:** Direct field configuration confirmed under D-103; proposed evidence pending CP-008 review
+**Status:** Direct field configuration approved at CP-008
 
 **Mapped:** August 1, 2026
 
@@ -10,7 +10,7 @@ The CP-003 model was directly configured within Bigin Premier's documented limit
 
 Direct configuration corrected the Pipeline estimate from 15 custom fields to 14 because standard `Lead Source` is available. It also confirmed that standard Task Due Date is date-only; a reminder may carry an on-due-date time, while Events retain start and end times. Mobile visibility, completion timestamp export, import behavior, and relationship reconstruction remain unverified because the M-01 stopping rule ended the run.
 
-## Proposed record model
+## Approved evaluated record model
 
 - Contacts are reusable people, businesses, or social identities and may begin as prospects.
 - Activities hold calls, tasks, and appointments linked to Contacts and, after conversion, to Pipeline records.

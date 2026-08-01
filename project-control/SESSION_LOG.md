@@ -3365,3 +3365,54 @@ Resume the open, unsaved `Window Sales Work` Team Pipeline wizard at the stage e
 ### Saved ending point
 
 Review the proposed P1-W04 evaluator result. If the proposed Bigin Premier elimination is accepted, explicitly sign CP-008. Do not infer that sign-off, a next-candidate authorization, or a platform selection from D-103 or this execution record.
+
+## Session S-079 - P1-W04 signed off at CP-008
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W04 - Bigin Premier evidence-first screening
+
+**Checkpoint:** CP-008
+
+**Sign-off status:** Signed off August 1, 2026; Bigin Premier eliminated
+
+**Approval evidence:** The user explicitly said, `Sign off CP-008`.
+
+### Approved result
+
+- Approved `../evidence/P1-W04/bigin/evaluator-result.md`, the linked configuration inventory, the Premier tier/cost evidence, and the evidence-backed comparison status.
+- Approved Bigin Premier as `Eliminated` because M-01 reliable daily action center fails directly. M-04 and M-07 also fail to uphold the approved next-action invariant in the evaluated configuration.
+- Confirmed that the weighted score remains intentionally incomplete under the approved stopping rule and that unverified mobile, import, export, administration, reliability, and checkout items do not reverse the mandatory M-01 failure.
+- Closed P1-W04 at CP-008.
+
+### Validation
+
+- The evaluator result contains all thirteen mandatory-gate rows and all seven scenario rows.
+- The configuration inventory records the direct field map, two source routes, stages, Stage Transition Rules, seven synthetic Contacts and Opportunities, activities, blocked manual duplicate, search checks, task-time limitations, M-01 evidence, and cleanup state.
+- Privacy and secret checks found no credentials, private email addresses, account identifiers, real customer data, or private integration payloads.
+- Markdown and Git diff checks passed before commit.
+
+### Approval boundary
+
+- CP-008 approves the Bigin Premier evaluator result only.
+- It does not select another CRM, authorize a next candidate or account, start a Loryn finalist session, permit billing or production use, connect Centah or another service, import real data, or send customer communications.
+- Bigin Premier can be reopened only through a later explicitly approved work unit.
+
+### Files changed
+
+- `deliverables/P1-W04-bigin-evidence-first-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W04/bigin/configuration-inventory.md`
+- `evidence/P1-W04/bigin/evaluator-result.md`
+- `evidence/P1-W04/bigin/field-capacity-preflight.md`
+- `evidence/P1-W04/bigin/official-evidence-preflight.md`
+- `evidence/P1-W04/bigin/tenant-shell-inspection.md`
+- `project-control/ARTIFACT_REGISTER.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+
+### Saved ending point
+
+Define and approve the next Phase 1 CRM comparison work unit using current official evidence before authorizing another account, trial, configuration, or external action.

@@ -1,6 +1,6 @@
 # P1-W04 Bigin Tenant-Shell Inspection
 
-**Status:** Direct D-102 shell inspection complete; Premier trial confirmed; configuration unapproved
+**Status:** Signed P1-W04 tier evidence; CP-008 eliminated Bigin Premier
 
 **Inspected:** August 1, 2026
 

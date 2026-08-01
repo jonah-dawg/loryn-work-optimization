@@ -1,6 +1,6 @@
 # P1-W04 Bigin Premier Evaluator Result
 
-**Status:** Proposed - unapproved pending CP-008 review
+**Status:** Approved at CP-008 - Bigin Premier eliminated
 
 **Candidate:** Bigin by Zoho CRM
 
@@ -12,9 +12,9 @@
 
 **Device and application:** Windows desktop and Chrome; native mobile timing not reached
 
-## Proposed outcome
+## Approved outcome
 
-Propose `Eliminated` for Bigin Premier. The candidate directly passed manual Centah uniqueness and provided useful source-specific Stage Transition Rules, reusable Contacts, search, tasks, events, and exception fields. However, direct TS-02 inspection confirmed that it cannot produce the approved reliable daily action center in the evaluated Premier configuration:
+Bigin Premier is `Eliminated`. The candidate directly passed manual Centah uniqueness and provided useful source-specific Stage Transition Rules, reusable Contacts, search, tasks, events, and exception fields. However, direct TS-02 inspection confirmed that it cannot produce the approved reliable daily action center in the evaluated Premier configuration:
 
 - source-specific sub-pipelines place Independent and Costco/Centah record lists on separate tabs;
 - dashboards offer aggregate KPI, chart, and target components rather than actionable record lists; and
@@ -22,7 +22,7 @@ Propose `Eliminated` for Bigin Premier. The candidate directly passed manual Cen
 
 `SYN-QUEUE-H` therefore cannot appear reliably with the named appointment, contact-due, overdue, and waiting-on-others records on one practical screen. This directly fails M-01 and also leaves the M-04 and M-07 next-action rule unsupported. The D-101 stopping rule ended the remaining mobile, export, administration, import-duplicate, and later scenario tests. No weighted score is calculated.
 
-This result is not approved. CP-007 remains the last signed checkpoint; CP-008 requires a later explicit sign-off.
+CP-008 approves this result. It does not select or authorize another CRM.
 
 ## Scenario result summary
 
@@ -78,4 +78,4 @@ Seven synthetic Contacts, seven synthetic Opportunities, three Tasks, one Event,
 
 ## Approval boundary
 
-A future CP-008 may approve this evaluator result, linked configuration inventory, tier/cost evidence, and evidence-backed `Eliminated` status only. It would not select another CRM, authorize another account or work unit, purchase Bigin, connect Centah or another service, use real data, permit customer communications, or begin a Loryn finalist session.
+CP-008 approves this evaluator result, linked configuration inventory, tier/cost evidence, and evidence-backed `Eliminated` status only. It does not select another CRM, authorize another account or work unit, purchase Bigin, connect Centah or another service, use real data, permit customer communications, or begin a Loryn finalist session. Bigin may be reopened only through a later explicitly approved work unit.

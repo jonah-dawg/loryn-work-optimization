@@ -1,12 +1,12 @@
 # P1-W04 - Bigin Premier Evidence-First Screening
 
-**Status:** D-103 evaluator run stopped on direct M-01 failure; proposed `Eliminated` outcome unapproved pending CP-008 review
+**Status:** Closed at CP-008 - Bigin Premier eliminated
 
 **Phase:** Phase 1 - CRM candidate comparison
 
 **Updated:** August 1, 2026
 
-**Last signed-off checkpoint:** CP-007
+**Last signed-off checkpoint:** CP-008
 
 ## Approved work-unit outcome
 
@@ -24,7 +24,8 @@ This outcome was explicitly approved as D-100 on August 1, 2026. D-100 authorize
 - D-102 does not authorize an edition change, configuration, fixture entry, testing, billing details, purchase, add-on, external connection, real data, communication, production use, Loryn participation, checkpoint, or platform selection.
 - **D-102 completed:** Direct shell inspection confirmed Premier with 15 trial days remaining, one active Super Admin, vendor sample content present, and no billing prompt. No sample record was opened and no tenant setting was changed.
 - **Accepted (D-103):** Begin the approved P1-W04 synthetic configuration, including verified vendor-sample cleanup, the bounded minimum configuration, CP-004 synthetic fixtures, evaluator scenarios, mobile timing, export evidence, and narrow cleanup under the signed stopping rules.
-- **D-103 result:** The bounded Premier configuration and seven synthetic opportunity fixtures were saved and tested far enough to reach the signed stopping rule. Source-specific Stage Transition Rules and manual Centah duplicate prevention worked directly, and phone-number and last-name search both passed. M-01 failed because source record lists remain split by sub-pipeline, dashboards expose aggregates rather than actionable record lists, and Pipeline views cannot detect an active record with no linked next Task. The proposed `Eliminated` result is unapproved pending CP-008 review.
+- **D-103 result:** The bounded Premier configuration and seven synthetic opportunity fixtures were saved and tested far enough to reach the signed stopping rule. Source-specific Stage Transition Rules and manual Centah duplicate prevention worked directly, and phone-number and last-name search both passed. M-01 failed because source record lists remain split by sub-pipeline, dashboards expose aggregates rather than actionable record lists, and Pipeline views cannot detect an active record with no linked next Task.
+- **Signed off (CP-008):** Approve the Bigin evaluator result, linked configuration inventory, tier/cost evidence, and evidence-backed `Eliminated` status. CP-008 closes P1-W04 only and does not authorize another candidate or platform action.
 
 ## Initial recommendation
 
@@ -38,11 +39,11 @@ Recommend Bigin Premier as P1-W04 because current official evidence addresses th
 - Current official US pricing of `$15` per user monthly or `$12` per user per month billed annually. The two-administrator baseline is therefore `$30` monthly or `$288` annually before any applicable tax or add-on.
 - A 15-day trial that does not request a credit card and falls back to the one-user Free plan rather than charging automatically.
 
-## Proposed evaluator outcome
+## Approved evaluator outcome
 
-Propose `Eliminated` for the evaluated Bigin Premier configuration. Direct evidence showed that Premier solves the Pipedrive Lite failures through source-specific Stage Transition Rules and a unique Centah field, but it fails the independently mandatory M-01 daily-action-center gate. The source routes needed for correct handoff enforcement separate their record lists, the dashboard builder exposes aggregate components rather than actionable record lists, and Pipeline views cannot filter for an active record that has no linked next Task. This also leaves M-04 and M-07 unable to uphold the approved next-action invariant.
+Bigin Premier is `Eliminated`. Direct evidence showed that Premier solves the Pipedrive Lite failures through source-specific Stage Transition Rules and a unique Centah field, but it fails the independently mandatory M-01 daily-action-center gate. The source routes needed for correct handoff enforcement separate their record lists, the dashboard builder exposes aggregate components rather than actionable record lists, and Pipeline views cannot filter for an active record that has no linked next Task. This also leaves M-04 and M-07 unable to uphold the approved next-action invariant.
 
-The D-101 stopping rule ended the remaining mobile, export, import-duplicate, administration, and later scenario checks. No weighted score is calculated. CP-007 remains the last signed checkpoint; this proposed result is not approved unless CP-008 is explicitly signed.
+The D-101 stopping rule ended the remaining mobile, export, import-duplicate, administration, and later scenario checks. No weighted score is calculated. CP-008 approves the evidence-backed elimination and closes P1-W04.
 
 ## Why Premier is the approved boundary
 
@@ -138,10 +139,10 @@ The complete contract is approved as D-101. It preserves:
 - Separate exact gates for account creation, tenant/tier inspection, synthetic configuration, any paid action, any external connection, finalist testing, checkpoint sign-off, and platform selection.
 - Synthetic data only, manual communications only, no billing details, and no production use.
 
-## Approved CP-008 effect
+## CP-008 sign-off
 
-A future CP-008 would approve only a completed Bigin evaluator result, configuration inventory, exact tier/cost record, and evidence-backed comparison status. It would not select Bigin, authorize payment or production use, connect Centah or another service, import real data, permit customer communication, or start a Loryn finalist session.
+CP-008 approves only the completed Bigin evaluator result, configuration inventory, tier/cost record, and evidence-backed comparison status. It does not select another CRM, authorize payment or production use, connect Centah or another service, import real data, permit customer communication, start a Loryn finalist session, or authorize the next candidate.
 
 ## Current action
 
-Review `evidence/P1-W04/bigin/evaluator-result.md` and the linked configuration inventory. If the proposed Bigin Premier elimination is accepted, explicitly sign CP-008. Do not infer that sign-off, a next-candidate authorization, or a platform selection from D-103 or this execution record. Continue to prohibit edition changes, external connections, billing, real data, customer communications, production use, Loryn participation, checkpoint sign-off, and platform selection without the applicable separate approval.
+Define and approve the next Phase 1 CRM comparison work unit using official evidence before authorizing another account, trial, configuration, or external action. Continue to prohibit edition changes, external connections, billing, real data, customer communications, production use, Loryn participation, and platform selection without the applicable separate approval.

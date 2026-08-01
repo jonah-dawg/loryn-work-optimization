@@ -1,6 +1,6 @@
 # P1-W04 Bigin Premier Configuration Inventory
 
-**Status:** Proposed evaluator evidence under D-103; unapproved pending CP-008 review
+**Status:** Approved at CP-008 as the signed Bigin Premier configuration inventory
 
 **Configured:** August 1, 2026
 
@@ -144,6 +144,6 @@ One malformed but blank synthetic Epsilon Contact created during a timing race w
 - No dashboard or custom-view draft from the final M-01 inspection was saved.
 - No external connection, add-on, billing detail, paid commitment, real data, customer communication, production action, Loryn participation, checkpoint sign-off, or platform selection occurred.
 
-## Proposed result boundary
+## Approved result boundary
 
-The evidence supports a proposed `Eliminated` result for Bigin Premier because M-01 fails directly. This inventory and that outcome are unapproved until CP-008 is explicitly reviewed and signed. CP-007 remains the last signed checkpoint, and D-103 remains the last approval.
+CP-008 approves the `Eliminated` result for Bigin Premier because M-01 fails directly. It approves this inventory and the linked evaluator evidence only; it does not authorize another candidate, account, billing, production use, integration, real data, customer communication, or Loryn testing.
