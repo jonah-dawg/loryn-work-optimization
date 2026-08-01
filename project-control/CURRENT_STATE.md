@@ -2,15 +2,15 @@
 
 **Updated:** August 1, 2026
 
-**Overall status:** Active - P1-W04 closed at CP-008; next CRM work unit not yet authorized
+**Overall status:** Active - P1-W05 Freshsales Pro definition drafted; proposed outcome unapproved
 **Current phase:** Phase 1 - CRM candidate comparison
-**Active work unit:** None - next Phase 1 CRM comparison work unit requires definition and approval
+**Active work unit:** P1-W05 - Freshsales Pro evidence-first definition
 
-**Work-unit status:** P1-W04 closed at CP-008; Bigin Premier eliminated
+**Work-unit status:** Definition and official preflight complete under D-104; proposed outcome pending explicit approval
 
 **Last signed-off checkpoint:** CP-008 - Bigin Premier evaluator result (August 1, 2026)
 
-**Last approval:** CP-008 - approve the Bigin evaluator result and evidence-backed `Eliminated` status (August 1, 2026)
+**Last approval:** D-104 - begin the P1-W05 Freshsales Pro evidence-first definition and current official research only (August 1, 2026)
 
 ## Confirmed baseline
 
@@ -183,37 +183,41 @@
 - **Signed off (CP-008):** Approve the Bigin evaluator result, linked configuration inventory, tier/cost evidence, and evidence-backed `Eliminated` status. M-01 fails directly, and M-04/M-07 also fail to uphold the approved next-action invariant.
 - CP-008 closes P1-W04 only. It does not select another CRM, authorize a next candidate or account, start Loryn finalist testing, permit billing or production use, connect Centah or another service, import real data, or send customer communications.
 
-## Active work-unit contract
+## Active work-unit definition
 
-**Status:** Closed at CP-008; Bigin Premier eliminated.
+**Status:** P1-W05 proposed outcome is `Unapproved`; definition and official research are complete under D-104.
 
-**Approved outcome:** Evaluate Bigin Premier as the next independent-work CRM candidate through an evidence-first, evaluator-only process. Begin with a complete CP-003 field-capacity map and execution contract, and use the no-credit-card trial only after separate contract and account-creation approvals.
+**Proposed outcome:** Evaluate Freshsales Pro as the next independent-work CRM candidate through an evidence-first, evaluator-only process. If explicitly approved, begin with a CP-003 field-capacity map and a complete Pro-only execution contract. Keep the fully loaded no-credit-card 21-day trial behind later separate contract and account-creation approvals.
 
 **Inputs:**
 
 - The signed CP-003 lifecycle, next-action, and minimum-field specification.
 - The signed CP-004 scorecard, mandatory gates, fixtures, scenarios, burden limit, and evidence format.
 - The closed incomplete P1-W01 Zoho and P1-W02 HubSpot results.
-- The signed P1-W03 Pipedrive Lite elimination at CP-007.
-- The August 1 Bigin official-evidence preflight in `../evidence/P1-W04/bigin/official-evidence-preflight.md`.
-- The August 1 conservative field map in `../evidence/P1-W04/bigin/field-capacity-preflight.md`.
+- The signed P1-W03 Pipedrive Lite elimination at CP-007 and P1-W04 Bigin Premier elimination at CP-008.
+- The August 1 Freshsales official-evidence preflight in `../evidence/P1-W05/freshsales/official-evidence-preflight.md`.
+- The unapproved proposed outcome in `../deliverables/P1-W05-freshsales-pro-evidence-first-definition.md`.
 
 **Acceptance checks:**
 
-- The P1-W04 outcome is explicitly approved as D-100.
-- Current official evidence identifies Premier as the lowest plausible Bigin tier and names every decision-critical uncertainty.
-- Direct configuration fits within Premier at 10 Contact custom fields, 14 Pipeline custom fields plus standard Lead Source, and no Task custom fields.
-- The approved contract separates account creation, trial/tier inspection, any edition change, configuration, fixture entry, testing, paid action, external connection, finalist work, checkpoint sign-off, and platform selection into explicit gates.
+- D-104 authorizes definition and current official research only; it does not approve the proposed outcome.
+- Current official evidence identifies Pro as the lowest plausible Freshsales tier and names every decision-critical uncertainty.
+- The proposed outcome preserves one-pipeline-first source modeling, separate field-map and contract drafting, a mandatory M-01 stopping test, and a fully-loaded-trial contamination check.
+- Any later contract must separate account creation, trial/tier inspection, any edition resolution, configuration, fixture entry, testing, paid action, external connection, finalist work, checkpoint sign-off, and platform selection into explicit gates.
 - Preserve the CP-004 common gates, fixtures, scenarios, evidence format, and Loryn burden limit.
 - Continue to prohibit real data, external connections, communications, billing, purchases, production use, and platform selection.
 
-**Approved checkpoint effect:** CP-008 approves only the completed Bigin evaluator result, configuration inventory, tier/cost record, and evidence-backed comparison status. It does not select another CRM or authorize payment, production use, integrations, real data, customer communication, a Loryn finalist session, or the next candidate.
+**Last approved checkpoint effect:** CP-008 approves only the completed Bigin evaluator result, configuration inventory, tier/cost record, and evidence-backed comparison status. It does not select Freshsales or authorize a Freshsales account, trial, tenant action, payment, production use, integration, real data, customer communication, or Loryn session.
 
-**Out of scope:** P1-W04 is closed. Further Bigin configuration, testing, cleanup, edition changes, billing, purchases, external connections, real data, customer communications, production use, Loryn participation, and platform selection all require later explicit authorization.
+**Out of scope:** A complete P1-W05 execution contract, account, trial, tenant inspection, edition change, configuration, fixture entry, testing, billing, purchase, external connection, real data, customer communication, production use, Loryn participation, checkpoint sign-off, and platform selection all require later explicit authorization.
 
 ## Open items
 
-- Define and explicitly approve the next Phase 1 CRM comparison work unit. No next CRM account, trial, configuration, or tenant action is authorized.
+- Explicitly approve or reject the P1-W05 Freshsales Pro proposed outcome. No Freshsales account, trial, configuration, or tenant action is authorized.
+- If the outcome is approved, prepare the CP-003-to-Freshsales field-capacity map and complete Pro-only execution contract for a separate approval.
+- Resolve whether Pro's activity history is sufficient for M-05 or whether the Enterprise-only audit-log boundary creates an unacceptable dependency.
+- Treat M-01 as the first direct stopping risk: official documentation does not yet prove one practical view containing all five required categories.
+- Test the documented field-dependency import bypass together with unique Deal-field enforcement; do not treat uniqueness as complete source-integrity enforcement.
 - Treat the Bigin evidence set as signed and immutable unless a later explicitly approved P1-W04 reopening supersedes it.
 - Vendor sample records and one blank malformed synthetic Contact remain recoverable in Bigin's recycle bin; seven baseline synthetic Contacts and Opportunities plus activities remain as evaluator evidence.
 - Mobile timing, import duplicate behavior, export reconstruction, administrator removal, exact two-administrator checkout, API limits, and retention remain unverified because the mandatory stopping rule ended the run.
@@ -237,7 +241,7 @@ CP-003 approved `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimu
 
 CP-004 approved `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`. Decisions D-049 through D-061 record the mandatory gates, D-062 through D-069 record the complete 100-point scorecard and scoring rule, D-070 through D-072 record the scenarios, fixtures, and scripts, D-073 records the staged test-burden rule, and D-074 records the evaluator-only evidence format. At CP-004, the authoritative Markdown master was Version 1.39; Word remains intentionally stale.
 
-P1-W01 is closed incomplete by D-088 option 1; Zoho Professional remains documentation-only and CP-005 was not reached. P1-W02 is closed incomplete by D-094 option 3; HubSpot Starter remains documentation-only and CP-006 was not reached. D-093 continues to allow technical-partner-only prototype administration while deferring Loryn until a viable finalist. P1-W03 is closed at CP-007 with Pipedrive Lite eliminated. D-100 through D-103 opened and executed P1-W04, and CP-008 approved the Bigin evaluator result and eliminated Bigin Premier after direct M-01 failure. The authoritative Markdown master is Version 1.79; Word remains intentionally stale.
+P1-W01 is closed incomplete by D-088 option 1; Zoho Professional remains documentation-only and CP-005 was not reached. P1-W02 is closed incomplete by D-094 option 3; HubSpot Starter remains documentation-only and CP-006 was not reached. D-093 continues to allow technical-partner-only prototype administration while deferring Loryn until a viable finalist. P1-W03 is closed at CP-007 with Pipedrive Lite eliminated. D-100 through D-103 opened and executed P1-W04, and CP-008 approved the Bigin evaluator result and eliminated Bigin Premier after direct M-01 failure. D-104 opened P1-W05 definition and official research only; its proposed Freshsales Pro outcome is unapproved. The authoritative Markdown master is Version 1.80; Word remains intentionally stale.
 
 CP-007 approved `../evidence/P1-W03/pipedrive/evaluator-result.md` and the linked configuration, tier, and cost evidence. Pipedrive Lite fails M-02 source-specific workflow and M-09 safe Centah/Costco bridge because the evaluated tier cannot enforce the required source-specific handoff and accepted a duplicate synthetic Centah identifier without a block or visible review route. CP-007 does not select another CRM or authorize another candidate.
 
@@ -260,12 +264,12 @@ CP-007 approved `../evidence/P1-W03/pipedrive/evaluator-result.md` and the linke
 
 ## Next work-unit starting point
 
-Phase 0 is complete at CP-004. Phase 1 P1-W01 and P1-W02 are closed incomplete under D-088 and D-094. P1-W03 is closed at CP-007 with Pipedrive Lite eliminated. P1-W04 is closed at CP-008 with Bigin Premier eliminated. No next candidate or work unit is authorized.
+Phase 0 is complete at CP-004. Phase 1 P1-W01 and P1-W02 are closed incomplete under D-088 and D-094. P1-W03 is closed at CP-007 with Pipedrive Lite eliminated. P1-W04 is closed at CP-008 with Bigin Premier eliminated. P1-W05 Freshsales Pro definition is active under D-104; the proposed outcome is unapproved.
 
 ## Exact next action
 
-Define and approve the next Phase 1 CRM comparison work unit using current official evidence. Do not create another account, start another trial, configure another tenant, involve Loryn, or select a platform without the applicable separate approval.
+Review and explicitly approve or reject the P1-W05 Freshsales Pro proposed outcome. Do not draft the complete execution contract or field map, create an account, start a trial, inspect or configure a tenant, involve Loryn, or select a platform without the applicable later approval.
 
 ## Resume instruction
 
-Read this file, Session S-079 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, the signed P1-W03 and P1-W04 records, and the linked Bigin evidence. CP-008 is the last signed checkpoint and approval. P1-W04 is closed with Bigin Premier eliminated; no next candidate is authorized. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Define and approve the next work unit before any new account, trial, configuration, external connection, billing, real data, customer communication, finalist testing, or platform selection.
+Read this file, Session S-080 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, `../deliverables/P1-W05-freshsales-pro-evidence-first-definition.md`, and `../evidence/P1-W05/freshsales/official-evidence-preflight.md`. CP-008 remains the last signed checkpoint; D-104 is the last approval and authorizes P1-W05 definition and official research only. The Freshsales Pro proposed outcome is unapproved. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Obtain explicit outcome approval before the field map or complete contract, and keep every account, trial, configuration, external connection, billing, real-data, communication, finalist, checkpoint, and platform-selection action behind its applicable later gate.

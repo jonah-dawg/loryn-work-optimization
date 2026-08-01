@@ -4,11 +4,11 @@
 
 | Artifact | Authority | Current status | Update trigger |
 |---|---|---|---|
-| `../deliverables/window-sales-operations-master-plan.md` | Authoritative product and delivery plan | Version 1.79; current | Material scope, architecture, roadmap, risk, governance, process, or decision change |
+| `../deliverables/window-sales-operations-master-plan.md` | Authoritative product and delivery plan | Version 1.80; current | Material scope, architecture, roadmap, risk, governance, process, or decision change |
 | `../deliverables/window-sales-operations-master-plan.docx` | Non-authoritative editable distribution copy | Version 1.4; stale by design until final release or explicit sharing milestone | Regenerate and visually verify only for a release or requested sharing copy |
 | `GUIDED_WORKFLOW.md` | Authoritative session and checkpoint procedure | Current | Workflow-control rule changes |
-| `CURRENT_STATE.md` | Authoritative restart point | P1-W04 closed at CP-008; Bigin Premier eliminated; next work unit unapproved | Every sign-off, session stop, blocker, or active-work-unit change |
-| `SESSION_LOG.md` | Append-only execution history | S-079 records CP-008 sign-off and the bounded Bigin elimination | Every sign-off or session close |
+| `CURRENT_STATE.md` | Authoritative restart point | P1-W05 Freshsales Pro definition active under D-104; proposed outcome unapproved | Every sign-off, session stop, blocker, or active-work-unit change |
+| `SESSION_LOG.md` | Append-only execution history | S-080 records the P1-W05 definition, official preflight, and unapproved proposed outcome | Every sign-off or session close |
 | `ARTIFACT_REGISTER.md` | Artifact authority and synchronization inventory | Current | Artifact added, renamed, superseded, or found stale |
 | `COLLABORATOR_PACKET.md` | Operational shared-Project onboarding and input-capture aid | Current; unapproved input remains subject to repository reconciliation | Shared-project procedure, active intake queue, or handoff format changes |
 | `../deliverables/P0-W01-current-workflow-and-permission-boundary.md` | Signed P0-W01 workflow and permission boundary | Approved at CP-001 | Supersede only through a later signed checkpoint |
@@ -33,6 +33,8 @@
 | `../evidence/P1-W04/bigin/tenant-shell-inspection.md` | Sanitized direct P1-W04 tenant evidence | Signed evidence set; Premier tier boundary approved at CP-008 | Every explicitly approved Bigin reopening or material later tenant-evidence change |
 | `../evidence/P1-W04/bigin/configuration-inventory.md` | Signed P1-W04 configuration inventory | Approved at CP-008; saved model, fixtures, rules, duplicate/search tests, and stopping state recorded | Every explicitly approved Bigin reopening or material later configuration change |
 | `../evidence/P1-W04/bigin/evaluator-result.md` | Signed P1-W04 evaluator result | Approved at CP-008; Bigin Premier eliminated by direct M-01 failure | Every explicitly approved Bigin reopening or material later evidence change |
+| `../deliverables/P1-W05-freshsales-pro-evidence-first-definition.md` | Active P1-W05 definition and proposed outcome | Definition complete under D-104; proposed outcome unapproved | Explicit outcome decision or material Freshsales definition change |
+| `../evidence/P1-W05/freshsales/official-evidence-preflight.md` | Preliminary P1-W05 Freshsales official-source evidence | Current; Pro recommended for outcome review, no gate passed, no account authorized | Every material Freshsales feature, tier, cost, trial, or later tenant-evidence change |
 | `REPOSITORY_BACKUP.md` | Repository location, synchronization boundary, and recovery instructions | Current | Repository, branch, tracked scope, or working-copy policy changes |
 
 ## Planned artifacts not yet created

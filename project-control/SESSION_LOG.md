@@ -3416,3 +3416,61 @@ Review the proposed P1-W04 evaluator result. If the proposed Bigin Premier elimi
 ### Saved ending point
 
 Define and approve the next Phase 1 CRM comparison work unit using current official evidence before authorizing another account, trial, configuration, or external action.
+
+## Session S-080 - P1-W05 Freshsales Pro definition drafted
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W05 - Freshsales Pro evidence-first definition
+
+**Checkpoint:** CP-008 remains the last signed-off checkpoint
+
+**Sign-off status:** D-104 definition and official research complete; proposed outcome unapproved
+
+**Approval evidence:** The user explicitly said, `Begin P1-W05 Freshsales Pro evidence-first definition`.
+
+### Orientation
+
+- Current phase: Phase 1 CRM candidate comparison.
+- Active work unit: P1-W05 Freshsales Pro evidence-first definition.
+- Last signed checkpoint: CP-008, which eliminated Bigin Premier only.
+- Last approval: D-104, authorizing definition and current official research only.
+- Open blockers: explicit proposed-outcome approval; a CP-003 field-capacity map; a complete Pro-only execution contract; M-01 unified action-center proof; trial-tier isolation; source/dependency import integrity; Pro-level administration history; exact checkout; mobile timing; export reconstruction; and all direct tenant evidence.
+- Proposed outcome: evaluate Freshsales Pro next through an evidence-first, evaluator-only process, with the field map, complete contract, account, trial, and every tenant action kept behind separate later approvals.
+
+### Decision recorded
+
+- **Accepted (D-104):** Begin the P1-W05 Freshsales Pro evidence-first definition and current official research only.
+- D-104 authorizes the proposed-outcome record, official-evidence preflight, and project-control synchronization.
+- D-104 does not approve the proposed outcome or a complete execution contract and does not authorize an account, trial, tenant inspection, edition change, configuration, fixture entry, testing, billing, purchase, external connection, real data, customer communication, production use, Loryn participation, checkpoint sign-off, or platform selection.
+
+### Official-evidence findings
+
+- Freshsales Pro is the lowest documented tier combining 250 custom fields per module, up to 10 deal pipelines, and up to 100 field dependencies per entity.
+- Conditional field dependencies may support Costco/Centah-only requirements, and a unique Deal field is documented as validating manual, bulk, API, and CSV saves.
+- Import and bulk update do not validate dependency matches, creating a decision-critical source-integrity risk even when uniqueness works.
+- The Activities dashboard and mobile home provide actionable tasks, appointments, due dates, and overdue work, but official evidence does not prove one practical M-01 view containing all five required categories.
+- Mobile offline creation/cache/sync, full account export, CSV/XLSX import, user removal, and broad REST APIs are documented.
+- Current annual Pro pricing is `$39` per user per month, or `$936` per year for two administrators before tax/add-ons. The trial is 21 days and fully loaded, so Pro-tier evidence must be isolated before configuration.
+- Audit logs and field-level permissions are shown under Enterprise at `$59` per user per month annually; whether Pro history is sufficient for the right-sized M-05 gate remains unverified.
+
+### Proposed outcome and boundary
+
+- Recommend advancing Freshsales Pro to detailed field-map and execution-contract drafting only after explicit outcome approval.
+- Treat M-01 as the first direct stopping risk and preserve a one-pipeline-first model to avoid the source-view fragmentation that eliminated Bigin.
+- No Freshsales account was created, no trial was started, no tenant was accessed, and no external or production action occurred.
+
+### Files changed
+
+- `deliverables/P1-W05-freshsales-pro-evidence-first-definition.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W05/freshsales/official-evidence-preflight.md`
+- `project-control/ARTIFACT_REGISTER.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+
+### Saved ending point
+
+Review the unapproved P1-W05 Freshsales Pro proposed outcome. If accepted, explicitly approve it before drafting the CP-003 field-capacity map or complete execution contract. Do not create an account, start a trial, inspect or configure a tenant, enter fixtures, test, add billing, connect a service, use real data, communicate with customers, involve Loryn, sign CP-009, or select a platform without the applicable separate approval.
