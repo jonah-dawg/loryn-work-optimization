@@ -1,6 +1,6 @@
 # P1-W03 - Pipedrive Evidence-First Screening
 
-**Status:** Proposed outcome approved as D-095; complete execution contract drafted and unapproved; no account action authorized
+**Status:** Complete execution contract approved as D-096; account creation remains separately unapproved
 
 **Phase:** Phase 1 - CRM candidate comparison
 
@@ -19,7 +19,9 @@ This outcome was explicitly approved as D-095 on August 1, 2026.
 ## Approved decision
 
 - **Accepted (D-095):** Approve the P1-W03 proposed outcome and authorize detailed execution-contract drafting plus additional current official-evidence research only.
+- **Accepted (D-096):** Approve the complete P1-W03 execution contract, including the Lite-only tier boundary, prototype ownership, execution sequence, minimum configuration, stopping rules, separate action gates, acceptance checks, and CP-007 effect.
 - D-095 does not authorize account creation, trial activation, configuration, fixture entry, testing, integrations, billing, purchases, real data, customer communications, Loryn participation, production use, checkpoint sign-off, or platform selection.
+- D-096 approves the contract only and preserves every separate action gate.
 
 ## Why Pipedrive is proposed next
 
@@ -40,21 +42,21 @@ This outcome was explicitly approved as D-095 on August 1, 2026.
 - The exact monthly Lite price, renewal behavior, taxes, trial-retention behavior, two-administrator permissions, and access-removal workflow remain to be verified.
 - Mobile behavior, save reliability, offline recovery, field search, directions, manual communications, exports, duplicates, and the Centah bridge remain untested.
 
-## Draft candidate and tier boundary
+## Approved candidate and tier boundary
 
 - Evaluate Pipedrive Lite only. Growth, Premium, Ultimate, Projects, LeadBooster, Smart Docs, and other add-ons are documentation-only unless a later decision changes the tier boundary.
 - Use the 14-day no-credit-card trial only if the tenant can be constrained to Lite-equivalent behavior without billing information.
 - Treat every full-trial or premium capability as unavailable until official evidence and direct tenant inspection both show that it belongs to Lite.
 - Do not purchase or enter billing details in P1-W03.
 
-## Draft prototype ownership
+## Approved prototype ownership
 
 - The technical partner is the sole evaluator administrator under D-093.
 - Loryn performs no setup, testing, evidence capture, reset, or homework. She remains deferred until a separately approved finalist session.
 - Final production ownership and administrator roles remain undecided; cost evidence still uses the approved two-administrator target model.
 - Keep credentials, MFA methods, recovery details, private emails, account identifiers, and session data out of all project artifacts.
 
-## Draft execution sequence
+## Approved execution sequence
 
 1. Complete the Lite field-capacity map and direct official-feature inventory.
 2. Obtain separate account-creation authorization.
@@ -65,7 +67,7 @@ This outcome was explicitly approved as D-095 on August 1, 2026.
 7. Load the CP-004 synthetic fixtures, run TS-01 through TS-07, perform mobile timing, and export the synthetic result unless an early mandatory failure stops the run.
 8. Remove or archive test-created artifacts using a verified narrow cleanup procedure and prepare the evidence-backed result.
 
-## Draft minimum configuration
+## Approved minimum configuration
 
 - Reusable people, Leads Inbox prospects, deals for individual jobs, and linked activities.
 - The approved active-job stages and retained outcomes without adding an unapproved parallel project module.
@@ -74,7 +76,7 @@ This outcome was explicitly approved as D-095 on August 1, 2026.
 - Practical filters or views for today's appointments, calls due today, overdue actions, waiting-on-others jobs, records missing a next action, and source-specific exceptions.
 - Manual communications only. Do not connect email, calendar, maps accounts, Centah, or another external service; native address handoff to the phone's navigation app may be tested without signing into another service.
 
-## Draft stopping rules
+## Approved stopping rules
 
 - Stop before account creation if the field map exceeds 30 or official evidence eliminates Lite.
 - Stop before configuration if the trial cannot be constrained to Lite-equivalent behavior.
@@ -82,14 +84,14 @@ This outcome was explicitly approved as D-095 on August 1, 2026.
 - Record, rather than bypass, missing required-field enforcement, deal-level uniqueness, morning-view, mobile, export, or integration behavior.
 - Never activate a higher tier, add-on, paid commitment, external connection, or custom application to make Pipedrive pass.
 
-## Draft separate action gates
+## Approved separate action gates
 
 - Complete contract approval does not authorize an account.
 - Account creation requires the later explicit instruction `Authorize the Pipedrive Lite trial account`.
 - Configuration and synthetic testing require the later explicit instruction `Begin P1-W03 synthetic configuration`.
 - A paid tier, billing action, production pilot, real data, external connection, Loryn finalist session, checkpoint, and platform selection each require separate later approval.
 
-## Draft acceptance checks
+## Approved acceptance checks
 
 - Exact tenant edition, trial-expiry behavior, two-administrator production cost, material limits, and higher-tier contamination are recorded.
 - The 22-field map is directly confirmed or corrected without exceeding Lite's 30-field limit or hiding required facts in notes.
@@ -99,7 +101,7 @@ This outcome was explicitly approved as D-095 on August 1, 2026.
 - The committed evidence contains only sanitized summaries and synthetic data and passes a secret/privacy review.
 - The result identifies Pipedrive as viable, eliminated, or incomplete; Loryn remains uninvolved.
 
-## Draft CP-007 effect
+## Approved CP-007 effect
 
 CP-007 would approve only a completed Pipedrive evaluator result, configuration inventory, exact tier and cost record, and evidence-backed comparison status. It would not select Pipedrive, authorize payment or production use, connect Centah or another service, import real data, permit customer communication, or start a Loryn finalist session.
 
@@ -108,6 +110,6 @@ CP-007 would approve only a completed Pipedrive evaluator result, configuration 
 - Account creation, trial activation, configuration, fixture entry, testing, integrations, billing, purchases, real data, customer communications, Loryn participation, production use, checkpoint sign-off, and platform selection remain unapproved.
 - Loryn remains uninvolved until a candidate becomes one of no more than two viable finalists and a separate finalist-session gate is approved.
 
-## Proposed contract approval
+## Current action gate
 
-Approve the complete P1-W03 execution contract: Lite-only tier boundary, evaluator ownership, sequence, minimum configuration, stopping rules, separate action gates, acceptance checks, and CP-007 effect. Contract approval would not authorize an account, trial, configuration, testing, billing, purchase, or platform selection.
+The complete contract is approved. Account creation remains unapproved and requires the later explicit instruction `Authorize the Pipedrive Lite trial account`. That instruction would authorize only the bounded no-credit-card evaluator account and trial setup, followed by edition and feature-boundary inspection. Configuration and synthetic testing would remain behind the separate `Begin P1-W03 synthetic configuration` gate.

@@ -2645,3 +2645,41 @@ Present three explicit options: retain HubSpot Starter as documentation-only; au
 ### Saved ending point
 
 Present the complete P1-W03 execution contract for explicit approval. Contract approval would not authorize an account, trial, configuration, testing, billing, purchase, or platform selection.
+
+## Session S-065 - Complete P1-W03 execution contract approved
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W03 - Pipedrive evidence-first screening
+
+**Checkpoint:** CP-004 remains the last signed-off checkpoint; CP-007 remains pending execution evidence
+
+**Sign-off status:** Complete P1-W03 execution contract explicitly approved as D-096; account creation remains unapproved
+
+**Approval evidence:** The user gave the exact instruction `Approve the complete P1-W03 execution contract`.
+
+### Decision recorded
+
+- **Accepted (D-096):** Approve the complete P1-W03 execution contract, including the Lite-only candidate and tier boundary, technical-partner evaluator ownership, bounded execution sequence, minimum configuration, stopping rules, separate action gates, acceptance checks, and CP-007 effect.
+
+### Approval effect
+
+- P1-W03 may rely on the approved contract for later separately authorized actions.
+- CP-007 would approve only a completed Pipedrive evaluator result, configuration inventory, exact tier and cost record, and evidence-backed comparison status.
+- D-096 does not authorize account creation, trial activation, configuration, fixture entry, testing, integrations, billing, purchases, real data, customer communications, production use, Loryn participation, checkpoint sign-off, or platform selection.
+- Account creation requires the separate exact instruction `Authorize the Pipedrive Lite trial account`.
+- Configuration and synthetic testing remain behind the later exact instruction `Begin P1-W03 synthetic configuration`.
+
+### Files changed
+
+- `deliverables/P1-W03-pipedrive-evidence-first-screening.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+- `project-control/ARTIFACT_REGISTER.md`
+
+### Saved ending point
+
+Present the separate Pipedrive Lite account-creation gate. Do not create or activate the trial until the explicit authorization is received.
