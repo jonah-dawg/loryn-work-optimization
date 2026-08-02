@@ -2,12 +2,12 @@
 
 ## Master Project Plan
 
-**Version:** 1.89
+**Version:** 1.90
 **Status:** Working source of truth  
 **Updated:** August 1, 2026
 **Primary team:** Window-covering sales consultant and technical partner
 
-> **Product outcome:** Configure a company-approved, mobile-capable CRM to manage Costco/Centah opportunities, independently sourced leads, and future-client prospecting while telling the consultant whom to contact, where to go, what is missing, and what must happen next. Build only the Centah integration and workflow extensions that prove necessary - without replacing approved company systems or creating an uncontrolled customer database.
+> **Product outcome:** Configure a simple, mobile-capable personal CRM as the record of truth for Loryn's independently sourced leads and prospects, especially those received through email and text. The CRM should preserve their history and make the next follow-up obvious. Centah remains the separate record of truth for Costco-originated work; a manual reference or extract is acceptable, and integration is optional.
 
 ## 1. How to use this plan
 
@@ -25,27 +25,29 @@ This Markdown file is the durable, renderable project source of truth. Keep it i
 
 ### Problem
 
-The consultant performs prospecting, sales, scheduling, field measurement, customer service, builder coordination, installation support, and account management across metro Atlanta. Work arrives through Centah/Costco, referrals, builders, networking, past customers, social media, purchased lists, local businesses, direct outreach, calls, texts, and email. The resulting context switching, repeated data entry, scattered notes, and geographic travel create missed follow-ups and after-hours administration.
+The consultant receives independent leads and prospects through email, text, referrals, and other personal channels while separately using Centah for Costco work. Independent relationship history and follow-up are scattered across messages, notes, and memory, creating missed callbacks, late quotes, and forgotten prospects. The immediate need is a proportionate personal CRM, not a complete replacement for Centah or a field-service operations platform.
 
 ### Product vision
 
-A configured CRM becomes the consultant's mobile workflow hub: one reliable daily queue, a complete prospect and opportunity history, fast field capture, human-reviewed outreach, and approved data exchange for Costco leads through Centah. Existing CRM capabilities are used before custom code, while retailer and company program controls remain intact.
+A configured CRM becomes the consultant's reliable home for independent contacts, notes, status, and next actions. It provides fast capture, practical mobile lookup, today's and overdue follow-ups, and a simple lead-to-decision pipeline. Costco-originated work remains governed in Centah. Existing CRM capabilities are used before custom code, integration, or broader workflow expansion.
 
 ### Success outcomes
 
 - Capture or import a new lead in under one minute.
 - Capture a partial prospect with its source, reachable channel, next action, and follow-up date.
-- Convert a qualified prospect into an opportunity without losing source or activity history.
-- Identify every overdue, uncontacted, stalled, or next-action-free opportunity.
-- Prepare for a visit and record its outcome from one screen.
-- Reduce duplicate entry between Centah and the selected CRM.
-- Reduce driving and administrative time without lowering response quality.
-- Preserve an auditable trail for lead, appointment, quote, and installation events.
+- Move an independent lead through a small, understandable pipeline without losing source or activity history.
+- Show today's and overdue follow-ups and maintain a next action and due date for every active independent record.
+- Find a person by phone number or last name and update notes or follow-up from a phone without excessive steps.
+- Reduce missed callbacks, unsent quotes, and forgotten post-quote follow-up.
+- Preserve an exportable history of independent contacts, notes, activities, tasks, and outcomes.
 
 ### Non-goals for the first release
 
 - Replacing Centah, the employer's systems, or Costco program controls.
+- Reproducing Costco/Centah processing, identifiers, duplicate controls, handoffs, or installation management inside the initial personal CRM.
 - Building a complete custom CRM, customer database, API, or mobile website before a configured CRM pilot demonstrates a specific gap.
+- Requiring a Centah API, synchronization, or automated bridge before selecting or piloting the personal CRM.
+- Managing internal order handoff, DocuSign, installation checks, post-install support, or repair cases in the initial personal CRM.
 - Automatic outbound email, SMS, or calls without an explicit review step.
 - Purchased-list imports or automated prospecting before communications-compliance review and approval.
 - Custom route optimization, full offline synchronization, accounting, inventory, commissions, customer portals, or AI-generated measurements.
@@ -168,28 +170,25 @@ Track only metrics that change behavior:
 
 ### Product definition
 
-The selected CRM is the system of engagement for the consultant's daily workflow and the sole workflow system for independently sourced prospects and opportunities. Centah is used only for Costco-originated leads and remains the initial system of record for their identity and any retailer/program fields governed there. The CRM becomes authoritative for independent prospecting and for explicitly approved local workflow fields such as personal tasks, next actions, and local notes.
+The selected personal CRM is the record of truth for independently sourced leads and prospects, including their contact details, notes, activity history, status, next action, and due date through a won or lost/archive decision. Centah is used for Costco-originated leads and remains the record of truth for their governed identity, processing, and program fields.
 
-Centah is not a candidate for the final standalone CRM. Its current workflow is retained only as a reference baseline and as the governed Costco-side system that the selected CRM must bridge or integrate with. Platform selection must choose a CRM that can operate independent business end to end outside Costco/Centah while also supporting an evidence-backed manual or automated Centah connection for Costco-originated work.
+Centah is not a candidate for the personal CRM. A Centah integration is optional rather than a platform-selection requirement. A minimal manual reference, manual extract, or no duplicate CRM record is acceptable as long as Centah-governed information is not overridden.
 
 The first release is a configured product, not a newly built application. A custom API, database, PWA, or website is authorized only when a measured requirement cannot be met safely and economically through CRM configuration or a thin integration adapter.
 
-### Platform evaluation gate
+### Simplified platform evaluation gate
 
-Prototype the workflow in **Zoho CRM Free** first and evaluate **HubSpot Free** alongside it. Use synthetic records and the same scripted scenarios in both products. Do not select a platform from a feature checklist alone; observe the consultant completing real mobile tasks.
+Use existing signed evidence and current official information to screen OnePageCRM, Less Annoying CRM, Capsule, and the already-inspected Bigin configuration first. Do not create another account merely to repeat evidence already available. Advance no more than two viable finalists to Loryn.
 
 Score each candidate on:
 
-- Mobile speed and usability while parked.
-- Pipeline, field, view, task, and reminder configuration.
-- Ability to enforce or visibly flag a missing next action.
-- Calendar, email, maps, and approved attachment handling.
-- API access, import/export, deduplication, and webhook options.
-- Permissions, audit history, retention, deletion, and company administration.
-- Reporting, automation limits, support model, upgrade cost, and exit portability.
-- Fit with the confirmed Centah integration mechanism.
+- Everyday mobile and desktop usability.
+- Reliable next actions and today's/overdue follow-up.
+- Contact history, phone/last-name search, and a simple pipeline.
+- Proportionate two-user cost and administration burden.
+- Basic access, dependable saving, export, and production readiness.
 
-**Selection rule:** choose the lowest-total-cost CRM that can manage independent prospects and jobs without Centah and that passes all mandatory governance, mobile workflow, data portability, and Centah bridge/integration requirements. Centah-only is a nonselectable reference baseline, not a finalist or fallback final system. Treat free tiers as prototypes, not as a promise that production will remain free.
+**Selection rule:** choose the simplest affordable CRM that satisfies S-01 through S-08 and that Loryn is willing to maintain after a short practical session. Integration depth, installation operations, conditional source enforcement, elaborate reporting, and enterprise controls do not decide the initial selection. Treat free tiers as prototypes unless their production limits are explicitly acceptable.
 
 ### Configured first release
 
@@ -340,35 +339,34 @@ Costco is the only lead channel in this plan that flows through Centah. Do not b
 ### Build-versus-configure boundary
 
 ```text
-Costco leads in Centah         Independent prospects/leads
-          |                               |
-          v                               v
-Manual import or thin adapter       CRM-native capture
-          |                               |
-          +---------------+---------------+
-                          v
-                    Selected CRM
-  - contacts, deals, tasks, activities
-  - mobile views, pipeline, reports
-  - approved workflows and templates
-          |
-          v
-Optional targeted extension only for a proven gap
+Costco-originated work                  Independent leads/prospects
+          |                                        |
+          v                                        v
+       Centah                               Personal CRM
+ authoritative Costco record       authoritative independent record
+          |                                        |
+          +---- optional manual reference --------+
+                                                   |
+                                                   v
+                          Optional targeted extension only for a proven gap
 ```
 
 Do not create a parallel API, database, or web application merely to reproduce native CRM functions. Custom code is justified only when a documented requirement fails configuration, marketplace integration, and safe low-code options, and when expected time savings exceed build and support cost.
 
-### Platform trial recommendation
+### Platform evidence and simplified shortlist
+
+CP-010 corrects the product boundary and supersedes CP-004 as the method for future platform selection. The results below remain valid historical evidence against the former operating-platform scope; a prior elimination does not automatically exclude a product from the simplified personal-CRM screen.
 
 - **Zoho CRM Free - first prototype:** currently positioned for up to three users and includes core lead/deal management, mobile access, standard reports, a small number of workflows, and API access. Validate exact limits in the trial tenant before relying on them.
 - **HubSpot Free - comparison candidate:** currently positioned for up to two users with foundational CRM tools and email connectivity. Its full workflow builder generally requires higher paid tiers, so model likely upgrade cost before choosing it for automation-heavy use.
-- **Pipedrive Lite - eliminated at CP-007:** direct tenant inspection confirmed that the 14-day no-billing trial started on Premium with LeadBooster, Smart Docs, and Projects. D-098 switched the tenant to Lite at `$24` per seat per month on monthly billing, removed all carried-over add-ons, and preserved `$0` trial access without billing details. Under D-099, the model fit at 25 of Lite's 30 custom fields and the common synthetic desktop run was completed far enough to trigger the stopping rule. Lite accepted a duplicate opportunity-level Centah identifier without a block or visible review route and could not enforce the source-specific accepted-sale handoff. CP-007 approved the result and eliminated Lite; it did not select another CRM.
-- **Bigin Premier - eliminated at CP-008:** D-103 direct configuration confirmed 10 Contact custom fields and 14 Pipeline custom fields plus standard Lead Source, two source routes, nine open stages, source-specific Stage Transition Rules, and a unique Centah field that blocked a manual duplicate. Seven synthetic Contacts and Opportunities plus three Tasks and one Event were saved. Phone-number and last-name search passed. Direct TS-02 inspection then confirmed that source record lists remain split by sub-pipeline, dashboard components are aggregate rather than actionable record lists, and Pipeline views cannot find an active record with no linked next Task. M-01 therefore fails directly, with M-04/M-07 also unable to uphold the next-action invariant. CP-008 approved the result and eliminated Bigin Premier; it did not select or authorize another CRM.
+- **Pipedrive Lite - eliminated under the superseded CP-004 scope at CP-007:** direct tenant inspection confirmed that the 14-day no-billing trial started on Premium with LeadBooster, Smart Docs, and Projects. D-098 switched the tenant to Lite at `$24` per seat per month on monthly billing, removed all carried-over add-ons, and preserved `$0` trial access without billing details. Under D-099, the model fit at 25 of Lite's 30 custom fields and the common synthetic desktop run was completed far enough to trigger the stopping rule. Lite accepted a duplicate opportunity-level Centah identifier without a block or visible review route and could not enforce the source-specific accepted-sale handoff. Those failures are not initial personal-CRM requirements after CP-010.
+- **Bigin Premier - eliminated under the superseded CP-004 scope at CP-008:** D-103 direct configuration confirmed saved contacts, opportunities, activities, phone-number and last-name search, and source controls. Its dashboard could not satisfy the former five-category M-01 requirement or automatically find every job without a linked Task. Those limitations remain evidence but do not automatically exclude Bigin from the simplified personal-CRM screen.
 - **Freshsales Pro - closed incomplete under D-108:** the authorized signup attempt stopped before account creation because Freshsales rejected the available Gmail evaluator address and required a business email. No substitute business-domain identity will be obtained or fabricated solely for the evaluation. The conservative documentation map uses 9 Contact fields, 17 Deal fields, and at most 2 activity contingency fields within Pro's 250-per-module limit, but no direct tenant evidence or score exists. CP-009 was not reached, and Freshsales Pro remains documentation-only unless a later work unit explicitly reopens it.
-- **Less Annoying CRM - eliminated at CP-009:** D-112 authorized the bounded no-signup public-demo inspection. Direct inspection confirmed a temporary vendor demo, Contact-scoped Tasks, multiple pipelines, custom fields, global required-field control, and Workspace widgets for due Tasks, pipeline summaries, activity, and calendar items. The pipeline widget exposes aggregate status counts rather than the actionable waiting and missing-next-action records required alongside today's work. M-01 therefore fails directly, and the stopping rule ended the run before any account, trial, configuration, fixtures, broader gates, or scoring. CP-009 approved the sanitized evidence and `Eliminated` result and closed P1-W06 without selecting another CRM.
+- **Less Annoying CRM - eliminated under the superseded CP-004 scope at CP-009:** D-112 direct public-demo inspection confirmed Contact-scoped Tasks, multiple pipelines, custom fields, required-field control, and Workspace widgets for due Tasks, pipeline summaries, activity, and calendar items. Its aggregate pipeline widget could not satisfy the former five-category M-01 requirement. That limitation remains evidence but does not automatically exclude LACRM from the simplified personal-CRM screen.
 - **Centah-only reference baseline:** observe the existing Centah workflow to measure current friction and define bridge/integration needs. It is not eligible for final selection because independent work requires a CRM outside Costco/Centah.
+- **Simplified paper shortlist after CP-010:** OnePageCRM, Less Annoying CRM, Capsule, and the already-inspected Bigin configuration may be screened first. Reuse signed evidence before creating another account. No more than two viable finalists will reach Loryn.
 
-The platform decision is not final until the same synthetic workflow script has been completed in each viable CRM candidate, the Centah baseline has been documented for integration comparison, and the preferred CRM's production access, security, retention, data portability, likely cost, and Centah bridge path are acceptable. CP-004 approved thirteen mandatory gates covering the daily action center, source branching, essential mobile speed, reminders, administration, portability, the approved record model, human-controlled communications, the Centah bridge, save reliability, cost evidence, sustainable administration, and the common synthetic evidence standard. The complete evaluation method is maintained in `P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`.
+The platform decision is not final until a candidate satisfies S-01 through S-08, likely two-user cost and meaningful limits are documented, basic production access/security/export questions are acceptable, and Loryn prefers it after a short practical finalist session. Future comparison uses `P1-CR01-simplified-personal-crm-scope.md`. The CP-004 thirteen-gate method and synthetic scripts remain historical evidence only.
 
 ### Repository organization
 
@@ -498,13 +496,14 @@ ChatGPT should distinguish confirmed facts, assumptions, decisions, and open que
 **Technical/configuration:** create the weighted platform scorecard, synthetic fixtures, scripted mobile scenarios, field inventory, Centah discovery checklist, and vendor/security questions.  
 **Gate:** the two-person team agrees on the synthetic-only trial boundary, mandatory requirements, and scoring method. CP-001 confirmed permission to transfer approved real fields, but real imports and external integrations remain blocked until production access, security, retention, and connection controls are defined.
 
-**Progress:** P0-W01 was signed off at CP-001. CP-002 approved the independent-lead and prospecting scope. CP-003 approved the connected prospecting and active-job lifecycles, stage-specific next actions, communication timing, quote and handoff rules, installation/post-install outcomes, minimum CRM fields, and sanitized validation. CP-004 approved the P0-W03 platform-evaluation method. P1-W01 and P1-W02 closed incomplete with Zoho Professional and HubSpot Starter documentation-only. CP-007 eliminated Pipedrive Lite after M-02/M-09 failures, and CP-008 eliminated Bigin Premier after M-01 failure. D-104 through D-107 defined and authorized the bounded P1-W05 Freshsales Pro evaluation, but signup rejected the available Gmail evaluator address. D-108 closed P1-W05 incomplete without CP-009 and retained Freshsales Pro as documentation-only. D-109 through D-112 defined and authorized the bounded P1-W06 LACRM evaluation. Direct M-01 failure stopped P1-W06 before an account or configuration, and CP-009 approved the `Eliminated` result. No CRM is selected and no next candidate is authorized.
+**Progress:** P0-W01 through P0-W03 were signed through CP-004. P1-W01 through P1-W06 produced useful platform, tier, configuration, and failure evidence, ending with LACRM's CP-009 result. CP-010 then approved `P1-CR01-simplified-personal-crm-scope.md`, corrected the immediate product outcome to a personal CRM for independent leads and prospects, and superseded the CP-004 method for future selection. Earlier workflow designs and evaluator results remain preserved as historical evidence. No CRM is selected and no candidate action is authorized.
 
 ### Phase 1 - CRM candidate comparison (weeks 2-3)
 
-**Operational:** approve the separate prospecting and active-opportunity lifecycles, next-action rules, priorities, minimum fields, and representative daily scenarios.  
-**Technical/configuration:** configure Zoho first, reproduce the same scenarios in HubSpot and any other approved CRM candidate, document tier limits and likely upgrade costs, and use Centah-only solely as the nonselectable current-state baseline.
-**Gate:** observed mobile tests and the scorecard identify a preferred CRM that supports independent work and a viable Centah bridge/integration path, or show that no CRM candidate passes mandatory requirements.
+**Operational:** use the small independent lifecycle, keep a next action and due date on every active record, and confirm which product Loryn will consistently maintain.
+
+**Technical/configuration:** reuse the existing evidence, screen the simplified shortlist against S-01 through S-08, document tier limits and two-user cost, and place no more than two viable finalists in one short practical session each. Centah integration is optional and is not a finalist gate.
+**Gate:** Loryn selects the simplest acceptable personal CRM after capture, lookup, history, follow-up, and pipeline tasks are demonstrated without excessive burden.
 
 ### Phase 2 - Configured CRM pilot and manual Centah bridge (weeks 4-6)
 
@@ -540,17 +539,14 @@ Add a custom screen, route recommendation, builder-specific workflow, AI summary
 
 **Recommended backlog order**
 
-1. Define mandatory platform requirements and weighted scorecard.
-2. Define the prospecting lifecycle, active sales pipeline, conversion rule, source branch, next actions, and minimum fields.
-3. Configure the synthetic core loop in Zoho CRM Free.
-4. Reproduce and compare the core loop in HubSpot Free and Centah where possible.
-5. Select the pilot platform and document tier limits, cost triggers, and exit plan.
-6. Configure contacts/prospects/deals, lifecycles, next actions, daily views, permissions, and mobile layout.
-7. Configure consultation scheduling, navigation, post-visit outcome, quote follow-up, installation exceptions, past-customer reminders, and approved templates.
-8. Pilot manual Centah import, external IDs, deduplication, and reconciliation for Costco leads only.
-9. Build a read-only Centah connector only after the interface and value are confirmed.
-10. Add operational dashboards and CRM-native automation justified by pilot evidence.
-11. Add selective write-back, reviewed communications, or a targeted custom extension only after approval.
+1. Screen the simplified shortlist against S-01 through S-08 using existing evidence first.
+2. Document likely two-user cost, meaningful limits, export, and basic production readiness.
+3. Put no more than two viable finalists through one short practical session each with Loryn.
+4. Select the simplest acceptable personal CRM and document its tier and exit path.
+5. Configure the small independent lifecycle, next actions, today/overdue view, contact history, permissions, and mobile layout.
+6. Pilot a small approved independent workload after production access and security approval.
+7. Consider a manual Centah reference only if Loryn finds it useful.
+8. Consider integration, broader operations, automation, or custom extensions only after the personal CRM is stable and a measured gap justifies expansion.
 
 ## 12. Risk register
 
@@ -592,8 +588,8 @@ Update this table whenever a decision changes. Supersede rather than delete prio
 | D-013 | Open | Define approved retention and deletion periods | Needed for database, backups, logs, and attachments | Before production data |
 | D-014 | Open | Confirm exact Costco program fields and restrictions | May impose additional governance or write-back requirements | During Centah/company discovery |
 | D-015 | Accepted | Configure an existing CRM before building a custom application | Reduces cost, delivery time, security surface, and support burden | All evaluated CRMs fail a documented mandatory requirement |
-| D-016 | Proposed | Prototype Zoho CRM Free first and compare the same scenarios in HubSpot Free and Centah | Zoho offers a useful low-cost configuration baseline; comparison prevents premature selection | Platform scorecard and observed mobile tests are complete |
-| D-017 | Proposed | Limit custom development initially to a thin Centah integration adapter | Preserves vendor capabilities while solving the unique integration gap | Manual bridge proves value and Centah access is confirmed |
+| D-016 | Superseded | Prototype Zoho CRM Free first and compare the same scenarios in HubSpot Free and Centah | Superseded by the completed P1-W01 through P1-W06 evidence sequence and the simplified CP-010 shortlist | A historical evaluation audit requires review |
+| D-017 | Superseded | Limit custom development initially to a thin Centah integration adapter | CP-010 makes Centah integration optional and defers all custom development until the personal CRM is stable and a measured gap justifies it | A later pilot proves integration value and separately authorizes discovery |
 | D-018 | Accepted | Use guided work units, explicit sign-off, and durable session checkpoints | Keeps chat-based execution resumable, auditable, and synchronized | Process overhead exceeds value or checkpoint recovery fails |
 | D-019 | Accepted | Use a simple two-person delivery model with no formal role roster | Matches the small family-business context and avoids unnecessary process | The team expands or the company requires formal governance |
 | D-020 | Accepted | Keep project, repository, test, and trial artifacts synthetic; allow approved real fields only in the controlled production CRM | CP-001 confirmed transfer permission while preserving a safe working boundary | Permission, vendor, or production controls change |
@@ -689,25 +685,28 @@ Update this table whenever a decision changes. Supersede rather than delete prio
 | D-110 | Accepted | Approve the P1-W06 evidence-first outcome and authorize the CP-003 field-model preflight, complete-contract drafting, additional current official research, and project-control synchronization only | Advances the single-tier candidate to contract review while preserving separate authorization gates for the contract, public demo, account, trial, configuration, and every external or production action | The complete contract is rejected, official evidence eliminates LACRM, or the work unit is explicitly superseded |
 | D-111 | Accepted | Approve the complete P1-W06 LACRM execution contract, including the single-tier boundary, evaluator ownership, staged sequence, minimum configuration, stopping rules, evidence handling, action gates, and checkpoint boundary | Establishes a bounded comparable evaluation without treating contract approval as permission for public-demo interaction, an account, trial, configuration, or external action | The public demo cannot preserve the approved boundary, a mandatory requirement changes, or the contract is explicitly superseded |
 | D-112 | Accepted | Authorize the bounded P1-W06 LACRM public-demo inspection under the approved contract and stop before account creation or any broader action | Allows direct no-signup inspection of task/job linkage, Workspace action visibility, filters, and field controls while preserving the mandatory stopping rule and all later gates | The demo requires signup, exposes nonpublic data, cannot preserve the bounded scope, directly fails a mandatory gate, or the authorization is revoked |
+| D-113 | Accepted | Make the personal CRM the record of truth for independently sourced leads and prospects while Centah remains authoritative for Costco-originated work; treat any Centah reference, manual extract, or integration as optional | Restores the immediate one-person outcome and prevents a personal CRM from being judged as a replacement for governed Costco operations | The business later approves one system as authoritative for both sources |
+| D-114 | Accepted | Supersede the CP-004 M-01 through M-13 method for future selection with the eight minimum fit requirements and five weighted dimensions in P1-CR01; preserve prior results as historical evidence, reuse that evidence first, and send no more than two finalists to Loryn | Reduces evaluation burden and selects for consistent personal use, follow-up reliability, simplicity, cost, and portability instead of enterprise workflow breadth | The clarified personal-CRM outcome changes or finalist testing exposes a missing decision-critical requirement |
 
 ## 14. Immediate next actions
 
 - [x] Confirm the synthetic-only trial boundary and approved real-data transfer scope.
-- [ ] Obtain Centah integration documentation, sandbox access, sanitized sample payloads, status dictionary, and support process.
+- [ ] Deferred: obtain Centah integration information only if a later stable pilot proves a practical need.
 - [x] Conduct a workflow interview and map one Costco/Centah lead from receipt through post-install follow-up.
 - [x] Define independent-lead and prospecting sources, minimum capture, cadence, conversion, exit, source branching, and past-customer outreach.
 - [x] Approve the canonical pipeline, next-action invariant, and minimum fields. Mandatory platform-evaluation requirements continue in the next work unit.
 - [x] Create the weighted platform scorecard and scripted mobile test scenarios.
 - [x] Complete Zoho Free configuration-viability screening; retain Professional as documentation-only after the Free field-capacity blocker.
-- [ ] Reproduce the same scenarios in HubSpot Free and any other approved CRM candidate; document Centah-only as a nonselectable current-state baseline.
+- [x] Preserve the P1-W01 through P1-W06 evidence; do not repeat the superseded common scenario sequence.
 - [x] Obtain separate authorization for the bounded Freshsales Pro evaluator account before any signup or trial inspection.
 - [x] Close P1-W05 incomplete without CP-009 after the available Gmail evaluator address was rejected; retain Freshsales Pro as documentation-only.
 - [x] Approve the P1-W06 Less Annoying CRM evidence-first outcome and prepare its documentation-only field model and complete-contract draft.
 - [x] Approve the complete P1-W06 execution contract while preserving separate authorization for every external action.
 - [x] Authorize and complete the bounded P1-W06 public-demo inspection; stop on direct M-01 failure before account creation.
 - [x] Sign off CP-009 for the P1-W06 public-demo evidence and `Eliminated` result; close P1-W06.
-- [ ] Define and present the next evidence-first Phase 1 CRM candidate and proposed outcome before any account or external action.
-- [ ] Review likely paid-tier costs, data portability, retention, permissions, API limits, and support before selecting the pilot platform.
+- [x] Sign off CP-010 for the simplified personal-CRM scope, source-of-truth boundary, and future evaluation method.
+- [ ] Begin P1-W07 in a new chat by screening the simplified shortlist with existing evidence before any account or external action.
+- [ ] Review likely two-user cost, meaningful limits, export, access, saving, and basic production readiness before selecting the pilot platform.
 - [ ] Initialize the lightweight repository structure and baseline `AGENTS.md` for plans, configuration records, decisions, and any later connector code.
 - [ ] Agree on a lightweight recurring check-in cadence for reviewing progress and decisions.
 

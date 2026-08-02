@@ -1,5 +1,7 @@
 # P0-W03 - CRM Platform Scorecard and Synthetic Mobile Test Scenarios
 
+> **Superseded for future candidate selection at CP-010 (August 1, 2026).** This signed CP-004 method remains preserved as the historical basis for P1-W01 through P1-W06 and CP-007 through CP-009. Future personal-CRM selection uses `P1-CR01-simplified-personal-crm-scope.md`; do not apply M-01 through M-13 as binding gates to a new or reconsidered candidate.
+
 **Status:** Approved - CP-004 signed off July 30, 2026
 **Phase:** Phase 0 - Authority, workflow, and evaluation design
 **Updated:** July 30, 2026

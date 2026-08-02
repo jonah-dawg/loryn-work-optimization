@@ -3976,3 +3976,71 @@ Review and explicitly sign off or reject CP-009 for the P1-W06 Less Annoying CRM
 ### Saved ending point
 
 Define and present the next evidence-first Phase 1 CRM candidate and proposed outcome for explicit approval before authorizing another account, trial, configuration, or external action. No CRM is selected and no work unit is active.
+
+## Session S-090 - Personal CRM scope corrected and signed off at CP-010
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-CR01 - Simplified personal CRM scope correction
+
+**Checkpoint:** CP-010
+
+**Sign-off status:** Signed off August 1, 2026; simplified personal-CRM scope and future evaluation method approved
+
+**Approval evidence:** The user explicitly instructed, `let's correct the scope of the project and signoff so i can begin a new chat with the new scope`.
+
+### Orientation
+
+- Current phase at entry: Phase 1 CRM candidate comparison.
+- Active work unit at entry: none; P1-W06 was closed.
+- Last signed checkpoint at entry: CP-009, which preserved the LACRM public-demo evidence and elimination under M-01.
+- Last approval at entry: CP-009 sign-off.
+- Open blocker at entry: the CP-004 thirteen-gate operating-platform method no longer matched the clarified need for a simple personal CRM.
+- Proposed outcome: approve a durable scope correction, preserve earlier evidence, supersede CP-004 for future selection, and prepare a clean new-chat restart point.
+
+### Scope correction approved
+
+- The personal CRM is the record of truth for independently sourced leads and prospects, including contact details, notes, activity history, status, next action, and due date through a won or lost/archive decision.
+- Centah remains the record of truth for Costco-originated leads, governed identifiers, and Costco-required processing.
+- Centah integration, synchronization, API access, duplicate controls, and a complete CRM mirror are optional rather than platform-selection requirements.
+- A minimal manual reference, manual extract, or no cross-system copy is acceptable. A personal-CRM reference must not override Centah-governed information.
+- The initial personal lifecycle is `New`, `Contacting`, `Appointment Scheduled`, `Quote / Decision`, `Won`, and `Lost / Archived`, or a clearly equivalent product-specific pipeline.
+- Every active independent record continues to require a next action and due date unless it is explicitly closed, archived, or in a documented exception state.
+- Internal order handoff, DocuSign, installation checks, three-month installation exceptions, post-install support, and repair cases remain preserved design context but are not initial selection or configuration requirements.
+
+### Simplified future evaluation approved
+
+- **Accepted (D-113):** Make the personal CRM authoritative for independently sourced leads and prospects while Centah remains authoritative for Costco-originated work; make any manual extract, reference, or integration optional.
+- **Accepted (D-114):** Supersede the CP-004 M-01 through M-13 method for future selection with S-01 through S-08 and five weighted dimensions; preserve prior evidence, reuse it first, and send no more than two finalists to Loryn.
+- S-01 through S-08 cover quick capture, practical mobile use, relationship history, today/overdue follow-up, a simple pipeline, human-controlled communications, dependable access/saving/export, and proportionate cost/administration.
+- The five future comparison weights are 35 for everyday usability, 25 for follow-up reliability, 20 for contact history/search/simple pipeline, 10 for cost/administration, and 10 for access/export/basic production readiness.
+- Loryn receives at most two guided finalist sessions of approximately 15 to 20 minutes each and no evidence-recording work, homework, or follow-up test burden.
+
+### Effect on prior signed evidence
+
+- CP-004 remains an immutable historical approval and its artifact is retained, but CP-010 supersedes its gates, weights, fixtures, and scripts for future selection.
+- CP-007, CP-008, and CP-009 remain valid evidence-backed results against the former CP-004 method. No earlier evidence or signed log entry was rewritten.
+- Pipedrive Lite, Bigin Premier, and Less Annoying CRM are no longer automatically excluded from the simplified screen solely because they failed a superseded requirement.
+- Reconsideration must reuse existing evidence first and requires a later approved work unit before another account, tenant action, configuration, or test.
+- OnePageCRM, Less Annoying CRM, Capsule, and the already-inspected Bigin configuration form the initial paper shortlist. No platform is selected by CP-010.
+
+### Approval boundary
+
+- CP-010 approves `../deliverables/P1-CR01-simplified-personal-crm-scope.md`, the corrected product boundary, S-01 through S-08, the simplified weighted dimensions, the prior-evidence treatment, and the finalist-burden limit.
+- CP-010 closes the scope-reset outcome and leaves no active candidate work unit.
+- CP-010 does not select a CRM, begin P1-W07, authorize an account, trial, tenant inspection, configuration, fixture, billing, purchase, integration, real data, customer communication, production use, or Loryn finalist session.
+
+### Files changed
+
+- `deliverables/P1-CR01-simplified-personal-crm-scope.md`
+- `deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/ARTIFACT_REGISTER.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+
+### Saved ending point
+
+Start a new project chat for P1-W07. Read `CURRENT_STATE.md`, this session entry, `../deliverables/P1-CR01-simplified-personal-crm-scope.md`, and linked existing evidence. Define and present the P1-W07 simplified finalist-screening proposed outcome for explicit approval before any account, trial, configuration, or external action. No CRM is selected and no work unit is active.
