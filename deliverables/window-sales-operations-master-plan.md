@@ -2,9 +2,9 @@
 
 ## Master Project Plan
 
-**Version:** 1.90
+**Version:** 1.95
 **Status:** Working source of truth  
-**Updated:** August 1, 2026
+**Updated:** August 2, 2026
 **Primary team:** Window-covering sales consultant and technical partner
 
 > **Product outcome:** Configure a simple, mobile-capable personal CRM as the record of truth for Loryn's independently sourced leads and prospects, especially those received through email and text. The CRM should preserve their history and make the next follow-up obvious. Centah remains the separate record of truth for Costco-originated work; a manual reference or extract is acceptable, and integration is optional.
@@ -179,6 +179,8 @@ The first release is a configured product, not a newly built application. A cust
 ### Simplified platform evaluation gate
 
 Use existing signed evidence and current official information to screen OnePageCRM, Less Annoying CRM, Capsule, and the already-inspected Bigin configuration first. Do not create another account merely to repeat evidence already available. Advance no more than two viable finalists to Loryn.
+
+D-116 approved the P1-W07 outcome and complete definition. The authorized official-source paper screen is complete: OnePageCRM Professional scored 87, Capsule Starter 80, Less Annoying CRM 75, and Bigin Premier 66. D-117 approved OnePageCRM Professional and Capsule Starter as the two finalists and retained LACRM and Bigin as reserves. D-118 places approvals at meaningful bounded stages instead of every internal step. D-119 approved the P1-W08 practical-session contract and opened its bounded execution. Execution is paused at the OnePageCRM Google consent page before `Continue`; no account has been confirmed, Capsule remains untouched, and no fixture or Loryn action has occurred.
 
 Score each candidate on:
 
@@ -365,6 +367,7 @@ CP-010 corrects the product boundary and supersedes CP-004 as the method for fut
 - **Less Annoying CRM - eliminated under the superseded CP-004 scope at CP-009:** D-112 direct public-demo inspection confirmed Contact-scoped Tasks, multiple pipelines, custom fields, required-field control, and Workspace widgets for due Tasks, pipeline summaries, activity, and calendar items. Its aggregate pipeline widget could not satisfy the former five-category M-01 requirement. That limitation remains evidence but does not automatically exclude LACRM from the simplified personal-CRM screen.
 - **Centah-only reference baseline:** observe the existing Centah workflow to measure current friction and define bridge/integration needs. It is not eligible for final selection because independent work requires a CRM outside Costco/Centah.
 - **Simplified paper shortlist after CP-010:** OnePageCRM, Less Annoying CRM, Capsule, and the already-inspected Bigin configuration may be screened first. Reuse signed evidence before creating another account. No more than two viable finalists will reach Loryn.
+- **P1-W07 paper screen complete after D-117:** all four candidates are paper viable. OnePageCRM Professional ranks first at 87 and Capsule Starter second at 80; both are approved finalists. LACRM ranks third at 75 and Bigin Premier fourth at 66; both remain reserves. No product interaction or Loryn session is authorized.
 
 The platform decision is not final until a candidate satisfies S-01 through S-08, likely two-user cost and meaningful limits are documented, basic production access/security/export questions are acceptable, and Loryn prefers it after a short practical finalist session. Future comparison uses `P1-CR01-simplified-personal-crm-scope.md`. The CP-004 thirteen-gate method and synthetic scripts remain historical evidence only.
 
@@ -496,7 +499,7 @@ ChatGPT should distinguish confirmed facts, assumptions, decisions, and open que
 **Technical/configuration:** create the weighted platform scorecard, synthetic fixtures, scripted mobile scenarios, field inventory, Centah discovery checklist, and vendor/security questions.  
 **Gate:** the two-person team agrees on the synthetic-only trial boundary, mandatory requirements, and scoring method. CP-001 confirmed permission to transfer approved real fields, but real imports and external integrations remain blocked until production access, security, retention, and connection controls are defined.
 
-**Progress:** P0-W01 through P0-W03 were signed through CP-004. P1-W01 through P1-W06 produced useful platform, tier, configuration, and failure evidence, ending with LACRM's CP-009 result. CP-010 then approved `P1-CR01-simplified-personal-crm-scope.md`, corrected the immediate product outcome to a personal CRM for independent leads and prospects, and superseded the CP-004 method for future selection. Earlier workflow designs and evaluator results remain preserved as historical evidence. No CRM is selected and no candidate action is authorized.
+**Progress:** P0-W01 through P0-W03 were signed through CP-004. P1-W01 through P1-W06 produced useful platform, tier, configuration, and failure evidence, ending with LACRM's CP-009 result. CP-010 then approved `P1-CR01-simplified-personal-crm-scope.md`, corrected the immediate product outcome to a personal CRM for independent leads and prospects, and superseded the CP-004 method for future selection. D-115 opened P1-W07 and completed its evidence-reuse-first definition; D-116 approved that outcome and authorized the completed official-source paper screen; D-117 approved OnePageCRM Professional and Capsule Starter as finalists. D-118 streamlined approval control. D-119 approved the P1-W08 contract and began bounded execution, which is paused at the OnePageCRM consent page before account creation. Capsule, configuration, fixtures, and Loryn sessions remain not started. No CRM is selected.
 
 ### Phase 1 - CRM candidate comparison (weeks 2-3)
 
@@ -687,6 +690,11 @@ Update this table whenever a decision changes. Supersede rather than delete prio
 | D-112 | Accepted | Authorize the bounded P1-W06 LACRM public-demo inspection under the approved contract and stop before account creation or any broader action | Allows direct no-signup inspection of task/job linkage, Workspace action visibility, filters, and field controls while preserving the mandatory stopping rule and all later gates | The demo requires signup, exposes nonpublic data, cannot preserve the bounded scope, directly fails a mandatory gate, or the authorization is revoked |
 | D-113 | Accepted | Make the personal CRM the record of truth for independently sourced leads and prospects while Centah remains authoritative for Costco-originated work; treat any Centah reference, manual extract, or integration as optional | Restores the immediate one-person outcome and prevents a personal CRM from being judged as a replacement for governed Costco operations | The business later approves one system as authoritative for both sources |
 | D-114 | Accepted | Supersede the CP-004 M-01 through M-13 method for future selection with the eight minimum fit requirements and five weighted dimensions in P1-CR01; preserve prior results as historical evidence, reuse that evidence first, and send no more than two finalists to Loryn | Reduces evaluation burden and selects for consistent personal use, follow-up reliability, simplicity, cost, and portability instead of enterprise workflow breadth | The clarified personal-CRM outcome changes or finalist testing exposes a missing decision-critical requirement |
+| D-115 | Accepted | Begin and complete the P1-W07 simplified finalist-screening definition by reusing existing repository evidence first | Defines one comparable four-candidate paper screen without carrying forward superseded eliminations or authorizing current research, direct product action, Loryn participation, finalist selection, or platform selection | The proposed P1-W07 outcome is rejected, revised, or explicitly superseded |
+| D-116 | Accepted | Approve the P1-W07 proposed outcome and complete definition, authorizing current official public-source research, the four-candidate paper screen, weighted comparison of paper-viable candidates, and preparation of a recommendation of no more than two finalists | Completes the evidence-first comparison without authorizing a demo, account, trial, tenant action, Loryn session, finalist approval, checkpoint sign-off, or platform selection | The paper-screen method is superseded, current official evidence materially changes, or the finalist recommendation is revised or rejected |
+| D-117 | Accepted | Approve OnePageCRM Professional and Capsule Starter as the two P1-W07 finalists; retain Less Annoying CRM and Bigin Premier as reserves | Closes the paper-screen decision while preserving separate approval for practical-session definition, every external product or Loryn action, checkpoint sign-off, and platform selection | A finalist is withdrawn, a material evidence change alters viability, or the finalist pair is explicitly revised |
+| D-118 | Accepted | Use one approval for each clearly bounded stage instead of asking for approval after every internal drafting, research, validation, or reconciliation step; keep explicit stage-level authorization for external product or account actions, Loryn or other-person participation, real data or communications, connections, spending, production use, platform selection, checkpoint sign-off, and material scope changes | Reduces repetitive approval overhead while preserving meaningful authority, privacy, cost, participant, and production boundaries | A stage proves too broad to control safely, the user requests finer approval gates, or project risk materially changes |
+| D-119 | Accepted | Approve the complete P1-W08 finalist practical-session contract and begin its bounded execution for OnePageCRM Professional and Capsule Starter | Opens the named no-billing evaluator setup, synthetic configuration, direct checks, two short Loryn sessions, and sanitized result preparation while continuing to prohibit connections, real data, communications, spending, production use, selection, and checkpoint sign-off | The contract boundary changes, a tier or privacy blocker is reached, the user pauses or revokes execution, or a finalist becomes unavailable |
 
 ## 14. Immediate next actions
 
@@ -705,8 +713,15 @@ Update this table whenever a decision changes. Supersede rather than delete prio
 - [x] Authorize and complete the bounded P1-W06 public-demo inspection; stop on direct M-01 failure before account creation.
 - [x] Sign off CP-009 for the P1-W06 public-demo evidence and `Eliminated` result; close P1-W06.
 - [x] Sign off CP-010 for the simplified personal-CRM scope, source-of-truth boundary, and future evaluation method.
-- [ ] Begin P1-W07 in a new chat by screening the simplified shortlist with existing evidence before any account or external action.
-- [ ] Review likely two-user cost, meaningful limits, export, access, saving, and basic production readiness before selecting the pilot platform.
+- [x] Begin P1-W07 in a new chat and complete the unapproved simplified finalist-screening definition from existing repository evidence.
+- [x] Approve the P1-W07 proposed outcome and complete the official-source paper screen without direct CRM action.
+- [x] Review likely two-user cost, meaningful limits, export, access, saving, and basic production readiness for the four-candidate paper screen.
+- [x] Approve OnePageCRM Professional and Capsule Starter as the two P1-W07 finalists; retain LACRM and Bigin as reserves.
+- [x] Record D-118 and update the guided workflow to use approvals at meaningful bounded stages rather than every internal step.
+- [x] Define the unapproved P1-W08 common finalist practical-session contract without CRM interaction or Loryn participation.
+- [x] Approve the P1-W08 contract and open its bounded execution under D-119.
+- [ ] Resume OnePageCRM from the preserved Google consent page; verify account creation, trial state, and Professional-equivalent boundary before configuration.
+- [ ] Begin Capsule preflight only after the OnePageCRM preflight reaches a safe stopping point.
 - [ ] Initialize the lightweight repository structure and baseline `AGENTS.md` for plans, configuration records, decisions, and any later connector code.
 - [ ] Agree on a lightweight recurring check-in cadence for reviewing progress and decisions.
 

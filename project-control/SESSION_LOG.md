@@ -4044,3 +4044,312 @@ Define and present the next evidence-first Phase 1 CRM candidate and proposed ou
 ### Saved ending point
 
 Start a new project chat for P1-W07. Read `CURRENT_STATE.md`, this session entry, `../deliverables/P1-CR01-simplified-personal-crm-scope.md`, and linked existing evidence. Define and present the P1-W07 simplified finalist-screening proposed outcome for explicit approval before any account, trial, configuration, or external action. No CRM is selected and no work unit is active.
+
+## Session S-091 - P1-W07 simplified finalist-screening definition completed
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1 - simplified personal CRM selection
+
+**Work unit:** P1-W07 - simplified finalist-screening definition
+
+**Checkpoint:** CP-010 remains the last signed-off checkpoint
+
+**Sign-off status:** D-115 definition authorized and completed; proposed screening outcome unapproved
+
+**Approval evidence:** The user explicitly instructed Codex to `begin and complete the simplified finalist-screening definition using existing evidence first`.
+
+### Orientation
+
+- Current phase: Phase 1 simplified personal CRM selection.
+- Active work unit: P1-W07 simplified finalist-screening definition.
+- Last signed checkpoint: CP-010, which approved the personal-CRM boundary, S-01 through S-08, five weighted dimensions, evidence-reuse rule, and two-finalist ceiling.
+- Last approval at entry: CP-010 sign-off.
+- Open blockers at entry: undefined P1-W07 proposed outcome and execution boundary; evidence not rescored under S-01 through S-08; missing current feature, tier, cost, export, and limit evidence; no finalists; and open production access, security, retention, real-data, and selection approvals.
+- Proposed outcome: complete one four-candidate paper screen, recommend no more than two viable finalists, and stop before any direct CRM or Loryn action.
+
+### Decision recorded
+
+- **Accepted (D-115):** Begin and complete the P1-W07 simplified finalist-screening definition by reusing existing repository evidence first.
+- D-115 authorizes the definition, repository evidence inventory, and project-control synchronization only.
+- D-115 does not approve the proposed screening outcome or authorize new official-source research, public-demo interaction, an account, trial, tenant inspection, configuration, testing, billing, purchase, external connection, real data, customer communication, production use, Loryn participation, checkpoint sign-off, finalist selection, or platform selection.
+
+### Evidence reused
+
+- Reused CP-010 and `P1-CR01-simplified-personal-crm-scope.md` as the screening authority.
+- Reused the signed CP-009 LACRM official-evidence, field-model, and public-demo records. The due/overdue Task view, Contact-centered history, pipelines, fields, statuses, roles, export evidence, and single-tier cost remain relevant.
+- Reused the signed CP-008 Bigin official-evidence, field map, tenant inspection, configuration inventory, and evaluator result. Direct reusable evidence includes saved Contacts and Opportunities, phone/last-name search, Tasks, one overdue item, Events, stages, outcomes, roles, export documentation, and Premier cost.
+- Did not carry forward either candidate's old M-01 elimination. CP-010 expressly removed the five-category single-screen and automatic missing-job-action requirements from initial selection.
+- Found no candidate-specific signed repository evidence for OnePageCRM or Capsule. Both remain unscored rather than failed pending later approved official research.
+- No web research, public-demo interaction, account, trial, tenant action, configuration, test, export, billing action, connection, real data, communication, or Loryn participation occurred.
+
+### Complete definition
+
+- Defined one paper-screen outcome, four candidate/tier boundaries, inputs, in-scope work, exclusions, acceptance checks, approval effect, and stopping rules.
+- Defined `Supported`, `Conditional`, `Unverified`, and `Conflict` minimum-fit labels plus `Direct`, `Official`, and `Inference` evidence types and confidence labels.
+- Required every S-01 through S-08 item to be supported or conditionally supported, with bounded confirmation paths, known current two-user cost and limits, and no conflict before a candidate becomes paper viable.
+- Defined a 0-to-5 rating scale and the approved weighted calculation. The weighted total ranks acceptable candidates but cannot override a minimum-fit conflict or missing evidence.
+- Preserved the two-finalist ceiling, separate approval for direct confirmation and Loryn sessions, and later checkpoint requirement for platform selection.
+
+### Validation
+
+- Confirmed `AGENTS.md`, `CURRENT_STATE.md`, S-090, `GUIDED_WORKFLOW.md`, `ARTIFACT_REGISTER.md`, P1-CR01, relevant master-plan sections, and linked signed candidate evidence agree on CP-010 and the P1-W07 boundary.
+- Confirmed the definition does not reactivate CP-004, add integration or installation requirements, select a finalist, or authorize external action.
+- Confirmed all candidate observations are sourced from project evidence or explicitly marked unverified.
+- Completed structural, privacy, whitespace, and cross-file status checks before handoff.
+
+### Files changed
+
+- `deliverables/P1-W07-simplified-finalist-screening-definition.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/ARTIFACT_REGISTER.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+
+### Saved ending point
+
+Review and explicitly approve, revise, or reject the P1-W07 proposed outcome and complete definition. Approval would authorize current official public-source research and completion of the paper screen only. Do not interact with a public demo, create or reopen an account or trial, inspect or configure a tenant, test, add billing, connect a service, use real data, communicate with customers, involve Loryn, sign a checkpoint, select a finalist, or select a CRM without the applicable later explicit approval.
+
+## Session S-092 - P1-W07 outcome approved and paper screen completed
+
+**Date:** August 2, 2026
+
+**Phase:** Phase 1 - simplified personal CRM selection
+
+**Work unit:** P1-W07 - simplified finalist paper screen
+
+**Checkpoint:** CP-010 remains the last signed-off checkpoint
+
+**Sign-off status:** D-116 outcome and definition approved; official-source paper screen completed; finalist recommendation unapproved
+
+**Approval evidence:** The user explicitly said, `Approve the P1-W07 proposed outcome.`
+
+### Orientation
+
+- Current phase: Phase 1 simplified personal CRM selection.
+- Active work unit: P1-W07 simplified finalist paper screen.
+- Last signed checkpoint: CP-010, which approved the corrected personal-CRM scope and comparison method.
+- Last approval before this session: D-115, which authorized the definition and repository evidence inventory only.
+- Open blockers at entry: explicit outcome approval, current official feature/tier/cost/export evidence, completed S-01 through S-08 results, weighted comparison, finalist recommendation, and every direct product or Loryn action.
+- Approved outcome: complete one four-candidate official-source paper screen, recommend no more than two viable finalists, and stop before direct CRM interaction or Loryn participation.
+
+### Decision recorded
+
+- **Accepted (D-116):** Approve the P1-W07 proposed outcome and complete definition, authorizing current official public-source research, the four-candidate paper screen, weighted comparison of paper-viable candidates, and preparation of a recommendation of no more than two finalists.
+- D-116 does not authorize public-demo interaction, an account, trial, tenant inspection, configuration, testing, billing, purchase, external connection, real data, customer communication, production use, a Loryn session, checkpoint sign-off, finalist approval, or platform selection.
+
+### Official-source research
+
+- Refreshed OnePageCRM Professional pricing, plan limits, Action Stream, native mobile apps, Contact activity timeline, Deals/pipeline, export, roles, 2FA, security, and retention evidence.
+- Refreshed Capsule Starter pricing, plan limits, native mobile/offline behavior, Contacts, opportunity-linked Tasks, today/overdue views, histories, pipeline, user roles, 2FA, exports, backup, and deletion evidence.
+- Refreshed LACRM's current `$15` single-tier pricing and included mobile, task, permission, field, pipeline, and export boundary; reused its signed CP-009 evidence.
+- Refreshed Bigin's current Premier pricing, plan limits, native-app, user-management, export, and backup boundary; reused its signed CP-008 evidence.
+- Used public official webpages and help documentation only. No demo, account, trial, tenant, login, private offer, or direct product action occurred.
+
+### Paper-screen result
+
+- All four candidates are `Paper viable`; none has a current S-01 through S-08 `Conflict`.
+- OnePageCRM Professional ranked first at 87/100.
+- Capsule Starter ranked second at 80/100.
+- Less Annoying CRM ranked third at 75/100.
+- Bigin Premier ranked fourth at 66/100.
+- The weighted total ranks acceptable candidates and does not override conditional evidence or approve a platform.
+
+### Recommendation - Unapproved
+
+- Recommend OnePageCRM Professional as the first finalist because its Action Stream most directly supports the next-action habit and its documented paid two-user cost is lowest.
+- Recommend Capsule Starter as the second finalist because its mobile/offline behavior, opportunity-linked Tasks, record histories, and exit evidence are strongest despite its higher cost.
+- Retain LACRM as the first reserve and Bigin Premier as the second reserve. Neither is re-eliminated under CP-010.
+- No candidate is an approved finalist, no practical session is authorized, and no CRM is selected.
+
+### Costs and meaningful limits
+
+- OnePageCRM Professional: `$9.95` per user/month billed annually or `$15` month-to-month; two-user annual equivalent `$19.90` monthly / `$238.80` yearly; one pipeline; one-day deleted-record restore; stored emails and attachments excluded from the Contact export.
+- Capsule Starter: `$18` per user/month billed annually; two-user annual equivalent `$36` monthly / `$432` yearly; one pipeline, 30,000 Contacts, 50 custom fields, and 10 GB per-user storage; full export excludes attachments; accessible official output did not expose the month-to-month price.
+- LACRM: `$15` per user/month plus tax; `$30` monthly / `$360` yearly for two; browser-based mobile access and Contact-scoped Tasks remain the main practical uncertainties.
+- Bigin Premier: `$15` per user monthly or `$12` billed annually; two-user cost `$30` monthly or `$24` monthly equivalent / `$288` yearly; direct evidence indicates more setup and daily-view administration than the simplified outcome should require.
+
+### Validation and preserved boundaries
+
+- The result applies CP-010 rather than the superseded CP-004 gates and gives no credit for integration, installation, automation, reporting, or enterprise controls that do not improve the initial personal workflow.
+- Every candidate claim is linked to signed project evidence or a current official public source; gaps remain `Conditional` rather than inferred as direct passes.
+- No credentials, private account identifiers, vendor sample identities, real customer data, billing information, or restricted payloads were collected or retained.
+- No public-demo interaction, account, trial, tenant action, configuration, fixture, test, export, billing action, purchase, connection, communication, production action, Loryn participation, finalist approval, checkpoint sign-off, or platform selection occurred.
+
+### Files changed
+
+- `deliverables/P1-W07-simplified-finalist-screening-definition.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W07/simplified-finalist-paper-screen.md`
+- `project-control/ARTIFACT_REGISTER.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+
+### Saved ending point
+
+Review and explicitly approve, revise, or reject OnePageCRM Professional and Capsule Starter as the two P1-W07 finalists. Do not interact with either CRM, create or access an account or trial, inspect or configure a tenant, use real data, communicate with customers, involve Loryn, add billing, purchase, sign a checkpoint, or select a CRM until the applicable later boundary is defined and explicitly approved.
+
+## Session S-093 - P1-W07 finalists approved
+
+**Date:** August 2, 2026
+
+**Phase:** Phase 1 - simplified personal CRM selection
+
+**Work unit:** P1-W07 - simplified finalist paper screen
+
+**Checkpoint:** CP-010 remains the last signed-off checkpoint
+
+**Sign-off status:** D-117 finalist pair approved; P1-W07 complete; practical-session definition and every external action unapproved
+
+**Approval evidence:** The user explicitly said, `Approve these two as the finalists`.
+
+### Decision recorded
+
+- **Accepted (D-117):** Approve OnePageCRM Professional and Capsule Starter as the two P1-W07 finalists.
+- Retain Less Annoying CRM as the first reserve and Bigin Premier as the second reserve; neither is eliminated under CP-010.
+- D-117 closes the P1-W07 finalist recommendation decision only. It does not authorize drafting or executing a practical session, public-demo interaction, an account, trial, tenant inspection, configuration, testing, billing, purchase, external connection, real data, customer communication, production use, Loryn participation, checkpoint sign-off, or platform selection.
+
+### Evidence reused
+
+- Reused the D-116 paper screen and its current official evidence; no new candidate research or direct product evidence was needed to record this decision.
+- OnePageCRM Professional remains ranked first at 87/100 and Capsule Starter second at 80/100.
+- LACRM remains ranked third at 75/100 and Bigin Premier fourth at 66/100.
+- No CRM interaction, account, trial, tenant action, configuration, test, billing action, purchase, connection, real data, communication, production action, or Loryn participation occurred.
+
+### Files changed
+
+- `deliverables/P1-W07-simplified-finalist-screening-definition.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W07/simplified-finalist-paper-screen.md`
+- `project-control/ARTIFACT_REGISTER.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+
+### Saved ending point
+
+Present and explicitly approve the proposed outcome and action boundary for defining a bounded finalist practical-session contract. Do not draft the contract, interact with either CRM, or involve Loryn until that definition work is explicitly approved. No CRM is selected.
+
+## Session S-094 - D-118 reconciled and P1-W08 practical-session definition prepared
+
+**Date:** August 2, 2026
+
+**Phase:** Phase 1 - simplified personal CRM selection
+
+**Work unit:** P1-W08 - finalist practical-session contract
+
+**Checkpoint:** CP-010 remains the last signed-off checkpoint
+
+**Sign-off status:** D-118 streamlined approval policy recorded; P1-W08 contract unapproved; execution and every external action closed
+
+**Approval evidence:** The user explicitly instructed, `Resume from project-control/CURRENT_STATE.md. Record the already-approved D-118 streamlined approval policy, reconcile the project-control files, and continue to the next bounded work stage. Do not perform external CRM actions.`
+
+### Orientation
+
+- Current phase at entry: Phase 1 - simplified personal CRM selection.
+- Active work unit at entry: none; P1-W07 was complete.
+- Last signed checkpoint at entry: CP-010 - simplified personal-CRM scope and future evaluation method.
+- Last approval at entry: D-117 - OnePageCRM Professional and Capsule Starter approved as finalists only.
+- Open blockers at entry: direct mobile capture, lookup, saving, follow-up, and practical burden remained unverified; the common session setup, task card, observations, and stopping rules were undefined; and no product or Loryn action was authorized.
+- Proposed outcome: record D-118, reconcile the control hierarchy, and prepare the next bounded internal P1-W08 definition without interacting with a CRM or involving Loryn.
+
+### Decision recorded
+
+- **Accepted (D-118):** Use one approval for each clearly bounded stage instead of asking for approval after every internal drafting, research, validation, or reconciliation step.
+- One stage approval may cover all routine internal work inside a stated outcome, scope, acceptance boundary, and stopping point.
+- Internal drafting authority does not approve the resulting artifact and does not sign a checkpoint.
+- External CRM or account actions, Loryn or other-person participation, real data or communication, external connections, billing or purchase, production use, platform selection, checkpoint sign-off, and material scope changes still require explicit stage-level authorization.
+- Related external actions may share one later approval only when the contract names the actors, systems, data boundary, actions, exclusions, and stopping rules in advance.
+
+### P1-W08 definition prepared
+
+- Created the unapproved common contract for OnePageCRM Professional and Capsule Starter.
+- Defined one six-task participant card covering synthetic lead capture, last-name and phone lookup, history review, note entry, overdue and today work, next-action maintenance, and pipeline status.
+- Defined four explicitly synthetic fixtures using reserved `555` phone numbers and relative T0 dates.
+- Kept each Loryn session to approximately 15 to 20 minutes, excluding setup, with the facilitator responsible for configuration, reset, observation, privacy review, and sanitized evidence.
+- Defined common observation labels, practical-acceptance rules, tie-breakers, material blockers, tier-contamination controls, and stop conditions.
+- Designed one later stage-level instruction that may combine contract approval and bounded execution while continuing to exclude billing, purchase, connections, real data, communications, production use, platform selection, and checkpoint sign-off.
+- The contract remains `Unapproved`; this session did not infer acceptance of an unseen result from the instruction to continue internal work.
+
+### Reconciliation and validation boundary
+
+- Updated the guided workflow so D-118 reduces repetitive internal approvals without weakening the existing permission boundary.
+- Reconciled the master decision log, current state, artifact register, session history, and onboarding summary to the same P1-W08 restart point.
+- No public demo, account, trial, tenant, configuration, fixture, product test, billing action, purchase, connection, real data, communication, production action, or Loryn participation occurred.
+- No CRM is selected, and CP-010 remains the last signed checkpoint.
+
+### Files changed
+
+- `README.md`
+- `deliverables/P1-W08-finalist-practical-session-contract.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/ARTIFACT_REGISTER.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/GUIDED_WORKFLOW.md`
+- `project-control/SESSION_LOG.md`
+
+### Saved ending point
+
+Review, revise, or explicitly approve `../deliverables/P1-W08-finalist-practical-session-contract.md`. If ready, combine contract approval and the bounded execution instruction in one clear stage-level decision. Stop before every CRM interaction and Loryn action until that instruction is given. No CRM is selected.
+
+## Session S-095 - P1-W08 approved, execution begun, and paused at OnePageCRM consent
+
+**Date:** August 2, 2026
+
+**Phase:** Phase 1 - simplified personal CRM selection
+
+**Work unit:** P1-W08 - finalist practical-session contract and execution
+
+**Checkpoint:** CP-010 remains the last signed-off checkpoint
+
+**Sign-off status:** D-119 approved the P1-W08 contract and bounded execution; execution paused by user before OnePageCRM account creation
+
+**Approval evidence:** The user explicitly said, `Approve the P1-W08 contract and begin bounded P1-W08 execution`.
+
+**Pause evidence:** The user explicitly said, `Let’s stop here for the day. Create a handoff or save point so we can continue from this point tomorrow`.
+
+### Orientation
+
+- Current phase at entry: Phase 1 - simplified personal CRM selection.
+- Active work unit at entry: P1-W08 finalist practical-session contract.
+- Last signed checkpoint at entry: CP-010 - simplified personal-CRM scope and future evaluation method.
+- Last approval at entry: D-118 - streamlined bounded-stage approval policy.
+- Open blockers at entry: the P1-W08 contract was unapproved; account/trial availability, production-tier-equivalent setup, direct mobile behavior, and participant device details were unverified.
+- Proposed outcome: approve the common contract and execute its no-billing, synthetic-only setup and practical-session boundary until a stopping rule, participant handoff, or user pause was reached.
+
+### Decision recorded
+
+- **Accepted (D-119):** Approve the complete P1-W08 finalist practical-session contract and begin its bounded execution for OnePageCRM Professional and Capsule Starter.
+- D-119 authorizes only the contract's evaluator account/trial setup, minimum synthetic configuration, direct checks, two short Loryn sessions, and sanitized result preparation.
+- Billing, purchase, external connections, real data, customer communication, production use, platform selection, checkpoint sign-off, and actions outside the contract remain prohibited.
+
+### OnePageCRM preflight completed before pause
+
+- Opened the current official OnePageCRM pricing page and verified Professional remained displayed as the lowest named tier in the approved finalist boundary.
+- Opened the registration page and directly observed a 21-day free trial with no credit card required.
+- Selected Google-based signup using the existing evaluator-controlled browser identity.
+- Reached the Google consent page explaining that OnePageCRM would receive basic profile and email information.
+- Did not select `Continue` after the user asked to stop.
+- Preserved the live consent page as a browser handoff for the next session.
+
+### Exact saved state
+
+- OnePageCRM account creation is not completed or verified.
+- No OnePageCRM tenant, plan state, feature boundary, configuration, or synthetic record was accessed.
+- Capsule preflight was not started.
+- No fixture was entered, no direct product test was run, and Loryn was not involved.
+- No billing, purchase, external connection, real data, customer communication, production action, platform selection, or checkpoint sign-off occurred.
+- No evaluator email, profile name, credential, account identifier, consent URL, or private notification was written to repository artifacts.
+
+### Files changed
+
+- `README.md`
+- `deliverables/P1-W08-finalist-practical-session-contract.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W08/execution-progress.md`
+- `project-control/ARTIFACT_REGISTER.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+
+### Saved ending point
+
+Resume from the preserved OnePageCRM Google consent page. Confirm it still shows the expected OnePageCRM authorization, select `Continue`, and verify account creation, the no-billing trial, and the Professional-equivalent tier boundary before any configuration. Stop if billing is required or tier contamination cannot be controlled. Begin Capsule only after the OnePageCRM preflight reaches a safe stopping point. No CRM is selected.

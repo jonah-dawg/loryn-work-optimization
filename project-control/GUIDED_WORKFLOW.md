@@ -47,6 +47,19 @@ Each work unit must define:
 
 Work through the unit interactively. Ask only for information needed for the current decision, allow `unknown` as an answer, and record unknowns without guessing. Separate confirmed facts, working assumptions, proposals, and accepted decisions.
 
+## Streamlined stage approval policy
+
+D-118 establishes approvals at meaningful bounded stages rather than after every internal step.
+
+- Before a new stage, state its observable outcome, in-scope and out-of-scope boundary, acceptance checks, and approval effect.
+- One explicit stage approval authorizes the described internal repository work, public research, drafting, validation, and project-control reconciliation through that stage's stopping point.
+- Do not request another approval for an internal subsection or routine validation already inside the approved boundary.
+- A newly drafted result remains `Unapproved` until the user reviews and accepts it. Internal drafting authority is not checkpoint sign-off.
+- Obtain a separate explicit stage-level authorization before the first external product, account, trial, tenant, configuration, test, or deletion action; before involving Loryn or another person; and before real data, customer communication, an external connection, billing, purchase, deployment, or production use.
+- Platform selection, checkpoint sign-off, and material scope changes remain explicit decisions.
+- Related external actions may be bundled into one approval when the contract names the exact products, actors, data boundary, actions, stopping rules, and excluded actions. A user may combine contract approval and execution authorization in one clear instruction.
+- Stop and seek a revised boundary if execution encounters a material action, risk, cost, person, or system not covered by the approved stage.
+
 ## Review and sign-off
 
 Before asking for sign-off, provide a checkpoint packet containing:
@@ -99,3 +112,5 @@ If a session ends without sign-off, preserve drafts but label them **Unapproved*
 ## Permission boundary
 
 Project checkpoint approval authorizes progression within the documented plan. It does not by itself authorize production data access, creation of company-owned accounts, paid subscriptions, customer communications, Centah/Costco integration access, deployment, or destructive operations. Obtain those approvals separately when reached.
+
+D-118 does not weaken this permission boundary. It reduces repetitive internal approvals and permits clearly described related actions to share one stage-level approval; it never turns a checkpoint, general discussion, or silence into external-action authority.

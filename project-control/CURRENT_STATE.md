@@ -1,18 +1,18 @@
 # Current Project State
 
-**Updated:** August 1, 2026
+**Updated:** August 2, 2026
 
-**Overall status:** Active - CP-010 signed; simplified personal-CRM finalist definition required
+**Overall status:** Paused by user - P1-W08 approved and execution started; stopped at OnePageCRM Google consent before account creation
 
 **Current phase:** Phase 1 - simplified personal CRM selection
 
-**Active work unit:** None
+**Active work unit:** P1-W08 - finalist practical-session contract
 
-**Work-unit status:** Scope correction closed at CP-010; P1-W07 has not begun and no candidate action is authorized
+**Work-unit status:** Contract approved under D-119; bounded execution paused during OnePageCRM evaluator authorization
 
 **Last signed-off checkpoint:** CP-010 - simplified personal CRM scope and future evaluation method (August 1, 2026)
 
-**Last approval:** The user explicitly instructed, `let's correct the scope of the project and signoff so i can begin a new chat with the new scope`, approving the CP-010 scope correction and sign-off (August 1, 2026)
+**Last approval:** D-119 - the user explicitly said, `Approve the P1-W08 contract and begin bounded P1-W08 execution`, approving the complete contract and its named no-billing evaluator setup, synthetic configuration, direct checks, two short Loryn sessions, and sanitized result preparation only (August 2, 2026)
 
 ## Current product outcome
 
@@ -84,6 +84,42 @@ The former requirement for a single five-category dashboard, automatic missing-j
 - The practical session covers capture, lookup, history, a note, next-action update, today/overdue work, and pipeline status.
 - Select the simplest acceptable product Loryn will consistently maintain.
 
+## Current P1-W07 result
+
+`../deliverables/P1-W07-simplified-finalist-screening-definition.md` is the approved work-unit definition. The completed result is in `../evidence/P1-W07/simplified-finalist-paper-screen.md`.
+
+- D-116 approved the definition and authorized official public-source research, the paper screen, weighted comparison, and recommendation preparation only.
+- Existing signed LACRM and Bigin evidence was reused without carrying forward their superseded M-01 eliminations.
+- Current official evidence was added for OnePageCRM Professional, Capsule Starter, LACRM, and Bigin Premier without interacting with a CRM.
+- All four candidates are paper viable and none has a current S-01 through S-08 conflict.
+- OnePageCRM Professional ranked first at 87/100; Capsule Starter ranked second at 80/100; LACRM ranked third at 75/100; Bigin Premier ranked fourth at 66/100.
+- **Approved under D-117:** OnePageCRM Professional and Capsule Starter are the two finalists; LACRM and Bigin remain reserves.
+- Finalist status is approved, but no practical session, CRM interaction, or platform selection is authorized.
+
+## Current P1-W08 definition
+
+`../deliverables/P1-W08-finalist-practical-session-contract.md` is the approved common contract for the two finalists. Sanitized execution status is in `../evidence/P1-W08/execution-progress.md`.
+
+- D-118 permits a bounded internal stage to include its repository drafting, validation, and project-control reconciliation without separate approval after every subsection.
+- D-119 approved the contract and opened the bounded execution stage.
+- The contract uses the same four synthetic fixtures, six participant tasks, observation record, acceptance rules, and stopping conditions for both finalists.
+- Each Loryn session remains limited to approximately 15 to 20 minutes, excluding facilitator setup, with no evidence capture or homework burden.
+- OnePageCRM official pricing and registration were opened. The registration page displayed a 21-day free trial with no credit card required.
+- The existing evaluator-controlled Google identity was selected and the OnePageCRM consent page was reached.
+- The user then asked to stop. `Continue` was not selected, account creation was not completed or verified, and the live consent page was preserved as a browser handoff.
+- Capsule preflight, CRM configuration, fixtures, direct product testing, and Loryn participation have not started.
+- No billing, purchase, connection, real data, communication, production action, platform selection, or checkpoint sign-off occurred.
+
+## Streamlined approval policy
+
+D-118 governs future work alongside the existing authority and sign-off rules:
+
+- one explicit approval may cover a clearly described bounded stage and all routine internal work within it;
+- internal drafting authority does not approve the resulting artifact or sign a checkpoint;
+- no additional approval is required for an internal subsection already inside the approved stage boundary;
+- a separate explicit stage-level authorization remains required for external CRM or account actions, Loryn or other-person participation, real data or communications, external connections, spending, production use, platform selection, checkpoint sign-off, and material scope changes; and
+- related external actions may share one approval only when the exact actors, systems, data boundary, actions, exclusions, and stopping rules are presented in advance.
+
 ## Effect of CP-010 on prior work
 
 - CP-004 remains the immutable historical approval for the former M-01 through M-13 method, weights, fixtures, and TS-01 through TS-07, but CP-010 supersedes that method for all future selection.
@@ -106,16 +142,18 @@ The former requirement for a single five-category dashboard, automatic missing-j
 
 ## Current open blockers
 
-- P1-W07 simplified finalist-screening proposed outcome and execution boundary have not been defined or approved.
-- Existing evidence has not yet been rescored against S-01 through S-08.
-- Current official feature, tier, two-user cost, export, and limit evidence is still required for any shortlisted finalist.
-- No finalist has been selected for Loryn's practical session.
+- OnePageCRM account creation and exact trial/tier state remain unverified because execution paused before Google consent was continued.
+- Direct mobile capture, phone/last-name lookup, next-action updates, ordinary saving, and practical-use burden remain unverified for the recommended finalists.
+- Capsule account/trial availability and Starter-equivalent setup remain unverified because its preflight has not started.
+- The exact participant phone/OS remains to be recorded before the later sessions.
 - Production access, security, retention, and real-data approval remain open and must be resolved only after a CRM is selected.
 - D-013 retention and deletion periods remain open, and final platform selection has not been approved.
 
 ## Preserved safety and authority boundaries
 
 - No CRM is selected.
+- D-119 authorizes only the exact actions in the approved P1-W08 contract and does not approve a CRM, checkpoint, spending, connections, real data, communications, or production use.
+- The user-requested pause stops further execution until the project is explicitly resumed.
 - No account, trial, tenant inspection, configuration, fixture, billing, purchase, external connection, real data, customer communication, production use, or Loryn session is authorized by CP-010.
 - Never place credentials, MFA or recovery information, private account identifiers, cookies, tokens, real customer information, or private integration payloads in ChatGPT, repository artifacts, tests, fixtures, or screenshots.
 - Continue using synthetic evidence until a selected production CRM separately passes access, security, retention, and real-data approval.
@@ -126,16 +164,16 @@ The former requirement for a single five-category dashboard, automatic missing-j
 
 **Phase:** Phase 1 - simplified personal CRM selection.
 
-**Active work unit:** None.
+**Active work unit:** P1-W08 - finalist practical-session contract.
 
-**Next work unit:** P1-W07 - simplified finalist screening, not yet defined or approved.
+**Work-unit state:** Contract approved; execution paused at the OnePageCRM Google consent page before `Continue` and before verified account creation.
 
-**Proposed outcome:** Reuse existing signed evidence and current official information to screen OnePageCRM, Less Annoying CRM, Capsule, and the already-inspected Bigin configuration against S-01 through S-08; document meaningful limits and likely two-user cost; recommend no more than two finalists; and stop before any account, trial, tenant action, configuration, billing, real data, communication, or Loryn participation.
+**Approved finalists:** OnePageCRM Professional and Capsule Starter. LACRM is the first reserve and Bigin Premier is the second reserve. OnePageCRM is the active preflight; Capsule remains untouched. Stop while the user-requested pause is active.
 
 ## Exact next action
 
-In a new project chat, read this file, the latest entry in `SESSION_LOG.md`, `../deliverables/P1-CR01-simplified-personal-crm-scope.md`, and the linked existing candidate evidence. Then define and present the P1-W07 proposed outcome for explicit approval. Do not begin another account, trial, configuration, or external platform action from CP-010 alone.
+Resume from the preserved OnePageCRM Google consent page. Confirm it still shows the expected OnePageCRM authorization, select `Continue`, and verify account creation, the no-billing trial, and the Professional-equivalent feature boundary before any configuration. Stop if billing is required or tier contamination cannot be controlled. Begin Capsule only after the OnePageCRM preflight reaches a safe stopping point.
 
 ## Resume instruction
 
-CP-010 is the last signed checkpoint. The personal CRM is now the record of truth only for independently sourced leads and prospects; Centah remains authoritative for Costco-originated work. CP-004's thirteen-gate method is historical and superseded for future selection. No CRM is selected and no work unit is active. Begin by defining P1-W07 as an evidence-reuse-first simplified finalist screen under S-01 through S-08, with no more than two finalists and no external action without later explicit approval.
+CP-010 is the last signed checkpoint. D-119 approved the P1-W08 contract and opened bounded execution. Execution is paused by user at the preserved OnePageCRM Google consent page before `Continue`; no OnePageCRM account is confirmed, Capsule is untouched, and no configuration, fixture, direct test, Loryn session, or CRM selection has occurred.
