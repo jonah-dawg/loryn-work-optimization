@@ -3584,3 +3584,54 @@ Review and explicitly approve or reject the complete P1-W05 Freshsales Pro execu
 ### Saved ending point
 
 Present the separate account-creation gate. Do not create a Freshsales account, start a trial, inspect or configure a tenant, enter fixtures, test, add billing, connect a service, use real data, communicate with customers, involve Loryn, sign CP-009, or select a platform without the applicable separate approval. The exact account instruction is `Authorize the Freshsales Pro evaluator account`.
+
+## Session S-083 - P1-W05 Freshsales account gate authorized
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W05 - Freshsales Pro evidence-first screening
+
+**Checkpoint:** CP-008 remains the last signed-off checkpoint
+
+**Sign-off status:** Bounded account creation and nonprivate trial inspection authorized as D-107; account result and configuration pending
+
+**Approval evidence:** The user explicitly said, `Authorize the Freshsales Pro evaluator account`.
+
+### Orientation
+
+- Current phase: Phase 1 CRM candidate comparison.
+- Active work unit: P1-W05 Freshsales Pro evidence-first screening.
+- Last signed checkpoint: CP-008, which eliminated Bigin Premier only.
+- Prior approval: D-106 approved the complete Freshsales Pro-only execution contract.
+- Open blockers: create the bounded account; identify the exact product, trial, and expiry state; determine whether Pro-attributed evidence can be isolated from the fully loaded trial without billing or an edition change; and obtain separate synthetic-configuration authorization.
+- Approved outcome: evaluator-only Freshsales Pro screening with synthetic data, private account material excluded, and separate action gates.
+
+### Approval recorded
+
+- **Accepted (D-107):** Authorize the technical partner to create the bounded `Hazel Kaine` Freshsales evaluator account and no-credit-card fully loaded 21-day trial, inspect only nonprivate product, plan/trial, expiry, sample-data, user-role, and feature-boundary labels, and then stop.
+- D-107 does not authorize an edition change, sample-record inspection, configuration, fixture entry, testing, billing details, purchase, add-on, external connection, real data, customer communication, production use, Loryn participation, CP-009, or platform selection.
+
+### Account procedure boundary
+
+- Use private credentials, verification codes, recovery information, and any account identifiers outside Codex and project artifacts.
+- Enter only the information necessary for the synthetic `Hazel Kaine` evaluator shell; do not enter customer, employer, Costco, Centah, or other real operational information.
+- Do not enter billing information or activate a paid commitment, add-on, integration, or connected Freshworks service.
+- Inspect only nonprivate product, plan/trial, expiry, sample-data, user-role, and feature-boundary labels after initial sign-in.
+- Do not open sample records. Stop before any edition change, field or pipeline configuration, fixture entry, workflow test, import, export, or communication.
+- Report only sanitized labels and blockers; do not record private email addresses, account identifiers, credentials, verification codes, recovery details, or session data.
+
+### Files changed
+
+- `deliverables/P1-W05-freshsales-pro-evidence-first-definition.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W05/freshsales/field-capacity-preflight.md`
+- `evidence/P1-W05/freshsales/official-evidence-preflight.md`
+- `project-control/ARTIFACT_REGISTER.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+
+### Saved ending point
+
+Create the bounded evaluator account, inspect the allowed nonprivate labels, and report the result. Do not change edition or begin configuration without a later exact authorization.

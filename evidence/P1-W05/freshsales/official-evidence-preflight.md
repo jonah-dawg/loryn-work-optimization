@@ -1,6 +1,6 @@
 # P1-W05 Freshsales Pro Official-Evidence Preflight
 
-**Status:** Current under D-105; outcome approved, direct tenant evidence pending
+**Status:** Current; bounded account and nonprivate trial inspection authorized under D-107, direct tenant evidence pending
 
 **Candidate:** Freshsales
 

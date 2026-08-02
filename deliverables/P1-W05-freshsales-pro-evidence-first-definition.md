@@ -1,6 +1,6 @@
 # P1-W05 - Freshsales Pro Evidence-First Screening
 
-**Status:** Complete execution contract approved under D-106; account creation unapproved
+**Status:** Bounded evaluator account and nonprivate trial inspection authorized under D-107; configuration unapproved
 
 **Phase:** Phase 1 - CRM candidate comparison
 
@@ -17,12 +17,14 @@
 - D-105 does not approve the complete execution contract and does not authorize an account, trial, tenant inspection, edition change, configuration, fixture entry, testing, billing, purchase, external connection, real data, customer communication, production use, Loryn participation, checkpoint sign-off, or platform selection.
 - **Accepted (D-106):** Approve the complete P1-W05 Pro-only execution contract, including the tier/trial boundary, prototype ownership, execution sequence, minimum configuration, fixture/evidence handling, stopping rules, separate action gates, acceptance checks, and CP-009 effect.
 - D-106 approves the contract only. It does not authorize an account, trial, tenant inspection, edition change, configuration, fixture entry, testing, billing, purchase, external connection, real data, customer communication, production use, Loryn participation, CP-009, or platform selection.
+- **Accepted (D-107):** Authorize the technical partner to create the bounded `Hazel Kaine` Freshsales evaluator account and no-credit-card fully loaded 21-day trial, inspect only nonprivate product, plan/trial, expiry, sample-data, user-role, and feature-boundary labels, and then stop.
+- D-107 does not authorize an edition change, sample-record inspection, configuration, fixture entry, testing, billing details, purchase, add-on, external connection, real data, customer communication, production use, Loryn participation, CP-009, or platform selection.
 
 ## Approved work-unit outcome
 
 Evaluate Freshsales Pro as the next independent-work CRM candidate through an evidence-first, evaluator-only process. Prepare a CP-003 field-capacity map and a complete Pro-only execution contract. Keep any no-credit-card 21-day trial behind later separate contract and account-creation approvals.
 
-This outcome was explicitly approved as D-105 on August 1, 2026. The complete execution contract below was explicitly approved as D-106 on August 1, 2026. Neither decision authorizes an account or external platform action.
+This outcome was explicitly approved as D-105 on August 1, 2026. The complete execution contract below was explicitly approved as D-106 on August 1, 2026. D-107 authorizes only the bounded evaluator account, no-credit-card trial, and nonprivate shell inspection described below.
 
 ## Recommendation
 
@@ -93,7 +95,7 @@ Official documentation supports global name/title search, mobile records and act
 1. Approve the P1-W05 proposed outcome. Completed as D-105.
 2. Draft the CP-003 field-capacity map, full Pro-only execution contract, stopping rules, and CP-009 effect. Completed under D-105 and pending contract review.
 3. Approve the complete contract below. Completed as D-106.
-4. Separately authorize a bounded no-credit-card evaluator account and nonprivate tier inspection.
+4. Separately authorize a bounded no-credit-card evaluator account and nonprivate tier inspection. Completed as D-107.
 5. Resolve any fully-loaded-trial contamination through a separate exact decision before configuration.
 6. Separately authorize synthetic configuration and evaluator testing.
 7. Present the evidence-backed viable, eliminated, or incomplete result for a separate CP-009 decision.
@@ -164,7 +166,7 @@ Official documentation supports global name/title search, mobile records and act
 
 - D-105 approves the work-unit outcome, field-map drafting, contract drafting, and official research only. It does not approve this complete contract or any external action.
 - D-106 approves the documented procedure only; it does not authorize account creation or tenant action.
-- Account creation requires the later exact instruction `Authorize the Freshsales Pro evaluator account`.
+- D-107 authorizes only the bounded evaluator account, no-credit-card trial, and nonprivate shell inspection. It does not authorize an edition change or configuration.
 - Any required no-billing edition change requires a separate exact authorization written after tenant inspection.
 - Configuration and synthetic testing require the later exact instruction `Begin P1-W05 synthetic configuration`.
 - Billing, a paid tier, production pilot, real data, external connection, customer communication, Loryn finalist session, CP-009 sign-off, and platform selection each require separate later approval.
@@ -186,4 +188,4 @@ CP-009, if later explicitly signed, will approve only the completed Freshsales P
 
 ## Current action
 
-Present the separate account-creation gate. No account, trial, tenant inspection, configuration, or external action is authorized by D-106. Account creation requires the exact later instruction `Authorize the Freshsales Pro evaluator account`.
+Create the bounded `Hazel Kaine` Freshsales evaluator account and no-credit-card trial using private credentials outside all project artifacts. Inspect only nonprivate product, plan/trial, expiry, sample-data, user-role, and feature-boundary labels, report the sanitized result, and stop before any edition change, sample-record inspection, configuration, fixture entry, or testing.
