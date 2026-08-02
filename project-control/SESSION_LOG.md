@@ -3797,3 +3797,56 @@ Review and explicitly approve or reject the proposed P1-W06 Less Annoying CRM ev
 ### Saved ending point
 
 Review and explicitly approve or reject the complete P1-W06 Less Annoying CRM execution contract. Do not interact with the public demo, create an account or trial, inspect or configure a tenant, enter fixtures, test, add billing, connect a service, use real data, communicate with customers, involve Loryn, sign a checkpoint, or select a platform without the applicable later approval.
+
+## Session S-087 - P1-W06 complete execution contract approved
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W06 - Less Annoying CRM evidence-first evaluation
+
+**Checkpoint:** CP-008 remains the last signed-off checkpoint
+
+**Sign-off status:** D-111 complete execution contract approved; public-demo interaction unapproved
+
+**Approval evidence:** The user explicitly said, `Approve the complete P1-W06 execution contract.`
+
+### Orientation
+
+- Current phase: Phase 1 CRM candidate comparison.
+- Active work unit: P1-W06 Less Annoying CRM evidence-first evaluation.
+- Last signed checkpoint: CP-008, which eliminated Bigin Premier only.
+- Last approval: D-111, approving the complete P1-W06 LACRM execution contract only.
+- Open blockers: separate public-demo authorization; job-specific task linkage; one-screen action-center proof; source-specific field enforcement; duplicate Centah review; mobile/save behavior; export reconstruction; account acceptance; and every direct result.
+- Approved outcome: run a bounded synthetic evaluator process that produces an evidence-backed `Viable`, `Eliminated`, or `Incomplete` result without selecting a platform.
+
+### Decision recorded
+
+- **Accepted (D-111):** Approve the complete P1-W06 Less Annoying CRM execution contract, including the single-tier boundary, evaluator ownership, staged sequence, minimum configuration, first stopping test, remaining stopping rules, evidence handling, separate action gates, and checkpoint boundary.
+- D-111 does not authorize public-demo interaction, an account, trial, tenant inspection, configuration, fixture entry, testing, billing, purchase, external connection, real data, customer communication, production use, Loryn participation, checkpoint sign-off, or platform selection.
+
+### Approved contract effect
+
+- LACRM's single all-features tier is the only evaluated product boundary.
+- The technical partner remains the sole evaluator under D-093; Loryn remains deferred until a separately approved viable-finalist session.
+- The 8 Contact, 7 Prospecting, and 20 Window Sales Work field model is the approved minimum configuration input.
+- Contract approval, public-demo interaction, an account, tenant inspection, synthetic configuration, and checkpoint review remain separate gates.
+- The first direct stopping test remains one synthetic Contact with two active jobs, only one of which has a next action and reminder.
+- A mandatory failure stops the run before broad configuration or scoring.
+- All data remains synthetic, external connections remain disabled, and communications remain manual and unsent.
+- No public-demo interaction, account, trial, tenant action, configuration, or external action occurred.
+
+### Files changed
+
+- `deliverables/P1-W06-less-annoying-crm-evidence-first-definition.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W06/lacrm/field-model-preflight.md`
+- `evidence/P1-W06/lacrm/official-evidence-preflight.md`
+- `project-control/ARTIFACT_REGISTER.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+
+### Saved ending point
+
+Separately authorize or decline the bounded P1-W06 Less Annoying CRM public-demo inspection. Do not interact with the demo, create an account or trial, inspect or configure a tenant, enter fixtures, test, add billing, connect a service, use real data, communicate with customers, involve Loryn, sign a checkpoint, or select a platform without the applicable later approval.

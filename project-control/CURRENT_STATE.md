@@ -2,15 +2,15 @@
 
 **Updated:** August 1, 2026
 
-**Overall status:** Active - P1-W06 Less Annoying CRM complete execution contract awaiting approval
+**Overall status:** Active - P1-W06 Less Annoying CRM public-demo authorization awaiting decision
 **Current phase:** Phase 1 - CRM candidate comparison
 **Active work unit:** P1-W06 - Less Annoying CRM evidence-first definition
 
-**Work-unit status:** Evidence-first outcome approved under D-110; field model and complete-contract draft prepared; complete contract unapproved; no external action authorized
+**Work-unit status:** Complete execution contract approved under D-111; public-demo interaction and every external action remain unapproved
 
 **Last signed-off checkpoint:** CP-008 - Bigin Premier evaluator result (August 1, 2026)
 
-**Last approval:** D-110 - approve the P1-W06 evidence-first outcome and authorize the field-model preflight, complete-contract drafting, additional official research, and project-control synchronization only (August 1, 2026)
+**Last approval:** D-111 - approve the complete P1-W06 Less Annoying CRM execution contract while preserving separate authorization for the public demo and every external action (August 1, 2026)
 
 ## Confirmed baseline
 
@@ -185,7 +185,7 @@
 
 ## Active work-unit contract
 
-**Status:** P1-W06 outcome is approved under D-110; the field model and complete execution contract are drafted; the complete contract is `Unapproved`.
+**Status:** P1-W06 complete execution contract is approved under D-111; public-demo interaction is `Unapproved`.
 
 **Approved outcome:** Evaluate the single-tier Less Annoying CRM product as the next independent-work CRM candidate through an evidence-first, evaluator-only process. Begin with official evidence and, only after later separate approvals, a bounded public-demo inspection before deciding whether an account is justified. Use the CP-003 field model and complete execution contract before any signup or configuration.
 
@@ -201,8 +201,8 @@
 
 **Acceptance checks:**
 
-- D-110 explicitly approves the outcome and authorizes the field-model preflight, complete-contract drafting, additional current official research, and project-control synchronization only.
-- The complete execution contract and every external or tenant action remain unapproved.
+- D-111 explicitly approves the complete execution contract, including its single-tier boundary, evaluator ownership, staged sequence, minimum configuration, stopping rules, evidence handling, action gates, and checkpoint boundary.
+- Public-demo interaction and every account, trial, tenant, configuration, or broader action remain unapproved.
 - Current official evidence records one `$15` per-user monthly tier, a 30-day no-credit-card full trial, and a public no-signup demo.
 - Unlimited pipelines/custom fields, multiple orders per Contact, automations, browser-mobile access, 2FA, permissions, exports, and API access are documented.
 - Contact-scoped tasks may fail to preserve a distinct next action for each of multiple active job pipeline items; this is the first proposed stopping test.
@@ -214,12 +214,12 @@
 
 **Last approved checkpoint effect:** CP-008 approves only the completed Bigin evaluator result, configuration inventory, tier/cost record, and evidence-backed comparison status. It does not select LACRM or authorize demo interaction, an account, trial, tenant action, payment, production use, integration, real data, customer communication, or Loryn session.
 
-**Out of scope:** Complete-contract approval, public-demo interaction, an account, trial, tenant inspection, configuration, fixture entry, testing, billing, purchase, external connection, real data, customer communication, production use, Loryn participation, checkpoint sign-off, and platform selection all require later explicit authorization.
+**Out of scope:** Public-demo interaction, an account, trial, tenant inspection, configuration, fixture entry, testing, billing, purchase, external connection, real data, customer communication, production use, Loryn participation, checkpoint sign-off, and platform selection all require later explicit authorization.
 
 ## Open items
 
-- Explicitly approve or reject the complete P1-W06 LACRM execution contract.
-- After contract approval, obtain separate authorization before any public-demo interaction.
+- Separately authorize or decline the bounded P1-W06 public-demo inspection.
+- If the public demo is later authorized, inspect only the job-specific next-action and unified-action-center risks plus the bounded contract checks; stop before signup or account creation.
 - Treat job-specific next-action linkage as the first later public-demo stopping test: one Contact, two active job pipeline items, only one job with a task.
 - Verify conditional/required fields, unique or reviewable Centah identifiers, one-screen action visibility, mobile behavior, export relationships, and exact signup acceptance only through later approved steps.
 - If Freshsales is reconsidered later, require a separately approved reopening and a legitimate acceptable signup path; do not obtain, purchase, or fabricate a business-domain identity solely for evaluation access.
@@ -249,7 +249,7 @@ CP-003 approved `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimu
 
 CP-004 approved `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`. Decisions D-049 through D-061 record the mandatory gates, D-062 through D-069 record the complete 100-point scorecard and scoring rule, D-070 through D-072 record the scenarios, fixtures, and scripts, D-073 records the staged test-burden rule, and D-074 records the evaluator-only evidence format. At CP-004, the authoritative Markdown master was Version 1.39; Word remains intentionally stale.
 
-P1-W01 is closed incomplete by D-088 option 1; Zoho Professional remains documentation-only and CP-005 was not reached. P1-W02 is closed incomplete by D-094 option 3; HubSpot Starter remains documentation-only and CP-006 was not reached. D-093 continues to allow technical-partner-only prototype administration while deferring Loryn until a viable finalist. P1-W03 is closed at CP-007 with Pipedrive Lite eliminated. D-100 through D-103 opened and executed P1-W04, and CP-008 approved the Bigin evaluator result and eliminated Bigin Premier after direct M-01 failure. D-104 through D-107 defined and authorized the bounded P1-W05 Freshsales Pro evaluation, but signup rejected the available Gmail evaluator address. D-108 closed P1-W05 incomplete without CP-009 and retained Freshsales Pro as documentation-only. D-109 opened the P1-W06 LACRM definition, and D-110 approved the outcome plus field-model and complete-contract drafting only. The complete contract remains unapproved. The authoritative Markdown master is Version 1.86; Word remains intentionally stale.
+P1-W01 is closed incomplete by D-088 option 1; Zoho Professional remains documentation-only and CP-005 was not reached. P1-W02 is closed incomplete by D-094 option 3; HubSpot Starter remains documentation-only and CP-006 was not reached. D-093 continues to allow technical-partner-only prototype administration while deferring Loryn until a viable finalist. P1-W03 is closed at CP-007 with Pipedrive Lite eliminated. D-100 through D-103 opened and executed P1-W04, and CP-008 approved the Bigin evaluator result and eliminated Bigin Premier after direct M-01 failure. D-104 through D-107 defined and authorized the bounded P1-W05 Freshsales Pro evaluation, but signup rejected the available Gmail evaluator address. D-108 closed P1-W05 incomplete without CP-009 and retained Freshsales Pro as documentation-only. D-109 opened the P1-W06 LACRM definition, D-110 approved the outcome and contract drafting, and D-111 approved the complete execution contract only. Public-demo interaction remains unapproved. The authoritative Markdown master is Version 1.87; Word remains intentionally stale.
 
 CP-007 approved `../evidence/P1-W03/pipedrive/evaluator-result.md` and the linked configuration, tier, and cost evidence. Pipedrive Lite fails M-02 source-specific workflow and M-09 safe Centah/Costco bridge because the evaluated tier cannot enforce the required source-specific handoff and accepted a duplicate synthetic Centah identifier without a block or visible review route. CP-007 does not select another CRM or authorize another candidate.
 
@@ -272,12 +272,12 @@ CP-007 approved `../evidence/P1-W03/pipedrive/evaluator-result.md` and the linke
 
 ## Next work-unit starting point
 
-Phase 0 is complete at CP-004. Phase 1 P1-W01 and P1-W02 are closed incomplete under D-088 and D-094. P1-W03 is closed at CP-007 with Pipedrive Lite eliminated. P1-W04 is closed at CP-008 with Bigin Premier eliminated. P1-W05 is closed incomplete under D-108 without CP-009. P1-W06 LACRM evaluation is active under D-110; its outcome is approved, its complete contract is unapproved, and no CRM is selected.
+Phase 0 is complete at CP-004. Phase 1 P1-W01 and P1-W02 are closed incomplete under D-088 and D-094. P1-W03 is closed at CP-007 with Pipedrive Lite eliminated. P1-W04 is closed at CP-008 with Bigin Premier eliminated. P1-W05 is closed incomplete under D-108 without CP-009. P1-W06 LACRM evaluation is active under D-111; its complete contract is approved, public-demo interaction is unapproved, and no CRM is selected.
 
 ## Exact next action
 
-Review and explicitly approve or reject the complete P1-W06 Less Annoying CRM execution contract. Do not interact with the public demo, open an account or trial, configure a tenant, involve Loryn, or select a platform without the applicable later approval.
+Separately authorize or decline the bounded P1-W06 Less Annoying CRM public-demo inspection. Do not interact with the demo, open an account or trial, configure a tenant, involve Loryn, or select a platform without the applicable later approval.
 
 ## Resume instruction
 
-Read this file, Sessions S-085 and S-086 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, `../deliverables/P1-W06-less-annoying-crm-evidence-first-definition.md`, `../evidence/P1-W06/lacrm/official-evidence-preflight.md`, and `../evidence/P1-W06/lacrm/field-model-preflight.md`. CP-008 remains the last signed checkpoint; D-110 is the last approval and approves the outcome plus documentation-only field-model and complete-contract drafting. The complete contract is unapproved. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Obtain explicit contract approval before seeking separate public-demo authorization, and keep accounts, trials, tenant actions, configuration, external connections, billing, real data, communications, Loryn participation, checkpoint sign-off, and platform selection behind later explicit gates.
+Read this file, Sessions S-086 and S-087 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, `../deliverables/P1-W06-less-annoying-crm-evidence-first-definition.md`, `../evidence/P1-W06/lacrm/official-evidence-preflight.md`, and `../evidence/P1-W06/lacrm/field-model-preflight.md`. CP-008 remains the last signed checkpoint; D-111 is the last approval and approves the complete P1-W06 execution contract only. Public-demo interaction remains unapproved. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Obtain separate public-demo authorization before any interaction, and keep accounts, trials, tenant actions, configuration, external connections, billing, real data, communications, Loryn participation, checkpoint sign-off, and platform selection behind later explicit gates.

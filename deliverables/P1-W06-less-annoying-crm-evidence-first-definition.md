@@ -1,6 +1,6 @@
 # P1-W06 - Less Annoying CRM Evidence-First Definition
 
-**Status:** Work-unit outcome approved under D-110; complete execution contract proposed and unapproved; no external action authorized
+**Status:** Complete execution contract approved under D-111; public-demo interaction unapproved; no external action authorized
 
 **Phase:** Phase 1 - CRM candidate comparison
 
@@ -12,7 +12,8 @@
 
 - **Accepted (D-109):** Begin the P1-W06 Less Annoying CRM evidence-first definition and current official research only.
 - **Accepted (D-110):** Approve the P1-W06 proposed outcome and authorize the CP-003 field-model preflight, complete-contract drafting, additional current official research, and project-control synchronization only.
-- D-110 does not approve the complete execution contract and does not authorize public-demo interaction, an account, trial, tenant inspection, configuration, fixture entry, testing, billing, purchase, external connection, real data, customer communication, production use, Loryn participation, checkpoint sign-off, or platform selection.
+- **Accepted (D-111):** Approve the complete P1-W06 execution contract, including its product boundary, evaluator ownership, action sequence, minimum configuration, first stopping test, remaining stopping rules, evidence controls, and checkpoint boundary.
+- D-111 does not authorize public-demo interaction, an account, trial, tenant inspection, configuration, fixture entry, testing, billing, purchase, external connection, real data, customer communication, production use, Loryn participation, checkpoint sign-off, or platform selection.
 
 ## Approved work-unit outcome
 
@@ -78,7 +79,7 @@ Two-factor authentication, admin/user permissions, immediate lockout, user delet
 1. Begin definition and official research. Completed as D-109.
 2. Approve the proposed outcome and authorize field-map and contract drafting only. Completed as D-110.
 3. Prepare the CP-003 field map and complete execution contract. Completed as an unapproved draft under D-110.
-4. Explicitly approve or reject the complete contract.
+4. Approve the complete execution contract. Completed as D-111.
 5. Separately authorize a bounded public-demo inspection focused on task-to-job linkage and the unified action center.
 6. If the demo remains plausible, separately authorize a no-credit-card evaluator account and nonprivate tenant inspection.
 7. Separately authorize synthetic configuration and evaluator testing.
@@ -90,7 +91,7 @@ The proposed minimum model uses 8 Contact custom fields, 7 Prospecting pipeline 
 
 The draft therefore keeps `Next action` and `Next action due` as canonical pipeline-item fields and treats any Contact-linked Task as a reminder whose title must include the pipeline-item label. A direct evaluator run must prove that empty next-action fields can be found per pipeline item and that reminder creation, completion, and rescheduling do not require unsustainable duplicate entry. The complete mapping is in `../evidence/P1-W06/lacrm/field-model-preflight.md`.
 
-## Proposed complete execution contract - Unapproved
+## Approved complete execution contract
 
 ### Product and ownership boundary
 
@@ -100,7 +101,7 @@ The draft therefore keeps `Next action` and `Next action due` as canonical pipel
 
 ### Execution sequence
 
-1. Explicitly approve or reject this complete contract.
+1. Approve this complete contract. Completed as D-111.
 2. If approved, separately authorize a bounded public-demo inspection that requires no signup.
 3. In the public demo, inspect task-to-job linkage, blank pipeline-field filtering, the unified action center, field controls, and mobile-browser behavior before considering an account.
 4. Stop if the demo requires signup, exposes nonpublic personal information, cannot preserve a synthetic-only boundary, or directly establishes a mandatory failure.
@@ -140,10 +141,10 @@ Use one synthetic Contact with two active Window Sales Work pipeline items. Give
 - Do not permanently delete recoverable vendor sample data without separate necessity and scope confirmation.
 - If a later run stops, record the exact stopping evidence and the remaining synthetic tenant state before any cleanup.
 
-### Proposed checkpoint effect
+### Checkpoint boundary
 
 A later P1-W06 checkpoint may approve only the evidence set, configuration inventory, cost/tier record, and `Viable`, `Eliminated`, or `Incomplete` result. It will not by itself select LACRM, authorize payment or production use, permit real data, connect Centah or another service, send customer communications, or begin Loryn finalist testing.
 
 ## Current action
 
-Review and explicitly approve or reject the complete P1-W06 execution contract. No demo interaction, account, trial, tenant inspection, configuration, fixture entry, testing, or external action is authorized by D-110.
+Separately authorize or decline the bounded P1-W06 public-demo inspection. No demo interaction, account, trial, tenant inspection, configuration, fixture entry, testing, or external action is authorized by D-111.
