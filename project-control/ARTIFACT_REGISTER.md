@@ -4,11 +4,11 @@
 
 | Artifact | Authority | Current status | Update trigger |
 |---|---|---|---|
-| `../deliverables/window-sales-operations-master-plan.md` | Authoritative product and delivery plan | Version 1.83; current | Material scope, architecture, roadmap, risk, governance, process, or decision change |
+| `../deliverables/window-sales-operations-master-plan.md` | Authoritative product and delivery plan | Version 1.84; current | Material scope, architecture, roadmap, risk, governance, process, or decision change |
 | `../deliverables/window-sales-operations-master-plan.docx` | Non-authoritative editable distribution copy | Version 1.4; stale by design until final release or explicit sharing milestone | Regenerate and visually verify only for a release or requested sharing copy |
 | `GUIDED_WORKFLOW.md` | Authoritative session and checkpoint procedure | Current | Workflow-control rule changes |
-| `CURRENT_STATE.md` | Authoritative restart point | P1-W05 bounded account and nonprivate trial inspection authorized under D-107; account result pending | Every sign-off, session stop, blocker, or active-work-unit change |
-| `SESSION_LOG.md` | Append-only execution history | S-083 records D-107 evaluator-account authorization and preserved configuration gate | Every sign-off or session close |
+| `CURRENT_STATE.md` | Authoritative restart point | P1-W05 closed incomplete under D-108; CP-009 not reached; next candidate unapproved | Every sign-off, session stop, blocker, or active-work-unit change |
+| `SESSION_LOG.md` | Append-only execution history | S-084 records D-108 incomplete closure and Gmail signup blocker | Every sign-off or session close |
 | `ARTIFACT_REGISTER.md` | Artifact authority and synchronization inventory | Current | Artifact added, renamed, superseded, or found stale |
 | `COLLABORATOR_PACKET.md` | Operational shared-Project onboarding and input-capture aid | Current; unapproved input remains subject to repository reconciliation | Shared-project procedure, active intake queue, or handoff format changes |
 | `../deliverables/P0-W01-current-workflow-and-permission-boundary.md` | Signed P0-W01 workflow and permission boundary | Approved at CP-001 | Supersede only through a later signed checkpoint |
@@ -33,9 +33,9 @@
 | `../evidence/P1-W04/bigin/tenant-shell-inspection.md` | Sanitized direct P1-W04 tenant evidence | Signed evidence set; Premier tier boundary approved at CP-008 | Every explicitly approved Bigin reopening or material later tenant-evidence change |
 | `../evidence/P1-W04/bigin/configuration-inventory.md` | Signed P1-W04 configuration inventory | Approved at CP-008; saved model, fixtures, rules, duplicate/search tests, and stopping state recorded | Every explicitly approved Bigin reopening or material later configuration change |
 | `../evidence/P1-W04/bigin/evaluator-result.md` | Signed P1-W04 evaluator result | Approved at CP-008; Bigin Premier eliminated by direct M-01 failure | Every explicitly approved Bigin reopening or material later evidence change |
-| `../deliverables/P1-W05-freshsales-pro-evidence-first-definition.md` | Active P1-W05 outcome and execution contract | D-105/D-106 approved; D-107 opens bounded account/trial inspection only; configuration unapproved | Explicit account result or material Freshsales work-unit change |
-| `../evidence/P1-W05/freshsales/official-evidence-preflight.md` | P1-W05 Freshsales official-source evidence | Current; account gate authorized under D-107; tenant evidence pending | Every material Freshsales feature, tier, cost, trial, or later tenant-evidence change |
-| `../evidence/P1-W05/freshsales/field-capacity-preflight.md` | P1-W05 CP-003-to-Freshsales field map | Prepared under D-105; account gate authorized under D-107; direct confirmation pending | Every material CP-003-to-Freshsales mapping or field-limit change |
+| `../deliverables/P1-W05-freshsales-pro-evidence-first-definition.md` | Closed P1-W05 definition and execution contract | Closed incomplete under D-108; CP-009 not reached; Freshsales Pro documentation-only | Supersede only through an explicitly approved later Freshsales work unit |
+| `../evidence/P1-W05/freshsales/official-evidence-preflight.md` | P1-W05 Freshsales official-source evidence | Closed documentation-only under D-108; signup blocked before account creation; no direct tenant evidence | Every explicitly approved Freshsales reopening or material later official-evidence change |
+| `../evidence/P1-W05/freshsales/field-capacity-preflight.md` | P1-W05 CP-003-to-Freshsales field map | Closed documentation-only under D-108; 9 Contact, 17 Deal, and 0-2 activity fields; no direct confirmation | Every explicitly approved Freshsales reopening or material later mapping change |
 | `REPOSITORY_BACKUP.md` | Repository location, synchronization boundary, and recovery instructions | Current | Repository, branch, tracked scope, or working-copy policy changes |
 
 ## Planned artifacts not yet created

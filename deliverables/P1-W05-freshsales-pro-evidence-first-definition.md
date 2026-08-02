@@ -1,6 +1,6 @@
 # P1-W05 - Freshsales Pro Evidence-First Screening
 
-**Status:** Bounded evaluator account and nonprivate trial inspection authorized under D-107; configuration unapproved
+**Status:** Closed incomplete under D-108; CP-009 not reached; Freshsales Pro retained as documentation-only
 
 **Phase:** Phase 1 - CRM candidate comparison
 
@@ -19,16 +19,18 @@
 - D-106 approves the contract only. It does not authorize an account, trial, tenant inspection, edition change, configuration, fixture entry, testing, billing, purchase, external connection, real data, customer communication, production use, Loryn participation, CP-009, or platform selection.
 - **Accepted (D-107):** Authorize the technical partner to create the bounded `Hazel Kaine` Freshsales evaluator account and no-credit-card fully loaded 21-day trial, inspect only nonprivate product, plan/trial, expiry, sample-data, user-role, and feature-boundary labels, and then stop.
 - D-107 does not authorize an edition change, sample-record inspection, configuration, fixture entry, testing, billing details, purchase, add-on, external connection, real data, customer communication, production use, Loryn participation, CP-009, or platform selection.
+- **Accepted (D-108):** Close P1-W05 incomplete because Freshsales rejected the available Gmail evaluator address and required a business email; do not obtain or fabricate another address solely for the evaluation; retain Freshsales Pro as documentation-only; and do not reach CP-009.
+- D-108 closes the Freshsales work unit without an account, trial, tenant inspection, configuration, direct test, score, checkpoint, or platform recommendation. A later Freshsales reopening or another CRM candidate requires separate explicit approval.
 
 ## Approved work-unit outcome
 
 Evaluate Freshsales Pro as the next independent-work CRM candidate through an evidence-first, evaluator-only process. Prepare a CP-003 field-capacity map and a complete Pro-only execution contract. Keep any no-credit-card 21-day trial behind later separate contract and account-creation approvals.
 
-This outcome was explicitly approved as D-105 on August 1, 2026. The complete execution contract below was explicitly approved as D-106 on August 1, 2026. D-107 authorizes only the bounded evaluator account, no-credit-card trial, and nonprivate shell inspection described below.
+This outcome was explicitly approved as D-105 on August 1, 2026. The complete execution contract below was explicitly approved as D-106 on August 1, 2026. D-107 authorized only the bounded evaluator account gate. The attempted signup did not produce an account because Freshsales rejected the available Gmail evaluator address and required a business email. D-108 closes P1-W05 incomplete without CP-009 and retains this material as documentation-only.
 
-## Recommendation
+## Closed recommendation
 
-Advance Freshsales Pro to complete-contract review. Pro is the lowest currently documented Freshsales tier that plausibly fits the approved source-specific workflow because:
+Retain Freshsales Pro as a documentation-only possibility. Do not acquire, purchase, or fabricate a business-domain identity solely to continue the evaluator run. Pro remains the lowest currently documented Freshsales tier that plausibly fits the approved source-specific workflow because:
 
 - Pro permits 250 custom fields per module, well above the CP-003 baseline.
 - Pro supports up to 10 deal pipelines and 100 field dependencies per entity.
@@ -38,7 +40,7 @@ Advance Freshsales Pro to complete-contract review. Pro is the lowest currently 
 - Workflows can create dated tasks from record dates and can run on contacts, deals, appointments, and tasks.
 - Full CRM export, CSV/XLSX import, mobile offline records, and REST APIs are documented.
 
-Freshsales Pro is not yet viable or preferred. The official material does not establish one practical action center containing all five M-01 categories, and a fully loaded trial can expose higher-tier features. Direct evidence is mandatory before any pass or score.
+Freshsales Pro is not viable, eliminated, or preferred from the available evidence. No account or tenant was reached, the official material does not establish one practical action center containing all five M-01 categories, and a fully loaded trial can expose higher-tier features. The candidate remains unscored and may be reopened only through a later explicit work unit with a legitimate acceptable signup path.
 
 ## Why Pro is the approved candidate boundary
 
@@ -93,12 +95,11 @@ Official documentation supports global name/title search, mobile records and act
 ## Approval sequence
 
 1. Approve the P1-W05 proposed outcome. Completed as D-105.
-2. Draft the CP-003 field-capacity map, full Pro-only execution contract, stopping rules, and CP-009 effect. Completed under D-105 and pending contract review.
+2. Draft the CP-003 field-capacity map, full Pro-only execution contract, stopping rules, and CP-009 effect. Completed under D-105; the contract was later approved as D-106.
 3. Approve the complete contract below. Completed as D-106.
-4. Separately authorize a bounded no-credit-card evaluator account and nonprivate tier inspection. Completed as D-107.
-5. Resolve any fully-loaded-trial contamination through a separate exact decision before configuration.
-6. Separately authorize synthetic configuration and evaluator testing.
-7. Present the evidence-backed viable, eliminated, or incomplete result for a separate CP-009 decision.
+4. Separately authorize a bounded no-credit-card evaluator account and nonprivate tier inspection. Authorized as D-107, but signup stopped when the available Gmail evaluator address was rejected.
+5. Close P1-W05 incomplete without CP-009. Completed as D-108.
+6. A later reopening must begin with a new explicit work-unit decision; no remaining execution step is authorized.
 
 ## Approved complete execution contract
 
@@ -188,4 +189,4 @@ CP-009, if later explicitly signed, will approve only the completed Freshsales P
 
 ## Current action
 
-Create the bounded `Hazel Kaine` Freshsales evaluator account and no-credit-card trial using private credentials outside all project artifacts. Inspect only nonprivate product, plan/trial, expiry, sample-data, user-role, and feature-boundary labels, report the sanitized result, and stop before any edition change, sample-record inspection, configuration, fixture entry, or testing.
+P1-W05 is closed incomplete under D-108. CP-009 was not reached, Freshsales Pro remains documentation-only and unscored, and no Freshsales account or tenant action is authorized. Define any next CRM candidate or Freshsales reopening through a separate explicit work unit.

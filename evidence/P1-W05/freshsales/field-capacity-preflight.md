@@ -1,6 +1,6 @@
 # P1-W05 Freshsales Pro Field-Capacity Preflight
 
-**Status:** Prepared under D-105; account gate authorized under D-107, direct tenant confirmation pending
+**Status:** Closed documentation-only under D-108; 9 Contact, 17 Deal, and 0-2 activity fields mapped; no direct tenant confirmation
 
 **Mapped:** August 1, 2026
 

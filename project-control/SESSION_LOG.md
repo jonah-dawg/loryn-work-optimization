@@ -3635,3 +3635,53 @@ Present the separate account-creation gate. Do not create a Freshsales account, 
 ### Saved ending point
 
 Create the bounded evaluator account, inspect the allowed nonprivate labels, and report the result. Do not change edition or begin configuration without a later exact authorization.
+
+## Session S-084 - P1-W05 closed incomplete at signup gate
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W05 - Freshsales Pro evidence-first screening
+
+**Checkpoint:** CP-008 remains the last signed-off checkpoint; CP-009 was not reached
+
+**Sign-off status:** D-108 explicitly closes P1-W05 incomplete and retains Freshsales Pro as documentation-only
+
+**Approval evidence:** The user explicitly said, `Close P1-W05 incomplete because Freshsales rejects the available Gmail evaluator address.`
+
+### Orientation
+
+- Current phase: Phase 1 CRM candidate comparison.
+- Active work unit before this decision: P1-W05 Freshsales Pro evidence-first screening.
+- Last signed checkpoint: CP-008, which eliminated Bigin Premier only.
+- Prior approval: D-107 authorized only the bounded Freshsales evaluator account and nonprivate trial inspection.
+- Open blocker: the Freshsales signup flow rejected the available Gmail evaluator address and required a business email, so no account or tenant evidence could be obtained through the approved path.
+- Proposed outcome accepted here: close P1-W05 incomplete without CP-009, retain Freshsales Pro as documentation-only, and require a separate decision before another candidate or Freshsales reopening.
+
+### Signup result
+
+- The user reported the signup restriction directly; no screenshot or private account information is stored.
+- No Freshsales account, trial, tenant, sample record, configuration, fixture, test, billing action, purchase, integration, real data, customer communication, or production action occurred.
+- The project will not obtain, purchase, or fabricate a business-domain identity solely to continue the evaluation.
+- The official evidence and field-capacity map remain useful documentation, but they are not direct tenant evidence and do not support a gate pass, score, or platform recommendation.
+
+### Decision recorded
+
+- **Accepted (D-108):** Close P1-W05 incomplete because Freshsales rejected the available Gmail evaluator address and required a business email; do not obtain or fabricate another address solely for the evaluation; retain Freshsales Pro as documentation-only; and do not reach CP-009.
+- D-108 closes the Freshsales work unit without an account, trial, tenant inspection, configuration, direct test, score, checkpoint, or platform recommendation.
+- A later Freshsales reopening or another CRM candidate requires separate explicit approval.
+
+### Files changed
+
+- `deliverables/P1-W05-freshsales-pro-evidence-first-definition.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W05/freshsales/field-capacity-preflight.md`
+- `evidence/P1-W05/freshsales/official-evidence-preflight.md`
+- `project-control/ARTIFACT_REGISTER.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+
+### Saved ending point
+
+P1-W05 is closed incomplete without CP-009. Define and present the next evidence-first CRM candidate and proposed outcome for explicit approval before opening another account, trial, or external platform action.

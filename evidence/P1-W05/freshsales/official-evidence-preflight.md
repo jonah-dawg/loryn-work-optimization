@@ -1,6 +1,6 @@
 # P1-W05 Freshsales Pro Official-Evidence Preflight
 
-**Status:** Current; bounded account and nonprivate trial inspection authorized under D-107, direct tenant evidence pending
+**Status:** Closed documentation-only under D-108; signup blocked before account creation; no direct tenant evidence
 
 **Candidate:** Freshsales
 
@@ -52,6 +52,14 @@ The largest unresolved issue is M-01. Official documentation shows actionable da
 | M-13 Common synthetic evidence standard | `Conditional Pass` | Same CP-004 fixtures, TS-01 through TS-07, result rows, device/tier record, sanitized evidence, and stopping rules. |
 
 These states are research preflight labels, not evaluation results. D-105 approved the outcome and field-map/contract drafting only; no Freshsales gate has passed.
+
+## Observed signup blocker and closure
+
+- On August 1, 2026, the user reported that Freshsales rejected the available Gmail evaluator address and required a business email during the authorized D-107 signup attempt.
+- No Freshsales account, trial, or tenant was created or inspected, and no billing information, configuration, fixture, test, integration, real data, or customer communication was used.
+- The report is a direct evaluator observation supplied by the user; no screenshot or private account information is stored in the repository.
+- D-108 closes P1-W05 incomplete without CP-009 rather than obtaining, purchasing, or fabricating a business-domain identity solely for the evaluation.
+- Freshsales Pro remains documentation-only and unscored. Its official-evidence gate labels are not direct evaluation results.
 
 ## Proposed pre-account stopping checks
 

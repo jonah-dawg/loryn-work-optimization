@@ -2,15 +2,15 @@
 
 **Updated:** August 1, 2026
 
-**Overall status:** Active - P1-W05 Freshsales evaluator account and nonprivate trial inspection authorized
+**Overall status:** Active - Phase 1 candidate comparison; P1-W05 closed incomplete and next candidate unapproved
 **Current phase:** Phase 1 - CRM candidate comparison
-**Active work unit:** P1-W05 - Freshsales Pro evidence-first screening
+**Active work unit:** None - next Phase 1 CRM candidate requires explicit approval
 
-**Work-unit status:** Bounded `Hazel Kaine` account and no-credit-card trial inspection authorized under D-107; account result pending; configuration unapproved
+**Work-unit status:** P1-W05 closed incomplete under D-108; CP-009 not reached; Freshsales Pro retained as documentation-only
 
 **Last signed-off checkpoint:** CP-008 - Bigin Premier evaluator result (August 1, 2026)
 
-**Last approval:** D-107 - authorize the bounded Freshsales evaluator account, no-credit-card trial, and nonprivate shell inspection only (August 1, 2026)
+**Last approval:** D-108 - close P1-W05 incomplete after the available Gmail evaluator address was rejected; retain Freshsales Pro as documentation-only; CP-009 not reached (August 1, 2026)
 
 ## Confirmed baseline
 
@@ -183,9 +183,9 @@
 - **Signed off (CP-008):** Approve the Bigin evaluator result, linked configuration inventory, tier/cost evidence, and evidence-backed `Eliminated` status. M-01 fails directly, and M-04/M-07 also fail to uphold the approved next-action invariant.
 - CP-008 closes P1-W04 only. It does not select another CRM, authorize a next candidate or account, start Loryn finalist testing, permit billing or production use, connect Centah or another service, import real data, or send customer communications.
 
-## Active work-unit contract
+## Most recent work-unit record
 
-**Status:** P1-W05 outcome and complete execution contract are approved under D-105 and D-106; bounded account and nonprivate trial inspection are authorized under D-107; configuration is `Unapproved`.
+**Status:** P1-W05 is closed incomplete under D-108. CP-009 was not reached, and Freshsales Pro is documentation-only and unscored.
 
 **Approved outcome:** Evaluate Freshsales Pro as the next independent-work CRM candidate through an evidence-first, evaluator-only process. Begin with a CP-003 field-capacity map and a complete Pro-only execution contract. Keep the fully loaded no-credit-card 21-day trial behind later separate contract and account-creation approvals.
 
@@ -204,6 +204,8 @@
 - D-105 explicitly approves the outcome and authorizes field-map and complete-contract drafting only.
 - D-106 explicitly approves the complete Pro-only execution contract while preserving all separate action gates.
 - D-107 explicitly authorizes only the bounded evaluator account, no-credit-card fully loaded 21-day trial, and nonprivate shell inspection.
+- The user reported that the authorized signup rejected the available Gmail evaluator address and required a business email; no account, trial, or tenant was created or inspected.
+- D-108 closes P1-W05 incomplete without CP-009 and preserves Freshsales Pro only as a documentation-based possibility.
 - Current official evidence identifies Pro as the lowest plausible Freshsales tier and names every decision-critical uncertainty.
 - The conservative map uses 9 Contact, 17 Deal, and at most 2 activity contingency fields within Pro's 250-per-module limit.
 - The approved contract preserves one-pipeline-first source modeling, a mandatory M-01 stopping test, and a fully-loaded-trial contamination check.
@@ -213,13 +215,12 @@
 
 **Last approved checkpoint effect:** CP-008 approves only the completed Bigin evaluator result, configuration inventory, tier/cost record, and evidence-backed comparison status. It does not select Freshsales or authorize a Freshsales account, trial, tenant action, payment, production use, integration, real data, customer communication, or Loryn session.
 
-**Out of scope:** An edition change, sample-record inspection, configuration, fixture entry, testing, billing, purchase, add-on, external connection, real data, customer communication, production use, Loryn participation, checkpoint sign-off, and platform selection all require later explicit authorization.
+**Out of scope:** Any Freshsales reopening, next CRM work unit, account or tenant action, edition change, configuration, fixture entry, testing, billing, purchase, add-on, external connection, real data, customer communication, production use, Loryn participation, checkpoint sign-off, and platform selection require later explicit authorization.
 
 ## Open items
 
-- Create the bounded `Hazel Kaine` Freshsales evaluator account and no-credit-card trial using private credentials outside project artifacts.
-- Inspect only nonprivate product, plan/trial, expiry, sample-data, user-role, and feature-boundary labels; stop before any edition change, sample-record inspection, configuration, fixture entry, or testing.
-- Stop and record a blocker if signup requires billing, an external connection, real data, or employer/customer information beyond the approved organization name.
+- Define the next evidence-first CRM candidate and proposed work-unit outcome without opening an account or taking an external action.
+- If Freshsales is reconsidered later, require a separately approved reopening and a legitimate acceptable signup path; do not obtain, purchase, or fabricate a business-domain identity solely for evaluation access.
 - Resolve whether Pro's activity history is sufficient for M-05 or whether the Enterprise-only audit-log boundary creates an unacceptable dependency.
 - Treat M-01 as the first direct stopping risk: official documentation does not yet prove one practical view containing all five required categories.
 - Test the documented field-dependency import bypass together with unique Deal-field enforcement; do not treat uniqueness as complete source-integrity enforcement.
@@ -246,7 +247,7 @@ CP-003 approved `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimu
 
 CP-004 approved `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`. Decisions D-049 through D-061 record the mandatory gates, D-062 through D-069 record the complete 100-point scorecard and scoring rule, D-070 through D-072 record the scenarios, fixtures, and scripts, D-073 records the staged test-burden rule, and D-074 records the evaluator-only evidence format. At CP-004, the authoritative Markdown master was Version 1.39; Word remains intentionally stale.
 
-P1-W01 is closed incomplete by D-088 option 1; Zoho Professional remains documentation-only and CP-005 was not reached. P1-W02 is closed incomplete by D-094 option 3; HubSpot Starter remains documentation-only and CP-006 was not reached. D-093 continues to allow technical-partner-only prototype administration while deferring Loryn until a viable finalist. P1-W03 is closed at CP-007 with Pipedrive Lite eliminated. D-100 through D-103 opened and executed P1-W04, and CP-008 approved the Bigin evaluator result and eliminated Bigin Premier after direct M-01 failure. D-104 opened P1-W05 definition; D-105 approved its Freshsales Pro outcome and field-map/contract drafting; D-106 approved the complete Pro-only execution contract; D-107 opened the bounded evaluator-account and nonprivate trial-inspection gate. The authoritative Markdown master is Version 1.83; Word remains intentionally stale.
+P1-W01 is closed incomplete by D-088 option 1; Zoho Professional remains documentation-only and CP-005 was not reached. P1-W02 is closed incomplete by D-094 option 3; HubSpot Starter remains documentation-only and CP-006 was not reached. D-093 continues to allow technical-partner-only prototype administration while deferring Loryn until a viable finalist. P1-W03 is closed at CP-007 with Pipedrive Lite eliminated. D-100 through D-103 opened and executed P1-W04, and CP-008 approved the Bigin evaluator result and eliminated Bigin Premier after direct M-01 failure. D-104 through D-107 defined and authorized the bounded P1-W05 Freshsales Pro evaluation, but signup rejected the available Gmail evaluator address. D-108 closed P1-W05 incomplete without CP-009 and retained Freshsales Pro as documentation-only. The authoritative Markdown master is Version 1.84; Word remains intentionally stale.
 
 CP-007 approved `../evidence/P1-W03/pipedrive/evaluator-result.md` and the linked configuration, tier, and cost evidence. Pipedrive Lite fails M-02 source-specific workflow and M-09 safe Centah/Costco bridge because the evaluated tier cannot enforce the required source-specific handoff and accepted a duplicate synthetic Centah identifier without a block or visible review route. CP-007 does not select another CRM or authorize another candidate.
 
@@ -269,12 +270,12 @@ CP-007 approved `../evidence/P1-W03/pipedrive/evaluator-result.md` and the linke
 
 ## Next work-unit starting point
 
-Phase 0 is complete at CP-004. Phase 1 P1-W01 and P1-W02 are closed incomplete under D-088 and D-094. P1-W03 is closed at CP-007 with Pipedrive Lite eliminated. P1-W04 is closed at CP-008 with Bigin Premier eliminated. P1-W05 Freshsales Pro is active under D-107; its outcome, contract, bounded account, and nonprivate trial inspection are authorized, but no account result is recorded and configuration remains unapproved.
+Phase 0 is complete at CP-004. Phase 1 P1-W01 and P1-W02 are closed incomplete under D-088 and D-094. P1-W03 is closed at CP-007 with Pipedrive Lite eliminated. P1-W04 is closed at CP-008 with Bigin Premier eliminated. P1-W05 is closed incomplete under D-108 without CP-009 because the available Gmail evaluator address was rejected before account creation. No CRM is selected, and no next candidate is approved.
 
 ## Exact next action
 
-Create the bounded `Hazel Kaine` Freshsales evaluator account and no-credit-card trial using private credentials. Inspect only nonprivate product, plan/trial, expiry, sample-data, user-role, and feature-boundary labels, report the sanitized result, and stop before any edition change, sample-record inspection, configuration, fixture entry, or testing.
+Define and present the next evidence-first CRM candidate and proposed work-unit outcome for explicit approval. Do not open another account, reopen Freshsales, configure a tenant, involve Loryn, or select a platform without the applicable later approval.
 
 ## Resume instruction
 
-Read this file, Sessions S-082 and S-083 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, `../deliverables/P1-W05-freshsales-pro-evidence-first-definition.md`, and both P1-W05 Freshsales preflights. CP-008 remains the last signed checkpoint; D-107 is the last approval and authorizes only the bounded evaluator account, no-credit-card trial, and nonprivate shell inspection. No account result has been recorded, and configuration remains unapproved. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Continue to prohibit edition changes, sample-record inspection, configuration, fixtures, testing, external connections, billing, real data, communications, Loryn participation, CP-009, and platform selection until the applicable later gates are explicitly approved.
+Read this file, Sessions S-083 and S-084 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, `../deliverables/P1-W05-freshsales-pro-evidence-first-definition.md`, and both P1-W05 Freshsales preflights. CP-008 remains the last signed checkpoint; D-108 is the last approval and closes P1-W05 incomplete without CP-009. No Freshsales account or tenant exists from this work unit, Freshsales Pro is documentation-only, and no next candidate is approved. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Require a separate proposed outcome and explicit approval before opening the next CRM work unit or taking any external action.
