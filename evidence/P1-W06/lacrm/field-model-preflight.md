@@ -1,6 +1,6 @@
 # P1-W06 Less Annoying CRM Field-Model Preflight
 
-**Status:** Approved contract input under D-111; documentation-only mapping; no direct tenant confirmation
+**Status:** Approved contract input; public demo confirmed field controls but M-01 stopped the run under D-112 before configuration or tenant confirmation
 
 **Mapped:** August 1, 2026
 

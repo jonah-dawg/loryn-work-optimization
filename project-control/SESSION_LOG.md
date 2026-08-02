@@ -3850,3 +3850,79 @@ Review and explicitly approve or reject the complete P1-W06 Less Annoying CRM ex
 ### Saved ending point
 
 Separately authorize or decline the bounded P1-W06 Less Annoying CRM public-demo inspection. Do not interact with the demo, create an account or trial, inspect or configure a tenant, enter fixtures, test, add billing, connect a service, use real data, communicate with customers, involve Loryn, sign a checkpoint, or select a platform without the applicable later approval.
+
+## Session S-088 - P1-W06 public demo stopped on direct M-01 failure
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W06 - Less Annoying CRM public-demo evaluation
+
+**Checkpoint:** CP-008 remains the last signed-off checkpoint
+
+**Sign-off status:** D-112 public-demo inspection authorized and completed; M-01 failed; proposed `Eliminated` result unapproved pending CP-009
+
+**Approval evidence:** The user explicitly said, `Authorize the bounded P1-W06 Less Annoying CRM public-demo inspection.`
+
+### Orientation
+
+- Current phase: Phase 1 CRM candidate comparison.
+- Active work unit: P1-W06 Less Annoying CRM public-demo evaluation.
+- Last signed checkpoint: CP-008, which eliminated Bigin Premier only.
+- Last approval before this session: D-111, which approved the complete P1-W06 execution contract but no external action.
+- Open blockers at entry: separate demo authorization; job-specific task linkage; one-screen action-center proof; source-specific field enforcement; duplicate Centah review; mobile/save behavior; export reconstruction; account acceptance; and every direct result.
+- Approved outcome: a bounded synthetic evaluator result of `Viable`, `Eliminated`, or `Incomplete` without platform selection.
+
+### Decision recorded
+
+- **Accepted (D-112):** Authorize the bounded P1-W06 LACRM public-demo inspection under the approved execution contract and stop before account creation or any broader action.
+- D-112 authorizes only the no-signup public-demo inspection. It does not authorize an account, trial, persistent tenant, configuration, broader fixture entry or testing, billing, purchase, external connection, real data, customer communication, production use, Loryn participation, checkpoint sign-off, or platform selection.
+
+### Direct demo boundary
+
+- The official product-tour link opened a no-signup launch page.
+- Only the generic industry profile and `2-5` user range were selected.
+- The application opened a temporary vendor demo account and kept free-trial signup separate.
+- No identity, private email, credential, recovery information, billing detail, account, trial, connection, real record, or customer communication was supplied.
+- Vendor-generated sample data was observed only transiently; no sample identity, contact detail, internal identifier, or session value is retained in project artifacts.
+
+### Direct evidence
+
+- Workspace combined a due-task widget, pipeline-report widget, activity report, and calendar preview.
+- Task-widget settings allowed calendar scope, future ranges, and overdue Tasks.
+- Pipeline-widget settings allowed user and pipeline scope, but the widget rendered status totals rather than an actionable saved or filtered record list.
+- A sample Task exposed Task name, calendar, due date, assignee, `Attached contact`, and description; no pipeline-item relation was exposed.
+- The related Contact page displayed the upcoming Task and active Lead as separate attached-item sections.
+- CRM customization exposed multiple pipelines, active/closed statuses, custom fields, a global required-field checkbox, and report/badge display controls.
+- No conditional-requirement or unique-value option was visible in the inspected custom-field dialog; availability elsewhere remains unverified.
+- Pipeline reports exposed board/list modes, display, filters, sort, export/print, saved views, pipeline/contact fields, and a Contact-scoped Tasks-and-events filter.
+
+### Stopping result
+
+- M-01 fails directly because one Workspace cannot show all five required categories as actionable records.
+- Today's/overdue Tasks, calendar items, activity, and pipeline/status summaries can coexist, but waiting-on-someone-else jobs and active jobs missing their own next action cannot appear as record-level items in that same practical view.
+- The pipeline widget settings offer pipeline/user scope, not an actionable saved filtered record view.
+- The approved mandatory stopping rule ended the run immediately. M-02 through M-13 remain `Unverified`; no numeric score was created.
+- **Proposed result - Unapproved:** `Eliminated`.
+
+### Cleanup and preserved boundaries
+
+- No record, Task, custom field, filter, saved view, widget setting, pipeline, or other configuration was saved.
+- The temporary demo tab was closed with no browser tab retained.
+- No account, trial, tenant, billing action, download, export artifact, connection, real data, communication, production action, Loryn participation, checkpoint sign-off, or platform selection occurred.
+
+### Files changed
+
+- `deliverables/P1-W06-less-annoying-crm-evidence-first-definition.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W06/lacrm/field-model-preflight.md`
+- `evidence/P1-W06/lacrm/official-evidence-preflight.md`
+- `evidence/P1-W06/lacrm/public-demo-inspection.md`
+- `project-control/ARTIFACT_REGISTER.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+
+### Saved ending point
+
+Review and explicitly sign off or reject CP-009 for the P1-W06 Less Annoying CRM public-demo evidence and proposed `Eliminated` result. Do not create an LACRM account or trial, configure a tenant, continue testing, involve Loryn, sign the checkpoint by implication, select a platform, or authorize another candidate without a later explicit decision.

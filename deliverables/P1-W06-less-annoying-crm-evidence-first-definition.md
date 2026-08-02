@@ -1,6 +1,6 @@
 # P1-W06 - Less Annoying CRM Evidence-First Definition
 
-**Status:** Complete execution contract approved under D-111; public-demo interaction unapproved; no external action authorized
+**Status:** Bounded public-demo inspection completed under D-112; direct M-01 failure; proposed `Eliminated` result unapproved pending CP-009 review
 
 **Phase:** Phase 1 - CRM candidate comparison
 
@@ -13,7 +13,8 @@
 - **Accepted (D-109):** Begin the P1-W06 Less Annoying CRM evidence-first definition and current official research only.
 - **Accepted (D-110):** Approve the P1-W06 proposed outcome and authorize the CP-003 field-model preflight, complete-contract drafting, additional current official research, and project-control synchronization only.
 - **Accepted (D-111):** Approve the complete P1-W06 execution contract, including its product boundary, evaluator ownership, action sequence, minimum configuration, first stopping test, remaining stopping rules, evidence controls, and checkpoint boundary.
-- D-111 does not authorize public-demo interaction, an account, trial, tenant inspection, configuration, fixture entry, testing, billing, purchase, external connection, real data, customer communication, production use, Loryn participation, checkpoint sign-off, or platform selection.
+- **Accepted (D-112):** Authorize the bounded P1-W06 LACRM public-demo inspection under the approved contract and stop before account creation or any broader action.
+- D-112 authorizes only the no-signup public-demo inspection. It does not authorize an account, trial, persistent tenant, configuration, fixture entry beyond temporary demo observation, billing, purchase, external connection, real data, customer communication, production use, Loryn participation, checkpoint sign-off, or platform selection.
 
 ## Approved work-unit outcome
 
@@ -80,10 +81,10 @@ Two-factor authentication, admin/user permissions, immediate lockout, user delet
 2. Approve the proposed outcome and authorize field-map and contract drafting only. Completed as D-110.
 3. Prepare the CP-003 field map and complete execution contract. Completed as an unapproved draft under D-110.
 4. Approve the complete execution contract. Completed as D-111.
-5. Separately authorize a bounded public-demo inspection focused on task-to-job linkage and the unified action center.
-6. If the demo remains plausible, separately authorize a no-credit-card evaluator account and nonprivate tenant inspection.
-7. Separately authorize synthetic configuration and evaluator testing.
-8. Present the evidence-backed viable, eliminated, or incomplete result for a later checkpoint decision.
+5. Authorize and run the bounded public-demo inspection focused on task-to-job linkage and the unified action center. Completed as D-112; M-01 failed directly.
+6. If the demo remains plausible, separately authorize a no-credit-card evaluator account and nonprivate tenant inspection. Not reached because the stopping rule fired.
+7. Separately authorize synthetic configuration and evaluator testing. Not reached.
+8. Present the evidence-backed `Eliminated` result for a later checkpoint decision. Current action.
 
 ## CP-003 field-model result
 
@@ -145,6 +146,26 @@ Use one synthetic Contact with two active Window Sales Work pipeline items. Give
 
 A later P1-W06 checkpoint may approve only the evidence set, configuration inventory, cost/tier record, and `Viable`, `Eliminated`, or `Incomplete` result. It will not by itself select LACRM, authorize payment or production use, permit real data, connect Centah or another service, send customer communications, or begin Loryn finalist testing.
 
+## Public-demo inspection result
+
+The official no-signup demo opened as a temporary vendor demo account after selecting only the generic industry profile and the `2-5` user range. No identity, credentials, billing information, account, trial, real data, connection, or customer communication was supplied.
+
+Direct inspection established:
+
+- Workspace combines a due-task widget, pipeline-report widget, activity report, and calendar preview.
+- The task widget can show due or overdue Tasks by calendar but Tasks expose an `Attached contact`, not a pipeline item.
+- The pipeline widget can select user scope and pipelines, but it presents pipeline/status summaries rather than the actionable records from a saved or filtered view.
+- A Contact page presents an upcoming Task and a Lead pipeline item as separate attached-item sections, reinforcing that the Task is Contact-scoped.
+- Pipeline customization supports multiple statuses, custom fields, a global required-field checkbox, pipeline-report display, and pipeline-badge display. The inspected field dialog exposed no conditional-requirement or unique-value option.
+
+M-01 fails directly. One Workspace cannot show all five required categories as actionable records because `waiting on someone else` jobs and active jobs missing their own next action cannot appear as record-level items beside today's appointments, contacts due today, and overdue actions. The pipeline widget exposes only aggregate status counts, and its settings offer pipeline/user scope rather than a saved filtered record view.
+
+The approved mandatory stopping rule ended the run immediately. No account, tenant, custom field, record, task, filter, view, widget setting, or configuration was saved. The temporary demo tab was closed. All other gates remain `Unverified`; they were not run merely to collect a score. Detailed sanitized evidence is in `../evidence/P1-W06/lacrm/public-demo-inspection.md`.
+
+## Proposed evaluator result - Unapproved
+
+`Eliminated` because LACRM directly fails M-01. This result is not signed until a later checkpoint explicitly approves it. The direct failure does not select another CRM, authorize an account, or change any production boundary.
+
 ## Current action
 
-Separately authorize or decline the bounded P1-W06 public-demo inspection. No demo interaction, account, trial, tenant inspection, configuration, fixture entry, testing, or external action is authorized by D-111.
+Review and explicitly sign off or reject the P1-W06 public-demo evidence and proposed `Eliminated` result at CP-009. No account, trial, tenant inspection, configuration, broader testing, billing, connection, real-data, communication, Loryn, production, or platform-selection action is authorized by D-112.

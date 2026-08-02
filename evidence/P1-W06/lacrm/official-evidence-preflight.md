@@ -1,6 +1,6 @@
 # P1-W06 Less Annoying CRM Official-Evidence Preflight
 
-**Status:** Current under D-111; complete contract approved; no demo, account, or tenant action authorized
+**Status:** Supplemented by D-112 direct public-demo evidence; M-01 failed; no account or tenant action authorized
 
 **Candidate:** Less Annoying CRM (LACRM)
 
@@ -37,7 +37,7 @@ The record model has one decision-critical uncertainty. LACRM supports multiple 
 
 | Gate | Official-evidence state | Required direct proof if later approved |
 |---|---|---|
-| M-01 Reliable daily action center | `Unverified` | One practical view with all five categories and a second job missing its own next action while the shared contact has another task |
+| M-01 Reliable daily action center | `Fail - direct D-112 demo` | Workspace showed due/overdue Tasks, calendar items, activity, and aggregate pipeline/status counts, but its pipeline widget could not show actionable waiting and missing-next-action records in the same practical view |
 | M-02 Correct source-specific workflow | `Unverified` | Costco/Centah versus Independent branches, source-specific handoff and dates, conditional prompts, and retained exceptions |
 | M-03 Essential mobile tasks within one minute | `Unverified` | Mobile-browser phone/last-name search, today's work, confirmation, directions, and note timing |
 | M-04 Reliable reminders and next actions | `Unverified` | Job-specific tasks, overdue behavior, working-day schedules, quote/handoff/installation reminders, and missing-action detection |
@@ -51,7 +51,7 @@ The record model has one decision-critical uncertainty. LACRM supports multiple 
 | M-12 Sustainable learning and administration | `Conditional Pass` | One guided session, no routine duplicate entry, setup effort, and weekly administration estimate |
 | M-13 Common synthetic evidence standard | `Conditional Pass` | Same CP-004 fixtures, scripts, timing, evidence rows, sanitation, and stopping rules |
 
-These are research preflight labels, not evaluation results. D-111 approves the complete execution contract but authorizes no public-demo interaction, account, trial, tenant action, or direct test; no LACRM gate has passed.
+These are research preflight labels, not evaluation results. D-112 later authorized the bounded public-demo inspection, which directly failed M-01 and stopped the run. All other gates remain unverified unless separately supported in `public-demo-inspection.md`; no account, trial, or tenant action was authorized.
 
 ## Proposed pre-demo stopping checks
 
