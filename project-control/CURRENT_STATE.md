@@ -2,17 +2,17 @@
 
 **Updated:** August 2, 2026
 
-**Overall status:** P1-W08 execution active; unapproved cloud-guided mobile handoff drafted for review; participant sessions remain
+**Overall status:** P1-W08 execution active; cloud-guided mobile handoff setup complete and invitation sent; two participant sessions remain
 
 **Current phase:** Phase 1 - simplified personal CRM selection
 
 **Active work unit:** P1-W08 - finalist practical-session contract
 
-**Work-unit status:** Contract approved under D-119; setup prerequisites complete; proposed cloud facilitation method unapproved; two Loryn sessions pending
+**Work-unit status:** Contract approved under D-119; cloud facilitation approved under D-120; dedicated shared Project configured and shared with Chat access; two Loryn sessions pending
 
 **Last signed-off checkpoint:** CP-010 - simplified personal CRM scope and future evaluation method (August 1, 2026)
 
-**Last approval:** D-119 - the user explicitly said, `Approve the P1-W08 contract and begin bounded P1-W08 execution`, approving the complete contract and its named no-billing evaluator setup, synthetic configuration, direct checks, two short Loryn sessions, and sanitized result preparation only (August 2, 2026)
+**Last approval:** D-120 - the user explicitly said, `Approve the P1-W08 cloud-guided mobile handoff and authorize the dedicated invite-only shared ChatGPT Project stage`, approving the handoff's named actors, systems, synthetic-only data, actions, exclusions, and stopping rules (August 2, 2026)
 
 ## Current product outcome
 
@@ -111,10 +111,13 @@ The former requirement for a single five-category dashboard, automatic missing-j
 - The vendor support contact was removed while the required evaluator self-contact was retained and excluded from scoring. The single pipeline, three approved preload fixtures, tasks, notes, and opportunities were configured.
 - Capsule desktop verification passed for tasks, pipeline placement, last-name search, and phone search. Phone search required the `Contacts` result filter after a brief temporary-search limitation notice.
 - Loryn's non-identifying session device is recorded as an iPhone 17 Pro Max running iOS 26.6. No device identifier or account detail is retained.
-- `../deliverables/P1-W08-cloud-guided-mobile-handoff.md` is an unapproved draft for a dedicated invite-only shared ChatGPT Project with one chat per finalist, Chat access for Loryn, one-task-at-a-time guidance, counted neutral/help prompts, and sanitized chat-generated results.
-- The proposed cloud method is not part of the active execution authority until explicitly approved. No shared Project has been created or shared.
+- D-120 approved `../deliverables/P1-W08-cloud-guided-mobile-handoff.md` and its dedicated invite-only shared ChatGPT Project with one chat per finalist, Chat access for Loryn, one-task-at-a-time guidance, counted neutral/help prompts, and sanitized chat-generated results.
+- The dedicated `Loryn CRM Finalist Sessions` Project is configured with Project-only memory and `Only those invited` access.
+- The approved handoff is the Project's only source, and the saved Project instructions match the approved instruction block exactly.
+- Separate `OnePageCRM mobile session` and `Capsule mobile session` chats have confirmed their boundaries and are waiting for `ready`; neither has presented Task 1.
+- Loryn's Chat-access invitation was sent through privately entered information. No invitation address, Project URL, Project identifier, or member identifier is retained in the repository.
 - No Loryn session has started for either finalist.
-- No billing, purchase, connection, real data, communication, production action, platform selection, or checkpoint sign-off occurred.
+- No billing, purchase, CRM connection, real data, customer communication, production action, platform selection, or checkpoint sign-off occurred.
 
 ## Streamlined approval policy
 
@@ -148,7 +151,7 @@ D-118 governs future work alongside the existing authority and sign-off rules:
 
 ## Current open blockers
 
-- The proposed cloud-guided participation method requires explicit review and approval before any dedicated ChatGPT Project is created, shared, or used.
+- The first session cannot begin until the owner resets the matching synthetic fixtures, confirms Avery Brooks is absent, prepares the external timer, and confirms no private notification is visible.
 - Direct mobile capture, mobile next-action updates, ordinary mobile saving, recovery burden, and Loryn's acceptability and preference remain unverified for both finalists.
 - Production access, security, retention, and real-data approval remain open and must be resolved only after a CRM is selected.
 - D-013 retention and deletion periods remain open, and final platform selection has not been approved.
@@ -169,14 +172,14 @@ D-118 governs future work alongside the existing authority and sign-off rules:
 
 **Active work unit:** P1-W08 - finalist practical-session contract.
 
-**Work-unit state:** Contract approved; setup prerequisites complete; an unapproved cloud-guided mobile handoff is ready for review; two short sessions remain.
+**Work-unit state:** Contract and cloud-guided method approved; CRM, device, and shared-Project setup complete; two short sessions remain.
 
 **Approved finalists:** OnePageCRM Professional and Capsule Starter. LACRM is the first reserve and Bigin Premier is the second reserve. The common participant sessions are next. No CRM is selected.
 
 ## Exact next action
 
-Review or revise `../deliverables/P1-W08-cloud-guided-mobile-handoff.md`. If accepted, explicitly approve its named actors, dedicated shared ChatGPT Project, synthetic-only data, actions, exclusions, and stopping rules before any Project creation, invitation, sharing, or Loryn session. Otherwise retain the original facilitator-led method.
+Reset the first finalist's synthetic fixtures, confirm Avery Brooks is absent, prepare the external 20-minute timer, and confirm no private notification is visible. Loryn may then open the matching cloud chat and say `ready` to begin Task 1. Stop at the approved handoff limits and preserve only the sanitized result.
 
 ## Resume instruction
 
-CP-010 is the last signed checkpoint. D-119 approved the P1-W08 contract and opened bounded execution. Setup and device prerequisites are complete. The new dedicated shared-Project handoff is an unapproved facilitation-method proposal and must not be shared or used until explicitly approved. No shared Project, Loryn session, checkpoint sign-off, or CRM selection has occurred.
+CP-010 is the last signed checkpoint. D-119 approved the P1-W08 contract and D-120 approved the cloud-guided handoff and dedicated invite-only shared-Project stage. CRM, device, and minimal shared-Project setup are complete; Loryn's Chat-access invitation has been sent. Resume with the first fixture reset and matching mobile chat only when Loryn is ready. No Loryn session, checkpoint sign-off, or CRM selection has occurred.

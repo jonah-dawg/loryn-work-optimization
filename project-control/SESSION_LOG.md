@@ -4491,3 +4491,55 @@ Before use, the user must explicitly approve the handoff's named actors, dedicat
 ### Saved ending point
 
 Review or revise `../deliverables/P1-W08-cloud-guided-mobile-handoff.md`. If accepted, explicitly approve the proposed dedicated shared-Project stage before any Project creation, invitation, sharing, or Loryn session. Otherwise retain the original facilitator-led method. No CRM is selected.
+
+## Session S-099 - D-120 approved and cloud-guided handoff configured
+
+**Date:** August 2, 2026
+
+**Phase:** Phase 1 - simplified personal CRM selection
+
+**Work unit:** P1-W08 - finalist practical-session execution
+
+**Checkpoint:** CP-010 remains the last signed-off checkpoint
+
+**Sign-off status:** D-120 accepted; dedicated invite-only shared-Project setup complete; invitation sent; both practical sessions remain
+
+**Approval evidence:** The user explicitly said, `Approve the P1-W08 cloud-guided mobile handoff and authorize the dedicated invite-only shared ChatGPT Project stage`.
+
+### Orientation
+
+- Current phase: Phase 1 - simplified personal CRM selection.
+- Active work unit: P1-W08 finalist practical-session execution.
+- Last signed checkpoint: CP-010 - simplified personal-CRM scope and future evaluation method.
+- Last approval at entry: D-119 - approved the P1-W08 contract and bounded execution.
+- Open blockers at entry: the cloud-guided method was unapproved, no dedicated shared Project existed, and both mobile sessions remained.
+- Proposed outcome: record the already-given D-120 approval, configure only the named invite-only shared-Project stage, and stop before either practical session.
+
+### Decision
+
+- **Accepted (D-120):** Approve `../deliverables/P1-W08-cloud-guided-mobile-handoff.md` and authorize its dedicated invite-only shared ChatGPT Project stage.
+- The approval covers only the named actors, dedicated Project, synthetic-only data, exact setup and participant actions, exclusions, and stopping rules in the handoff.
+- It does not approve an open sharing link, Edit access for Loryn, additional sources, real data, CRM selection, checkpoint sign-off, or any excluded CRM action.
+
+### Cloud setup result
+
+- Created the dedicated `Loryn CRM Finalist Sessions` Project with Project-only memory and `Only those invited` access.
+- Saved the approved Project instructions and verified that the stored text matches the approved instruction block exactly.
+- Added the approved cloud-guided handoff as the Project's only source through the Project text-source flow. The local file chooser did not surface the file despite the already-enabled extension permission; no broader workaround or permission change was made.
+- Created separate `OnePageCRM mobile session` and `Capsule mobile session` chats. Each chat confirmed its product and safety boundary and is waiting for `ready`; neither presented Task 1.
+- The user privately entered and sent Loryn's invitation through the approved Chat-access flow; the Project showed the invited member. No invitation address, Project URL, Project identifier, or member identifier is retained in repository artifacts.
+- No CRM action, participant task, screenshot, real data entry, billing, integration, customer communication, production action, CRM selection, or checkpoint sign-off occurred during this stage.
+
+### Files changed
+
+- `README.md`
+- `deliverables/P1-W08-cloud-guided-mobile-handoff.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W08/execution-progress.md`
+- `project-control/ARTIFACT_REGISTER.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+
+### Saved ending point
+
+The D-120 setup stage is complete. Before the first mobile session, reset that finalist's synthetic fixtures, confirm Avery Brooks is absent, prepare the external 20-minute timer, and confirm no private notification is visible. Then let Loryn open the matching Project chat and say `ready`. Preserve only the sanitized handoff, stop at the approved limits, and do not select a CRM or sign a checkpoint.

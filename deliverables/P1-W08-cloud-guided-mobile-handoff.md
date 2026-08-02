@@ -1,6 +1,6 @@
 # P1-W08 - Cloud-Guided Mobile Session Handoff
 
-**Status:** Unapproved draft - do not share or use with Loryn yet
+**Status:** Approved under D-120 - dedicated invite-only shared-Project setup and use authorized within this boundary
 
 **Phase:** Phase 1 - simplified personal CRM selection
 
@@ -8,15 +8,15 @@
 
 **Source authority:** D-119 and `P1-W08-finalist-practical-session-contract.md`
 
-## Proposed outcome
+## Approved outcome
 
 Let Loryn complete the already-approved OnePageCRM and Capsule practical sessions on her iPhone through a dedicated shared ChatGPT Project. The cloud chat acts as the neutral session guide, presents one task at a time, accepts short spoken or typed responses, and produces a sanitized handoff for repository reconciliation.
 
-This proposal changes the facilitation method only. It does not change the approved fixtures, task order, 15-to-20-minute limit, acceptance rules, privacy boundary, tier boundary, or prohibition on CRM selection.
+This approved method changes the facilitation method only. It does not change the approved fixtures, task order, 15-to-20-minute limit, acceptance rules, privacy boundary, tier boundary, or prohibition on CRM selection.
 
-## Approval required before use
+## Approved external stage
 
-The following external stage requires explicit approval because it adds a shared cloud project and changes how Loryn participates:
+The user approved the following external stage under D-120 because it adds a shared cloud project and changes how Loryn participates:
 
 - **Actors:** the project owner and Loryn.
 - **Systems:** a dedicated shared ChatGPT Project, OnePageCRM, and Capsule on Loryn's iPhone.
@@ -25,11 +25,11 @@ The following external stage requires explicit approval because it adds a shared
 - **Exclusions:** no real customer data, screenshots, credentials, account identifiers, billing, integrations, communications, production use, CRM selection, or checkpoint sign-off.
 - **Stopping rules:** the existing P1-W08 rules plus immediate stop if the chat asks for private information, exposes another project member's private content, or materially increases Loryn's burden.
 
-Drafting this file does not approve or start that stage.
+D-120 authorizes only this named stage. It does not authorize an open sharing link, Edit access for Loryn, additional Project sources, real data, CRM selection, or any excluded action.
 
 ## Recommended cloud structure
 
-Create a dedicated ChatGPT Project named `Loryn CRM Finalist Sessions` only after approval.
+Create a dedicated ChatGPT Project named `Loryn CRM Finalist Sessions` under D-120.
 
 1. Use `Only those invited`, not `Anyone with a link`.
 2. Invite Loryn with `Chat` access. She does not need Edit access.
@@ -170,7 +170,7 @@ Because the proposed Project is shared, the owner can read each finished chat wi
 - OpenAI also documents that shared-project members can see Project chats, files, and member information. This is why the proposed Project is dedicated, invite-only, and limited to this single approved handoff.
 - Source: [Projects in ChatGPT](https://help.openai.com/en/articles/10169521-projects-in-chatgpt).
 
-## Draft acceptance review
+## Approval acceptance review
 
 - [x] One dedicated chat is used per finalist.
 - [x] The approved six-task order and synthetic fixtures are preserved.
@@ -179,8 +179,10 @@ Because the proposed Project is shared, the owner can read each finished chat wi
 - [x] The neutral recovery prompt and counted label-level hints preserve comparability.
 - [x] The 20-minute, privacy, billing, connection, communication, and fairness stopping rules are preserved.
 - [x] The result format is sanitized and ready for repository reconciliation.
-- [x] The cloud Project remains uncreated and unshared pending explicit approval.
+- [x] D-120 explicitly approves the dedicated invite-only shared-Project stage within this document's boundary.
 
-## Proposed next action
+## Approved next action
 
-Review or revise this draft. If accepted, explicitly approve the P1-W08 cloud-guided mobile handoff and authorize the exact dedicated shared-Project stage described above. Only then create or share the Project and begin Loryn's first finalist chat.
+The D-120 Project setup is complete. The dedicated Project uses Project-only memory and `Only those invited`; the approved instructions match this handoff; this handoff is its only source; the `OnePageCRM mobile session` and `Capsule mobile session` chats are created; and Loryn has been invited with Chat access through privately entered information. No private invite detail, Project URL, or Project identifier is retained here.
+
+Before the first session, the owner must reset the synthetic fixtures, confirm Avery Brooks is absent, prepare the external timer, and confirm no private notification is visible. Loryn may then open the matching chat and say `ready`. No practical-session task has started at this save point.

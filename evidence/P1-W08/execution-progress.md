@@ -1,10 +1,10 @@
 # P1-W08 Execution Progress
 
-**Status:** Finalist setups, desktop checks, and participant device record complete; two short Loryn sessions remain
+**Status:** Finalist setups, desktop checks, participant device record, and invite-only cloud handoff setup complete; two short Loryn sessions remain
 
 **Date:** August 2, 2026
 
-**Authority:** D-119 and the approved P1-W08 contract
+**Authority:** D-119, D-120, the approved P1-W08 contract, and the approved cloud-guided handoff
 
 ## OnePageCRM completed actions
 
@@ -38,12 +38,21 @@
 - Apple identified iOS 26.6 as the current release on August 2, 2026, so the non-identifying session record is `iPhone 17 Pro Max; iOS 26.6`.
 - No serial number, device identifier, telephone number, Apple Account detail, or other device-specific information was requested or retained.
 
+## Cloud-guided handoff setup
+
+- Created the dedicated `Loryn CRM Finalist Sessions` shared ChatGPT Project with Project-only memory and invite-only access.
+- Saved the approved Project instructions exactly as written in the approved cloud-guided handoff.
+- Added the approved handoff as the Project's only source through the Project text-source flow; no repository mirror, CRM page, screenshot, export, or private vendor message was added.
+- Created separate `OnePageCRM mobile session` and `Capsule mobile session` chats. Each chat confirmed its boundary and is waiting for `ready`; neither chat has presented Task 1.
+- Loryn was invited with Chat access through privately entered information. No invitation address, Project URL, member identifier, or other private sharing detail is retained in the repository.
+- No CRM action or participant task occurred during Project setup.
+
 ## Privacy record
 
 - No evaluator email address, profile name, password, token, account identifier, consent URL, or private notification is stored in this artifact.
 - No real customer, prospect, employer, Costco, or Centah information was used.
-- No billing, purchase, external connection, customer communication, production action, or platform selection occurred.
+- No billing, purchase, CRM connection, customer communication, production action, or platform selection occurred.
 
 ## Resume action
 
-Run one guided 15-to-20-minute session per finalist on the recorded iPhone using the approved common task card. Do not add real data, connect email/calendar/phone services, send communications, enter billing, or select a CRM. Capture only sanitized observations and Loryn's short acceptability and preference feedback.
+Reset the first finalist's synthetic fixtures, confirm Avery Brooks is absent, prepare the external 20-minute timer, and let Loryn begin through the matching cloud chat only when she says `ready`. Run one guided session per finalist using the approved handoff. Do not add real data, connect email/calendar/phone services, send communications, enter billing, or select a CRM. Capture only sanitized observations and Loryn's short acceptability and preference feedback.
