@@ -1,6 +1,6 @@
 # P1-W06 - Less Annoying CRM Evidence-First Definition
 
-**Status:** Proposed work-unit outcome - Unapproved; definition and current official research authorized under D-109
+**Status:** Work-unit outcome approved under D-110; complete execution contract proposed and unapproved; no external action authorized
 
 **Phase:** Phase 1 - CRM candidate comparison
 
@@ -11,16 +11,16 @@
 ## Definition authority
 
 - **Accepted (D-109):** Begin the P1-W06 Less Annoying CRM evidence-first definition and current official research only.
-- D-109 authorizes this proposed-outcome record, the official-evidence preflight, and project-control synchronization.
-- D-109 does not approve the proposed outcome or an execution contract and does not authorize public-demo interaction, an account, trial, tenant inspection, configuration, fixture entry, testing, billing, purchase, external connection, real data, customer communication, production use, Loryn participation, checkpoint sign-off, or platform selection.
+- **Accepted (D-110):** Approve the P1-W06 proposed outcome and authorize the CP-003 field-model preflight, complete-contract drafting, additional current official research, and project-control synchronization only.
+- D-110 does not approve the complete execution contract and does not authorize public-demo interaction, an account, trial, tenant inspection, configuration, fixture entry, testing, billing, purchase, external connection, real data, customer communication, production use, Loryn participation, checkpoint sign-off, or platform selection.
 
-## Proposed work-unit outcome - Unapproved
+## Approved work-unit outcome
 
 Evaluate the single-tier Less Annoying CRM product as the next independent-work CRM candidate through an evidence-first, evaluator-only process. Begin with current official evidence and, only after later separate approvals, a bounded public-demo inspection before deciding whether an account is justified. If the record model remains plausible, prepare a CP-003 field map and a complete execution contract before any signup or configuration.
 
-## Recommendation
+## Current recommendation
 
-Approve the proposed work-unit outcome, but keep LACRM unapproved as a viable or preferred platform. It is the most proportionate next candidate because:
+Continue to complete-contract review, but keep LACRM unapproved as a viable or preferred platform. It is the most proportionate next candidate because:
 
 - One current tier includes all features for `$15` per user per month, or `$30` per month plus tax for two administrators.
 - The 30-day trial is described as full access with no credit card, and a public live demo is available without signup.
@@ -36,7 +36,7 @@ The first stopping risk is material: official task documentation exposes a Conta
 - The free trial is 30 days, includes the full product, and requires no credit card according to current official pricing.
 - The public product tour links to a live demo that does not require signup. Demo interaction remains a separately authorized action.
 - LACRM is browser-based on mobile rather than relying on a required native app. Current material does not establish offline editing, pending-sync visibility, conflict handling, or retry behavior.
-- No account, trial, demo interaction, or external service is authorized by D-109.
+- No account, trial, demo interaction, or external service is authorized by D-110.
 
 ## Decision-critical risks
 
@@ -64,26 +64,86 @@ Admin bulk export, pipeline export, activity reports, notes, and API resources a
 
 Two-factor authentication, admin/user permissions, immediate lockout, user deletion/reassignment, encrypted backups, and one-year post-cancellation retention are documented. Direct evidence must confirm that two administrators can maintain the approved model within the roughly 15-minute weekly administration limit.
 
-## Proposed definition boundary - Unapproved
+## Approved evaluator boundary
 
 - The single current LACRM tier is the only proposed evaluated product. Do not add custom code or an external automation service to make it pass.
 - The technical partner remains the sole evaluator under D-093. Loryn remains deferred until a separately approved viable-finalist session.
-- Start with official evidence. If the outcome and later contract are approved, inspect the public no-signup demo before authorizing an account.
+- Start with official evidence. If the complete contract is later approved, inspect the public no-signup demo under a separate authorization before considering an account.
 - Test the job-specific next-action invariant first using one synthetic contact with two active pipeline items and distinct action states.
 - Use only the signed CP-004 fixtures and manual/no-send communication controls if later execution is authorized.
 - Keep credentials, private emails, identifiers, billing information, and browser/session data outside all project artifacts.
 
-## Proposed approval sequence - Unapproved
+## Approval sequence
 
 1. Begin definition and official research. Completed as D-109.
-2. Explicitly approve or reject the proposed outcome.
-3. If approved, prepare the CP-003 field map and complete execution contract.
+2. Approve the proposed outcome and authorize field-map and contract drafting only. Completed as D-110.
+3. Prepare the CP-003 field map and complete execution contract. Completed as an unapproved draft under D-110.
 4. Explicitly approve or reject the complete contract.
 5. Separately authorize a bounded public-demo inspection focused on task-to-job linkage and the unified action center.
 6. If the demo remains plausible, separately authorize a no-credit-card evaluator account and nonprivate tenant inspection.
 7. Separately authorize synthetic configuration and evaluator testing.
 8. Present the evidence-backed viable, eliminated, or incomplete result for a later checkpoint decision.
 
+## CP-003 field-model result
+
+The proposed minimum model uses 8 Contact custom fields, 7 Prospecting pipeline fields, and 20 Window Sales Work pipeline fields. LACRM documents unlimited custom fields, so field quantity is not the concern. The critical issue is relationship integrity: Tasks and Events are Contact-scoped, while the next-action invariant applies separately to each active Prospecting or Window Sales Work pipeline item.
+
+The draft therefore keeps `Next action` and `Next action due` as canonical pipeline-item fields and treats any Contact-linked Task as a reminder whose title must include the pipeline-item label. A direct evaluator run must prove that empty next-action fields can be found per pipeline item and that reminder creation, completion, and rescheduling do not require unsustainable duplicate entry. The complete mapping is in `../evidence/P1-W06/lacrm/field-model-preflight.md`.
+
+## Proposed complete execution contract - Unapproved
+
+### Product and ownership boundary
+
+- Evaluate only LACRM's single all-features tier. Do not add custom code, paid services, external automations, or integrations to make the candidate pass.
+- The technical partner remains the sole evaluator under D-093. Loryn remains deferred until a separately approved viable-finalist session.
+- Keep all records synthetic and all customer-facing communications manual and unsent.
+
+### Execution sequence
+
+1. Explicitly approve or reject this complete contract.
+2. If approved, separately authorize a bounded public-demo inspection that requires no signup.
+3. In the public demo, inspect task-to-job linkage, blank pipeline-field filtering, the unified action center, field controls, and mobile-browser behavior before considering an account.
+4. Stop if the demo requires signup, exposes nonpublic personal information, cannot preserve a synthetic-only boundary, or directly establishes a mandatory failure.
+5. If the candidate remains plausible, separately authorize a no-credit-card evaluator account and nonprivate tenant-shell inspection.
+6. Stop after recording the product, trial-expiry, sample-data, user-role, and feature-boundary labels.
+7. Separately authorize synthetic configuration and evaluator testing before changing the tenant or entering CP-004 fixtures.
+8. Run mandatory stopping tests first, then only the minimum remaining CP-004 scenarios needed for a comparable result.
+9. Present the evidence-backed `Viable`, `Eliminated`, or `Incomplete` result for a later checkpoint decision.
+
+### Minimum configuration if later authorized
+
+- Two pipelines: `Prospecting` and `Window Sales Work`.
+- The field model in `../evidence/P1-W06/lacrm/field-model-preflight.md`, with no speculative extras.
+- One reusable Contact may hold multiple distinct pipeline items; the job label must be visible on each badge.
+- Pipeline-item `Next action` and `Next action due` fields remain canonical until direct evidence proves a simpler reliable method.
+- Any Contact-linked Task or Event title must begin with the relevant synthetic pipeline-item label so two jobs for one Contact remain distinguishable.
+- Keep email, calendar, maps, Centah, API, webhooks, and every other external connection disabled.
+
+### First stopping test
+
+Use one synthetic Contact with two active Window Sales Work pipeline items. Give the first item a distinct next action and reminder; leave the second item's next-action fields blank. The candidate fails if one practical action-center route cannot reveal the uncovered second job without opening records individually, or if the first job's Contact-linked task makes the second job appear covered.
+
+### Remaining mandatory stopping rules
+
+- Stop on any direct M-01 through M-13 failure; do not continue merely to collect a numeric score.
+- Stop if Costco/Centah-only fields cannot be visibly separated or exceptions cannot be reported reliably.
+- Stop if a duplicate Centah identifier cannot be blocked or routed to a practical visible review without custom code.
+- Stop if routine next-action handling requires repeated manual entry across pipeline fields and Tasks beyond the roughly 15-minute weekly administration target.
+- Stop if the trial requires billing, an annual commitment, a disallowed identity, or a higher-priced product.
+- Stop before external connections, real data, outbound communications, production use, Loryn participation, checkpoint sign-off, or platform selection.
+
+### Evidence and cleanup
+
+- Use only CP-004 synthetic fixtures and its accepted evidence-row format.
+- Sanitize screenshots and exports; exclude credentials, private email addresses, account identifiers, session data, and unrelated records.
+- Record official claims separately from direct observations and label every unrun gate `Unverified`.
+- Do not permanently delete recoverable vendor sample data without separate necessity and scope confirmation.
+- If a later run stops, record the exact stopping evidence and the remaining synthetic tenant state before any cleanup.
+
+### Proposed checkpoint effect
+
+A later P1-W06 checkpoint may approve only the evidence set, configuration inventory, cost/tier record, and `Viable`, `Eliminated`, or `Incomplete` result. It will not by itself select LACRM, authorize payment or production use, permit real data, connect Centah or another service, send customer communications, or begin Loryn finalist testing.
+
 ## Current action
 
-Review and explicitly approve or reject the proposed P1-W06 work-unit outcome. No demo interaction, account, trial, tenant inspection, configuration, or external action is authorized by D-109.
+Review and explicitly approve or reject the complete P1-W06 execution contract. No demo interaction, account, trial, tenant inspection, configuration, fixture entry, testing, or external action is authorized by D-110.

@@ -4,11 +4,11 @@
 
 | Artifact | Authority | Current status | Update trigger |
 |---|---|---|---|
-| `../deliverables/window-sales-operations-master-plan.md` | Authoritative product and delivery plan | Version 1.85; current | Material scope, architecture, roadmap, risk, governance, process, or decision change |
+| `../deliverables/window-sales-operations-master-plan.md` | Authoritative product and delivery plan | Version 1.86; current | Material scope, architecture, roadmap, risk, governance, process, or decision change |
 | `../deliverables/window-sales-operations-master-plan.docx` | Non-authoritative editable distribution copy | Version 1.4; stale by design until final release or explicit sharing milestone | Regenerate and visually verify only for a release or requested sharing copy |
 | `GUIDED_WORKFLOW.md` | Authoritative session and checkpoint procedure | Current | Workflow-control rule changes |
-| `CURRENT_STATE.md` | Authoritative restart point | P1-W06 LACRM definition active under D-109; proposed outcome unapproved | Every sign-off, session stop, blocker, or active-work-unit change |
-| `SESSION_LOG.md` | Append-only execution history | S-085 records D-109 and the unapproved LACRM proposed outcome | Every sign-off or session close |
+| `CURRENT_STATE.md` | Authoritative restart point | P1-W06 LACRM outcome approved under D-110; complete contract unapproved | Every sign-off, session stop, blocker, or active-work-unit change |
+| `SESSION_LOG.md` | Append-only execution history | S-086 records D-110, the field model, and the unapproved contract | Every sign-off or session close |
 | `ARTIFACT_REGISTER.md` | Artifact authority and synchronization inventory | Current | Artifact added, renamed, superseded, or found stale |
 | `COLLABORATOR_PACKET.md` | Operational shared-Project onboarding and input-capture aid | Current; unapproved input remains subject to repository reconciliation | Shared-project procedure, active intake queue, or handoff format changes |
 | `../deliverables/P0-W01-current-workflow-and-permission-boundary.md` | Signed P0-W01 workflow and permission boundary | Approved at CP-001 | Supersede only through a later signed checkpoint |
@@ -36,8 +36,9 @@
 | `../deliverables/P1-W05-freshsales-pro-evidence-first-definition.md` | Closed P1-W05 definition and execution contract | Closed incomplete under D-108; CP-009 not reached; Freshsales Pro documentation-only | Supersede only through an explicitly approved later Freshsales work unit |
 | `../evidence/P1-W05/freshsales/official-evidence-preflight.md` | P1-W05 Freshsales official-source evidence | Closed documentation-only under D-108; signup blocked before account creation; no direct tenant evidence | Every explicitly approved Freshsales reopening or material later official-evidence change |
 | `../evidence/P1-W05/freshsales/field-capacity-preflight.md` | P1-W05 CP-003-to-Freshsales field map | Closed documentation-only under D-108; 9 Contact, 17 Deal, and 0-2 activity fields; no direct confirmation | Every explicitly approved Freshsales reopening or material later mapping change |
-| `../deliverables/P1-W06-less-annoying-crm-evidence-first-definition.md` | Active P1-W06 proposed outcome | Definition authorized under D-109; proposed outcome unapproved; no external action authorized | Explicit outcome decision or material P1-W06 definition change |
-| `../evidence/P1-W06/lacrm/official-evidence-preflight.md` | P1-W06 LACRM official-source evidence | Current under D-109; no gate passed and no demo/account action authorized | Every material LACRM feature, cost, trial, record-model, or later direct-evidence change |
+| `../deliverables/P1-W06-less-annoying-crm-evidence-first-definition.md` | Active P1-W06 definition and proposed complete contract | Outcome approved under D-110; complete contract unapproved; no external action authorized | Explicit contract decision or material P1-W06 definition change |
+| `../evidence/P1-W06/lacrm/official-evidence-preflight.md` | P1-W06 LACRM official-source evidence | Current under D-110; no gate passed and no demo/account action authorized | Every material LACRM feature, cost, trial, record-model, or later direct-evidence change |
+| `../evidence/P1-W06/lacrm/field-model-preflight.md` | P1-W06 CP-003-to-LACRM field model | Current documentation-only map under D-110; 8 Contact, 7 Prospecting, and 20 Window Sales Work fields; no direct confirmation | Every material mapping change or later direct tenant evidence |
 | `REPOSITORY_BACKUP.md` | Repository location, synchronization boundary, and recovery instructions | Current | Repository, branch, tracked scope, or working-copy policy changes |
 
 ## Planned artifacts not yet created

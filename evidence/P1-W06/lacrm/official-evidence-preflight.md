@@ -1,6 +1,6 @@
 # P1-W06 Less Annoying CRM Official-Evidence Preflight
 
-**Status:** Current under D-109; proposed outcome unapproved; no demo, account, or tenant action authorized
+**Status:** Current under D-110; outcome approved; complete contract unapproved; no demo, account, or tenant action authorized
 
 **Candidate:** Less Annoying CRM (LACRM)
 
@@ -51,7 +51,7 @@ The record model has one decision-critical uncertainty. LACRM supports multiple 
 | M-12 Sustainable learning and administration | `Conditional Pass` | One guided session, no routine duplicate entry, setup effort, and weekly administration estimate |
 | M-13 Common synthetic evidence standard | `Conditional Pass` | Same CP-004 fixtures, scripts, timing, evidence rows, sanitation, and stopping rules |
 
-These are research preflight labels, not evaluation results. D-109 authorizes definition and official research only; no LACRM gate has passed.
+These are research preflight labels, not evaluation results. D-110 approves the outcome and authorizes the field-model preflight, complete-contract drafting, and additional official research only; no LACRM gate has passed.
 
 ## Proposed pre-demo stopping checks
 
