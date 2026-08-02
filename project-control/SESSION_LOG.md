@@ -4353,3 +4353,69 @@ Review, revise, or explicitly approve `../deliverables/P1-W08-finalist-practical
 ### Saved ending point
 
 Resume from the preserved OnePageCRM Google consent page. Confirm it still shows the expected OnePageCRM authorization, select `Continue`, and verify account creation, the no-billing trial, and the Professional-equivalent tier boundary before any configuration. Stop if billing is required or tier contamination cannot be controlled. Begin Capsule only after the OnePageCRM preflight reaches a safe stopping point. No CRM is selected.
+
+## Session S-096 - Both finalist setups completed and participant sessions handed off
+
+**Date:** August 2, 2026
+
+**Phase:** Phase 1 - simplified personal CRM selection
+
+**Work unit:** P1-W08 - finalist practical-session contract and execution
+
+**Checkpoint:** CP-010 remains the last signed-off checkpoint
+
+**Sign-off status:** D-119 remains the active execution authority; both finalist setups and desktop checks complete; participant sessions remain
+
+**Resume evidence:** The user resumed from `project-control/CURRENT_STATE.md`, then confirmed, `ok try again, i authenticated via google and made an account`.
+
+### Orientation
+
+- Current phase at entry: Phase 1 - simplified personal CRM selection.
+- Active work unit at entry: P1-W08 finalist practical-session contract and execution.
+- Last signed checkpoint at entry: CP-010 - simplified personal-CRM scope and future evaluation method.
+- Last approval at entry: D-119 - approved P1-W08 contract and bounded no-billing, synthetic-only execution.
+- Open blockers at entry: OnePageCRM account and tier state were unverified; no fixture or direct check had started; Capsule remained untouched; mobile and Loryn evidence remained open.
+- Proposed outcome: resume the approved setup, bring OnePageCRM to a safe verified boundary, begin Capsule preflight, and stop before any billing, integration, real-data, credential-handling, or unapproved action.
+
+### OnePageCRM result
+
+- Verified the evaluator account and a 21-day no-billing Max trial.
+- Directly found that switching to Professional opened a paid order flow, so no downgrade, billing detail, subscription, or purchase was attempted.
+- Constrained the evaluation to Professional-equivalent features and avoided Max-only features, integrations, automation, add-ons, and multiple pipelines.
+- Removed two vendor demonstration contacts.
+- Configured one `Independent Leads` pipeline with four active stages plus native won and lost outcomes.
+- Preloaded Jordan Lee, Taylor Morgan, and Casey Rivera only; Avery Brooks remains absent for participant creation.
+- Verified the intended overdue, today, and future actions; the three pipeline placements; last-name lookup; and phone lookup.
+- Corrected a setup-only phone serialization issue by refreshing the phone-type selector before saving. The final synthetic phone lookup passed.
+
+### Capsule result
+
+- Directly verified Capsule Starter at US$18 per user per month when billed annually, with a 14-day trial and no card required.
+- Selected Starter and completed Google authorization with the evaluator-controlled identity.
+- The evaluator completed the private credential and customer-terms steps and confirmed login.
+- Verified the exact Starter trial with 14 days remaining, one user, no card, and no invoices.
+- Removed the vendor support contact; retained the mandatory evaluator self-contact and excluded it from the task card and scoring.
+- Renamed the single pipeline `Independent Leads`, retained four active lifecycle milestones, archived the two unused vendor milestones, and kept native won and lost outcomes.
+- Preloaded Jordan Lee, Taylor Morgan, and Casey Rivera only; Avery Brooks remains absent for participant creation.
+- Verified the intended overdue, today, and tomorrow tasks; all three pipeline placements; last-name lookup; and contact-only phone lookup.
+- Broad phone search briefly displayed a temporary-search limitation and Jordan's linked opportunity; choosing the `Contacts` result filter returned Jordan Lee directly. Preserve this as a participant-session observation.
+
+### Safety and authority record
+
+- No evaluator email, profile name, password, token, account identifier, consent URL, private notification, or billing detail was retained in repository artifacts.
+- No real customer, prospect, employer, Costco, or Centah information was used.
+- No billing, purchase, add-on, external connection, customer communication, production action, Loryn participation, checkpoint sign-off, or CRM selection occurred.
+
+### Files changed
+
+- `README.md`
+- `deliverables/P1-W08-finalist-practical-session-contract.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W08/execution-progress.md`
+- `project-control/ARTIFACT_REGISTER.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+
+### Saved ending point
+
+Record Loryn's ordinary supported phone model and OS version without device identifiers. Then run one guided 15-to-20-minute session per finalist using the approved common task card and observation record. Keep all records synthetic, stop at the contract limits, and do not add billing, integrations, communications, production use, checkpoint sign-off, or CRM selection.

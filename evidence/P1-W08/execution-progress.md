@@ -1,35 +1,43 @@
 # P1-W08 Execution Progress
 
-**Status:** Paused by user during OnePageCRM account authorization
+**Status:** Both finalist evaluator setups and desktop checks complete; participant phone/OS and two short Loryn sessions remain
 
 **Date:** August 2, 2026
 
 **Authority:** D-119 and the approved P1-W08 contract
 
-## Completed actions
+## OnePageCRM completed actions
 
-- Re-read the active project state, latest session entry, approved contract, and relevant Phase 1 plan boundary.
-- Opened the current official OnePageCRM pricing and registration pages.
-- Confirmed the registration page offered a 21-day free trial with no credit card required.
-- Confirmed Professional remained displayed as the lowest named production tier in the approved finalist boundary.
-- Began Google-based evaluator authorization using the existing evaluator-controlled browser identity.
-- Reached the Google consent page that explains the basic profile and email information OnePageCRM would receive.
+- The evaluator completed Google-based account creation and the tenant opened without billing details.
+- Direct plan inspection showed a 21-day Max trial. Switching to Professional required entering the paid order flow, so no downgrade, subscription, card entry, or purchase was attempted.
+- The evaluation is therefore constrained to Professional-equivalent features. Max-only features, integrations, automation, multiple pipelines, and add-ons are excluded from the session.
+- Removed the two vendor-provided demonstration contacts before fixture entry.
+- Configured one `Independent Leads` pipeline with `New`, `Contacting`, `Appointment Scheduled`, and `Quote / Decision`; Capsule-style `Won` and `Lost / Archived` meanings map to OnePageCRM's native won and lost outcomes rather than extra active stages.
+- Preloaded only Jordan Lee, Taylor Morgan, and Casey Rivera with the contract's synthetic actions, notes, and opportunities. Avery Brooks remains absent for participant creation.
+- Verified the Action Stream shows Jordan overdue from August 1, Taylor due today on August 2, and Casey due August 3.
+- Verified the pipeline shows Casey in `Contacting`, Jordan in `Appointment Scheduled`, and Taylor in `Quote / Decision`.
+- Verified last-name search returns Taylor Morgan and phone search returns Jordan Lee using the reserved synthetic number.
+- A setup issue was found and corrected before the phone lookup check: OnePageCRM did not serialize the entered phone until the phone-type selector was refreshed. The final saved record and lookup both succeeded.
 
-## Exact stopping point
+## Capsule completed actions
 
-- The Google consent page is open in a preserved browser handoff tab.
-- `Continue` was not selected.
-- OnePageCRM account creation was not completed or verified.
-- No OnePageCRM tenant, tier state, settings, configuration, or sample data was accessed.
-- Capsule preflight was not started.
-- No fixture was entered and no Loryn session occurred.
+- Current official Capsule pricing directly showed Starter at US$18 per user per month when billed annually, with a 14-day trial and no card required.
+- The evaluator completed the private credential and customer-terms steps, and the Starter tenant opened with 14 trial days remaining, one user, no payment card, and no invoices.
+- Removed the vendor-provided Capsule support contact. The required evaluator self-contact remains and is excluded from the task card and scoring.
+- Renamed the single Starter pipeline `Independent Leads`; retained four active milestones named `New`, `Contacting`, `Appointment Scheduled`, and `Quote / Decision`; archived the unused `Negotiation` and `Contract` vendor milestones; and retained Capsule's native won and lost outcomes.
+- Preloaded only Jordan Lee, Taylor Morgan, and Casey Rivera with the contract's synthetic tasks, notes, and opportunities. Avery Brooks remains absent for participant creation.
+- Verified the Tasks view shows Jordan overdue from yesterday, Taylor due today, and Casey due tomorrow.
+- Verified the pipeline shows Casey in `Contacting`, Jordan in `Appointment Scheduled`, and Taylor in `Quote / Decision`.
+- Verified last-name search returns Taylor Morgan. Phone search returns Jordan Lee after choosing the `Contacts` result filter.
+- During the phone check, the broad search briefly displayed a `Search is temporarily limited` notice and showed Jordan's linked opportunity; choosing `Contacts` returned Jordan's contact directly. Preserve this as a participant-session observation rather than treating setup delay as a scored failure.
+- No Loryn session has occurred for either finalist.
 
 ## Privacy record
 
-- No evaluator email address, profile name, credential, token, account identifier, consent URL, or private notification is stored in this artifact.
+- No evaluator email address, profile name, password, token, account identifier, consent URL, or private notification is stored in this artifact.
 - No real customer, prospect, employer, Costco, or Centah information was used.
 - No billing, purchase, external connection, customer communication, production action, or platform selection occurred.
 
 ## Resume action
 
-Resume from the preserved OnePageCRM consent tab. Confirm it still shows the expected OnePageCRM authorization and then continue the approved evaluator signup. After account creation, verify the trial and tier boundary before any configuration. Stop if billing is required or Professional-equivalent behavior cannot be isolated. Capsule remains next after the OnePageCRM preflight reaches a safe stopping point.
+Record Loryn's ordinary supported phone model and OS version without recording device identifiers, then run one guided 15-to-20-minute session per finalist using the approved common task card. Do not add real data, connect email/calendar/phone services, send communications, enter billing, or select a CRM. Capture only sanitized observations and Loryn's short acceptability and preference feedback.

@@ -1,6 +1,6 @@
 # P1-W08 - Finalist Practical-Session Contract
 
-**Status:** Approved under D-119; execution paused during OnePageCRM account authorization
+**Status:** Approved under D-119; both finalist setups and desktop checks complete; participant sessions remain
 
 **Phase:** Phase 1 - simplified personal CRM selection
 
@@ -16,12 +16,12 @@
 
 ## Current execution state
 
-- OnePageCRM official pricing and registration were inspected on August 2, 2026.
-- The registration page displayed a 21-day free trial with no credit card required.
-- Google-based evaluator authorization reached the consent page for OnePageCRM and then stopped at the user's request.
-- `Continue` was not selected, so OnePageCRM account creation was not completed or verified.
-- The live consent page was preserved as a browser handoff for the next session.
-- Capsule preflight, CRM configuration, fixture entry, direct testing, and Loryn participation have not started.
+- OnePageCRM evaluator account creation is complete. The no-billing account opened on an unavoidable 21-day Max trial; a switch to Professional required a paid order flow, so the evaluation remains constrained to Professional-equivalent features and no billing was entered.
+- Vendor sample contacts were removed, one small independent-lead pipeline was configured, the three preload fixtures were entered, and desktop action-stream, pipeline, last-name, and phone lookup checks passed.
+- Avery Brooks remains absent for participant creation, and no Loryn session has started.
+- Capsule Starter account creation is complete. The tenant directly shows 14 trial days remaining, one user, no payment card, and no invoices.
+- The vendor support contact was removed, the required evaluator self-contact was retained but excluded from scoring, the single independent-lead pipeline was configured, the three preload fixtures were entered, and desktop tasks, pipeline, last-name, and phone lookup checks passed.
+- Capsule phone search required choosing the `Contacts` result filter to surface Jordan Lee directly; the broad result briefly displayed a temporary-search limitation and Jordan's linked opportunity. Preserve this as a session observation.
 - Sanitized progress evidence is recorded in `../evidence/P1-W08/execution-progress.md`.
 
 ## Observable outcome
@@ -196,4 +196,4 @@ D-119 covers only the in-scope account/trial setup, minimum synthetic configurat
 
 ## Saved ending point
 
-Resume from the preserved OnePageCRM Google consent page. Confirm the expected OnePageCRM authorization remains visible, continue the approved evaluator signup, and verify the trial and Professional-equivalent tier boundary before any configuration. Capsule remains untouched and follows only after the OnePageCRM preflight reaches a safe stopping point.
+Record Loryn's ordinary supported phone model and OS version without device identifiers. Then run one guided 15-to-20-minute session per finalist using the approved common task card and observation record. Keep all records synthetic, stop at contract limits, and do not add billing, integrations, communications, production use, checkpoint sign-off, or CRM selection.
