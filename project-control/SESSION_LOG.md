@@ -4452,3 +4452,42 @@ Record Loryn's ordinary supported phone model and OS version without device iden
 ### Saved ending point
 
 Run one guided 15-to-20-minute session per finalist on the recorded iPhone using the approved common task card and sanitized observation record. Keep all records synthetic, stop at contract limits, and do not add billing, integrations, communications, production use, checkpoint sign-off, or CRM selection.
+
+## Session S-098 - Unapproved cloud-guided mobile handoff drafted
+
+**Date:** August 2, 2026
+
+**Phase:** Phase 1 - simplified personal CRM selection
+
+**Work unit:** P1-W08 - finalist practical-session execution
+
+**Checkpoint:** CP-010 remains the last signed-off checkpoint
+
+**Sign-off status:** Cloud-guided participation method unapproved; no external sharing or Loryn session authorized by this draft
+
+### Orientation
+
+- Current phase: Phase 1 - simplified personal CRM selection.
+- Active work unit: P1-W08 finalist practical-session execution.
+- Last signed checkpoint: CP-010 - simplified personal-CRM scope and future evaluation method.
+- Last approval: D-119 - approved the original P1-W08 contract and bounded execution.
+- Open blockers at entry: both mobile sessions and Loryn's direct acceptability and preference evidence remained.
+- Proposed outcome: prepare a safe cloud-chat handoff for review without creating, sharing, or using an external Project.
+
+### Draft result
+
+- Created `../deliverables/P1-W08-cloud-guided-mobile-handoff.md` as an unapproved companion proposal.
+- Recommended one dedicated invite-only shared ChatGPT Project with Chat access for Loryn and one separate chat per finalist.
+- Preserved the approved synthetic fixtures, six-task order, neutral recovery prompt, counted product hints, 20-minute limit, privacy rules, stopping conditions, and sanitized result format.
+- Kept evidence writing with the cloud guide; Loryn needs only short spoken or typed `done`, `help`, `blocked`, or `stop` responses.
+- Added a fairness stop if switching between ChatGPT and the CRM on one phone materially burdens or distorts the comparison.
+- Marked the old P0-W03 collaborator packet historical so it is not used as current P1-W08 guidance.
+- No ChatGPT Project was created or shared, no invitation was sent, no CRM action occurred, and Loryn did not participate.
+
+### Approval boundary
+
+Before use, the user must explicitly approve the handoff's named actors, dedicated shared Project, synthetic-only data, actions, exclusions, and stopping rules. D-119 does not silently approve this changed facilitation method.
+
+### Saved ending point
+
+Review or revise `../deliverables/P1-W08-cloud-guided-mobile-handoff.md`. If accepted, explicitly approve the proposed dedicated shared-Project stage before any Project creation, invitation, sharing, or Loryn session. Otherwise retain the original facilitator-led method. No CRM is selected.

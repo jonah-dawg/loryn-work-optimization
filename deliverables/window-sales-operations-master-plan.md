@@ -2,7 +2,7 @@
 
 ## Master Project Plan
 
-**Version:** 1.97
+**Version:** 1.98
 **Status:** Working source of truth  
 **Updated:** August 2, 2026
 **Primary team:** Window-covering sales consultant and technical partner
@@ -499,7 +499,7 @@ ChatGPT should distinguish confirmed facts, assumptions, decisions, and open que
 **Technical/configuration:** create the weighted platform scorecard, synthetic fixtures, scripted mobile scenarios, field inventory, Centah discovery checklist, and vendor/security questions.  
 **Gate:** the two-person team agrees on the synthetic-only trial boundary, mandatory requirements, and scoring method. CP-001 confirmed permission to transfer approved real fields, but real imports and external integrations remain blocked until production access, security, retention, and connection controls are defined.
 
-**Progress:** P0-W01 through P0-W03 were signed through CP-004. P1-W01 through P1-W06 produced useful platform, tier, configuration, and failure evidence, ending with LACRM's CP-009 result. CP-010 then approved `P1-CR01-simplified-personal-crm-scope.md`, corrected the immediate product outcome to a personal CRM for independent leads and prospects, and superseded the CP-004 method for future selection. D-115 opened P1-W07 and completed its evidence-reuse-first definition; D-116 approved that outcome and authorized the completed official-source paper screen; D-117 approved OnePageCRM Professional and Capsule Starter as finalists. D-118 streamlined approval control. D-119 approved the P1-W08 contract and began bounded execution. Both finalist synthetic setups and desktop checks are complete, and Loryn's iPhone 17 Pro Max with iOS 26.6 is recorded. The two short practical sessions remain. No CRM is selected.
+**Progress:** P0-W01 through P0-W03 were signed through CP-004. P1-W01 through P1-W06 produced useful platform, tier, configuration, and failure evidence, ending with LACRM's CP-009 result. CP-010 then approved `P1-CR01-simplified-personal-crm-scope.md`, corrected the immediate product outcome to a personal CRM for independent leads and prospects, and superseded the CP-004 method for future selection. D-115 opened P1-W07 and completed its evidence-reuse-first definition; D-116 approved that outcome and authorized the completed official-source paper screen; D-117 approved OnePageCRM Professional and Capsule Starter as finalists. D-118 streamlined approval control. D-119 approved the P1-W08 contract and began bounded execution. Both finalist synthetic setups and desktop checks are complete, and Loryn's iPhone 17 Pro Max with iOS 26.6 is recorded. An unapproved dedicated shared-Project handoff now proposes a cloud-chat-guided session method without changing the approved tasks or limits. It must be explicitly approved before sharing or use. The two short practical sessions remain. No CRM is selected.
 
 ### Phase 1 - CRM candidate comparison (weeks 2-3)
 
@@ -723,6 +723,8 @@ Update this table whenever a decision changes. Supersede rather than delete prio
 - [x] Resume OnePageCRM, verify the no-billing trial and Professional-equivalent boundary, configure the synthetic evaluator state, and complete the desktop action, pipeline, last-name, and phone checks.
 - [x] Complete Capsule Starter signup, verify the exact no-card trial boundary, configure the synthetic evaluator state, and complete the desktop task, pipeline, last-name, and phone checks.
 - [x] Record Loryn's ordinary supported phone model and OS version without device identifiers.
+- [x] Draft an unapproved dedicated cloud-guided mobile handoff for the two finalist sessions.
+- [ ] Review, revise, or explicitly approve the proposed cloud-guided handoff before creating or sharing its dedicated ChatGPT Project.
 - [ ] Run the two approved 15-to-20-minute finalist sessions and prepare sanitized results.
 - [ ] Initialize the lightweight repository structure and baseline `AGENTS.md` for plans, configuration records, decisions, and any later connector code.
 - [ ] Agree on a lightweight recurring check-in cadence for reviewing progress and decisions.

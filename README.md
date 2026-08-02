@@ -16,22 +16,22 @@ The project evaluates and configures an existing low-cost CRM before considering
 - Last signed-off checkpoint: CP-010 - simplified personal-CRM scope and future evaluation method
 - Last approval: D-119 - P1-W08 contract approval and bounded execution authorization
 - Active work unit: P1-W08 - finalist practical-session contract
-- Current starting point: both finalist synthetic setups and desktop checks are complete; Loryn's iPhone 17 Pro Max with iOS 26.6 is recorded, and the two approved 15-to-20-minute practical sessions are next
+- Current starting point: an unapproved cloud-guided mobile handoff is ready for review; no shared Project or Loryn session has started
 - Approved finalists: OnePageCRM Professional and Capsule Starter
-- Master plan: Version 1.97
+- Master plan: Version 1.98
 
 ## Collaborator handoff
 
 The repository preserves the durable project state, decisions, rules, and exact restart point. It does not transfer a Codex or ChatGPT chat transcript to another person.
 
-For asynchronous guided questions in the ChatGPT mobile app, use [`project-control/COLLABORATOR_PACKET.md`](project-control/COLLABORATOR_PACKET.md). It contains the shared Project instructions, source list, launch prompt, P0-W03 question queue, privacy boundary, and repository reconciliation checklist.
+For the current P1-W08 mobile finalist sessions, review the unapproved [`deliverables/P1-W08-cloud-guided-mobile-handoff.md`](deliverables/P1-W08-cloud-guided-mobile-handoff.md). The older [`project-control/COLLABORATOR_PACKET.md`](project-control/COLLABORATOR_PACKET.md) is historical P0-W03 guidance and must not be used for the current sessions.
 
 To continue the project in a new Codex task:
 
 1. Obtain access to this GitHub repository and clone or open it as the Codex project folder.
 2. Start a new task from the repository root.
 3. Tell Codex: `Read AGENTS.md and resume from project-control/CURRENT_STATE.md. Complete the required orientation before changing files.`
-4. Confirm that Codex reports CP-010 as the last signed checkpoint, D-119 as the last approval, both finalist setups as complete, and the two Loryn practical sessions as next.
+4. Confirm that Codex reports CP-010 as the last signed checkpoint, D-119 as the last approval, the cloud-guided handoff as unapproved, and review of that handoff as the next action.
 5. Use a separate branch or worktree for concurrent work and reconcile accepted results through the guided checkpoint before merging.
 
 Because `AGENTS.md`, `CURRENT_STATE.md`, the append-only session log, the signed artifacts, and the master decision log are checked in, a collaborator can reconstruct the approved working context without access to the original chat. They should not assume that personal Codex memories, uncommitted changes, local credentials, connected apps, or the original transcript are available.

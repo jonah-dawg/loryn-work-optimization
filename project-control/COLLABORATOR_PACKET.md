@@ -1,5 +1,7 @@
 # Shared ChatGPT Project Collaborator Packet
 
+**Status:** Historical P0-W03 packet - do not use for the current P1-W08 finalist sessions. See `../deliverables/P1-W08-cloud-guided-mobile-handoff.md` for the unapproved current proposal.
+
 **Purpose:** Let the operational collaborator answer guided planning questions asynchronously from the ChatGPT mobile app while the GitHub repository remains the durable source of truth.
 
 **Current restart point:** CP-003 is the last signed-off checkpoint. P0-W03 is ready to begin by defining mandatory CRM platform requirements before weights, scores, trial accounts, or platform selection.
