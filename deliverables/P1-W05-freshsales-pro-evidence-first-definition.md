@@ -1,6 +1,6 @@
 # P1-W05 - Freshsales Pro Evidence-First Screening
 
-**Status:** Outcome approved under D-105; complete execution contract proposed and unapproved
+**Status:** Complete execution contract approved under D-106; account creation unapproved
 
 **Phase:** Phase 1 - CRM candidate comparison
 
@@ -15,12 +15,14 @@
 - D-104 does not approve the proposed outcome or a complete execution contract and does not authorize an account, trial, tenant inspection, edition change, configuration, fixture entry, testing, billing, purchase, external connection, real data, customer communication, production use, Loryn participation, checkpoint sign-off, or platform selection.
 - **Accepted (D-105):** Approve the P1-W05 Freshsales Pro evidence-first outcome and authorize the CP-003 field-capacity map, complete Pro-only execution-contract drafting, and additional current official research only.
 - D-105 does not approve the complete execution contract and does not authorize an account, trial, tenant inspection, edition change, configuration, fixture entry, testing, billing, purchase, external connection, real data, customer communication, production use, Loryn participation, checkpoint sign-off, or platform selection.
+- **Accepted (D-106):** Approve the complete P1-W05 Pro-only execution contract, including the tier/trial boundary, prototype ownership, execution sequence, minimum configuration, fixture/evidence handling, stopping rules, separate action gates, acceptance checks, and CP-009 effect.
+- D-106 approves the contract only. It does not authorize an account, trial, tenant inspection, edition change, configuration, fixture entry, testing, billing, purchase, external connection, real data, customer communication, production use, Loryn participation, CP-009, or platform selection.
 
 ## Approved work-unit outcome
 
 Evaluate Freshsales Pro as the next independent-work CRM candidate through an evidence-first, evaluator-only process. Prepare a CP-003 field-capacity map and a complete Pro-only execution contract. Keep any no-credit-card 21-day trial behind later separate contract and account-creation approvals.
 
-This outcome was explicitly approved as D-105 on August 1, 2026. The complete execution contract below remains **Unapproved** and must not be used to open an account or perform any external platform action.
+This outcome was explicitly approved as D-105 on August 1, 2026. The complete execution contract below was explicitly approved as D-106 on August 1, 2026. Neither decision authorizes an account or external platform action.
 
 ## Recommendation
 
@@ -90,15 +92,15 @@ Official documentation supports global name/title search, mobile records and act
 
 1. Approve the P1-W05 proposed outcome. Completed as D-105.
 2. Draft the CP-003 field-capacity map, full Pro-only execution contract, stopping rules, and CP-009 effect. Completed under D-105 and pending contract review.
-3. Explicitly approve or reject the complete contract below.
-4. If approved, separately authorize a bounded no-credit-card evaluator account and nonprivate tier inspection.
+3. Approve the complete contract below. Completed as D-106.
+4. Separately authorize a bounded no-credit-card evaluator account and nonprivate tier inspection.
 5. Resolve any fully-loaded-trial contamination through a separate exact decision before configuration.
 6. Separately authorize synthetic configuration and evaluator testing.
 7. Present the evidence-backed viable, eliminated, or incomplete result for a separate CP-009 decision.
 
-## Complete execution contract - Unapproved
+## Approved complete execution contract
 
-### Proposed tier and trial boundary
+### Approved tier and trial boundary
 
 - Evaluate Freshsales Pro only. Growth, Enterprise, Freshsales Suite, add-ons, marketplace apps, custom modules, and custom applications remain documentation-only unless a later explicit decision changes the boundary.
 - Use a no-credit-card 21-day trial only after the complete contract and a separate account-creation gate are explicitly approved.
@@ -107,14 +109,14 @@ Official documentation supports global name/title search, mobile records and act
 - Stop before configuration if the core Pro boundary cannot be isolated from the fully loaded trial with authoritative evidence and nonprivate tenant labels.
 - Do not purchase, enter billing details, enable add-ons, or connect another service in P1-W05.
 
-### Proposed prototype ownership
+### Approved prototype ownership
 
 - The technical partner is the sole evaluator administrator under D-093.
 - Loryn performs no setup, testing, evidence capture, reset, or homework. She remains deferred until a separately approved finalist session.
 - Final production ownership remains Loryn as primary administrator with the technical partner as secondary ad hoc administrator, subject to later production-security and access decisions.
 - Account credentials, MFA methods, recovery details, private emails, account identifiers, session data, and billing information remain outside Codex and every project artifact.
 
-### Proposed execution sequence
+### Approved execution sequence
 
 1. Complete the official-evidence preflight and CP-003 field-capacity map. Completed under D-104 and D-105, subject to direct correction.
 2. Obtain explicit approval of this complete execution contract.
@@ -129,7 +131,7 @@ Official documentation supports global name/title search, mobile records and act
 11. If M-01 passes, run TS-01 and TS-03 through TS-07, mobile timing, administration, export reconstruction, reliability, and cost checks. If M-01 fails, stop after one short confirmation check and prepare the result.
 12. Remove only test-created duplicate attempts and TS-01 artifacts, restore the baseline fixtures where practical, and prepare the evidence-backed result for separate CP-009 review.
 
-### Proposed minimum configuration
+### Approved minimum configuration
 
 - Contacts are reusable customer/prospect records; one Contact may link to multiple Deals. Accounts are optional and used only for meaningful business identities.
 - One `Window Sales Work` Deal pipeline holds active jobs. Use the required `Work source` field to distinguish `Costco/Centah` and `Independent`; do not split source pipelines unless one unified action center is directly preserved.
@@ -141,7 +143,7 @@ Official documentation supports global name/title search, mobile records and act
 - Create practical action-center components or views for today's appointments, contacts due today, overdue actions, waiting-on-others jobs, active records missing next action/due date, and source-specific exceptions.
 - Keep customer communications manual. Do not connect email, calendar, phone, maps accounts, Centah, DocuSign, Freshdesk, marketplace apps, MCP, or another external service. Native address handoff to a device navigation app may be tested without signing into another service.
 
-### Proposed fixture and evidence handling
+### Approved fixture and evidence handling
 
 - Use only the eight signed CP-004 synthetic fixtures and relative T0 dates.
 - Preload seven baseline records and create `SYN-PROSPECT-A` only during TS-01.
@@ -149,7 +151,7 @@ Official documentation supports global name/title search, mobile records and act
 - Store raw captures only in ignored local `.trial-evidence/`. Commit only reviewed sanitized summaries, official links, synthetic exports, and screenshots with private account details removed.
 - Never commit credentials, private emails, account identifiers, customer records, cookies, tokens, MFA/recovery material, billing details, or private integration payloads.
 
-### Proposed stopping rules
+### Approved stopping rules
 
 - Stop before account creation if the field map exceeds Pro limits, current official evidence eliminates Pro, or the approved model requires an Enterprise-only capability.
 - Stop before configuration if signup requires billing, disallowed information, an external connection, or a trial whose Pro boundary cannot be evidenced.
@@ -158,16 +160,16 @@ Official documentation supports global name/title search, mobile records and act
 - Record rather than bypass missing conditional requirements, source-integrity controls, unique-field behavior, next-action visibility, working-day timing, mobile behavior, export reconstruction, save/retry behavior, administration, or cost evidence.
 - Never activate Enterprise, an add-on, a paid commitment, an external connection, or a custom application to make Freshsales Pro pass.
 
-### Proposed separate action gates
+### Approved separate action gates
 
 - D-105 approves the work-unit outcome, field-map drafting, contract drafting, and official research only. It does not approve this complete contract or any external action.
-- Complete-contract approval will authorize only the documented procedure; it will not authorize account creation or tenant action.
+- D-106 approves the documented procedure only; it does not authorize account creation or tenant action.
 - Account creation requires the later exact instruction `Authorize the Freshsales Pro evaluator account`.
 - Any required no-billing edition change requires a separate exact authorization written after tenant inspection.
 - Configuration and synthetic testing require the later exact instruction `Begin P1-W05 synthetic configuration`.
 - Billing, a paid tier, production pilot, real data, external connection, customer communication, Loryn finalist session, CP-009 sign-off, and platform selection each require separate later approval.
 
-### Proposed acceptance checks
+### Approved acceptance checks
 
 - Exact tenant product, trial scope, expiry behavior, Pro feature attribution, two-administrator cost, material limits, and any higher-tier contamination are recorded.
 - The field map is directly confirmed or evidence-backed corrected without hiding required facts in Notes or creating routine duplicate entry.
@@ -178,10 +180,10 @@ Official documentation supports global name/title search, mobile records and act
 - The committed evidence contains only sanitized summaries and synthetic data and passes a secret/privacy review.
 - The result identifies Freshsales Pro as viable, eliminated, or incomplete; Loryn remains uninvolved.
 
-### Proposed CP-009 effect
+### Approved CP-009 effect
 
 CP-009, if later explicitly signed, will approve only the completed Freshsales Pro evaluator result, configuration inventory, tier/cost record, and evidence-backed comparison status. It will not select Freshsales or another CRM, authorize payment or production use, connect Centah or another service, import real data, permit customer communication, or start a Loryn finalist session.
 
 ## Current action
 
-Review and explicitly approve or reject the complete P1-W05 execution contract. No account, trial, tenant inspection, configuration, or external action is authorized by D-105.
+Present the separate account-creation gate. No account, trial, tenant inspection, configuration, or external action is authorized by D-106. Account creation requires the exact later instruction `Authorize the Freshsales Pro evaluator account`.

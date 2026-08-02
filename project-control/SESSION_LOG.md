@@ -3534,3 +3534,53 @@ Review the unapproved P1-W05 Freshsales Pro proposed outcome. If accepted, expli
 ### Saved ending point
 
 Review and explicitly approve or reject the complete P1-W05 Freshsales Pro execution contract. Do not create an account, start a trial, inspect or configure a tenant, enter fixtures, test, add billing, connect a service, use real data, communicate with customers, involve Loryn, sign CP-009, or select a platform without the applicable separate approval.
+
+## Session S-082 - P1-W05 complete execution contract approved
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W05 - Freshsales Pro evidence-first screening
+
+**Checkpoint:** CP-008 remains the last signed-off checkpoint
+
+**Sign-off status:** D-106 complete execution contract approved; account creation unapproved
+
+**Approval evidence:** The user explicitly said, `Approve the complete P1-W05 execution contract.`
+
+### Orientation
+
+- Current phase: Phase 1 CRM candidate comparison.
+- Active work unit: P1-W05 Freshsales Pro evidence-first screening.
+- Last signed checkpoint: CP-008, which eliminated Bigin Premier only.
+- Last approval: D-106, approving the complete P1-W05 Pro-only execution contract only.
+- Open blockers: separate account authorization; fully-loaded-trial tier isolation; any needed edition decision; separate synthetic-configuration authorization; M-01 action-center proof; source/dependency import integrity; Pro-level administration history; exact checkout; mobile timing; export reconstruction; and every direct tenant result.
+- Approved outcome: evaluate Freshsales Pro through the signed evaluator-only procedure while keeping Loryn, real data, billing, integrations, communications, production use, CP-009, and platform selection outside the current authority.
+
+### Approval recorded
+
+- **Accepted (D-106):** Approve the complete P1-W05 Pro-only execution contract, including the tier/trial boundary, prototype ownership, execution sequence, minimum configuration, fixture/evidence handling, stopping rules, separate action gates, acceptance checks, and CP-009 effect.
+- D-106 approves the contract only. It does not authorize an account, trial, tenant inspection, edition change, configuration, fixture entry, testing, billing, purchase, external connection, real data, customer communication, production use, Loryn participation, CP-009, or platform selection.
+
+### Approved contract boundary
+
+- Freshsales Pro is the only directly evaluated tier. Growth, Enterprise, Freshsales Suite, add-ons, marketplace apps, custom modules, and custom applications remain documentation-only.
+- The technical partner is the sole evaluator administrator under D-093; Loryn remains deferred until a separately approved viable-finalist session.
+- The conservative 9-Contact, 17-Deal, and 0-to-2-activity field map remains subject to direct correction within Pro.
+- The fully loaded 21-day trial must be constrained to Pro-attributed evidence without billing.
+- M-01 is the first direct stopping test after the minimum synthetic action-center state exists.
+- Account creation, trial inspection, any edition resolution, synthetic configuration, paid action, external connection, Loryn participation, CP-009, and platform selection remain separate gates.
+- All data remains synthetic and all communications remain manual/no-send.
+
+### Files changed
+
+- `deliverables/P1-W05-freshsales-pro-evidence-first-definition.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `project-control/ARTIFACT_REGISTER.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+
+### Saved ending point
+
+Present the separate account-creation gate. Do not create a Freshsales account, start a trial, inspect or configure a tenant, enter fixtures, test, add billing, connect a service, use real data, communicate with customers, involve Loryn, sign CP-009, or select a platform without the applicable separate approval. The exact account instruction is `Authorize the Freshsales Pro evaluator account`.
