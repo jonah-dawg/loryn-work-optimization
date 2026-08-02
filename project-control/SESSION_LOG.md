@@ -4526,7 +4526,7 @@ Review or revise `../deliverables/P1-W08-cloud-guided-mobile-handoff.md`. If acc
 - Created the dedicated `Loryn CRM Finalist Sessions` Project with Project-only memory and `Only those invited` access.
 - Saved the approved Project instructions and verified that the stored text matches the approved instruction block exactly.
 - Added the approved cloud-guided handoff as the Project's only source through the Project text-source flow. The local file chooser did not surface the file despite the already-enabled extension permission; no broader workaround or permission change was made.
-- Created separate `OnePageCRM mobile session` and `Capsule mobile session` chats. Each chat confirmed its product and safety boundary and is waiting for `ready`; neither presented Task 1.
+- Created separate chats with OnePageCRM designated first and Capsule designated second. Each chat confirmed its product and safety boundary and is waiting for `ready`; neither presented Task 1.
 - The user privately entered and sent Loryn's invitation through the approved Chat-access flow; the Project showed the invited member. No invitation address, Project URL, Project identifier, or member identifier is retained in repository artifacts.
 - No CRM action, participant task, screenshot, real data entry, billing, integration, customer communication, production action, CRM selection, or checkpoint sign-off occurred during this stage.
 
@@ -4542,4 +4542,4 @@ Review or revise `../deliverables/P1-W08-cloud-guided-mobile-handoff.md`. If acc
 
 ### Saved ending point
 
-The D-120 setup stage is complete. Before the first mobile session, reset that finalist's synthetic fixtures, confirm Avery Brooks is absent, prepare the external 20-minute timer, and confirm no private notification is visible. Then let Loryn open the matching Project chat and say `ready`. Preserve only the sanitized handoff, stop at the approved limits, and do not select a CRM or sign a checkpoint.
+The D-120 setup stage is complete. Before the first mobile session, reset the OnePageCRM synthetic fixtures, confirm Avery Brooks is absent, prepare the external 20-minute timer, and confirm no private notification is visible. Then let Loryn open the OnePageCRM Project chat and say `ready`; Capsule follows second. Preserve only the sanitized handoffs, stop at the approved limits, and do not select a CRM or sign a checkpoint.

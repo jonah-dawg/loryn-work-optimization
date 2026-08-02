@@ -114,7 +114,7 @@ The former requirement for a single five-category dashboard, automatic missing-j
 - D-120 approved `../deliverables/P1-W08-cloud-guided-mobile-handoff.md` and its dedicated invite-only shared ChatGPT Project with one chat per finalist, Chat access for Loryn, one-task-at-a-time guidance, counted neutral/help prompts, and sanitized chat-generated results.
 - The dedicated `Loryn CRM Finalist Sessions` Project is configured with Project-only memory and `Only those invited` access.
 - The approved handoff is the Project's only source, and the saved Project instructions match the approved instruction block exactly.
-- Separate `OnePageCRM mobile session` and `Capsule mobile session` chats have confirmed their boundaries and are waiting for `ready`; neither has presented Task 1.
+- Separate chats designate OnePageCRM first and Capsule second. Both have confirmed their boundaries and are waiting for `ready`; neither has presented Task 1.
 - Loryn's Chat-access invitation was sent through privately entered information. No invitation address, Project URL, Project identifier, or member identifier is retained in the repository.
 - No Loryn session has started for either finalist.
 - No billing, purchase, CRM connection, real data, customer communication, production action, platform selection, or checkpoint sign-off occurred.
@@ -151,7 +151,7 @@ D-118 governs future work alongside the existing authority and sign-off rules:
 
 ## Current open blockers
 
-- The first session cannot begin until the owner resets the matching synthetic fixtures, confirms Avery Brooks is absent, prepares the external timer, and confirms no private notification is visible.
+- The first OnePageCRM session cannot begin until the owner resets its synthetic fixtures, confirms Avery Brooks is absent, prepares the external timer, and confirms no private notification is visible.
 - Direct mobile capture, mobile next-action updates, ordinary mobile saving, recovery burden, and Loryn's acceptability and preference remain unverified for both finalists.
 - Production access, security, retention, and real-data approval remain open and must be resolved only after a CRM is selected.
 - D-013 retention and deletion periods remain open, and final platform selection has not been approved.
@@ -178,8 +178,8 @@ D-118 governs future work alongside the existing authority and sign-off rules:
 
 ## Exact next action
 
-Reset the first finalist's synthetic fixtures, confirm Avery Brooks is absent, prepare the external 20-minute timer, and confirm no private notification is visible. Loryn may then open the matching cloud chat and say `ready` to begin Task 1. Stop at the approved handoff limits and preserve only the sanitized result.
+Reset the OnePageCRM synthetic fixtures, confirm Avery Brooks is absent, prepare the external 20-minute timer, and confirm no private notification is visible. Loryn may then open `OnePageCRM mobile session` and say `ready` to begin Task 1. Run Capsule second, stop at the approved handoff limits, and preserve only the sanitized results.
 
 ## Resume instruction
 
-CP-010 is the last signed checkpoint. D-119 approved the P1-W08 contract and D-120 approved the cloud-guided handoff and dedicated invite-only shared-Project stage. CRM, device, and minimal shared-Project setup are complete; Loryn's Chat-access invitation has been sent. Resume with the first fixture reset and matching mobile chat only when Loryn is ready. No Loryn session, checkpoint sign-off, or CRM selection has occurred.
+CP-010 is the last signed checkpoint. D-119 approved the P1-W08 contract and D-120 approved the cloud-guided handoff and dedicated invite-only shared-Project stage. CRM, device, and minimal shared-Project setup are complete; Loryn's Chat-access invitation has been sent. Resume with the OnePageCRM fixture reset and first-session chat only when Loryn is ready; Capsule is second. No Loryn session, checkpoint sign-off, or CRM selection has occurred.

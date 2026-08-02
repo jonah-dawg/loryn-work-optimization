@@ -183,6 +183,6 @@ Because the proposed Project is shared, the owner can read each finished chat wi
 
 ## Approved next action
 
-The D-120 Project setup is complete. The dedicated Project uses Project-only memory and `Only those invited`; the approved instructions match this handoff; this handoff is its only source; the `OnePageCRM mobile session` and `Capsule mobile session` chats are created; and Loryn has been invited with Chat access through privately entered information. No private invite detail, Project URL, or Project identifier is retained here.
+The D-120 Project setup is complete. The dedicated Project uses Project-only memory and `Only those invited`; the approved instructions match this handoff; this handoff is its only source; the `OnePageCRM mobile session` chat is designated first; the `Capsule mobile session` chat is designated second; and Loryn has been invited with Chat access through privately entered information. No private invite detail, Project URL, or Project identifier is retained here.
 
 Before the first session, the owner must reset the synthetic fixtures, confirm Avery Brooks is absent, prepare the external timer, and confirm no private notification is visible. Loryn may then open the matching chat and say `ready`. No practical-session task has started at this save point.

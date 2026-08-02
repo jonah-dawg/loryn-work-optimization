@@ -16,7 +16,7 @@ The project evaluates and configures an existing low-cost CRM before considering
 - Last signed-off checkpoint: CP-010 - simplified personal-CRM scope and future evaluation method
 - Last approval: D-120 - P1-W08 cloud-guided mobile handoff and dedicated invite-only shared-Project stage
 - Active work unit: P1-W08 - finalist practical-session contract
-- Current starting point: the dedicated invite-only shared ChatGPT Project is configured and Loryn has been invited with Chat access; reset the synthetic fixtures, then begin the first bounded mobile session only when she says `ready`
+- Current starting point: the dedicated invite-only shared ChatGPT Project is configured and Loryn has been invited with Chat access; reset the OnePageCRM synthetic fixtures, then begin that first bounded mobile session only when she says `ready`
 - Approved finalists: OnePageCRM Professional and Capsule Starter
 - Master plan: Version 1.99
 

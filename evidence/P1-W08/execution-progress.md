@@ -43,7 +43,7 @@
 - Created the dedicated `Loryn CRM Finalist Sessions` shared ChatGPT Project with Project-only memory and invite-only access.
 - Saved the approved Project instructions exactly as written in the approved cloud-guided handoff.
 - Added the approved handoff as the Project's only source through the Project text-source flow; no repository mirror, CRM page, screenshot, export, or private vendor message was added.
-- Created separate `OnePageCRM mobile session` and `Capsule mobile session` chats. Each chat confirmed its boundary and is waiting for `ready`; neither chat has presented Task 1.
+- Created separate chats with OnePageCRM designated first and Capsule designated second. Each chat confirmed its boundary and is waiting for `ready`; neither chat has presented Task 1.
 - Loryn was invited with Chat access through privately entered information. No invitation address, Project URL, member identifier, or other private sharing detail is retained in the repository.
 - No CRM action or participant task occurred during Project setup.
 
@@ -55,4 +55,4 @@
 
 ## Resume action
 
-Reset the first finalist's synthetic fixtures, confirm Avery Brooks is absent, prepare the external 20-minute timer, and let Loryn begin through the matching cloud chat only when she says `ready`. Run one guided session per finalist using the approved handoff. Do not add real data, connect email/calendar/phone services, send communications, enter billing, or select a CRM. Capture only sanitized observations and Loryn's short acceptability and preference feedback.
+Reset the OnePageCRM synthetic fixtures, confirm Avery Brooks is absent, prepare the external 20-minute timer, and let Loryn begin the first session through the matching cloud chat only when she says `ready`. Run Capsule second using the approved handoff. Do not add real data, connect email/calendar/phone services, send communications, enter billing, or select a CRM. Capture only sanitized observations and Loryn's short acceptability and preference feedback.
