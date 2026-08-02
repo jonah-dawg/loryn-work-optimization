@@ -1,6 +1,6 @@
 # P1-W06 Less Annoying CRM Public-Demo Inspection
 
-**Status:** Direct sanitized evidence under D-112; M-01 failed; proposed `Eliminated` result unapproved pending CP-009 review
+**Status:** Signed evidence set at CP-009; M-01 failed; Less Annoying CRM eliminated; P1-W06 closed
 
 **Inspected:** August 1, 2026
 
@@ -55,9 +55,9 @@
 
 The approved stopping rule fired on M-01. P1-W06 therefore stops before account authorization, a real trial, tenant configuration, synthetic fixture creation, broader scenario testing, scoring, or Loryn participation.
 
-**Proposed result - Unapproved:** `Eliminated`.
+**Approved result at CP-009:** `Eliminated`.
 
-This evidence and result require explicit CP-009 sign-off. D-112 does not select another CRM or authorize any next candidate.
+CP-009 approves this sanitized evidence, the direct M-01 failure, the `Eliminated` result, and closure of P1-W06. It does not select another CRM or authorize any next candidate.
 
 ## Cleanup and remaining state
 
@@ -68,3 +68,9 @@ This evidence and result require explicit CP-009 sign-off. D-112 does not select
 ## Official entry point
 
 - [LACRM product tour and live-demo link](https://www.lessannoyingcrm.com/tour)
+
+## CP-009 approval boundary
+
+- CP-009 approves the P1-W06 evidence and result only.
+- It does not authorize an LACRM account or trial, a next CRM candidate, billing, production use, real data, an external connection, customer communication, a Loryn session, or platform selection.
+- Less Annoying CRM can be reconsidered only through a later explicitly approved reopening that identifies material new evidence relevant to M-01.

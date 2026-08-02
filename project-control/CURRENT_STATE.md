@@ -2,15 +2,15 @@
 
 **Updated:** August 1, 2026
 
-**Overall status:** Active - P1-W06 Less Annoying CRM direct result awaiting CP-009 sign-off
+**Overall status:** Active - CP-009 signed; next Phase 1 CRM candidate definition required
 **Current phase:** Phase 1 - CRM candidate comparison
-**Active work unit:** P1-W06 - Less Annoying CRM public-demo evaluation
+**Active work unit:** None
 
-**Work-unit status:** Bounded public-demo inspection completed under D-112; M-01 failed directly; proposed `Eliminated` result unapproved pending CP-009; no account or tenant action authorized
+**Work-unit status:** P1-W06 closed at CP-009; Less Annoying CRM eliminated by direct M-01 failure; no next candidate authorized
 
-**Last signed-off checkpoint:** CP-008 - Bigin Premier evaluator result (August 1, 2026)
+**Last signed-off checkpoint:** CP-009 - Less Annoying CRM public-demo evaluator result (August 1, 2026)
 
-**Last approval:** D-112 - authorize the bounded P1-W06 Less Annoying CRM public-demo inspection under the approved contract and stop before account creation or broader action (August 1, 2026)
+**Last approval:** CP-009 - approve the P1-W06 sanitized public-demo evidence, direct M-01 failure, `Eliminated` result, and work-unit closure (August 1, 2026)
 
 ## Confirmed baseline
 
@@ -183,9 +183,9 @@
 - **Signed off (CP-008):** Approve the Bigin evaluator result, linked configuration inventory, tier/cost evidence, and evidence-backed `Eliminated` status. M-01 fails directly, and M-04/M-07 also fail to uphold the approved next-action invariant.
 - CP-008 closes P1-W04 only. It does not select another CRM, authorize a next candidate or account, start Loryn finalist testing, permit billing or production use, connect Centah or another service, import real data, or send customer communications.
 
-## Active work-unit contract
+## Most recently closed work unit
 
-**Status:** P1-W06 public-demo inspection completed under D-112; M-01 is `Fail`; proposed evaluator result is `Eliminated - Unapproved` pending CP-009 review.
+**Status:** No active work-unit contract. P1-W06 is closed at CP-009 with Less Annoying CRM `Eliminated` by direct M-01 failure.
 
 **Approved outcome:** Evaluate the single-tier Less Annoying CRM product as the next independent-work CRM candidate through an evidence-first, evaluator-only process. Begin with official evidence and, only after later separate approvals, a bounded public-demo inspection before deciding whether an account is justified. Use the CP-003 field model and complete execution contract before any signup or configuration.
 
@@ -195,14 +195,14 @@
 - The signed CP-004 scorecard, mandatory gates, fixtures, scenarios, burden limit, and evidence format.
 - The closed incomplete P1-W01, P1-W02, and P1-W05 documentation-only results.
 - The signed P1-W03 Pipedrive Lite elimination at CP-007 and P1-W04 Bigin Premier elimination at CP-008.
-- The August 1 approved LACRM outcome and proposed complete contract in `../deliverables/P1-W06-less-annoying-crm-evidence-first-definition.md`.
+- The August 1 approved LACRM outcome, complete contract, and signed result in `../deliverables/P1-W06-less-annoying-crm-evidence-first-definition.md`.
 - The August 1 LACRM official-evidence preflight in `../evidence/P1-W06/lacrm/official-evidence-preflight.md`.
 - The August 1 CP-003-to-LACRM field model in `../evidence/P1-W06/lacrm/field-model-preflight.md`.
 - The August 1 sanitized direct public-demo evidence in `../evidence/P1-W06/lacrm/public-demo-inspection.md`.
 
 **Acceptance checks:**
 
-- D-112 explicitly authorizes only the bounded no-signup public-demo inspection under the D-111 contract.
+- CP-009 approves the sanitized public-demo evidence, direct M-01 failure, `Eliminated` result, and closure of P1-W06.
 - The demo opened as a temporary vendor account after only generic-industry and `2-5`-user selections; no identity, credential, billing, account, or trial information was supplied.
 - Direct Workspace and widget-settings inspection established that due/overdue Tasks, calendar items, activity, and pipeline summaries can coexist, but the pipeline widget exposes aggregate status counts rather than actionable waiting and missing-next-action records.
 - A sample Task exposed an `Attached contact` and no pipeline-item relation; the Contact page showed Task and Lead as separate attached-item sections.
@@ -211,23 +211,21 @@
 - No persistent demo changes were saved, and the temporary demo tab was closed.
 - Current official evidence records one `$15` per-user monthly tier, a 30-day no-credit-card full trial, and a public no-signup demo.
 - Unlimited pipelines/custom fields, multiple orders per Contact, automations, browser-mobile access, 2FA, permissions, exports, and API access are documented.
-- Contact-scoped tasks may fail to preserve a distinct next action for each of multiple active job pipeline items; this is the first proposed stopping test.
+- Contact-scoped Tasks do not provide a pipeline-item relation in the inspected demo, reinforcing the job-specific next-action risk.
 - The documentation-only map uses 8 Contact, 7 Prospecting, and 20 Window Sales Work custom fields; field quantity is not a blocker.
 - Pipeline-item `Next action` and `Next action due` fields remain canonical; Contact-linked Task/Event titles must carry the item label if later direct testing is authorized.
-- M-01 is a direct `Fail`. M-02 through M-13 remain `Unverified` because the stopping rule ended the run; no numeric score is recorded.
+- M-01 is a signed direct `Fail`. M-02 through M-13 remain `Unverified` because the stopping rule ended the run; no numeric score is recorded or required to reverse the mandatory failure.
 - Preserve the CP-004 common gates, fixtures, scenarios, evidence format, and Loryn burden limit.
 - Continue to prohibit real data, external connections, communications, billing, purchases, production use, and platform selection.
 
-**Last approved checkpoint effect:** CP-008 approves only the completed Bigin evaluator result, configuration inventory, tier/cost record, and evidence-backed comparison status. It does not select LACRM or authorize demo interaction, an account, trial, tenant action, payment, production use, integration, real data, customer communication, or Loryn session.
+**Last approved checkpoint effect:** CP-009 approves only the P1-W06 LACRM evidence set, direct M-01 failure, `Eliminated` result, and work-unit closure. It does not select another CRM, authorize a next candidate or account, start a Loryn finalist session, permit billing or production use, connect Centah or another service, import real data, or send customer communications.
 
-**Out of scope:** An account, trial, tenant inspection, configuration, fixture entry, broader testing, billing, purchase, external connection, real data, customer communication, production use, Loryn participation, checkpoint sign-off, and platform selection all require later explicit authorization.
+**Out of scope:** A next CRM candidate, any account or trial, tenant inspection, configuration, fixture entry, testing, billing, purchase, external connection, real data, customer communication, production use, Loryn participation, and platform selection all require later explicit authorization.
 
 ## Open items
 
-- Explicitly sign off or reject CP-009 for the P1-W06 public-demo evidence and proposed `Eliminated` result.
-- Do not authorize or create an LACRM account after the direct M-01 failure unless a later explicit reopening supersedes the stopping result.
-- Treat job-specific next-action linkage as the first later public-demo stopping test: one Contact, two active job pipeline items, only one job with a task.
-- Verify conditional/required fields, unique or reviewable Centah identifiers, one-screen action visibility, mobile behavior, export relationships, and exact signup acceptance only through later approved steps.
+- Define and present the next evidence-first Phase 1 CRM candidate and proposed outcome for explicit approval before any external action.
+- Do not reopen LACRM after CP-009 unless a later explicit work unit identifies material new evidence relevant to M-01.
 - If Freshsales is reconsidered later, require a separately approved reopening and a legitimate acceptable signup path; do not obtain, purchase, or fabricate a business-domain identity solely for evaluation access.
 - Resolve whether Pro's activity history is sufficient for M-05 or whether the Enterprise-only audit-log boundary creates an unacceptable dependency.
 - Treat M-01 as the first direct stopping risk: official documentation does not yet prove one practical view containing all five required categories.
@@ -255,7 +253,7 @@ CP-003 approved `../deliverables/P0-W02-target-lifecycle-next-actions-and-minimu
 
 CP-004 approved `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`. Decisions D-049 through D-061 record the mandatory gates, D-062 through D-069 record the complete 100-point scorecard and scoring rule, D-070 through D-072 record the scenarios, fixtures, and scripts, D-073 records the staged test-burden rule, and D-074 records the evaluator-only evidence format. At CP-004, the authoritative Markdown master was Version 1.39; Word remains intentionally stale.
 
-P1-W01 is closed incomplete by D-088 option 1; Zoho Professional remains documentation-only and CP-005 was not reached. P1-W02 is closed incomplete by D-094 option 3; HubSpot Starter remains documentation-only and CP-006 was not reached. D-093 continues to allow technical-partner-only prototype administration while deferring Loryn until a viable finalist. P1-W03 is closed at CP-007 with Pipedrive Lite eliminated. D-100 through D-103 opened and executed P1-W04, and CP-008 approved the Bigin evaluator result and eliminated Bigin Premier after direct M-01 failure. D-104 through D-107 defined and authorized the bounded P1-W05 Freshsales Pro evaluation, but signup rejected the available Gmail evaluator address. D-108 closed P1-W05 incomplete without CP-009 and retained Freshsales Pro as documentation-only. D-109 opened P1-W06, D-110 approved its outcome, D-111 approved its contract, and D-112 authorized its bounded public-demo inspection. Direct M-01 failure stopped the run; the proposed `Eliminated` result awaits CP-009 sign-off. The authoritative Markdown master is Version 1.88; Word remains intentionally stale.
+P1-W01 is closed incomplete by D-088 option 1; Zoho Professional remains documentation-only and CP-005 was not reached. P1-W02 is closed incomplete by D-094 option 3; HubSpot Starter remains documentation-only and CP-006 was not reached. D-093 continues to allow technical-partner-only prototype administration while deferring Loryn until a viable finalist. P1-W03 is closed at CP-007 with Pipedrive Lite eliminated. P1-W04 is closed at CP-008 with Bigin Premier eliminated. P1-W05 is closed incomplete by D-108 without CP-009 and retains Freshsales Pro as documentation-only. D-109 through D-112 defined and executed the bounded P1-W06 LACRM evaluation, and CP-009 approved the direct M-01 failure and `Eliminated` result. No CRM is selected. The authoritative Markdown master is Version 1.89; Word remains intentionally stale.
 
 CP-007 approved `../evidence/P1-W03/pipedrive/evaluator-result.md` and the linked configuration, tier, and cost evidence. Pipedrive Lite fails M-02 source-specific workflow and M-09 safe Centah/Costco bridge because the evaluated tier cannot enforce the required source-specific handoff and accepted a duplicate synthetic Centah identifier without a block or visible review route. CP-007 does not select another CRM or authorize another candidate.
 
@@ -278,12 +276,12 @@ CP-007 approved `../evidence/P1-W03/pipedrive/evaluator-result.md` and the linke
 
 ## Next work-unit starting point
 
-Phase 0 is complete at CP-004. Phase 1 P1-W01 and P1-W02 are closed incomplete under D-088 and D-094. P1-W03 is closed at CP-007 with Pipedrive Lite eliminated. P1-W04 is closed at CP-008 with Bigin Premier eliminated. P1-W05 is closed incomplete under D-108 without CP-009. P1-W06 LACRM evaluation is active under D-112; M-01 failed directly, its proposed `Eliminated` result is unapproved, and no CRM is selected.
+Phase 0 is complete at CP-004. Phase 1 P1-W01 and P1-W02 are closed incomplete under D-088 and D-094. P1-W03 is closed at CP-007 with Pipedrive Lite eliminated. P1-W04 is closed at CP-008 with Bigin Premier eliminated. P1-W05 is closed incomplete under D-108 without a checkpoint. P1-W06 is closed at CP-009 with LACRM eliminated. No CRM is selected and no work unit is active.
 
 ## Exact next action
 
-Review and explicitly sign off or reject CP-009 for the P1-W06 Less Annoying CRM public-demo evidence and proposed `Eliminated` result. Do not open an account or trial, configure a tenant, involve Loryn, or select a platform without the applicable later approval.
+Define and present the next evidence-first Phase 1 CRM candidate and proposed outcome for explicit approval. Do not open an account or trial, configure a tenant, involve Loryn, or select a platform without the applicable later approval.
 
 ## Resume instruction
 
-Read this file, Sessions S-087 and S-088 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, `../deliverables/P1-W06-less-annoying-crm-evidence-first-definition.md`, `../evidence/P1-W06/lacrm/official-evidence-preflight.md`, `../evidence/P1-W06/lacrm/field-model-preflight.md`, and `../evidence/P1-W06/lacrm/public-demo-inspection.md`. CP-008 remains the last signed checkpoint; D-112 is the last approval and authorized only the completed bounded public-demo inspection. M-01 failed directly; the proposed `Eliminated` result is unapproved pending CP-009 review. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Do not create an LACRM account or continue testing after the stopping result unless separately authorized through an explicit reopening. Keep CP-009 sign-off, the next candidate, accounts, trials, tenant actions, configuration, external connections, billing, real data, communications, Loryn participation, and platform selection behind later explicit gates.
+Read this file, Sessions S-088 and S-089 in `SESSION_LOG.md`, `../deliverables/P0-W03-crm-platform-scorecard-and-mobile-test-scenarios.md`, `../deliverables/P1-W06-less-annoying-crm-evidence-first-definition.md`, and `../evidence/P1-W06/lacrm/public-demo-inspection.md`. CP-009 is the last signed checkpoint and closes P1-W06 with LACRM eliminated by direct M-01 failure. No work unit or next candidate is active. Never request or record credentials, codes, recovery information, private email addresses, or account identifiers. Define and obtain explicit approval for the next evidence-first candidate before any account, trial, tenant action, configuration, external connection, billing, real data, communication, Loryn participation, or platform selection.

@@ -3926,3 +3926,53 @@ Separately authorize or decline the bounded P1-W06 Less Annoying CRM public-demo
 ### Saved ending point
 
 Review and explicitly sign off or reject CP-009 for the P1-W06 Less Annoying CRM public-demo evidence and proposed `Eliminated` result. Do not create an LACRM account or trial, configure a tenant, continue testing, involve Loryn, sign the checkpoint by implication, select a platform, or authorize another candidate without a later explicit decision.
+
+## Session S-089 - P1-W06 signed off at CP-009
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W06 - Less Annoying CRM evidence-first evaluation
+
+**Checkpoint:** CP-009
+
+**Sign-off status:** Signed off August 1, 2026; Less Annoying CRM eliminated; P1-W06 closed
+
+**Approval evidence:** The user explicitly said, `Sign off CP-009.`
+
+### Approved result
+
+- Approved `../evidence/P1-W06/lacrm/public-demo-inspection.md`, the linked official-evidence and field-model preflights, the direct M-01 failure, and the evidence-backed comparison status.
+- Approved Less Annoying CRM as `Eliminated` because the Workspace cannot show all five mandatory morning-action categories as actionable records in one practical view.
+- Confirmed that due/overdue Tasks, calendar items, activity, and aggregate pipeline/status counts can coexist, but waiting-on-someone-else jobs and active jobs missing their own next action cannot appear as record-level items in that same Workspace.
+- Confirmed that the weighted score remains intentionally incomplete under the approved stopping rule and that unverified M-02 through M-13 items do not reverse the mandatory M-01 failure.
+- Closed P1-W06 at CP-009.
+
+### Validation
+
+- The public-demo evidence records the temporary no-signup boundary, Workspace and widget settings, Contact-scoped Task relationship, pipeline and field controls, direct gate state, stopping result, and cleanup state.
+- The evidence retains no vendor sample names, contact details, internal identifiers, credentials, session values, private data, or billing information.
+- No account, trial, persistent tenant, configuration, fixture, export, download, connection, customer communication, production action, or Loryn participation occurred.
+- Markdown structure, cross-file state, privacy/secret scans, and the Git diff were checked before commit.
+
+### Approval boundary
+
+- CP-009 approves the P1-W06 LACRM evidence set, direct M-01 failure, `Eliminated` result, and work-unit closure only.
+- It does not select another CRM, authorize a next candidate or account, start a Loryn finalist session, permit billing or production use, connect Centah or another service, import real data, or send customer communications.
+- Less Annoying CRM can be reconsidered only through a later explicitly approved work unit that identifies material new evidence relevant to M-01.
+
+### Files changed
+
+- `deliverables/P1-W06-less-annoying-crm-evidence-first-definition.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W06/lacrm/field-model-preflight.md`
+- `evidence/P1-W06/lacrm/official-evidence-preflight.md`
+- `evidence/P1-W06/lacrm/public-demo-inspection.md`
+- `project-control/ARTIFACT_REGISTER.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+
+### Saved ending point
+
+Define and present the next evidence-first Phase 1 CRM candidate and proposed outcome for explicit approval before authorizing another account, trial, configuration, or external action. No CRM is selected and no work unit is active.

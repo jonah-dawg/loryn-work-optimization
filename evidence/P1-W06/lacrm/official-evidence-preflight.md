@@ -1,6 +1,6 @@
 # P1-W06 Less Annoying CRM Official-Evidence Preflight
 
-**Status:** Supplemented by D-112 direct public-demo evidence; M-01 failed; no account or tenant action authorized
+**Status:** Signed P1-W06 evidence set at CP-009; M-01 failed directly; Less Annoying CRM eliminated
 
 **Candidate:** Less Annoying CRM (LACRM)
 

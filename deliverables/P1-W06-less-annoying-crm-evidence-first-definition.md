@@ -1,12 +1,12 @@
 # P1-W06 - Less Annoying CRM Evidence-First Definition
 
-**Status:** Bounded public-demo inspection completed under D-112; direct M-01 failure; proposed `Eliminated` result unapproved pending CP-009 review
+**Status:** Signed off at CP-009; Less Annoying CRM eliminated by direct M-01 failure; P1-W06 closed
 
 **Phase:** Phase 1 - CRM candidate comparison
 
 **Updated:** August 1, 2026
 
-**Last signed-off checkpoint:** CP-008
+**Last signed-off checkpoint:** CP-009
 
 ## Definition authority
 
@@ -162,10 +162,10 @@ M-01 fails directly. One Workspace cannot show all five required categories as a
 
 The approved mandatory stopping rule ended the run immediately. No account, tenant, custom field, record, task, filter, view, widget setting, or configuration was saved. The temporary demo tab was closed. All other gates remain `Unverified`; they were not run merely to collect a score. Detailed sanitized evidence is in `../evidence/P1-W06/lacrm/public-demo-inspection.md`.
 
-## Proposed evaluator result - Unapproved
+## Approved evaluator result
 
-`Eliminated` because LACRM directly fails M-01. This result is not signed until a later checkpoint explicitly approves it. The direct failure does not select another CRM, authorize an account, or change any production boundary.
+**Signed off (CP-009):** `Eliminated` because LACRM directly fails M-01. CP-009 approves the sanitized public-demo evidence, the direct gate result, and closure of P1-W06. It does not select another CRM, authorize an account or next candidate, or change any production boundary.
 
 ## Current action
 
-Review and explicitly sign off or reject the P1-W06 public-demo evidence and proposed `Eliminated` result at CP-009. No account, trial, tenant inspection, configuration, broader testing, billing, connection, real-data, communication, Loryn, production, or platform-selection action is authorized by D-112.
+Define and present the next evidence-first Phase 1 CRM candidate and proposed outcome for explicit approval. No next candidate, account, trial, configuration, external action, Loryn session, or platform selection is authorized by CP-009.
