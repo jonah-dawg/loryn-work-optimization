@@ -1,6 +1,6 @@
 # P1-W08 - Finalist Practical-Session Contract
 
-**Status:** Approved under D-119; both finalist setups and desktop checks complete; participant sessions remain
+**Status:** Approved under D-119; setup, desktop checks, and participant device record complete; participant sessions remain
 
 **Phase:** Phase 1 - simplified personal CRM selection
 
@@ -19,6 +19,7 @@
 - OnePageCRM evaluator account creation is complete. The no-billing account opened on an unavoidable 21-day Max trial; a switch to Professional required a paid order flow, so the evaluation remains constrained to Professional-equivalent features and no billing was entered.
 - Vendor sample contacts were removed, one small independent-lead pipeline was configured, the three preload fixtures were entered, and desktop action-stream, pipeline, last-name, and phone lookup checks passed.
 - Avery Brooks remains absent for participant creation, and no Loryn session has started.
+- Loryn's non-identifying session device is recorded as an iPhone 17 Pro Max running iOS 26.6, the current Apple release on August 2, 2026. No serial number, device identifier, telephone number, account, or other device-specific detail is retained.
 - Capsule Starter account creation is complete. The tenant directly shows 14 trial days remaining, one user, no payment card, and no invoices.
 - The vendor support contact was removed, the required evaluator self-contact was retained but excluded from scoring, the single independent-lead pipeline was configured, the three preload fixtures were entered, and desktop tasks, pipeline, last-name, and phone lookup checks passed.
 - Capsule phone search required choosing the `Contacts` result filter to surface Jordan Lee directly; the broad result briefly displayed a temporary-search limitation and Jordan's linked opportunity. Preserve this as a session observation.
@@ -196,4 +197,4 @@ D-119 covers only the in-scope account/trial setup, minimum synthetic configurat
 
 ## Saved ending point
 
-Record Loryn's ordinary supported phone model and OS version without device identifiers. Then run one guided 15-to-20-minute session per finalist using the approved common task card and observation record. Keep all records synthetic, stop at contract limits, and do not add billing, integrations, communications, production use, checkpoint sign-off, or CRM selection.
+Run one guided 15-to-20-minute session per finalist on the recorded iPhone using the approved common task card and observation record. Keep all records synthetic, stop at contract limits, and do not add billing, integrations, communications, production use, checkpoint sign-off, or CRM selection.

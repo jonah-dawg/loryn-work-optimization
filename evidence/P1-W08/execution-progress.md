@@ -1,6 +1,6 @@
 # P1-W08 Execution Progress
 
-**Status:** Both finalist evaluator setups and desktop checks complete; participant phone/OS and two short Loryn sessions remain
+**Status:** Finalist setups, desktop checks, and participant device record complete; two short Loryn sessions remain
 
 **Date:** August 2, 2026
 
@@ -32,6 +32,12 @@
 - During the phone check, the broad search briefly displayed a `Search is temporarily limited` notice and showed Jordan's linked opportunity; choosing `Contacts` returned Jordan's contact directly. Preserve this as a participant-session observation rather than treating setup delay as a scored failure.
 - No Loryn session has occurred for either finalist.
 
+## Participant device record
+
+- The user reported that Loryn will use an iPhone 17 Pro Max on the latest iOS release.
+- Apple identified iOS 26.6 as the current release on August 2, 2026, so the non-identifying session record is `iPhone 17 Pro Max; iOS 26.6`.
+- No serial number, device identifier, telephone number, Apple Account detail, or other device-specific information was requested or retained.
+
 ## Privacy record
 
 - No evaluator email address, profile name, password, token, account identifier, consent URL, or private notification is stored in this artifact.
@@ -40,4 +46,4 @@
 
 ## Resume action
 
-Record Loryn's ordinary supported phone model and OS version without recording device identifiers, then run one guided 15-to-20-minute session per finalist using the approved common task card. Do not add real data, connect email/calendar/phone services, send communications, enter billing, or select a CRM. Capture only sanitized observations and Loryn's short acceptability and preference feedback.
+Run one guided 15-to-20-minute session per finalist on the recorded iPhone using the approved common task card. Do not add real data, connect email/calendar/phone services, send communications, enter billing, or select a CRM. Capture only sanitized observations and Loryn's short acceptability and preference feedback.

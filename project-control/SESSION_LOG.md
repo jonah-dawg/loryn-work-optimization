@@ -4419,3 +4419,36 @@ Resume from the preserved OnePageCRM Google consent page. Confirm it still shows
 ### Saved ending point
 
 Record Loryn's ordinary supported phone model and OS version without device identifiers. Then run one guided 15-to-20-minute session per finalist using the approved common task card and observation record. Keep all records synthetic, stop at the contract limits, and do not add billing, integrations, communications, production use, checkpoint sign-off, or CRM selection.
+
+## Session S-097 - Participant device recorded
+
+**Date:** August 2, 2026
+
+**Phase:** Phase 1 - simplified personal CRM selection
+
+**Work unit:** P1-W08 - finalist practical-session contract and execution
+
+**Checkpoint:** CP-010 remains the last signed-off checkpoint
+
+**Sign-off status:** D-119 remains the active execution authority; participant device recorded; both practical sessions remain
+
+### Orientation
+
+- Current phase: Phase 1 - simplified personal CRM selection.
+- Active work unit: P1-W08 finalist practical-session contract and execution.
+- Last signed checkpoint: CP-010 - simplified personal-CRM scope and future evaluation method.
+- Last approval: D-119 - approved the P1-W08 contract and bounded execution.
+- Open blockers at entry: participant device detail and both mobile practical sessions remained.
+- Proposed outcome: record the device at a non-identifying level and leave both CRM sessions untouched until Loryn is ready.
+
+### Result
+
+- The user reported that Loryn will use an iPhone 17 Pro Max running the latest iOS release.
+- Apple's current software-release record identified that release as iOS 26.6 on August 2, 2026.
+- The non-identifying session device record is therefore `iPhone 17 Pro Max; iOS 26.6`.
+- No serial number, device identifier, telephone number, Apple Account detail, or other private device information was requested or retained.
+- No CRM action or Loryn practical-session task occurred in this stage.
+
+### Saved ending point
+
+Run one guided 15-to-20-minute session per finalist on the recorded iPhone using the approved common task card and sanitized observation record. Keep all records synthetic, stop at contract limits, and do not add billing, integrations, communications, production use, checkpoint sign-off, or CRM selection.

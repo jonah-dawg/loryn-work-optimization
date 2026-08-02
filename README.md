@@ -16,9 +16,9 @@ The project evaluates and configures an existing low-cost CRM before considering
 - Last signed-off checkpoint: CP-010 - simplified personal-CRM scope and future evaluation method
 - Last approval: D-119 - P1-W08 contract approval and bounded execution authorization
 - Active work unit: P1-W08 - finalist practical-session contract
-- Current starting point: both finalist synthetic setups and desktop checks are complete; record Loryn's phone/OS and run the two approved 15-to-20-minute practical sessions
+- Current starting point: both finalist synthetic setups and desktop checks are complete; Loryn's iPhone 17 Pro Max with iOS 26.6 is recorded, and the two approved 15-to-20-minute practical sessions are next
 - Approved finalists: OnePageCRM Professional and Capsule Starter
-- Master plan: Version 1.96
+- Master plan: Version 1.97
 
 ## Collaborator handoff
 

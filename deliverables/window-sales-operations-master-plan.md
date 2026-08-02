@@ -2,7 +2,7 @@
 
 ## Master Project Plan
 
-**Version:** 1.96
+**Version:** 1.97
 **Status:** Working source of truth  
 **Updated:** August 2, 2026
 **Primary team:** Window-covering sales consultant and technical partner
@@ -180,7 +180,7 @@ The first release is a configured product, not a newly built application. A cust
 
 Use existing signed evidence and current official information to screen OnePageCRM, Less Annoying CRM, Capsule, and the already-inspected Bigin configuration first. Do not create another account merely to repeat evidence already available. Advance no more than two viable finalists to Loryn.
 
-D-116 approved the P1-W07 outcome and complete definition. The authorized official-source paper screen is complete: OnePageCRM Professional scored 87, Capsule Starter 80, Less Annoying CRM 75, and Bigin Premier 66. D-117 approved OnePageCRM Professional and Capsule Starter as the two finalists and retained LACRM and Bigin as reserves. D-118 places approvals at meaningful bounded stages instead of every internal step. D-119 approved the P1-W08 practical-session contract and opened its bounded execution. OnePageCRM's no-billing Max trial is constrained to Professional-equivalent features; Capsule is on the exact no-card Starter trial. Both synthetic setups and desktop task, pipeline, last-name, and phone checks are complete. The two short Loryn sessions remain and no CRM is selected.
+D-116 approved the P1-W07 outcome and complete definition. The authorized official-source paper screen is complete: OnePageCRM Professional scored 87, Capsule Starter 80, Less Annoying CRM 75, and Bigin Premier 66. D-117 approved OnePageCRM Professional and Capsule Starter as the two finalists and retained LACRM and Bigin as reserves. D-118 places approvals at meaningful bounded stages instead of every internal step. D-119 approved the P1-W08 practical-session contract and opened its bounded execution. OnePageCRM's no-billing Max trial is constrained to Professional-equivalent features; Capsule is on the exact no-card Starter trial. Both synthetic setups and desktop task, pipeline, last-name, and phone checks are complete. Loryn's iPhone 17 Pro Max with iOS 26.6 is recorded for the sessions. The two short Loryn sessions remain and no CRM is selected.
 
 Score each candidate on:
 
@@ -499,7 +499,7 @@ ChatGPT should distinguish confirmed facts, assumptions, decisions, and open que
 **Technical/configuration:** create the weighted platform scorecard, synthetic fixtures, scripted mobile scenarios, field inventory, Centah discovery checklist, and vendor/security questions.  
 **Gate:** the two-person team agrees on the synthetic-only trial boundary, mandatory requirements, and scoring method. CP-001 confirmed permission to transfer approved real fields, but real imports and external integrations remain blocked until production access, security, retention, and connection controls are defined.
 
-**Progress:** P0-W01 through P0-W03 were signed through CP-004. P1-W01 through P1-W06 produced useful platform, tier, configuration, and failure evidence, ending with LACRM's CP-009 result. CP-010 then approved `P1-CR01-simplified-personal-crm-scope.md`, corrected the immediate product outcome to a personal CRM for independent leads and prospects, and superseded the CP-004 method for future selection. D-115 opened P1-W07 and completed its evidence-reuse-first definition; D-116 approved that outcome and authorized the completed official-source paper screen; D-117 approved OnePageCRM Professional and Capsule Starter as finalists. D-118 streamlined approval control. D-119 approved the P1-W08 contract and began bounded execution. Both finalist synthetic setups and desktop checks are complete. Loryn's phone/OS and two short practical sessions remain. No CRM is selected.
+**Progress:** P0-W01 through P0-W03 were signed through CP-004. P1-W01 through P1-W06 produced useful platform, tier, configuration, and failure evidence, ending with LACRM's CP-009 result. CP-010 then approved `P1-CR01-simplified-personal-crm-scope.md`, corrected the immediate product outcome to a personal CRM for independent leads and prospects, and superseded the CP-004 method for future selection. D-115 opened P1-W07 and completed its evidence-reuse-first definition; D-116 approved that outcome and authorized the completed official-source paper screen; D-117 approved OnePageCRM Professional and Capsule Starter as finalists. D-118 streamlined approval control. D-119 approved the P1-W08 contract and began bounded execution. Both finalist synthetic setups and desktop checks are complete, and Loryn's iPhone 17 Pro Max with iOS 26.6 is recorded. The two short practical sessions remain. No CRM is selected.
 
 ### Phase 1 - CRM candidate comparison (weeks 2-3)
 
@@ -722,7 +722,8 @@ Update this table whenever a decision changes. Supersede rather than delete prio
 - [x] Approve the P1-W08 contract and open its bounded execution under D-119.
 - [x] Resume OnePageCRM, verify the no-billing trial and Professional-equivalent boundary, configure the synthetic evaluator state, and complete the desktop action, pipeline, last-name, and phone checks.
 - [x] Complete Capsule Starter signup, verify the exact no-card trial boundary, configure the synthetic evaluator state, and complete the desktop task, pipeline, last-name, and phone checks.
-- [ ] Record Loryn's ordinary supported phone model and OS version, then run the two approved 15-to-20-minute finalist sessions and prepare sanitized results.
+- [x] Record Loryn's ordinary supported phone model and OS version without device identifiers.
+- [ ] Run the two approved 15-to-20-minute finalist sessions and prepare sanitized results.
 - [ ] Initialize the lightweight repository structure and baseline `AGENTS.md` for plans, configuration records, decisions, and any later connector code.
 - [ ] Agree on a lightweight recurring check-in cadence for reviewing progress and decisions.
 

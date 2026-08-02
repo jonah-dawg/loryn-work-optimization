@@ -2,13 +2,13 @@
 
 **Updated:** August 2, 2026
 
-**Overall status:** P1-W08 execution active; both finalist setups and desktop checks complete; participant sessions remain
+**Overall status:** P1-W08 execution active; setups, desktop checks, and participant device record complete; participant sessions remain
 
 **Current phase:** Phase 1 - simplified personal CRM selection
 
 **Active work unit:** P1-W08 - finalist practical-session contract
 
-**Work-unit status:** Contract approved under D-119; OnePageCRM and Capsule synthetic setups and desktop checks complete; participant phone/OS and two Loryn sessions pending
+**Work-unit status:** Contract approved under D-119; OnePageCRM and Capsule synthetic setups, desktop checks, and participant device record complete; two Loryn sessions pending
 
 **Last signed-off checkpoint:** CP-010 - simplified personal CRM scope and future evaluation method (August 1, 2026)
 
@@ -110,6 +110,7 @@ The former requirement for a single five-category dashboard, automatic missing-j
 - Capsule Starter account creation completed. The tenant directly shows 14 trial days remaining, one user, no payment card, and no invoices.
 - The vendor support contact was removed while the required evaluator self-contact was retained and excluded from scoring. The single pipeline, three approved preload fixtures, tasks, notes, and opportunities were configured.
 - Capsule desktop verification passed for tasks, pipeline placement, last-name search, and phone search. Phone search required the `Contacts` result filter after a brief temporary-search limitation notice.
+- Loryn's non-identifying session device is recorded as an iPhone 17 Pro Max running iOS 26.6. No device identifier or account detail is retained.
 - No Loryn session has started for either finalist.
 - No billing, purchase, connection, real data, communication, production action, platform selection, or checkpoint sign-off occurred.
 
@@ -145,7 +146,6 @@ D-118 governs future work alongside the existing authority and sign-off rules:
 
 ## Current open blockers
 
-- Loryn's ordinary supported phone model and OS version remain to be recorded before the sessions.
 - Direct mobile capture, mobile next-action updates, ordinary mobile saving, recovery burden, and Loryn's acceptability and preference remain unverified for both finalists.
 - Production access, security, retention, and real-data approval remain open and must be resolved only after a CRM is selected.
 - D-013 retention and deletion periods remain open, and final platform selection has not been approved.
@@ -166,14 +166,14 @@ D-118 governs future work alongside the existing authority and sign-off rules:
 
 **Active work unit:** P1-W08 - finalist practical-session contract.
 
-**Work-unit state:** Contract approved; both finalist setups and desktop verification complete; participant device detail and two short sessions remain.
+**Work-unit state:** Contract approved; both finalist setups, desktop verification, and participant device record complete; two short sessions remain.
 
 **Approved finalists:** OnePageCRM Professional and Capsule Starter. LACRM is the first reserve and Bigin Premier is the second reserve. The common participant sessions are next. No CRM is selected.
 
 ## Exact next action
 
-Record Loryn's ordinary supported phone model and OS version without recording device identifiers. Then run one guided 15-to-20-minute session per finalist using the approved common task card, same recovery prompt, and sanitized observation record. Stop at 20 minutes or any contract stopping rule. Do not add billing, integrations, real data, communications, production use, checkpoint sign-off, or CRM selection.
+Run one guided 15-to-20-minute session per finalist on the recorded iPhone using the approved common task card, same recovery prompt, and sanitized observation record. Stop at 20 minutes or any contract stopping rule. Do not add billing, integrations, real data, communications, production use, checkpoint sign-off, or CRM selection.
 
 ## Resume instruction
 
-CP-010 is the last signed checkpoint. D-119 approved the P1-W08 contract and opened bounded execution. OnePageCRM and Capsule account setup, common synthetic preload, and desktop action/task, pipeline, last-name, and phone checks are complete within the approved tier boundaries. Loryn's phone/OS and the two practical sessions remain. No checkpoint sign-off or CRM selection has occurred.
+CP-010 is the last signed checkpoint. D-119 approved the P1-W08 contract and opened bounded execution. OnePageCRM and Capsule account setup, common synthetic preload, desktop action/task, pipeline, last-name, and phone checks, and Loryn's non-identifying iPhone 17 Pro Max with iOS 26.6 device record are complete within the approved boundaries. The two practical sessions remain. No checkpoint sign-off or CRM selection has occurred.
