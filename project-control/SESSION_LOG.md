@@ -3685,3 +3685,55 @@ Create the bounded evaluator account, inspect the allowed nonprivate labels, and
 ### Saved ending point
 
 P1-W05 is closed incomplete without CP-009. Define and present the next evidence-first CRM candidate and proposed outcome for explicit approval before opening another account, trial, or external platform action.
+
+## Session S-085 - P1-W06 LACRM definition opened
+
+**Date:** August 1, 2026
+
+**Phase:** Phase 1
+
+**Work unit:** P1-W06 - Less Annoying CRM evidence-first definition
+
+**Checkpoint:** CP-008 remains the last signed-off checkpoint
+
+**Sign-off status:** D-109 definition and current official research authorized; proposed outcome unapproved
+
+**Approval evidence:** The user explicitly said, `Begin P1-W06 Less Annoying CRM evidence-first definition and current official research only.`
+
+### Orientation
+
+- Current phase: Phase 1 CRM candidate comparison.
+- Active work unit: P1-W06 Less Annoying CRM evidence-first definition.
+- Last signed checkpoint: CP-008, which eliminated Bigin Premier only.
+- Prior approval: D-108 closed P1-W05 incomplete without CP-009 and retained Freshsales Pro as documentation-only.
+- Open blockers: explicit P1-W06 outcome approval; job-specific task linkage; one-screen action-center proof; source-specific conditional/unique field controls; mobile timing and weak-signal behavior; export reconstruction; direct signup acceptance; and every demo, account, tenant, and configuration result.
+- Proposed outcome: evaluate the single-tier LACRM product through official evidence first, then a separately approved public-demo inspection before considering an account.
+
+### Decision recorded
+
+- **Accepted (D-109):** Begin the P1-W06 Less Annoying CRM evidence-first definition and current official research only.
+- D-109 authorizes the proposed-outcome record, official-evidence preflight, and project-control synchronization.
+- D-109 does not approve the proposed outcome or an execution contract and does not authorize public-demo interaction, an account, trial, tenant inspection, configuration, fixture entry, testing, billing, purchase, external connection, real data, customer communication, production use, Loryn participation, checkpoint sign-off, or platform selection.
+
+### Official-evidence result
+
+- One tier is currently listed at `$15` per user per month plus tax, making the indicative two-administrator cost `$30` monthly or `$360` annually before tax.
+- The full 30-day trial is described as requiring no credit card; the official product tour also links to a public live demo without signup.
+- Unlimited contacts, pipelines, and custom fields; user permissions; 2FA; mobile-browser access; exports; automations; and an open API are documented.
+- Multiple pipeline items can represent separate orders or projects for one reusable Contact.
+- The task model is the first stopping risk: task documentation and the API link Tasks to Contacts rather than Pipeline Items, so one job's task may conceal another job with no next action.
+- Conditional required pipeline fields, unique job-level identifiers, one unified action center, offline/retry behavior, and complete export reconstruction remain unverified.
+- No demo, account, trial, tenant, configuration, or external action occurred.
+
+### Files changed
+
+- `deliverables/P1-W06-less-annoying-crm-evidence-first-definition.md`
+- `deliverables/window-sales-operations-master-plan.md`
+- `evidence/P1-W06/lacrm/official-evidence-preflight.md`
+- `project-control/ARTIFACT_REGISTER.md`
+- `project-control/CURRENT_STATE.md`
+- `project-control/SESSION_LOG.md`
+
+### Saved ending point
+
+Review and explicitly approve or reject the proposed P1-W06 Less Annoying CRM evidence-first outcome. Do not interact with the public demo, create an account or trial, inspect or configure a tenant, enter fixtures, test, add billing, connect a service, use real data, communicate with customers, involve Loryn, sign a checkpoint, or select a platform without the applicable later approval.
